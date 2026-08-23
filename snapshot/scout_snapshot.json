@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-23T05:36:48.762013Z",
+  "generated_at_utc": "2026-08-23T07:21:50.548655Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,10 +201,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
     "last_message_id": "1397058431654842368",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -210,8 +210,8 @@
     "last_message_text_map": null,
     "last_message_time": 1787447195498,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -1646,87 +1646,29 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
+          "player_id": "12524",
+          "name": "Shedeur Sanders",
           "position": "QB",
-          "team": "NE",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
           "position": "RB",
-          "team": "NE",
+          "team": "TB",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "8228",
-          "name": "Jaylen Warren",
+          "player_id": "4137",
+          "name": "James Conner",
           "position": "RB",
-          "team": "PIT",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
+          "team": "ARI",
           "status": "Active",
           "injury_status": "Questionable"
         },
-        {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8167",
-          "name": "Christian Watson",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "1466",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        }
-      ],
-      "bench": [
         {
           "player_id": "11637",
           "name": "Keon Coleman",
@@ -1736,26 +1678,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy",
-          "position": "RB",
-          "team": "NYG",
+          "player_id": "9504",
+          "name": "Kayshon Boutte",
+          "position": "WR",
+          "team": "NE",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
-          "player_id": "13296",
-          "name": "Caleb Douglas",
-          "position": "WR",
-          "team": "MIA",
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null
         },
@@ -1776,10 +1710,60 @@
           "injury_status": null
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
+          "player_id": "9502",
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        }
+      ],
+      "bench": [
+        {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
           "position": "TE",
-          "team": "CAR",
+          "team": "DET",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         },
@@ -1792,18 +1776,26 @@
           "injury_status": null
         },
         {
-          "player_id": "4137",
-          "name": "James Conner",
-          "position": "RB",
-          "team": "ARI",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
@@ -1824,18 +1816,26 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "9502",
-          "name": "Tank Dell",
+          "player_id": "8167",
+          "name": "Christian Watson",
           "position": "WR",
-          "team": "HOU",
+          "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
-          "player_id": "9504",
-          "name": "Kayshon Boutte",
+          "player_id": "8228",
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "NE",
+          "team": "BAL",
           "status": "Active",
           "injury_status": null
         }
@@ -1850,10 +1850,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12524",
-          "name": "Shedeur Sanders",
-          "position": "QB",
-          "team": "CLE",
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
