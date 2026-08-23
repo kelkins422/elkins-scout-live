@@ -1,0 +1,40 @@
+name: Refresh Scout Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh Sleeper snapshot
+        run: python scout_sync.py
+
+      - name: Commit snapshot if changed
+        run: |
+          if git diff --quiet -- snapshot/scout_snapshot.json; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+          git config user.name "Elkins Scout Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add snapshot/scout_snapshot.json
+          git commit -m "Refresh Scout snapshot"
+          git push
