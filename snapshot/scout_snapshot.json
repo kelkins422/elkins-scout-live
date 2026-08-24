@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-24T03:33:53.749820Z",
+  "generated_at_utc": "2026-08-24T05:57:01.053664Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -66,7 +66,6 @@
       "daily_waivers_last_ran": 23
     },
     "avatar": null,
-    "company_id": null,
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
@@ -202,6 +201,7 @@
       "st_ff": 0.0
     },
     "last_message_id": "1397420879285075968",
+    "company_id": null,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -210,8 +210,8 @@
     "last_message_text_map": null,
     "last_message_time": 1787533609747,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
@@ -248,14 +248,14 @@
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 2,
+    "week": 3,
     "leg": 0,
     "season": "2026",
     "season_type": "pre",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-08-06",
-    "display_week": 2,
+    "display_week": 3,
     "league_create_season": "2026",
     "season_has_scores": true
   },
