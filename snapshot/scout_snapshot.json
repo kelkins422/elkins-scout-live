@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-24T05:57:01.053664Z",
+  "generated_at_utc": "2026-08-24T10:24:08.705244Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -66,6 +66,7 @@
       "daily_waivers_last_ran": 23
     },
     "avatar": null,
+    "company_id": null,
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
@@ -201,7 +202,6 @@
       "st_ff": 0.0
     },
     "last_message_id": "1397420879285075968",
-    "company_id": null,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -210,8 +210,8 @@
     "last_message_text_map": null,
     "last_message_time": 1787533609747,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
@@ -15830,7 +15830,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "RB",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "12954",
@@ -16178,7 +16178,7 @@
       "age": 25,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "11729",
