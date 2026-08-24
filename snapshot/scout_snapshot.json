@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-24T17:52:56.829430Z",
+  "generated_at_utc": "2026-08-24T19:43:52.597182Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -66,6 +66,7 @@
       "daily_waivers_last_ran": 23
     },
     "avatar": null,
+    "company_id": null,
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
@@ -200,25 +201,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1397420879285075968",
-    "company_id": null,
+    "last_message_id": "1397692995947507712",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787533609747,
+    "last_message_time": 1787598487416,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +241,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1383,14 +1383,6 @@
       ],
       "taxi": [
         {
-          "player_id": "12510",
-          "name": "Jalen Milroe",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13303",
           "name": "Cade Klubnik",
           "position": "QB",
@@ -1454,14 +1446,6 @@
           "name": "Matthew Golden",
           "position": "WR",
           "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12510",
-          "name": "Jalen Milroe",
-          "position": "QB",
-          "team": "SEA",
           "status": "Active",
           "injury_status": null
         },
@@ -1681,7 +1665,7 @@
           "player_id": "9504",
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
@@ -2097,7 +2081,7 @@
           "player_id": "9504",
           "name": "Kayshon Boutte",
           "position": "WR",
-          "team": "NE",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
@@ -6536,6 +6520,34 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1397692995817500672",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-24T19:08:07.384000Z",
+      "teams": [
+        "Waddle on my johnston"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12510",
+            "name": "Jalen Milroe",
+            "position": "QB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Waddle on my johnston"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
       "transaction_id": "1397293755643514880",
       "type": "waiver",
       "status": "complete",
@@ -9883,7 +9895,7 @@
             "player_id": "9504",
             "name": "Kayshon Boutte",
             "position": "WR",
-            "team": "NE",
+            "team": "HOU",
             "status": "Active",
             "injury_status": null
           }
@@ -11166,9 +11178,9 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2562,
+    "total": 2563,
     "by_position": {
-      "QB": 298,
+      "QB": 299,
       "RB": 557,
       "WR": 1152,
       "TE": 555
@@ -11643,6 +11655,18 @@
       "years_exp": 3,
       "depth_chart_position": "QB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "12510",
+      "name": "Jalen Milroe",
+      "position": "QB",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "7262",
@@ -15481,8 +15505,8 @@
       "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6996",
@@ -16145,6 +16169,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "14064",
+      "name": "Roydell Williams",
+      "position": "RB",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6918",
       "name": "Salvon Ahmed",
       "position": "RB",
@@ -16318,7 +16354,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "RB",
@@ -20441,18 +20477,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "14064",
-      "name": "Roydell Williams",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13128",
       "name": "Rushawn Baker",
       "position": "RB",
@@ -22286,7 +22310,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "14020",
@@ -22562,7 +22586,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "5744",
@@ -23426,7 +23450,7 @@
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "7066",
@@ -23774,7 +23798,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "14063",
@@ -23869,8 +23893,8 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 4
     },
     {
       "player_id": "11617",
@@ -24229,8 +24253,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 9,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13318",
@@ -25022,7 +25046,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11969",
@@ -29941,8 +29965,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "4786",
@@ -35981,6 +36005,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "13661",
+      "name": "Ethan Conner",
+      "position": "TE",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": "TE",
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13630",
       "name": "Evan Svoboda",
       "position": "TE",
@@ -36817,7 +36853,7 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
+      "depth_chart_position": "TE",
       "depth_chart_order": null
     },
     {
@@ -39073,18 +39109,6 @@
       "injury_status": null,
       "age": 34,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13661",
-      "name": "Ethan Conner",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
