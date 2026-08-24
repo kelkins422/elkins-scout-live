@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-24T10:24:08.705244Z",
+  "generated_at_utc": "2026-08-24T14:26:42.116661Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15634,7 +15634,7 @@
       "position": "RB",
       "team": "WAS",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": null,
@@ -16388,7 +16388,7 @@
       "player_id": "8139",
       "name": "Zamir White",
       "position": "RB",
-      "team": "SF",
+      "team": "NO",
       "status": "Active",
       "injury_status": null,
       "age": 26,
