@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-23T21:48:35.890603Z",
+  "generated_at_utc": "2026-08-24T03:33:53.749820Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,10 +63,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 22
+      "daily_waivers_last_ran": 23
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,23 +201,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
-    "last_message_id": "1397058431654842368",
+    "last_message_id": "1397420879285075968",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787447195498,
+    "last_message_time": 1787533609747,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,11 +245,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -731,7 +731,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 6,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": null
@@ -2125,7 +2125,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -2720,14 +2720,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12541",
-          "name": "Dont'e Thornton",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "13150",
           "name": "Darius Cooper",
           "position": "WR",
@@ -2780,6 +2772,14 @@
           "name": "Rhamondre Stevenson",
           "position": "RB",
           "team": "NE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -2899,14 +2899,6 @@
           "team": "SEA",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "12541",
-          "name": "Dont'e Thornton",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "13150",
@@ -3029,6 +3021,14 @@
           "injury_status": null
         },
         {
+          "player_id": "8800",
+          "name": "Malik Davis",
+          "position": "RB",
+          "team": "DAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "9506",
           "name": "Sean Tucker",
           "position": "RB",
@@ -3044,7 +3044,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -4036,7 +4036,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9756",
@@ -4291,7 +4291,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13289",
@@ -6536,6 +6536,47 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1397293755643514880",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-23T16:41:41.111000Z",
+      "teams": [
+        "kelkins81"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8800",
+            "name": "Malik Davis",
+            "position": "RB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12541",
+            "name": "Dont'e Thornton",
+            "position": "WR",
+            "team": "LV",
+            "status": "Active",
+            "injury_status": "Questionable"
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
       "transaction_id": "1396721161286500352",
       "type": "waiver",
       "status": "complete",
@@ -7786,7 +7827,7 @@
             "position": "WR",
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -11128,8 +11169,8 @@
     "total": 2561,
     "by_position": {
       "QB": 298,
-      "RB": 557,
-      "WR": 1151,
+      "RB": 556,
+      "WR": 1152,
       "TE": 555
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -15140,7 +15181,7 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 0,
-      "depth_chart_position": null,
+      "depth_chart_position": "RB",
       "depth_chart_order": null
     },
     {
@@ -15596,8 +15637,8 @@
       "injury_status": "IR",
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7087",
@@ -15840,18 +15881,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "8800",
-      "name": "Malik Davis",
-      "position": "RB",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "7607",
       "name": "Michael Carter",
       "position": "RB",
@@ -15921,7 +15950,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11384",
@@ -16112,7 +16141,7 @@
       "injury_status": "Questionable",
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -17696,8 +17725,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "6068",
@@ -21848,7 +21877,7 @@
       "injury_status": "Questionable",
       "age": 24,
       "years_exp": 0,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -22438,6 +22467,18 @@
       "years_exp": 0,
       "depth_chart_position": "SWR",
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12541",
+      "name": "Dont'e Thornton",
+      "position": "WR",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "12946",
@@ -23408,8 +23449,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 7,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7066",
@@ -35696,7 +35737,7 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_position": "TE",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
