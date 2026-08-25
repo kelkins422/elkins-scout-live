@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-25T05:18:14.233847Z",
+  "generated_at_utc": "2026-08-25T10:00:47.350695Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -214,6 +214,11 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,11 +245,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -22898,7 +22898,7 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 5,
-      "depth_chart_position": "RWR",
+      "depth_chart_position": "LWR",
       "depth_chart_order": 7
     },
     {
