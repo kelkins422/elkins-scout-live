@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-24T23:56:04.455419Z",
+  "generated_at_utc": "2026-08-25T03:16:31.867707Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,7 +63,7 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 23
+      "daily_waivers_last_ran": 24
     },
     "avatar": null,
     "company_id": null,
@@ -201,24 +201,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1397692995947507712",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1397791256905543680",
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
+    "last_author_display_name": "kelkins81",
+    "last_author_id": "1362238574824546304",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787598487416,
+    "last_message_time": 1787621914654,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +240,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 3,
-    "leg": 0,
-    "season": "2026",
     "season_type": "pre",
+    "season": "2026",
+    "leg": 0,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-08-06",
@@ -731,7 +731,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 6,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -866,10 +866,10 @@
           "injury_status": null
         },
         {
-          "player_id": "13420",
-          "name": "Bryce Lance",
-          "position": "WR",
-          "team": "NO",
+          "player_id": "13602",
+          "name": "Jack Strand",
+          "position": "QB",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -1055,10 +1055,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "13420",
-          "name": "Bryce Lance",
-          "position": "WR",
-          "team": "NO",
+          "player_id": "13602",
+          "name": "Jack Strand",
+          "position": "QB",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -1174,7 +1174,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -1277,6 +1277,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11557",
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "DAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11575",
           "name": "Ray Davis",
           "position": "RB",
@@ -1349,14 +1357,6 @@
           "injury_status": null
         },
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "7828",
           "name": "Noah Gray",
           "position": "TE",
@@ -1406,6 +1406,14 @@
           "name": "Tre Tucker",
           "position": "WR",
           "team": "LV",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11557",
+          "name": "Joe Milton",
+          "position": "QB",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -1546,14 +1554,6 @@
           "injury_status": null
         },
         {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "7828",
           "name": "Noah Gray",
           "position": "TE",
@@ -1616,8 +1616,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 32,
-        "waiver_position": 7,
+        "waiver_budget_used": 36,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": null
@@ -2109,7 +2109,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_position": 6,
         "wins": 0
       },
       "metadata": null
@@ -2590,10 +2590,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
+          "player_id": "8138",
+          "name": "James Cook",
           "position": "RB",
-          "team": "LAC",
+          "team": "BUF",
           "status": "Active",
           "injury_status": null
         },
@@ -2606,10 +2606,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "team": "DAL",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -2865,14 +2865,6 @@
           "name": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "team": "LAC",
           "status": "Active",
           "injury_status": null
         },
@@ -2981,6 +2973,14 @@
           "injury_status": null
         },
         {
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "7611",
           "name": "Rhamondre Stevenson",
           "position": "RB",
@@ -2997,10 +2997,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
+          "player_id": "8138",
+          "name": "James Cook",
+          "position": "RB",
+          "team": "BUF",
           "status": "Active",
           "injury_status": null
         },
@@ -3028,7 +3028,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -3057,18 +3057,18 @@
           "injury_status": null
         },
         {
-          "player_id": "8138",
-          "name": "James Cook",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
           "position": "RB",
-          "team": "BUF",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "CIN",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -3296,6 +3296,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -3424,14 +3432,6 @@
           "injury_status": null
         },
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "7594",
           "name": "Chuba Hubbard",
           "position": "RB",
@@ -3440,10 +3440,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "8138",
-          "name": "James Cook",
-          "position": "RB",
-          "team": "BUF",
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -3487,7 +3487,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": null
@@ -5742,10 +5742,10 @@
       "round": 1,
       "original_roster_id": 6,
       "original_team": "kelkins81",
-      "current_roster_id": 6,
-      "current_team": "kelkins81",
+      "current_roster_id": 7,
+      "current_team": "coleellingworth2",
       "previous_roster_id": 6,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2028",
@@ -6342,10 +6342,10 @@
       "round": 3,
       "original_roster_id": 6,
       "original_team": "kelkins81",
-      "current_roster_id": 6,
-      "current_team": "kelkins81",
+      "current_roster_id": 7,
+      "current_team": "coleellingworth2",
       "previous_roster_id": 6,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2029",
@@ -6504,6 +6504,13 @@
       "previous_owner_id": 2
     },
     {
+      "round": 1,
+      "season": "2028",
+      "roster_id": 6,
+      "owner_id": 7,
+      "previous_owner_id": 6
+    },
+    {
       "round": 2,
       "season": "2028",
       "roster_id": 3,
@@ -6516,9 +6523,214 @@
       "roster_id": 10,
       "owner_id": 1,
       "previous_owner_id": 10
+    },
+    {
+      "round": 3,
+      "season": "2029",
+      "roster_id": 6,
+      "owner_id": 7,
+      "previous_owner_id": 6
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1397784750004953088",
+      "type": "trade",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-25T01:12:43.288000Z",
+      "teams": [
+        "kelkins81",
+        "coleellingworth2"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7564",
+            "name": "Ja'Marr Chase",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        },
+        {
+          "player": {
+            "player_id": "8138",
+            "name": "James Cook",
+            "position": "RB",
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        },
+        {
+          "player": {
+            "player_id": "12507",
+            "name": "Omarion Hampton",
+            "position": "RB",
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "coleellingworth2"
+        },
+        {
+          "player": {
+            "player_id": "8137",
+            "name": "George Pickens",
+            "position": "WR",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "coleellingworth2"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12507",
+            "name": "Omarion Hampton",
+            "position": "RB",
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        },
+        {
+          "player": {
+            "player_id": "8137",
+            "name": "George Pickens",
+            "position": "WR",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        },
+        {
+          "player": {
+            "player_id": "7564",
+            "name": "Ja'Marr Chase",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "coleellingworth2"
+        },
+        {
+          "player": {
+            "player_id": "8138",
+            "name": "James Cook",
+            "position": "RB",
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "coleellingworth2"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 1,
+          "roster_id": 6,
+          "owner_id": 7,
+          "previous_owner_id": 6
+        },
+        {
+          "season": "2029",
+          "round": 3,
+          "roster_id": 6,
+          "owner_id": 7,
+          "previous_owner_id": 6
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1397694710578978816",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-24T19:14:56.215000Z",
+      "teams": [
+        "Waddle on my johnston"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11557",
+            "name": "Joe Milton",
+            "position": "QB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Waddle on my johnston"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7591",
+            "name": "Justin Fields",
+            "position": "QB",
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Waddle on my johnston"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 4
+    },
+    {
+      "transaction_id": "1397693603148476416",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-08-24T19:10:32.184000Z",
+      "teams": [
+        "Waddle on my johnston"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11557",
+            "name": "Joe Milton",
+            "position": "QB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Waddle on my johnston"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 3
+    },
     {
       "transaction_id": "1397692995817500672",
       "type": "free_agent",
@@ -6546,6 +6758,47 @@
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null
+    },
+    {
+      "transaction_id": "1397677941307006976",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-24T18:08:18.110000Z",
+      "teams": [
+        "drip or drown"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13602",
+            "name": "Jack Strand",
+            "position": "QB",
+            "team": "ATL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "drip or drown"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13420",
+            "name": "Bryce Lance",
+            "position": "WR",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "drip or drown"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
     },
     {
       "transaction_id": "1397293755643514880",
@@ -11180,9 +11433,9 @@
   "free_agent_summary": {
     "total": 2563,
     "by_position": {
-      "QB": 299,
+      "QB": 298,
       "RB": 557,
-      "WR": 1152,
+      "WR": 1153,
       "TE": 555
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -11609,18 +11862,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13602",
-      "name": "Jack Strand",
-      "position": "QB",
-      "team": "ATL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": "QB",
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13802",
       "name": "Jacob Clark",
       "position": "QB",
@@ -11741,18 +11982,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "11557",
-      "name": "Joe Milton",
-      "position": "QB",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "13428",
       "name": "Joey Aguilar",
       "position": "QB",
@@ -11785,6 +12014,18 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 9,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
+    },
+    {
+      "player_id": "7591",
+      "name": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 5,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -14881,7 +15122,7 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -15050,7 +15291,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "6659",
@@ -15701,6 +15942,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "11378",
+      "name": "Jordan Mims",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": "RB",
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6167",
       "name": "Jordan Scarlett",
       "position": "RB",
@@ -15745,7 +15998,7 @@
       "injury_status": "IR",
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -15889,7 +16142,7 @@
       "injury_status": "Questionable",
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -16193,6 +16446,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "13873",
+      "name": "Sam Scott",
+      "position": "RB",
+      "team": "NYJ",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": "RB",
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4147",
       "name": "Samaje Perine",
       "position": "RB",
@@ -16466,7 +16731,7 @@
       "age": 25,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6664",
@@ -18737,18 +19002,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11378",
-      "name": "Jordan Mims",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "14018",
       "name": "Jordan Nubin",
       "position": "RB",
@@ -20525,18 +20778,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13873",
-      "name": "Sam Scott",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12308",
       "name": "Samson Evans",
       "position": "RB",
@@ -21761,6 +22002,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13420",
+      "name": "Bryce Lance",
+      "position": "WR",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 5
+    },
+    {
       "player_id": "11959",
       "name": "Bryce Oliver",
       "position": "WR",
@@ -21793,7 +22046,7 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -21903,6 +22156,18 @@
       "years_exp": 2,
       "depth_chart_position": "SWR",
       "depth_chart_order": 8
+    },
+    {
+      "player_id": "13826",
+      "name": "Caullin Lacy",
+      "position": "WR",
+      "team": "NYJ",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "10444",
@@ -22238,7 +22503,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "6149",
@@ -22406,7 +22671,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "6847",
@@ -22846,7 +23111,7 @@
       "position": "WR",
       "team": "GB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
@@ -23161,7 +23426,7 @@
       "injury_status": "Questionable",
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -23438,7 +23703,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 9
     },
     {
       "player_id": "5374",
@@ -23665,7 +23930,7 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -24157,7 +24422,7 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
+      "depth_chart_position": "TE",
       "depth_chart_order": null
     },
     {
@@ -24899,7 +25164,7 @@
       "team": "DAL",
       "status": "Active",
       "injury_status": null,
-      "age": 27,
+      "age": 28,
       "years_exp": 6,
       "depth_chart_position": "SWR",
       "depth_chart_order": 6
@@ -25117,7 +25382,7 @@
       "injury_status": "IR",
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": "PR",
       "depth_chart_order": 8
     },
     {
@@ -26461,18 +26726,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13826",
-      "name": "Caullin Lacy",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35353,8 +35606,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11082",
@@ -35426,7 +35679,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12374",
@@ -36134,7 +36387,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "7535",
@@ -36553,8 +36806,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 6,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11371",
@@ -37318,11 +37571,11 @@
       "position": "TE",
       "team": "SF",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 2,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8227",
