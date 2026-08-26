@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-26T10:09:00.893269Z",
+  "generated_at_utc": "2026-08-26T14:27:22.784813Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,9 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,6 +200,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "shard": 620,
     "last_message_id": "1398145779461300224",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -214,11 +214,9 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +243,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -422,20 +422,20 @@
           "injury_status": null
         },
         {
-          "player_id": "13324",
-          "name": "Matt Hibner",
-          "position": "TE",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13349",
           "name": "Eli Stowers",
           "position": "TE",
           "team": "PHI",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "13405",
+          "name": "Kaytron Allen",
+          "position": "RB",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "13413",
@@ -464,18 +464,18 @@
       ],
       "taxi": [
         {
-          "player_id": "13347",
-          "name": "Demond Claiborne",
-          "position": "RB",
-          "team": "MIN",
+          "player_id": "13324",
+          "name": "Matt Hibner",
+          "position": "TE",
+          "team": "BAL",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "13405",
-          "name": "Kaytron Allen",
+          "player_id": "13347",
+          "name": "Demond Claiborne",
           "position": "RB",
-          "team": "WAS",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         },
@@ -22143,7 +22143,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Doubtful",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
