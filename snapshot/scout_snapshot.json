@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-25T23:59:14.844168Z",
+  "generated_at_utc": "2026-08-26T03:37:12.440869Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,14 +63,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 24
+      "daily_waivers_last_ran": 25
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,22 +201,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1398127298477088768",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
-    "last_author_display_name": "brettstalvey2528",
-    "last_author_id": "474981049038794752",
-    "last_author_is_bot": false,
+    "last_message_id": "1398145779461300224",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787702033207,
+    "last_message_time": 1787706439417,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -243,8 +245,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -731,7 +731,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 6,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "metadata": null
@@ -1174,7 +1174,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -1369,6 +1369,14 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         }
@@ -1602,6 +1610,14 @@
           "injury_status": null
         },
         {
+          "player_id": "9486",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "9754",
           "name": "Quentin Johnston",
           "position": "WR",
@@ -1616,7 +1632,7 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 36,
+        "waiver_budget_used": 37,
         "waiver_position": 9,
         "wins": 0
       },
@@ -2109,7 +2125,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": null
@@ -2282,6 +2298,14 @@
           "team": "PIT",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "8111",
+          "name": "Cade Otton",
+          "position": "TE",
+          "team": "TB",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "8210",
@@ -2522,6 +2546,14 @@
           "injury_status": null
         },
         {
+          "player_id": "8111",
+          "name": "Cade Otton",
+          "position": "TE",
+          "team": "TB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "8183",
           "name": "Brock Purdy",
           "position": "QB",
@@ -2569,7 +2601,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -3028,7 +3060,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -3487,7 +3519,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       },
       "metadata": null
@@ -4880,7 +4912,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       },
       "metadata": null
@@ -6533,6 +6565,62 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1398128667103596544",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-25T23:59:19.513000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 1
+    },
+    {
+      "transaction_id": "1397791112571162624",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-25T01:38:00.242000Z",
+      "teams": [
+        "Brown St Brown Brown"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8111",
+            "name": "Cade Otton",
+            "position": "TE",
+            "team": "TB",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "Brown St Brown Brown"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1397784750004953088",
       "type": "trade",
@@ -11431,12 +11519,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2561,
+    "total": 2559,
     "by_position": {
       "QB": 298,
       "RB": 555,
-      "WR": 1154,
-      "TE": 554
+      "WR": 1153,
+      "TE": 553
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -15131,7 +15219,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 22,
       "years_exp": 2,
       "depth_chart_position": "RB",
@@ -16247,7 +16335,7 @@
       "position": "RB",
       "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -16418,7 +16506,7 @@
       "injury_status": "Questionable",
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": "RB",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -18518,8 +18606,8 @@
       "injury_status": "IR",
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
     },
     {
       "player_id": "7863",
@@ -22746,18 +22834,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "9486",
-      "name": "Dontayvion Wicks",
-      "position": "WR",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "5282",
       "name": "Duplicate Player",
       "position": "WR",
@@ -23423,7 +23499,7 @@
       "position": "WR",
       "team": "MIN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Sus",
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RWR",
@@ -24660,7 +24736,7 @@
       "team": "CAR",
       "status": "Active",
       "injury_status": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
       "depth_chart_order": null
@@ -24698,8 +24774,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 10
     },
     {
       "player_id": "13929",
@@ -24842,8 +24918,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 10
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12496",
@@ -35742,18 +35818,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "8111",
-      "name": "Cade Otton",
-      "position": "TE",
-      "team": "TB",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1
-    },
-    {
       "player_id": "11599",
       "name": "Cade Stover",
       "position": "TE",
@@ -36338,7 +36402,7 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 7,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
