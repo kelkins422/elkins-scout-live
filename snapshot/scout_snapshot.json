@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-26T03:37:12.440869Z",
+  "generated_at_utc": "2026-08-26T08:04:15.318849Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -210,15 +210,10 @@
     "last_message_text_map": null,
     "last_message_time": 1787706439417,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +240,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -4543,8 +4543,8 @@
           "player_id": "11589",
           "name": "Trey Benson",
           "position": "RB",
-          "team": null,
-          "status": "Active",
+          "team": "ARI",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -4692,8 +4692,8 @@
           "player_id": "11589",
           "name": "Trey Benson",
           "position": "RB",
-          "team": null,
-          "status": "Active",
+          "team": "ARI",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -10054,8 +10054,8 @@
             "player_id": "11589",
             "name": "Trey Benson",
             "position": "RB",
-            "team": null,
-            "status": "Active",
+            "team": "ARI",
+            "status": "Inactive",
             "injury_status": "IR"
           }
         },
@@ -15814,6 +15814,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "12479",
+      "name": "Ja'Quinden Jackson",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "6996",
       "name": "JaMycal Hasty",
       "position": "RB",
@@ -16670,7 +16682,7 @@
       "name": "Ty Chandler",
       "position": "RB",
       "team": "NO",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 28,
       "years_exp": 4,
@@ -18596,18 +18608,6 @@
       "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "12479",
-      "name": "Ja'Quinden Jackson",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
     },
     {
       "player_id": "7863",
@@ -23456,6 +23456,18 @@
       "years_exp": 1,
       "depth_chart_position": "SWR",
       "depth_chart_order": 7
+    },
+    {
+      "player_id": "13392",
+      "name": "Jeff Caldwell",
+      "position": "WR",
+      "team": "KC",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "14067",
@@ -30066,18 +30078,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13392",
-      "name": "Jeff Caldwell",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -37214,7 +37214,7 @@
       "name": "Moliki Matavao",
       "position": "TE",
       "team": "NO",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 23,
       "years_exp": 1,
