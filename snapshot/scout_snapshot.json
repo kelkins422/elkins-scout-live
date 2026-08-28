@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-28T00:58:02.731676Z",
+  "generated_at_utc": "2026-08-28T21:53:09.354992Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,15 +63,15 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 26
+      "daily_waivers_last_ran": 27
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1398145779461300224",
     "sport": "nfl",
-    "shard": 620,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1398870611207426048",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -208,17 +208,13 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787706439417,
+    "last_message_time": 1787879252772,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +241,10 @@
       "BN",
       "BN"
     ],
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -808,12 +808,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11624",
-          "name": "Xavier Worthy",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "KC",
+          "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8161",
@@ -840,6 +840,14 @@
           "team": "MIA",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "11624",
+          "name": "Xavier Worthy",
+          "position": "WR",
+          "team": "KC",
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11625",
@@ -918,14 +926,6 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -1174,7 +1174,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -1256,7 +1256,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11563",
@@ -1623,7 +1623,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "settings": {
@@ -1633,7 +1633,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 37,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -2601,7 +2601,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": null
@@ -2704,6 +2704,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11370",
+          "name": "Chris Brooks",
+          "position": "RB",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11583",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -2718,14 +2726,6 @@
           "team": "TB",
           "status": "Active",
           "injury_status": "Questionable"
-        },
-        {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "12469",
@@ -2823,7 +2823,7 @@
           "position": "RB",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12521",
@@ -2840,6 +2840,14 @@
           "player_id": "10222",
           "name": "Jayden Reed",
           "position": "WR",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11370",
+          "name": "Chris Brooks",
+          "position": "RB",
           "team": "GB",
           "status": "Active",
           "injury_status": null
@@ -2877,20 +2885,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11647",
-          "name": "Kimani Vidal",
-          "position": "RB",
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12467",
           "name": "Jordan James",
           "position": "RB",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12469",
@@ -3060,7 +3060,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -6566,6 +6566,47 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1398611578315649024",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-27T07:58:14.519000Z",
+      "teams": [
+        "kelkins81"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11370",
+            "name": "Chris Brooks",
+            "position": "RB",
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11647",
+            "name": "Kimani Vidal",
+            "position": "RB",
+            "team": "LAC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "kelkins81"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
       "transaction_id": "1398128667103596544",
       "type": "waiver",
       "status": "complete",
@@ -9370,7 +9411,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -10546,7 +10587,7 @@
             "position": "RB",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12555,7 +12596,7 @@
       "position": "QB",
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -15223,7 +15264,7 @@
       "age": 22,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 4
     },
     {
       "player_id": "14080",
@@ -15259,7 +15300,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "8423",
@@ -15320,18 +15361,6 @@
       "years_exp": 0,
       "depth_chart_position": "RB",
       "depth_chart_order": null
-    },
-    {
-      "player_id": "11370",
-      "name": "Chris Brooks",
-      "position": "RB",
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
     },
     {
       "player_id": "11963",
@@ -15511,7 +15540,7 @@
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "12476",
@@ -15559,7 +15588,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13852",
@@ -15787,7 +15816,7 @@
       "age": 23,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "5004",
@@ -16147,7 +16176,7 @@
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7720",
@@ -16198,12 +16227,24 @@
       "depth_chart_order": 7
     },
     {
+      "player_id": "11647",
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 2,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "12969",
       "name": "Lan Larison",
       "position": "RB",
       "team": "NE",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -16323,7 +16364,7 @@
       "position": "RB",
       "team": "SF",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 6,
       "depth_chart_position": "RB",
@@ -16339,7 +16380,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8116",
@@ -16651,7 +16692,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "6039",
@@ -16735,7 +16776,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "11299",
@@ -21967,7 +22008,7 @@
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13011",
@@ -22027,7 +22068,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "11157",
@@ -22087,7 +22128,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 9
     },
     {
       "player_id": "12906",
@@ -22155,7 +22196,7 @@
       "position": "WR",
       "team": "NYJ",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
@@ -22951,7 +22992,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13776",
@@ -23023,7 +23064,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "13074",
@@ -23683,7 +23724,7 @@
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "6866",
@@ -24211,7 +24252,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 7
     },
     {
       "player_id": "11895",
@@ -35635,7 +35676,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "11280",
@@ -35655,11 +35696,11 @@
       "position": "TE",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7568",
@@ -35799,7 +35840,7 @@
       "position": "TE",
       "team": "CLE",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
@@ -36331,7 +36372,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "7535",
@@ -36423,11 +36464,11 @@
       "position": "TE",
       "team": "CLE",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13846",
@@ -36475,7 +36516,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12817",
@@ -36607,7 +36648,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "11113",
@@ -36787,7 +36828,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8088",
@@ -36955,7 +36996,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "7842",
@@ -36967,7 +37008,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "9481",
@@ -37147,7 +37188,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11433",
@@ -37375,7 +37416,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13810",
@@ -37531,7 +37572,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "3333",
@@ -37591,7 +37632,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7149",
@@ -37783,7 +37824,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "4384",
