@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-29T21:36:57.033875Z",
+  "generated_at_utc": "2026-08-29T21:51:59.052473Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -12366,7 +12366,7 @@
       "player_id": "12500",
       "name": "Quinn Ewers",
       "position": "QB",
-      "team": "MIA",
+      "team": "JAX",
       "status": "Active",
       "injury_status": null,
       "age": 23,
