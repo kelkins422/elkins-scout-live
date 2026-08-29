@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-29T16:06:58.795325Z",
+  "generated_at_utc": "2026-08-29T16:51:33.577931Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,10 +201,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
     "last_message_id": "1398870611207426048",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -210,15 +210,10 @@
     "last_message_text_map": null,
     "last_message_time": 1787879252772,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +240,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -11811,18 +11811,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "12776",
-      "name": "Connor Bazelak",
-      "position": "QB",
-      "team": "TB",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "4574",
       "name": "Cooper Rush",
       "position": "QB",
@@ -13225,6 +13213,18 @@
       "years_exp": 13,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12776",
+      "name": "Connor Bazelak",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "5808",
@@ -15255,18 +15255,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "14080",
-      "name": "Barika Kpeenu",
-      "position": "RB",
-      "team": "TB",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7048",
       "name": "Benny LeMay",
       "position": "RB",
@@ -17111,6 +17099,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "14080",
+      "name": "Barika Kpeenu",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
