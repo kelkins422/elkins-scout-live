@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-29T14:37:08.232813Z",
+  "generated_at_utc": "2026-08-29T16:06:58.795325Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -11560,12 +11560,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2552,
+    "total": 2549,
     "by_position": {
       "QB": 298,
-      "RB": 551,
-      "WR": 1151,
-      "TE": 552
+      "RB": 550,
+      "WR": 1150,
+      "TE": 551
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -15183,18 +15183,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "14082",
-      "name": "Alex Tecza",
-      "position": "RB",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12928",
       "name": "Amar Johnson",
       "position": "RB",
@@ -16299,18 +16287,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "14044",
-      "name": "Miles Davis",
-      "position": "RB",
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 0,
-      "depth_chart_position": "RB",
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7528",
       "name": "Najee Harris",
       "position": "RB",
@@ -16356,18 +16332,6 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6963",
-      "name": "Patrick Taylor",
-      "position": "RB",
-      "team": "SF",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -16943,6 +16907,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "14082",
+      "name": "Alex Tecza",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -20187,6 +20163,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "14044",
+      "name": "Miles Davis",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 0,
+      "depth_chart_position": "RB",
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6151",
       "name": "Miles Sanders",
       "position": "RB",
@@ -21927,18 +21915,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "13647",
-      "name": "Ben Patterson",
-      "position": "WR",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7757",
       "name": "Ben Skowronek",
       "position": "WR",
@@ -22191,18 +22167,6 @@
       "depth_chart_order": 8
     },
     {
-      "player_id": "13826",
-      "name": "Caullin Lacy",
-      "position": "WR",
-      "team": "NYJ",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12908",
       "name": "Chandler Brayboy",
       "position": "WR",
@@ -22357,18 +22321,6 @@
       "years_exp": 2,
       "depth_chart_position": "LWR",
       "depth_chart_order": 5
-    },
-    {
-      "player_id": "7541",
-      "name": "Cornell Powell",
-      "position": "WR",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13849",
@@ -23091,18 +23043,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "11232",
-      "name": "Isaiah Winstead",
-      "position": "WR",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13770",
       "name": "J. Michael Sturdivant",
       "position": "WR",
@@ -23269,18 +23209,6 @@
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": 9
-    },
-    {
-      "player_id": "12935",
-      "name": "Jakobie Keeney-James",
-      "position": "WR",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "11034",
@@ -24301,18 +24229,6 @@
       "years_exp": 0,
       "depth_chart_position": "SWR",
       "depth_chart_order": null
-    },
-    {
-      "player_id": "5917",
-      "name": "Mecole Hardman",
-      "position": "WR",
-      "team": "BUF",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 7,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 9
     },
     {
       "player_id": "7618",
@@ -26103,6 +26019,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13647",
+      "name": "Ben Patterson",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "2003",
       "name": "Bennie Fowler",
       "position": "WR",
@@ -27167,6 +27095,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "7541",
+      "name": "Cornell Powell",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -29187,6 +29127,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11232",
+      "name": "Isaiah Winstead",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11941",
       "name": "Isaiah Wooden",
       "position": "WR",
@@ -29519,6 +29471,18 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 8,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12935",
+      "name": "Jakobie Keeney-James",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -32581,6 +32545,18 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "5917",
+      "name": "Mecole Hardman",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 7,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 9
     },
     {
       "player_id": "3418",
@@ -35763,18 +35739,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12984",
-      "name": "CJ Dippre",
-      "position": "TE",
-      "team": "NE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "11599",
       "name": "Cade Stover",
       "position": "TE",
@@ -36147,18 +36111,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "14068",
-      "name": "Drew Biber",
-      "position": "TE",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8489",
       "name": "Drew Ogletree",
       "position": "TE",
@@ -36459,18 +36411,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "7946",
-      "name": "Jack Stoll",
-      "position": "TE",
-      "team": "CLE",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13846",
       "name": "Jack Velling",
       "position": "TE",
@@ -36505,18 +36445,6 @@
       "years_exp": 1,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "11605",
-      "name": "Jaheim Bell",
-      "position": "TE",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "12817",
@@ -36625,18 +36553,6 @@
       "years_exp": 4,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "13129",
-      "name": "Jermaine Terry",
-      "position": "TE",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13435",
@@ -38415,6 +38331,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12984",
+      "name": "CJ Dippre",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "8433",
       "name": "Cade Brewer",
       "position": "TE",
@@ -39207,6 +39135,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "14068",
+      "name": "Drew Biber",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5103",
       "name": "Dylan Cantrell",
       "position": "TE",
@@ -39807,6 +39747,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11605",
+      "name": "Jaheim Bell",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7460",
       "name": "Jake Burt",
       "position": "TE",
@@ -40049,6 +40001,18 @@
     {
       "player_id": "8203",
       "name": "Jeremiah Hall",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13129",
+      "name": "Jermaine Terry",
       "position": "TE",
       "team": null,
       "status": "Active",
