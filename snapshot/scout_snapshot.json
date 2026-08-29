@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-29T07:06:58.697464Z",
+  "generated_at_utc": "2026-08-29T09:36:49.923413Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -25380,7 +25380,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 9
     },
     {
       "player_id": "830",
@@ -35963,8 +35963,8 @@
       "injury_status": "IR",
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 4
     },
     {
       "player_id": "11942",
@@ -36720,7 +36720,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 5
     },
     {
       "player_id": "13273",
@@ -37464,7 +37464,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8041",
