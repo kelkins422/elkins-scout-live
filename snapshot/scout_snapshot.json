@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-29T04:07:09.457851Z",
+  "generated_at_utc": "2026-08-29T07:06:58.697464Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1723,7 +1723,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "Questionable"
         }
       ],
       "bench": [
@@ -1915,7 +1915,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12471",
@@ -10041,7 +10041,7 @@
             "position": "RB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "Questionable"
           }
         },
         {
