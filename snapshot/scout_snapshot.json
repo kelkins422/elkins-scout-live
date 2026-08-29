@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-29T02:36:58.622754Z",
+  "generated_at_utc": "2026-08-29T02:51:46.632649Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -22004,7 +22004,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "SWR",
