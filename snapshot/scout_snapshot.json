@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T22:36:53.890800Z",
+  "generated_at_utc": "2026-08-30T22:51:41.844228Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -3184,7 +3184,7 @@
           "name": "Jordyn Tyson",
           "position": "WR",
           "team": "NO",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -3341,7 +3341,7 @@
           "name": "Jordyn Tyson",
           "position": "WR",
           "team": "NO",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -8878,7 +8878,7 @@
             "name": "Jordyn Tyson",
             "position": "WR",
             "team": "NO",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           }
         },
@@ -24529,8 +24529,8 @@
       "name": "Savion Williams",
       "position": "WR",
       "team": "GB",
-      "status": "Active",
-      "injury_status": null,
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
