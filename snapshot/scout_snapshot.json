@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T00:37:05.650432Z",
+  "generated_at_utc": "2026-08-30T01:21:50.158350Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,10 +63,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 28
+      "daily_waivers_last_ran": 29
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,28 +201,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1398870611207426048",
+    "last_message_id": "1399595415686422528",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1787879252772,
+    "last_message_time": 1788052059626,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +241,10 @@
       "BN",
       "BN"
     ],
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1325,20 +1325,20 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "13400",
+          "name": "Justin Joly",
+          "position": "TE",
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13533",
           "name": "Barion Brown",
           "position": "WR",
           "team": "NO",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "7090",
@@ -1490,6 +1490,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13400",
+          "name": "Justin Joly",
+          "position": "TE",
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13403",
           "name": "Jam Miller",
           "position": "RB",
@@ -1512,14 +1520,6 @@
           "team": "NO",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "4983",
@@ -1632,8 +1632,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 37,
-        "waiver_position": 8,
+        "waiver_budget_used": 38,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -2601,7 +2601,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -3060,7 +3060,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": null
@@ -6565,6 +6565,47 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1399409272265138176",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-29T12:47:59.577000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13400",
+            "name": "Justin Joly",
+            "position": "TE",
+            "team": "DEN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4035",
+            "name": "Alvin Kamara",
+            "position": "RB",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": "Questionable"
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 1
+    },
     {
       "transaction_id": "1398611578315649024",
       "type": "waiver",
@@ -11563,9 +11604,9 @@
     "total": 2549,
     "by_position": {
       "QB": 298,
-      "RB": 550,
+      "RB": 551,
       "WR": 1150,
-      "TE": 551
+      "TE": 550
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -15181,6 +15222,18 @@
       "years_exp": 1,
       "depth_chart_position": "RB",
       "depth_chart_order": null
+    },
+    {
+      "player_id": "4035",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 31,
+      "years_exp": 9,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2
     },
     {
       "player_id": "12928",
@@ -36733,18 +36786,6 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "13400",
-      "name": "Justin Joly",
-      "position": "TE",
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4
     },
     {
       "player_id": "8088",
