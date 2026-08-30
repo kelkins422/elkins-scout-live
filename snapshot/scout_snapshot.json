@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T03:07:03.437532Z",
+  "generated_at_utc": "2026-08-30T04:07:01.850307Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -214,7 +214,9 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
+    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -241,21 +243,19 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 3,
-    "leg": 0,
+    "week": 1,
+    "leg": 1,
     "season": "2026",
-    "season_type": "pre",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
-    "season_start_date": "2026-08-06",
-    "display_week": 3,
+    "season_start_date": "2026-09-09",
+    "display_week": 1,
     "league_create_season": "2026",
     "season_has_scores": true
   },
