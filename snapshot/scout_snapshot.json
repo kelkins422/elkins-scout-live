@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T22:07:09.069530Z",
+  "generated_at_utc": "2026-08-30T22:36:53.890800Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,12 +201,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "last_message_id": "1399595415686422528",
-    "shard": 620,
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,13 +211,10 @@
     "last_message_time": 1788052059626,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +241,10 @@
       "BN",
       "BN"
     ],
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2768,14 +2768,6 @@
           "injury_status": null
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": "DNR"
-        },
-        {
           "player_id": "5947",
           "name": "Jakobi Meyers",
           "position": "WR",
@@ -2834,7 +2826,16 @@
           "injury_status": null
         }
       ],
-      "injured_reserve": [],
+      "injured_reserve": [
+        {
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": "DNR"
+        }
+      ],
       "all_players": [
         {
           "player_id": "10222",
@@ -3184,7 +3185,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "IR"
         },
         {
           "player_id": "13301",
@@ -3341,7 +3342,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "IR"
         },
         {
           "player_id": "13301",
@@ -8878,7 +8879,7 @@
             "position": "WR",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "IR"
           }
         },
         {
@@ -15948,7 +15949,7 @@
       "name": "Jeremy McNichols",
       "position": "RB",
       "team": "WAS",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "Questionable",
       "age": 30,
       "years_exp": 9,
