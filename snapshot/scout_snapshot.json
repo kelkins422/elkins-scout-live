@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T22:51:41.844228Z",
+  "generated_at_utc": "2026-08-30T23:06:51.726888Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -22273,7 +22273,7 @@
       "name": "Christian Kirk",
       "position": "WR",
       "team": "SF",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "Questionable",
       "age": 29,
       "years_exp": 8,
