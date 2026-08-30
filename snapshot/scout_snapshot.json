@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T20:51:45.532246Z",
+  "generated_at_utc": "2026-08-30T21:06:51.776319Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,7 +197,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1399595415686422528",
+    "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -215,6 +215,10 @@
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -241,10 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -11844,7 +11844,7 @@
       "name": "Dillon Gabriel",
       "position": "QB",
       "team": "CLE",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 25,
       "years_exp": 1,
@@ -36565,7 +36565,7 @@
       "position": "TE",
       "team": "CLE",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "PUP",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
