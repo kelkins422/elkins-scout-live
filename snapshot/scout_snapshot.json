@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-30T21:51:52.081314Z",
+  "generated_at_utc": "2026-08-30T22:07:09.069530Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1666,8 +1666,8 @@
           "name": "James Conner",
           "position": "RB",
           "team": "ARI",
-          "status": "Active",
-          "injury_status": "Questionable"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "11637",
@@ -1715,7 +1715,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Inactive",
-          "injury_status": "Questionable"
+          "injury_status": "IR"
         },
         {
           "player_id": "11655",
@@ -2010,8 +2010,8 @@
           "name": "James Conner",
           "position": "RB",
           "team": "ARI",
-          "status": "Active",
-          "injury_status": "Questionable"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "6794",
@@ -2091,7 +2091,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Inactive",
-          "injury_status": "Questionable"
+          "injury_status": "IR"
         },
         {
           "player_id": "9504",
@@ -10600,7 +10600,7 @@
             "position": "WR",
             "team": "HOU",
             "status": "Inactive",
-            "injury_status": "Questionable"
+            "injury_status": "IR"
           }
         },
         {
@@ -10641,8 +10641,8 @@
             "name": "James Conner",
             "position": "RB",
             "team": "ARI",
-            "status": "Active",
-            "injury_status": "Questionable"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
