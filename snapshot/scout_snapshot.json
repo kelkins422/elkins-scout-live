@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T23:22:10.169128Z",
+  "generated_at_utc": "2026-08-31T23:37:00.055827Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -7170,7 +7170,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "IR"
           },
           "roster_id": 6,
           "team": "kelkins81"
@@ -11623,7 +11623,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "IR"
           }
         },
         {
@@ -13118,7 +13118,7 @@
       "position": "QB",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": null,
@@ -18194,7 +18194,7 @@
       "position": "RB",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
@@ -22742,7 +22742,7 @@
       "position": "WR",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
