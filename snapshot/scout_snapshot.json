@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T04:37:09.387967Z",
+  "generated_at_utc": "2026-08-31T06:52:01.478566Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,16 +201,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1399975547353726976",
-    "draft_id": "1353413007752839168",
+    "last_message_id": "1400042795992948736",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788142690079,
+    "last_message_time": 1788158723404,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -218,7 +218,6 @@
     "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +244,7 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -740,7 +740,7 @@
       "roster_id": 2,
       "owner_user_id": "825521088418144256",
       "manager": "sleezycreesey69",
-      "team_name": "drip or drown",
+      "team_name": "bubba gump",
       "co_owners": [],
       "starters": [
         {
@@ -4951,9 +4951,9 @@
       "season": "2026",
       "round": 1,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5051,9 +5051,9 @@
       "season": "2026",
       "round": 2,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5151,9 +5151,9 @@
       "season": "2026",
       "round": 3,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5251,9 +5251,9 @@
       "season": "2026",
       "round": 4,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5351,9 +5351,9 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5363,7 +5363,7 @@
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 3,
       "is_traded": true
     },
@@ -5451,9 +5451,9 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5551,9 +5551,9 @@
       "season": "2027",
       "round": 3,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5651,7 +5651,7 @@
       "season": "2027",
       "round": 4,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 3,
       "current_team": "Nix so big u waddle ",
       "previous_roster_id": 2,
@@ -5751,9 +5751,9 @@
       "season": "2028",
       "round": 1,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5851,9 +5851,9 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -5863,7 +5863,7 @@
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 3,
       "is_traded": true
     },
@@ -5951,9 +5951,9 @@
       "season": "2028",
       "round": 3,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -6051,9 +6051,9 @@
       "season": "2028",
       "round": 4,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -6151,9 +6151,9 @@
       "season": "2029",
       "round": 1,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -6251,9 +6251,9 @@
       "season": "2029",
       "round": 2,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -6351,9 +6351,9 @@
       "season": "2029",
       "round": 3,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -6451,9 +6451,9 @@
       "season": "2029",
       "round": 4,
       "original_roster_id": 2,
-      "original_team": "drip or drown",
+      "original_team": "bubba gump",
       "current_roster_id": 2,
-      "current_team": "drip or drown",
+      "current_team": "bubba gump",
       "previous_roster_id": 2,
       "is_traded": false
     },
@@ -7105,7 +7105,7 @@
       "week": 1,
       "created_utc": "2026-08-24T18:08:18.110000Z",
       "teams": [
-        "drip or drown"
+        "bubba gump"
       ],
       "adds": [
         {
@@ -7118,7 +7118,7 @@
             "injury_status": null
           },
           "roster_id": 2,
-          "team": "drip or drown"
+          "team": "bubba gump"
         }
       ],
       "drops": [
@@ -7132,7 +7132,7 @@
             "injury_status": null
           },
           "roster_id": 2,
-          "team": "drip or drown"
+          "team": "bubba gump"
         }
       ],
       "draft_picks": [],
@@ -7722,7 +7722,7 @@
       "week": 1,
       "created_utc": "2026-07-15T17:16:19.348000Z",
       "teams": [
-        "drip or drown",
+        "bubba gump",
         "Nix so big u waddle "
       ],
       "adds": [
@@ -7736,7 +7736,7 @@
             "injury_status": null
           },
           "roster_id": 2,
-          "team": "drip or drown"
+          "team": "bubba gump"
         },
         {
           "player": {
@@ -7762,7 +7762,7 @@
             "injury_status": null
           },
           "roster_id": 2,
-          "team": "drip or drown"
+          "team": "bubba gump"
         },
         {
           "player": {
@@ -7838,7 +7838,7 @@
       "week": 1,
       "created_utc": "2026-07-14T06:33:37.794000Z",
       "teams": [
-        "drip or drown"
+        "bubba gump"
       ],
       "adds": [],
       "drops": [
@@ -7852,7 +7852,7 @@
             "injury_status": null
           },
           "roster_id": 2,
-          "team": "drip or drown"
+          "team": "bubba gump"
         }
       ],
       "draft_picks": [],
@@ -8018,7 +8018,7 @@
           "pick_no": 3,
           "round": 1,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "9509",
             "name": "Bijan Robinson",
@@ -8228,7 +8228,7 @@
           "pick_no": 18,
           "round": 2,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11566",
             "name": "Jayden Daniels",
@@ -8298,7 +8298,7 @@
           "pick_no": 23,
           "round": 3,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11632",
             "name": "Malik Nabers",
@@ -8508,7 +8508,7 @@
           "pick_no": 38,
           "round": 4,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "12517",
             "name": "Colston Loveland",
@@ -8578,7 +8578,7 @@
           "pick_no": 43,
           "round": 5,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "13269",
             "name": "Fernando Mendoza",
@@ -8788,7 +8788,7 @@
           "pick_no": 58,
           "round": 6,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "10229",
             "name": "Rashee Rice",
@@ -8858,7 +8858,7 @@
           "pick_no": 63,
           "round": 7,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11563",
             "name": "Bo Nix",
@@ -9068,7 +9068,7 @@
           "pick_no": 78,
           "round": 8,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "7588",
             "name": "Javonte Williams",
@@ -9138,7 +9138,7 @@
           "pick_no": 83,
           "round": 9,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "8148",
             "name": "Jameson Williams",
@@ -9348,7 +9348,7 @@
           "pick_no": 98,
           "round": 10,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "12493",
             "name": "Oronde Gadsden",
@@ -9418,7 +9418,7 @@
           "pick_no": 103,
           "round": 11,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "9487",
             "name": "Parker Washington",
@@ -9628,7 +9628,7 @@
           "pick_no": 118,
           "round": 12,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11624",
             "name": "Xavier Worthy",
@@ -9698,7 +9698,7 @@
           "pick_no": 123,
           "round": 13,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "8161",
             "name": "Malik Willis",
@@ -9908,7 +9908,7 @@
           "pick_no": 138,
           "round": 14,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "8121",
             "name": "Romeo Doubs",
@@ -9978,7 +9978,7 @@
           "pick_no": 143,
           "round": 15,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "12530",
             "name": "Travis Hunter",
@@ -10188,7 +10188,7 @@
           "pick_no": 158,
           "round": 16,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "8132",
             "name": "Tyler Allgeier",
@@ -10258,7 +10258,7 @@
           "pick_no": 163,
           "round": 17,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "7002",
             "name": "Juwan Johnson",
@@ -10468,7 +10468,7 @@
           "pick_no": 178,
           "round": 18,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11576",
             "name": "Braelon Allen",
@@ -10538,7 +10538,7 @@
           "pick_no": 183,
           "round": 19,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "12504",
             "name": "Kaleb Johnson",
@@ -10748,7 +10748,7 @@
           "pick_no": 198,
           "round": 20,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "2449",
             "name": "Stefon Diggs",
@@ -10818,7 +10818,7 @@
           "pick_no": 203,
           "round": 21,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "13402",
             "name": "Skyler Bell",
@@ -11028,7 +11028,7 @@
           "pick_no": 218,
           "round": 22,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11610",
             "name": "Malik Washington",
@@ -11098,7 +11098,7 @@
           "pick_no": 223,
           "round": 23,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "9511",
             "name": "Keaton Mitchell",
@@ -11308,7 +11308,7 @@
           "pick_no": 238,
           "round": 24,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "11625",
             "name": "Adonai Mitchell",
@@ -11378,7 +11378,7 @@
           "pick_no": 243,
           "round": 25,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "3321",
             "name": "Tyreek Hill",
@@ -11588,7 +11588,7 @@
           "pick_no": 258,
           "round": 26,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "7571",
             "name": "Rashod Bateman",
@@ -11658,7 +11658,7 @@
           "pick_no": 263,
           "round": 27,
           "roster_id": 2,
-          "team": "drip or drown",
+          "team": "bubba gump",
           "player": {
             "player_id": "13420",
             "name": "Bryce Lance",
