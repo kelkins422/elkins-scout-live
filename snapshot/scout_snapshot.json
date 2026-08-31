@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T01:22:30.907934Z",
+  "generated_at_utc": "2026-08-31T01:36:54.776836Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,8 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1399957919369265152",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,6 +199,8 @@
     },
     "season": "2026",
     "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1399957919369265152",
     "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -210,15 +210,12 @@
     "last_message_text_map": null,
     "last_message_time": 1788138487239,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +242,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -23385,7 +23385,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": null,
