@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T17:52:03.614282Z",
+  "generated_at_utc": "2026-08-31T18:07:24.471159Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15469,7 +15469,7 @@
       "name": "Brittain Brown",
       "position": "RB",
       "team": "CHI",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 28,
       "years_exp": 4,
