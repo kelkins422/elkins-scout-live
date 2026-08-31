@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T14:52:09.894626Z",
+  "generated_at_utc": "2026-08-31T15:07:07.132952Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1879,7 +1879,7 @@
           "name": "Adam Randall",
           "position": "RB",
           "team": "BAL",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         }
       ],
@@ -1979,7 +1979,7 @@
           "name": "Adam Randall",
           "position": "RB",
           "team": "BAL",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -11608,7 +11608,7 @@
             "name": "Adam Randall",
             "position": "RB",
             "team": "BAL",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           }
         },
