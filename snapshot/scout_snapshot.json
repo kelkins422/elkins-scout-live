@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T19:07:03.196337Z",
+  "generated_at_utc": "2026-08-31T19:37:05.721740Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -214,6 +214,10 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,10 +244,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -2850,7 +2850,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "DNR"
+          "injury_status": "NA"
         }
       ],
       "all_players": [
@@ -2972,7 +2972,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "DNR"
+          "injury_status": "NA"
         },
         {
           "player_id": "5892",
@@ -8823,7 +8823,7 @@
             "position": "RB",
             "team": "GB",
             "status": "Active",
-            "injury_status": "DNR"
+            "injury_status": "NA"
           }
         },
         {
@@ -22118,7 +22118,7 @@
       "position": "WR",
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "RWR",
