@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T20:07:08.312420Z",
+  "generated_at_utc": "2026-08-31T20:21:59.401382Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
+    "last_message_id": "1400247642025361408",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,17 +202,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1400240045671059456",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
-    "draft_id": "1353413007752839168",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788205751392,
+    "last_message_time": 1788207562504,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -3087,7 +3087,7 @@
       "roster_id": 7,
       "owner_user_id": "1376255902989963264",
       "manager": "coleellingworth2",
-      "team_name": "coleellingworth2",
+      "team_name": "Pickens My Nose",
       "co_owners": [],
       "starters": [
         {
@@ -5001,9 +5001,9 @@
       "season": "2026",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5101,9 +5101,9 @@
       "season": "2026",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5201,9 +5201,9 @@
       "season": "2026",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5301,9 +5301,9 @@
       "season": "2026",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5401,9 +5401,9 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5501,9 +5501,9 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5601,9 +5601,9 @@
       "season": "2027",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5701,9 +5701,9 @@
       "season": "2027",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5793,7 +5793,7 @@
       "original_roster_id": 6,
       "original_team": "kelkins81",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 6,
       "is_traded": true
     },
@@ -5801,9 +5801,9 @@
       "season": "2028",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5901,9 +5901,9 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6001,9 +6001,9 @@
       "season": "2028",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6101,9 +6101,9 @@
       "season": "2028",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6201,9 +6201,9 @@
       "season": "2029",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6301,9 +6301,9 @@
       "season": "2029",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6393,7 +6393,7 @@
       "original_roster_id": 6,
       "original_team": "kelkins81",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 6,
       "is_traded": true
     },
@@ -6401,9 +6401,9 @@
       "season": "2029",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6501,9 +6501,9 @@
       "season": "2029",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "coleellingworth2",
+      "original_team": "Pickens My Nose",
       "current_roster_id": 7,
-      "current_team": "coleellingworth2",
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6880,7 +6880,7 @@
       "created_utc": "2026-08-25T01:12:43.288000Z",
       "teams": [
         "kelkins81",
-        "coleellingworth2"
+        "Pickens My Nose"
       ],
       "adds": [
         {
@@ -6917,7 +6917,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "coleellingworth2"
+          "team": "Pickens My Nose"
         },
         {
           "player": {
@@ -6929,7 +6929,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "coleellingworth2"
+          "team": "Pickens My Nose"
         }
       ],
       "drops": [
@@ -6967,7 +6967,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "coleellingworth2"
+          "team": "Pickens My Nose"
         },
         {
           "player": {
@@ -6979,7 +6979,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "coleellingworth2"
+          "team": "Pickens My Nose"
         }
       ],
       "draft_picks": [
@@ -7907,7 +7907,7 @@
       "week": 1,
       "created_utc": "2026-07-14T01:54:14.907000Z",
       "teams": [
-        "coleellingworth2"
+        "Pickens My Nose"
       ],
       "adds": [
         {
@@ -7920,7 +7920,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "coleellingworth2"
+          "team": "Pickens My Nose"
         }
       ],
       "drops": [],
@@ -7935,7 +7935,7 @@
       "week": 1,
       "created_utc": "2026-07-14T01:52:13.287000Z",
       "teams": [
-        "coleellingworth2"
+        "Pickens My Nose"
       ],
       "adds": [],
       "drops": [
@@ -7949,7 +7949,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "coleellingworth2"
+          "team": "Pickens My Nose"
         }
       ],
       "draft_picks": [],
@@ -8046,7 +8046,7 @@
           "pick_no": 5,
           "round": 1,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "7564",
             "name": "Ja'Marr Chase",
@@ -8200,7 +8200,7 @@
           "pick_no": 16,
           "round": 2,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "6813",
             "name": "Jonathan Taylor",
@@ -8326,7 +8326,7 @@
           "pick_no": 25,
           "round": 3,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "8138",
             "name": "James Cook",
@@ -8480,7 +8480,7 @@
           "pick_no": 36,
           "round": 4,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "3294",
             "name": "Dak Prescott",
@@ -8606,7 +8606,7 @@
           "pick_no": 45,
           "round": 5,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "3163",
             "name": "Jared Goff",
@@ -8760,7 +8760,7 @@
           "pick_no": 56,
           "round": 6,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "7525",
             "name": "DeVonta Smith",
@@ -8886,7 +8886,7 @@
           "pick_no": 65,
           "round": 7,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "12506",
             "name": "Harold Fannin",
@@ -9040,7 +9040,7 @@
           "pick_no": 76,
           "round": 8,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "13281",
             "name": "Jordyn Tyson",
@@ -9166,7 +9166,7 @@
           "pick_no": 85,
           "round": 9,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "7594",
             "name": "Chuba Hubbard",
@@ -9320,7 +9320,7 @@
           "pick_no": 96,
           "round": 10,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "421",
             "name": "Matthew Stafford",
@@ -9446,7 +9446,7 @@
           "pick_no": 105,
           "round": 11,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "13330",
             "name": "Kenyon Sadiq",
@@ -9600,7 +9600,7 @@
           "pick_no": 116,
           "round": 12,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "2133",
             "name": "Davante Adams",
@@ -9726,7 +9726,7 @@
           "pick_no": 125,
           "round": 13,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "7021",
             "name": "Rico Dowdle",
@@ -9880,7 +9880,7 @@
           "pick_no": 136,
           "round": 14,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "11646",
             "name": "Jalen Coker",
@@ -10006,7 +10006,7 @@
           "pick_no": 145,
           "round": 15,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "5967",
             "name": "Tony Pollard",
@@ -10160,7 +10160,7 @@
           "pick_no": 156,
           "round": 16,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "13301",
             "name": "Antonio Williams",
@@ -10286,7 +10286,7 @@
           "pick_no": 165,
           "round": 17,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "5012",
             "name": "Mark Andrews",
@@ -10440,7 +10440,7 @@
           "pick_no": 176,
           "round": 18,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "13320",
             "name": "Zachariah Branch",
@@ -10566,7 +10566,7 @@
           "pick_no": 185,
           "round": 19,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "9508",
             "name": "Tyjae Spears",
@@ -10720,7 +10720,7 @@
           "pick_no": 196,
           "round": 20,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "13417",
             "name": "De'Zhaun Stribling",
@@ -10846,7 +10846,7 @@
           "pick_no": 205,
           "round": 21,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "10219",
             "name": "Chris Rodriguez",
@@ -11000,7 +11000,7 @@
           "pick_no": 216,
           "round": 22,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "11783",
             "name": "Ryan Flournoy",
@@ -11126,7 +11126,7 @@
           "pick_no": 225,
           "round": 23,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "8180",
             "name": "Jalen Nailor",
@@ -11280,7 +11280,7 @@
           "pick_no": 236,
           "round": 24,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "8154",
             "name": "Brian Robinson",
@@ -11406,7 +11406,7 @@
           "pick_no": 245,
           "round": 25,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "3214",
             "name": "Hunter Henry",
@@ -11560,7 +11560,7 @@
           "pick_no": 256,
           "round": 26,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "13380",
             "name": "Brenen Thompson",
@@ -11686,7 +11686,7 @@
           "pick_no": 265,
           "round": 27,
           "roster_id": 7,
-          "team": "coleellingworth2",
+          "team": "Pickens My Nose",
           "player": {
             "player_id": "96",
             "name": "Aaron Rodgers",
@@ -22417,7 +22417,7 @@
       "name": "Coleman Owen",
       "position": "WR",
       "team": "IND",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 25,
       "years_exp": 1,
