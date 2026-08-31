@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T16:52:06.815168Z",
+  "generated_at_utc": "2026-08-31T17:52:03.614282Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -24073,7 +24073,7 @@
       "name": "Ray-Ray McCloud",
       "position": "WR",
       "team": "CHI",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 29,
       "years_exp": 8,
