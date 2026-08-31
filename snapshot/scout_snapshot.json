@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T22:22:00.593428Z",
+  "generated_at_utc": "2026-08-31T22:36:59.982888Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1761,18 +1761,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
+          "player_id": "12471",
+          "name": "DJ Giddens",
+          "position": "RB",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "13296",
-          "name": "Caleb Douglas",
+          "player_id": "13294",
+          "name": "Makai Lemon",
           "position": "WR",
-          "team": "MIA",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -1859,18 +1859,18 @@
       ],
       "taxi": [
         {
-          "player_id": "12471",
-          "name": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12524",
           "name": "Shedeur Sanders",
           "position": "QB",
           "team": "CLE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
