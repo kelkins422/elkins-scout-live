@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T18:07:24.471159Z",
+  "generated_at_utc": "2026-08-31T19:07:03.196337Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -214,10 +214,6 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,6 +240,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -36433,7 +36433,7 @@
       "name": "Grant Calcaterra",
       "position": "TE",
       "team": "PHI",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 27,
       "years_exp": 4,
