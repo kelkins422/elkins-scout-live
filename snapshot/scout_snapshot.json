@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T02:44:05.994943Z",
+  "generated_at_utc": "2026-09-01T02:56:33.831538Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15696,6 +15696,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11582",
+      "name": "Carson Steele",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13595",
       "name": "Cash Jones",
       "position": "RB",
@@ -15768,6 +15780,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "8129",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12462",
       "name": "Damien Martinez",
       "position": "RB",
@@ -15833,7 +15857,7 @@
       "position": "RB",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "RB",
@@ -17436,18 +17460,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11582",
-      "name": "Carson Steele",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "3780",
       "name": "Cedric O'Neal",
       "position": "RB",
@@ -17743,18 +17755,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 25,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8129",
-      "name": "Dameon Pierce",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
       "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -36221,7 +36221,7 @@
       "position": "TE",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": null,
       "years_exp": 0,
       "depth_chart_position": "TE",
@@ -36317,7 +36317,7 @@
       "position": "TE",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": null,
       "years_exp": 0,
       "depth_chart_position": null,
