@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T03:16:54.124893Z",
+  "generated_at_utc": "2026-09-01T06:17:18.592162Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,10 +201,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
     "last_message_id": "1400320197872582656",
     "draft_id": "1353413007752839168",
     "last_author_avatar": null,
@@ -866,18 +866,18 @@
           "injury_status": null
         },
         {
-          "player_id": "13264",
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13269",
           "name": "Fernando Mendoza",
           "position": "QB",
           "team": "LV",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13602",
+          "name": "Jack Strand",
+          "position": "QB",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -948,18 +948,18 @@
           "injury_status": null
         },
         {
-          "player_id": "13402",
-          "name": "Skyler Bell",
+          "player_id": "13264",
+          "name": "Dohnte Meyers",
           "position": "WR",
-          "team": "BUF",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "13602",
-          "name": "Jack Strand",
-          "position": "QB",
-          "team": "ATL",
+          "player_id": "13402",
+          "name": "Skyler Bell",
+          "position": "WR",
+          "team": "BUF",
           "status": "Active",
           "injury_status": null
         }
