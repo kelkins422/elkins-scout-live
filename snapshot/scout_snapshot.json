@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T16:13:10.018944Z",
+  "generated_at_utc": "2026-09-01T17:18:25.805077Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -22968,6 +22968,18 @@
       "depth_chart_order": 6
     },
     {
+      "player_id": "13760",
+      "name": "Jaden Bradley",
+      "position": "WR",
+      "team": "WAS",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8119",
       "name": "Jahan Dotson",
       "position": "WR",
@@ -28640,18 +28652,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13760",
-      "name": "Jaden Bradley",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36696,6 +36696,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "11113",
+      "name": "Joel Wilson",
+      "position": "TE",
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7716",
       "name": "John Bates",
       "position": "TE",
@@ -40064,18 +40076,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11113",
-      "name": "Joel Wilson",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
