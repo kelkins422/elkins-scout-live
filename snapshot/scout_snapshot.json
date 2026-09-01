@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T23:23:27.207920Z",
+  "generated_at_utc": "2026-09-01T23:52:17.404288Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,9 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,6 +200,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "shard": 620,
     "last_message_id": "1400565890864381952",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
@@ -12444,6 +12444,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "13314",
+      "name": "Luke Altmyer",
+      "position": "QB",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7527",
       "name": "Mac Jones",
       "position": "QB",
@@ -12586,6 +12598,18 @@
       "years_exp": 4,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "10983",
+      "name": "Sean Clifford",
+      "position": "QB",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8002",
@@ -14640,18 +14664,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13314",
-      "name": "Luke Altmyer",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5108",
       "name": "Luke Falk",
       "position": "QB",
@@ -15164,18 +15176,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "10983",
-      "name": "Sean Clifford",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -16152,6 +16152,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11649",
+      "name": "Kendall Milton",
+      "position": "RB",
+      "team": "CIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "9757",
       "name": "Kendre Miller",
       "position": "RB",
@@ -16174,6 +16186,18 @@
       "years_exp": 5,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "13436",
+      "name": "Kentrel Bullock",
+      "position": "RB",
+      "team": "CIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6175",
@@ -19632,18 +19656,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11649",
-      "name": "Kendall Milton",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8152",
       "name": "Kennedy Brooks",
       "position": "RB",
@@ -19688,18 +19700,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13436",
-      "name": "Kentrel Bullock",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23364,6 +23364,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12761",
+      "name": "Jordan Moore",
+      "position": "WR",
+      "team": "CIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12634",
       "name": "Jordan Watkins",
       "position": "WR",
@@ -23688,6 +23700,18 @@
       "depth_chart_order": 6
     },
     {
+      "player_id": "11520",
+      "name": "Lucky Jackson",
+      "position": "WR",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11650",
       "name": "Luke McCaffrey",
       "position": "WR",
@@ -23914,6 +23938,18 @@
       "years_exp": 3,
       "depth_chart_position": "SWR",
       "depth_chart_order": 6
+    },
+    {
+      "player_id": "13318",
+      "name": "Noah Thomas",
+      "position": "WR",
+      "team": "CIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6271",
@@ -30132,18 +30168,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12761",
-      "name": "Jordan Moore",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5590",
       "name": "Jordan Smallwood",
       "position": "WR",
@@ -31680,18 +31704,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11520",
-      "name": "Lucky Jackson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8650",
       "name": "Lujuan Winningham",
       "position": "WR",
@@ -32899,18 +32911,6 @@
       "status": "Active",
       "injury_status": null,
       "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13318",
-      "name": "Noah Thomas",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
