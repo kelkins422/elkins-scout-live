@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-08-31T23:37:00.055827Z",
+  "generated_at_utc": "2026-09-01T00:21:14.776564Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -22334,7 +22334,7 @@
       "position": "WR",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": null,
@@ -24461,6 +24461,18 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13343",
+      "name": "Vinny Anthony",
+      "position": "WR",
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35501,18 +35513,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13343",
-      "name": "Vinny Anthony",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
