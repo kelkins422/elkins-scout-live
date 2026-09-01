@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T18:42:29.928568Z",
+  "generated_at_utc": "2026-09-01T19:52:41.484750Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -16109,7 +16109,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "RB",
@@ -23364,6 +23364,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "8755",
+      "name": "Kaden Davis",
+      "position": "WR",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13491",
       "name": "Kaden Wetjen",
       "position": "WR",
@@ -23565,7 +23577,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13329",
@@ -23997,7 +24009,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8188",
@@ -30620,18 +30632,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8755",
-      "name": "Kaden Davis",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -37308,6 +37308,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "6451",
+      "name": "Stephen Carlson",
+      "position": "TE",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13827",
       "name": "Tanner Arkin",
       "position": "TE",
@@ -41900,18 +41912,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6451",
-      "name": "Stephen Carlson",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
