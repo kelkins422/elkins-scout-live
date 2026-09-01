@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T00:46:51.977438Z",
+  "generated_at_utc": "2026-09-01T01:12:23.443834Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,15 +63,15 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 30
+      "daily_waivers_last_ran": 31
     },
     "avatar": null,
     "company_id": null,
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
+    "last_message_id": "1400320197872582656",
     "shard": 620,
-    "last_message_id": "1400247642025361408",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -208,7 +208,7 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788207562504,
+    "last_message_time": 1788224861165,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1353413007752839168",
@@ -731,7 +731,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 9,
+        "waiver_position": 6,
         "wins": 0
       },
       "metadata": null
@@ -862,6 +862,14 @@
           "name": "Oronde Gadsden",
           "position": "TE",
           "team": "LAC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13264",
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -1039,6 +1047,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13264",
+          "name": "Dohnte Meyers",
+          "position": "WR",
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13269",
           "name": "Fernando Mendoza",
           "position": "QB",
@@ -1173,8 +1189,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_budget_used": 2,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": {
@@ -1342,14 +1358,6 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "13400",
-          "name": "Justin Joly",
-          "position": "TE",
-          "team": null,
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13533",
           "name": "Barion Brown",
           "position": "WR",
@@ -1370,6 +1378,14 @@
           "name": "Noah Gray",
           "position": "TE",
           "team": "KC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8172",
+          "name": "Greg Dulcich",
+          "position": "TE",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -1507,14 +1523,6 @@
           "injury_status": null
         },
         {
-          "player_id": "13400",
-          "name": "Justin Joly",
-          "position": "TE",
-          "team": null,
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13403",
           "name": "Jam Miller",
           "position": "RB",
@@ -1595,6 +1603,14 @@
           "injury_status": null
         },
         {
+          "player_id": "8172",
+          "name": "Greg Dulcich",
+          "position": "TE",
+          "team": "MIA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "8205",
           "name": "Isiah Pacheco",
           "position": "RB",
@@ -1649,8 +1665,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 38,
-        "waiver_position": 8,
+        "waiver_budget_used": 40,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": null
@@ -1761,18 +1777,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12471",
-          "name": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13294",
           "name": "Makai Lemon",
           "position": "WR",
           "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13411",
+          "name": "Zavion Thomas",
+          "position": "WR",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -1809,12 +1825,12 @@
           "injury_status": null
         },
         {
-          "player_id": "4137",
-          "name": "James Conner",
+          "player_id": "7528",
+          "name": "Najee Harris",
           "position": "RB",
-          "team": "ARI",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "7567",
@@ -1935,14 +1951,6 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12471",
-          "name": "DJ Giddens",
-          "position": "RB",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12524",
           "name": "Shedeur Sanders",
           "position": "QB",
@@ -1981,6 +1989,14 @@
           "team": "BAL",
           "status": "Inactive",
           "injury_status": "IR"
+        },
+        {
+          "player_id": "13411",
+          "name": "Zavion Thomas",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "1466",
@@ -2023,14 +2039,6 @@
           "injury_status": null
         },
         {
-          "player_id": "4137",
-          "name": "James Conner",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "6794",
           "name": "Justin Jefferson",
           "position": "WR",
@@ -2043,6 +2051,14 @@
           "name": "Jalen Hurts",
           "position": "QB",
           "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7528",
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
@@ -2141,8 +2157,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_budget_used": 3,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -2618,7 +2634,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": null
@@ -3078,7 +3094,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 8,
-        "waiver_position": 10,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -6583,6 +6599,185 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1400280716553547776",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-31T22:30:48.086000Z",
+      "teams": [
+        "Mayek It Clap"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13411",
+            "name": "Zavion Thomas",
+            "position": "WR",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12471",
+            "name": "DJ Giddens",
+            "position": "RB",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1400277742762643456",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-31T22:18:59.079000Z",
+      "teams": [
+        "Mayek It Clap"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7528",
+            "name": "Najee Harris",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4137",
+            "name": "James Conner",
+            "position": "RB",
+            "team": "ARI",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 3
+    },
+    {
+      "transaction_id": "1400131440842182656",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-31T12:37:37.982000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8172",
+            "name": "Greg Dulcich",
+            "position": "TE",
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13400",
+            "name": "Justin Joly",
+            "position": "TE",
+            "team": null,
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 2
+    },
+    {
+      "transaction_id": "1399966747020247040",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-08-31T01:43:11.915000Z",
+      "teams": [
+        "bubba gump"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12495",
+            "name": "Ollie Gordon",
+            "position": "RB",
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": "Questionable"
+          },
+          "roster_id": 2,
+          "team": "bubba gump"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 1
+    },
+    {
+      "transaction_id": "1399966282865975296",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-08-31T01:41:21.253000Z",
+      "teams": [
+        "bubba gump"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13264",
+            "name": "Dohnte Meyers",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "bubba gump"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 2
+    },
     {
       "transaction_id": "1399924986797432832",
       "type": "waiver",
@@ -11770,11 +11965,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2548,
+    "total": 2547,
     "by_position": {
       "QB": 297,
-      "RB": 552,
-      "WR": 1149,
+      "RB": 553,
+      "WR": 1147,
       "TE": 550
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -15561,6 +15756,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "12471",
+      "name": "DJ Giddens",
+      "position": "RB",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "12462",
       "name": "Damien Martinez",
       "position": "RB",
@@ -15885,6 +16092,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "4137",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 31,
+      "years_exp": 9,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
+    },
+    {
       "player_id": "11569",
       "name": "Jarquez Hunter",
       "position": "RB",
@@ -16159,18 +16378,6 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "7528",
-      "name": "Najee Harris",
-      "position": "RB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
     },
     {
       "player_id": "12495",
@@ -16481,6 +16688,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12826",
+      "name": "Ulysses Bentley",
+      "position": "RB",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -21777,18 +21996,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12826",
-      "name": "Ulysses Bentley",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6203",
       "name": "Valentine Holmes",
       "position": "RB",
@@ -22061,6 +22268,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12460",
+      "name": "Antwane Wells",
+      "position": "WR",
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22710,18 +22929,6 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13264",
-      "name": "Dohnte Meyers",
-      "position": "WR",
-      "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": "RWR",
       "depth_chart_order": null
     },
     {
@@ -24597,18 +24804,6 @@
       "depth_chart_order": 8
     },
     {
-      "player_id": "13411",
-      "name": "Zavion Thomas",
-      "position": "WR",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "830",
       "name": "A.J. Green",
       "position": "WR",
@@ -25163,18 +25358,6 @@
     {
       "player_id": "7744",
       "name": "Antonio Nunn",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12460",
-      "name": "Antwane Wells",
       "position": "WR",
       "team": null,
       "status": "Active",
@@ -36441,18 +36624,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "8172",
-      "name": "Greg Dulcich",
-      "position": "TE",
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 4,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1
-    },
-    {
       "player_id": "13712",
       "name": "Hayden Large",
       "position": "TE",
@@ -36559,6 +36730,18 @@
       "years_exp": 0,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "13846",
+      "name": "Jack Velling",
+      "position": "TE",
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12045",
@@ -37161,6 +37344,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "8523",
+      "name": "Nick Muse",
+      "position": "TE",
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "3258",
       "name": "Nick Vannett",
       "position": "TE",
@@ -37231,6 +37426,18 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "4443",
+      "name": "Pharaoh Brown",
+      "position": "TE",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 32,
+      "years_exp": 9,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11508",
@@ -39585,18 +39792,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13846",
-      "name": "Jack Velling",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6728",
       "name": "Jackson Harris",
       "position": "TE",
@@ -40267,6 +40462,18 @@
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "13400",
+      "name": "Justin Joly",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "8778",
@@ -41121,18 +41328,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8523",
-      "name": "Nick Muse",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "2495",
       "name": "Nick O'Leary",
       "position": "TE",
@@ -41297,18 +41492,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "4443",
-      "name": "Pharaoh Brown",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 32,
-      "years_exp": 9,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
