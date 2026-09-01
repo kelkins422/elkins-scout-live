@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T09:54:27.629755Z",
+  "generated_at_utc": "2026-09-01T12:20:14.101784Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,7 +197,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
     "last_message_id": "1400320197872582656",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -210,7 +211,6 @@
     "last_message_text_map": null,
     "last_message_time": 1788224861165,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -12588,6 +12588,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "8002",
+      "name": "Shane Buechele",
+      "position": "QB",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8206",
       "name": "Skylar Thompson",
       "position": "QB",
@@ -15192,18 +15204,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8002",
-      "name": "Shane Buechele",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "2903",
       "name": "Shane Carden",
       "position": "QB",
@@ -15908,6 +15908,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11573",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -18596,18 +18608,6 @@
       "injury_status": null,
       "age": 38,
       "years_exp": 17,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11573",
-      "name": "Frank Gore",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23112,6 +23112,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "5970",
+      "name": "Greg Dortch",
+      "position": "WR",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6699",
       "name": "Gunner Olszewski",
       "position": "WR",
@@ -24418,6 +24430,18 @@
       "years_exp": 4,
       "depth_chart_position": "SWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "12756",
+      "name": "Stephen Gosnell",
+      "position": "WR",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11821",
@@ -28652,18 +28676,6 @@
       "injury_status": "Questionable",
       "age": 24,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5970",
-      "name": "Greg Dortch",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -34448,18 +34460,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12756",
-      "name": "Stephen Gosnell",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
