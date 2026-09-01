@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T22:54:26.549554Z",
+  "generated_at_utc": "2026-09-01T23:10:54.580261Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -2386,7 +2386,7 @@
           "player_id": "13401",
           "name": "Michael Trigg",
           "position": "TE",
-          "team": null,
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         }
@@ -2494,7 +2494,7 @@
           "player_id": "13401",
           "name": "Michael Trigg",
           "position": "TE",
-          "team": null,
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -10878,7 +10878,7 @@
             "player_id": "13401",
             "name": "Michael Trigg",
             "position": "TE",
-            "team": null,
+            "team": "DAL",
             "status": "Active",
             "injury_status": null
           }
@@ -15852,6 +15852,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11199",
+      "name": "Emari Demercado",
+      "position": "RB",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "9220",
       "name": "Evan Hull",
       "position": "RB",
@@ -15922,6 +15934,18 @@
       "years_exp": 2,
       "depth_chart_position": "RB",
       "depth_chart_order": 3
+    },
+    {
+      "player_id": "9227",
+      "name": "Israel Abanikanda",
+      "position": "RB",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "5004",
@@ -18384,18 +18408,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11199",
-      "name": "Emari Demercado",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "6951",
       "name": "Eno Benjamin",
       "position": "RB",
@@ -18650,18 +18662,6 @@
     {
       "player_id": "8153",
       "name": "Isaiah Spiller",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "9227",
-      "name": "Israel Abanikanda",
       "position": "RB",
       "team": null,
       "status": "Active",
@@ -22248,6 +22248,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13582",
+      "name": "Anthony Smith",
+      "position": "WR",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12460",
       "name": "Antwane Wells",
       "position": "WR",
@@ -24752,18 +24764,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13582",
-      "name": "Anthony Smith",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35981,7 +35981,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
