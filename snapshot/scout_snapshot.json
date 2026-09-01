@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T12:20:14.101784Z",
+  "generated_at_utc": "2026-09-01T12:45:38.832323Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1400320197872582656",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,12 +202,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1400320197872582656",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,13 +211,9 @@
     "last_message_time": 1788224861165,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +240,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2272,7 +2272,7 @@
           "player_id": "12457",
           "name": "Jaydon Blue",
           "position": "RB",
-          "team": null,
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -2422,7 +2422,7 @@
           "player_id": "12457",
           "name": "Jaydon Blue",
           "position": "RB",
-          "team": null,
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -11088,7 +11088,7 @@
             "player_id": "12457",
             "name": "Jaydon Blue",
             "position": "RB",
-            "team": null,
+            "team": "PHI",
             "status": "Active",
             "injury_status": null
           }
@@ -23184,6 +23184,18 @@
       "depth_chart_order": 9
     },
     {
+      "player_id": "13696",
+      "name": "Ja'Mori Maclin",
+      "position": "WR",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13179",
       "name": "Ja'seem Reed",
       "position": "WR",
@@ -24572,6 +24584,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "5154",
+      "name": "Trent Sherfield",
+      "position": "WR",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -29072,18 +29096,6 @@
       "injury_status": "NA",
       "age": 24,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13696",
-      "name": "Ja'Mori Maclin",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35168,18 +35180,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5154",
-      "name": "Trent Sherfield",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
