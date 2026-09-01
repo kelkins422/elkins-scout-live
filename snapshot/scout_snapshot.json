@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T20:44:20.185897Z",
+  "generated_at_utc": "2026-09-01T21:14:24.343227Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -12204,6 +12204,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "12792",
+      "name": "Garrett Greene",
+      "position": "QB",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13404",
       "name": "Garrett Nussmeier",
       "position": "QB",
@@ -13808,18 +13820,6 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12792",
-      "name": "Garrett Greene",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -16076,6 +16076,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12787",
+      "name": "Josh Williams",
+      "position": "RB",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -19388,18 +19400,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12787",
-      "name": "Josh Williams",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -24176,6 +24176,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12788",
+      "name": "Will Sheppard",
+      "position": "WR",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35700,18 +35712,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12788",
-      "name": "Will Sheppard",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "3157",
       "name": "William Fuller",
       "position": "WR",
@@ -37200,6 +37200,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "12901",
+      "name": "Patrick Herbert",
+      "position": "TE",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "10227",
       "name": "Payne Durham",
       "position": "TE",
@@ -37484,6 +37496,18 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13116",
+      "name": "Tre Watson",
+      "position": "TE",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -41472,18 +41496,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12901",
-      "name": "Patrick Herbert",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11245",
       "name": "Patrick Murtagh",
       "position": "TE",
@@ -42200,18 +42212,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13116",
-      "name": "Tre Watson",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
