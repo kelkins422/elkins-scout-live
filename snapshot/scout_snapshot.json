@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T23:10:54.580261Z",
+  "generated_at_utc": "2026-09-01T23:23:27.207920Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,9 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
+    "shard": 620,
     "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -200,7 +201,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "shard": 620,
     "last_message_id": "1400565890864381952",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
@@ -16404,6 +16404,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "8220",
+      "name": "Sincere McCormick",
+      "position": "RB",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11729",
       "name": "Sione Vaki",
       "position": "RB",
@@ -21300,18 +21312,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8220",
-      "name": "Sincere McCormick",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "3615",
       "name": "Sione Houma",
       "position": "RB",
@@ -23352,6 +23352,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "13325",
+      "name": "Jordan Hudson",
+      "position": "WR",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12634",
       "name": "Jordan Watkins",
       "position": "WR",
@@ -23576,6 +23588,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "5773",
+      "name": "KhaDarel Hodge",
+      "position": "WR",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -24199,6 +24223,30 @@
       "status": "Active",
       "injury_status": null,
       "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13663",
+      "name": "Wesley Grimes",
+      "position": "WR",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13662",
+      "name": "Will Pauling",
+      "position": "WR",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -30084,18 +30132,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13325",
-      "name": "Jordan Hudson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12761",
       "name": "Jordan Moore",
       "position": "WR",
@@ -31244,18 +31280,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5773",
-      "name": "KhaDarel Hodge",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 31,
-      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35676,18 +35700,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13663",
-      "name": "Wesley Grimes",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7558",
       "name": "Whop Philyor",
       "position": "WR",
@@ -35696,18 +35708,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13662",
-      "name": "Will Pauling",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36910,6 +36910,18 @@
       "years_exp": 1,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "13432",
+      "name": "Khalil Dinkins",
+      "position": "TE",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8484",
@@ -40592,18 +40604,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13432",
-      "name": "Khalil Dinkins",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
