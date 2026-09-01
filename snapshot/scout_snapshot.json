@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T14:57:32.350805Z",
+  "generated_at_utc": "2026-09-01T15:25:32.967766Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -16212,6 +16212,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7087",
+      "name": "Jonathan Ward",
+      "position": "RB",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11378",
       "name": "Jordan Mims",
       "position": "RB",
@@ -19280,18 +19292,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7087",
-      "name": "Jonathan Ward",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22584,6 +22584,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "3269",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 33,
+      "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4950",
       "name": "Christian Kirk",
       "position": "WR",
@@ -23062,6 +23074,18 @@
       "years_exp": 5,
       "depth_chart_position": "LWR",
       "depth_chart_order": 7
+    },
+    {
+      "player_id": "13313",
+      "name": "Emmanuel Henderson",
+      "position": "WR",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13316",
@@ -23614,6 +23638,18 @@
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "12151",
+      "name": "Julian Hicks",
+      "position": "WR",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12743",
@@ -24800,6 +24836,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13042",
+      "name": "Xavier Guillory",
+      "position": "WR",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -26504,18 +26552,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "3269",
-      "name": "Chris Moore",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28376,18 +28412,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13313",
-      "name": "Emmanuel Henderson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -30824,18 +30848,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12151",
-      "name": "Julian Hicks",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35772,18 +35784,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13042",
-      "name": "Xavier Guillory",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13916",
       "name": "Xavier Loyd",
       "position": "WR",
@@ -37724,6 +37724,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13705",
+      "name": "Ty Pezza",
+      "position": "TE",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -42308,18 +42320,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13705",
-      "name": "Ty Pezza",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
