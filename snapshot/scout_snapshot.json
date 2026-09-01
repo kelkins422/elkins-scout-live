@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T20:13:31.896686Z",
+  "generated_at_utc": "2026-09-01T20:29:22.113547Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,6 +70,7 @@
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -200,7 +201,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "shard": 620,
     "last_message_id": "1400565890864381952",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
@@ -12180,6 +12180,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "6185",
+      "name": "Easton Stick",
+      "position": "QB",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6011",
       "name": "Gardner Minshew",
       "position": "QB",
@@ -13724,18 +13736,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6185",
-      "name": "Easton Stick",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -16320,6 +16320,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "6918",
+      "name": "Salvon Ahmed",
+      "position": "RB",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4147",
       "name": "Samaje Perine",
       "position": "RB",
@@ -16522,6 +16534,18 @@
       "years_exp": 2,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "11299",
+      "name": "Zavier Scott",
+      "position": "RB",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8122",
@@ -21180,18 +21204,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "6918",
-      "name": "Salvon Ahmed",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12308",
       "name": "Samson Evans",
       "position": "RB",
@@ -22164,18 +22176,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11299",
-      "name": "Zavier Scott",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12865",
       "name": "AJ Henning",
       "position": "WR",
@@ -22436,6 +22436,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "10444",
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 26,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22978,6 +22990,18 @@
       "years_exp": 0,
       "depth_chart_position": "LWR",
       "depth_chart_order": 9
+    },
+    {
+      "player_id": "12746",
+      "name": "JP Richardson",
+      "position": "WR",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13696",
@@ -25676,18 +25700,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "10444",
-      "name": "Cedric Tillman",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 26,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28579,18 +28591,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12746",
-      "name": "JP Richardson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -36324,6 +36324,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11820",
+      "name": "Devin Culp",
+      "position": "TE",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5288",
       "name": "Donnie Ernsberger",
       "position": "TE",
@@ -36496,7 +36508,7 @@
       "name": "Hayden Large",
       "position": "TE",
       "team": "CHI",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
@@ -37340,6 +37352,18 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8583",
+      "name": "Stone Smartt",
+      "position": "TE",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -38972,18 +38996,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11820",
-      "name": "Devin Culp",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -41996,18 +42008,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8583",
-      "name": "Stone Smartt",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
