@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T12:45:38.832323Z",
+  "generated_at_utc": "2026-09-01T14:31:31.957419Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15912,6 +15912,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "9220",
+      "name": "Evan Hull",
+      "position": "RB",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11573",
       "name": "Frank Gore",
       "position": "RB",
@@ -18572,18 +18584,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "9220",
-      "name": "Evan Hull",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23134,6 +23134,30 @@
       "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": 7
+    },
+    {
+      "player_id": "13670",
+      "name": "Harrison Wallace",
+      "position": "WR",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8861",
@@ -28752,18 +28776,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13670",
-      "name": "Harrison Wallace",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11607",
       "name": "Hayden Hatten",
       "position": "WR",
@@ -28832,18 +28844,6 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -37536,6 +37536,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "12217",
+      "name": "Shawn Bowman",
+      "position": "TE",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6451",
       "name": "Stephen Carlson",
       "position": "TE",
@@ -41900,18 +41912,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12217",
-      "name": "Shawn Bowman",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
