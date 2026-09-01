@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T02:56:33.831538Z",
+  "generated_at_utc": "2026-09-01T03:16:54.124893Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -11969,8 +11969,8 @@
     "by_position": {
       "QB": 297,
       "RB": 553,
-      "WR": 1147,
-      "TE": 550
+      "WR": 1146,
+      "TE": 551
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -23196,18 +23196,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12938",
-      "name": "Jackson Meeks",
-      "position": "WR",
-      "team": "DET",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": "TE",
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11616",
       "name": "Jacob Cowing",
       "position": "WR",
@@ -29165,7 +29153,7 @@
       "position": "WR",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
@@ -36768,6 +36756,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "12938",
+      "name": "Jackson Meeks",
+      "position": "TE",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "TE",
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12817",
       "name": "Jake Briningstool",
       "position": "TE",
@@ -41525,7 +41525,7 @@
       "position": "TE",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "IR",
       "age": null,
       "years_exp": 0,
       "depth_chart_position": null,
