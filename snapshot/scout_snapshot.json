@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T04:54:29.872474Z",
+  "generated_at_utc": "2026-09-02T05:12:14.673161Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15728,6 +15728,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "13277",
+      "name": "CJ Donaldson",
+      "position": "RB",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11582",
       "name": "Carson Steele",
       "position": "RB",
@@ -16218,6 +16230,18 @@
       "years_exp": 9,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "7599",
+      "name": "Jermar Jefferson",
+      "position": "RB",
+      "team": "MIN",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 26,
+      "years_exp": 5,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "8143",
@@ -16832,6 +16856,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "8139",
+      "name": "Zamir White",
+      "position": "RB",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11299",
       "name": "Zavier Scott",
       "position": "RB",
@@ -17428,18 +17464,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13277",
-      "name": "CJ Donaldson",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -19230,18 +19254,6 @@
       "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "7599",
-      "name": "Jermar Jefferson",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 26,
-      "years_exp": 5,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 5
     },
     {
       "player_id": "8120",
@@ -22184,18 +22196,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8139",
-      "name": "Zamir White",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8428",
       "name": "Zander Horvath",
       "position": "RB",
@@ -23024,6 +23024,18 @@
       "depth_chart_order": 9
     },
     {
+      "player_id": "12946",
+      "name": "Dontae Fleming",
+      "position": "WR",
+      "team": "MIN",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "5282",
       "name": "Duplicate Player",
       "position": "WR",
@@ -23382,6 +23394,18 @@
       "years_exp": 3,
       "depth_chart_position": "SWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "11506",
+      "name": "Jalen Moreno-Cropper",
+      "position": "WR",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12505",
@@ -24092,6 +24116,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13890",
+      "name": "Michael Briscoe",
+      "position": "WR",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8202",
       "name": "Michael Woods",
       "position": "WR",
@@ -24496,6 +24532,18 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "9492",
+      "name": "Trey Palmer",
+      "position": "WR",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -27884,18 +27932,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12946",
-      "name": "Dontae Fleming",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": 6
-    },
-    {
       "player_id": "8166",
       "name": "Dontario Drummond",
       "position": "WR",
@@ -29188,18 +29224,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11506",
-      "name": "Jalen Moreno-Cropper",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -32564,18 +32588,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13890",
-      "name": "Michael Briscoe",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "455",
       "name": "Michael Crabtree",
       "position": "WR",
@@ -35288,18 +35300,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "9492",
-      "name": "Trey Palmer",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5139",
       "name": "Trey Quinn",
       "position": "WR",
@@ -36140,6 +36140,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12941",
+      "name": "Bryson Nesbit",
+      "position": "TE",
+      "team": "MIN",
+      "status": "Inactive",
+      "injury_status": "Questionable",
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11599",
       "name": "Cade Stover",
       "position": "TE",
@@ -36162,6 +36174,18 @@
       "years_exp": 1,
       "depth_chart_position": "TE",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "12062",
+      "name": "Cam Grandy",
+      "position": "TE",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "10210",
@@ -38336,18 +38360,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12941",
-      "name": "Bryson Nesbit",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "4184",
       "name": "Bucky Hodges",
       "position": "TE",
@@ -38452,18 +38464,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12062",
-      "name": "Cam Grandy",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
