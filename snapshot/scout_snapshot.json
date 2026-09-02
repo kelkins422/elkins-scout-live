@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T15:44:42.094388Z",
+  "generated_at_utc": "2026-09-02T16:19:53.921864Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1313,7 +1313,7 @@
           "player_id": "11557",
           "name": "Joe Milton",
           "position": "QB",
-          "team": "DAL",
+          "team": null,
           "status": "Active",
           "injury_status": null
         },
@@ -1454,7 +1454,7 @@
           "player_id": "11557",
           "name": "Joe Milton",
           "position": "QB",
-          "team": "DAL",
+          "team": null,
           "status": "Active",
           "injury_status": null
         },
@@ -7255,7 +7255,7 @@
             "player_id": "11557",
             "name": "Joe Milton",
             "position": "QB",
-            "team": "DAL",
+            "team": null,
             "status": "Active",
             "injury_status": null
           },
@@ -7296,7 +7296,7 @@
             "player_id": "11557",
             "name": "Joe Milton",
             "position": "QB",
-            "team": "DAL",
+            "team": null,
             "status": "Active",
             "injury_status": null
           },
@@ -12009,11 +12009,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2546,
+    "total": 2545,
     "by_position": {
       "QB": 297,
       "RB": 552,
-      "WR": 1146,
+      "WR": 1145,
       "TE": 551
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -16592,18 +16592,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "14008",
-      "name": "Rodney Hammond",
-      "position": "RB",
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13416",
       "name": "Roman Hemby",
       "position": "RB",
@@ -16736,18 +16724,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13780",
-      "name": "Terion Stewart",
-      "position": "RB",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6012",
       "name": "Travis Homer",
       "position": "RB",
@@ -16828,18 +16804,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12826",
-      "name": "Ulysses Bentley",
-      "position": "RB",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -21092,6 +21056,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "14008",
+      "name": "Rodney Hammond",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7101",
       "name": "Rodney Smith",
       "position": "RB",
@@ -21584,6 +21560,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13780",
+      "name": "Terion Stewart",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4408",
       "name": "Terrell Newby",
       "position": "RB",
@@ -22036,6 +22024,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12826",
+      "name": "Ulysses Bentley",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22734,18 +22734,6 @@
       "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": 7
-    },
-    {
-      "player_id": "12892",
-      "name": "Da'Quan Felton",
-      "position": "WR",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "12888",
@@ -23864,18 +23852,6 @@
       "depth_chart_order": 8
     },
     {
-      "player_id": "8200",
-      "name": "Kevin Austin",
-      "position": "WR",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5773",
       "name": "KhaDarel Hodge",
       "position": "WR",
@@ -24738,18 +24714,6 @@
       "years_exp": 3,
       "depth_chart_position": "SWR",
       "depth_chart_order": 5
-    },
-    {
-      "player_id": "11921",
-      "name": "Xavier Weaver",
-      "position": "WR",
-      "team": "ARI",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "830",
@@ -26704,6 +26668,18 @@
       "injury_status": "Questionable",
       "age": 29,
       "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12892",
+      "name": "Da'Quan Felton",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -31384,6 +31360,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8200",
+      "name": "Kevin Austin",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -37736,18 +37724,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12079",
-      "name": "Treyton Welch",
-      "position": "TE",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13705",
       "name": "Ty Pezza",
       "position": "TE",
@@ -42316,6 +42292,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12079",
+      "name": "Treyton Welch",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
