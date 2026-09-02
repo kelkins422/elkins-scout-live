@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T02:46:40.903734Z",
+  "generated_at_utc": "2026-09-02T03:13:20.437771Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,6 +202,7 @@
       "st_ff": 0.0
     },
     "last_message_id": "1400682663769038848",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -211,14 +212,11 @@
     "last_message_time": 1788311279769,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +243,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -12128,6 +12128,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "11851",
+      "name": "Carter Bradley",
+      "position": "QB",
+      "team": "JAX",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "1737",
       "name": "Case Keenum",
       "position": "QB",
@@ -12416,6 +12428,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "13428",
+      "name": "Joey Aguilar",
+      "position": "QB",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "260",
       "name": "Josh Johnson",
       "position": "QB",
@@ -12606,6 +12630,18 @@
       "years_exp": 9,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "4464",
+      "name": "Nick Mullens",
+      "position": "QB",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 9,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "4926",
@@ -13326,18 +13362,6 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "11851",
-      "name": "Carter Bradley",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3
     },
     {
       "player_id": "7376",
@@ -14360,18 +14384,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13428",
-      "name": "Joey Aguilar",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6231",
       "name": "John Lovett",
       "position": "QB",
@@ -15004,18 +15016,6 @@
       "injury_status": null,
       "age": 34,
       "years_exp": 11,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "4464",
-      "name": "Nick Mullens",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 31,
-      "years_exp": 9,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -16024,6 +16024,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13348",
+      "name": "J'Mari Taylor",
+      "position": "RB",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -18772,18 +18784,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13348",
-      "name": "J'Mari Taylor",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22340,6 +22340,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "7746",
+      "name": "Austin Trammell",
+      "position": "WR",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12889",
       "name": "Beaux Collins",
       "position": "WR",
@@ -23140,6 +23152,18 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13074",
+      "name": "Isaiah Neyor",
+      "position": "WR",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23972,6 +23996,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13645",
+      "name": "Michael Wortham",
+      "position": "WR",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11068",
       "name": "Mitch Tinsley",
       "position": "WR",
@@ -24296,6 +24332,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "8013",
+      "name": "Tim Jones",
+      "position": "WR",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4351",
       "name": "Tim Patrick",
       "position": "WR",
@@ -24316,6 +24364,18 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13356",
+      "name": "Trebor Pena",
+      "position": "WR",
+      "team": "JAX",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -25156,18 +25216,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7746",
-      "name": "Austin Trammell",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28623,18 +28671,6 @@
       "status": "Active",
       "injury_status": null,
       "age": null,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13074",
-      "name": "Isaiah Neyor",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -32636,18 +32672,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13645",
-      "name": "Michael Wortham",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8828",
       "name": "Michael Young",
       "position": "WR",
@@ -34904,18 +34928,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8013",
-      "name": "Tim Jones",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5714",
       "name": "Tim Wilson",
       "position": "WR",
@@ -35140,18 +35152,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13356",
-      "name": "Trebor Pena",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36282,6 +36282,18 @@
       "years_exp": 4,
       "depth_chart_position": "RB",
       "depth_chart_order": 3
+    },
+    {
+      "player_id": "14069",
+      "name": "Connor Hulstein",
+      "position": "TE",
+      "team": "NYJ",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13355",
@@ -37556,6 +37568,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12113",
+      "name": "Thomas Yassmin",
+      "position": "TE",
+      "team": "GB",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "11716",
       "name": "Tip Reiman",
       "position": "TE",
@@ -38800,18 +38824,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "14069",
-      "name": "Connor Hulstein",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -42174,18 +42186,6 @@
       "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "12113",
-      "name": "Thomas Yassmin",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 6
     },
     {
       "player_id": "2595",
