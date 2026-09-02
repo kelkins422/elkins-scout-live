@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-01T23:52:17.404288Z",
+  "generated_at_utc": "2026-09-02T00:44:55.685918Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,9 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -200,9 +197,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
     "shard": 620,
+    "sport": "nfl",
     "last_message_id": "1400565890864381952",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
     "last_author_display_name": "kelkins81",
     "last_author_id": "1362238574824546304",
@@ -211,9 +210,13 @@
     "last_message_text_map": null,
     "last_message_time": 1788283438940,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,9 +243,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -12009,7 +12009,7 @@
       "age": 38,
       "years_exp": 15,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "13557",
@@ -12096,6 +12096,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "8413",
+      "name": "Chris Oladokun",
+      "position": "QB",
+      "team": "KC",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 28,
+      "years_exp": 4,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "6147",
       "name": "Clayton Thorson",
       "position": "QB",
@@ -12132,6 +12144,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "12773",
+      "name": "DJ Uiagalelei",
+      "position": "QB",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7585",
       "name": "Davis Mills",
       "position": "QB",
@@ -12165,7 +12189,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "5845",
@@ -12273,7 +12297,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "7262",
@@ -12489,7 +12513,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13597",
@@ -12561,7 +12585,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "7583",
@@ -12681,7 +12705,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13306",
@@ -12765,7 +12789,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "4924",
@@ -13368,18 +13392,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8413",
-      "name": "Chris Oladokun",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 28,
-      "years_exp": 4,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "10217",
       "name": "Clayton Tune",
       "position": "QB",
@@ -13508,18 +13520,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12773",
-      "name": "DJ Uiagalelei",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -15564,6 +15564,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12928",
+      "name": "Amar Johnson",
+      "position": "RB",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "2359",
       "name": "Ameer Abdullah",
       "position": "RB",
@@ -15573,7 +15585,7 @@
       "age": 33,
       "years_exp": 11,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "14041",
@@ -15657,7 +15669,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11582",
@@ -15729,7 +15741,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 3
     },
     {
       "player_id": "6659",
@@ -15753,7 +15765,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "8129",
@@ -15828,6 +15840,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "13778",
+      "name": "EJ Smith",
+      "position": "RB",
+      "team": "KC",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "13423",
       "name": "Eli Heidenreich",
       "position": "RB",
@@ -15837,7 +15861,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "4263",
@@ -15861,7 +15885,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "9220",
@@ -15908,6 +15932,18 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13603",
+      "name": "Gregory Desrosiers",
+      "position": "RB",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -15969,7 +16005,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "12356",
@@ -16005,7 +16041,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 2
     },
     {
       "player_id": "11439",
@@ -16052,6 +16088,18 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13419",
+      "name": "Jaydn Ott",
+      "position": "RB",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -16125,7 +16173,7 @@
       "age": 25,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5995",
@@ -16272,6 +16320,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12897",
+      "name": "Nathan Carter",
+      "position": "RB",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13437",
       "name": "Noah Whittington",
       "position": "RB",
@@ -16341,7 +16401,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13418",
@@ -16362,7 +16422,7 @@
       "team": "DEN",
       "status": "Active",
       "injury_status": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -16425,7 +16485,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "8220",
@@ -16533,7 +16593,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8230",
@@ -16617,7 +16677,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11299",
@@ -16844,18 +16904,6 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12928",
-      "name": "Amar Johnson",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -18336,18 +18384,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13778",
-      "name": "EJ Smith",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
-    },
-    {
       "player_id": "12066",
       "name": "Elijah Collins",
       "position": "RB",
@@ -18584,18 +18620,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13603",
-      "name": "Gregory Desrosiers",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -19088,18 +19112,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13419",
-      "name": "Jaydn Ott",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -20563,18 +20575,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12897",
-      "name": "Nathan Carter",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -22224,6 +22224,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "12863",
+      "name": "Andrew Armstrong",
+      "position": "WR",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "3702",
       "name": "Andy Jones",
       "position": "WR",
@@ -22293,7 +22305,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12889",
@@ -22545,7 +22557,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 9
     },
     {
       "player_id": "12829",
@@ -22581,7 +22593,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 7
     },
     {
       "player_id": "12892",
@@ -22594,6 +22606,18 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "13202",
+      "name": "Dalevon Campbell",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": 9
     },
     {
       "player_id": "13336",
@@ -22788,6 +22812,18 @@
       "depth_chart_order": 6
     },
     {
+      "player_id": "13632",
+      "name": "Devonte Ross",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11629",
       "name": "Devontez Walker",
       "position": "WR",
@@ -22905,7 +22941,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13313",
@@ -22940,6 +22976,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23013,7 +23061,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "4451",
@@ -23157,7 +23205,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "11034",
@@ -23193,7 +23241,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11633",
@@ -23337,7 +23385,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "10225",
@@ -23433,7 +23481,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12151",
@@ -23517,7 +23565,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 6
     },
     {
       "player_id": "3634",
@@ -23553,7 +23601,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "12670",
@@ -23589,7 +23637,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "8200",
@@ -23649,7 +23697,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12699",
@@ -23673,7 +23721,7 @@
       "age": 31,
       "years_exp": 10,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "13541",
@@ -23805,7 +23853,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "7618",
@@ -23964,6 +24012,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "13905",
+      "name": "Omari Evans",
+      "position": "WR",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5096",
       "name": "Ray-Ray McCloud",
       "position": "WR",
@@ -24070,6 +24130,18 @@
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 8
+    },
+    {
+      "player_id": "13604",
+      "name": "Sincere Brown",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": 10
     },
     {
       "player_id": "8168",
@@ -24189,7 +24261,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 6
     },
     {
       "player_id": "7595",
@@ -24333,7 +24405,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11921",
@@ -24344,8 +24416,8 @@
       "injury_status": "Questionable",
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "830",
@@ -24716,18 +24788,6 @@
       "injury_status": null,
       "age": 35,
       "years_exp": 13,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12863",
-      "name": "Andrew Armstrong",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -26532,18 +26592,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13202",
-      "name": "Dalevon Campbell",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": 9
-    },
-    {
       "player_id": "11438",
       "name": "Dallas Daniels",
       "position": "WR",
@@ -27588,18 +27636,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13632",
-      "name": "Devonte Ross",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8019",
       "name": "Devontres Dukes",
       "position": "WR",
@@ -28232,18 +28268,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6045",
-      "name": "Gary Jennings",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -33012,18 +33036,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13905",
-      "name": "Omari Evans",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13941",
       "name": "Omari Kelly",
       "position": "WR",
@@ -34270,18 +34282,6 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "13604",
-      "name": "Sincere Brown",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": 10
     },
     {
       "player_id": "8191",
@@ -35973,7 +35973,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11082",
@@ -35984,7 +35984,7 @@
       "injury_status": "IR",
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
+      "depth_chart_position": "TE",
       "depth_chart_order": null
     },
     {
@@ -36033,7 +36033,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "10224",
@@ -36069,7 +36069,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7891",
@@ -36129,7 +36129,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13407",
@@ -36213,7 +36213,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11942",
@@ -36225,7 +36225,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8181",
@@ -36456,6 +36456,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "13630",
+      "name": "Evan Svoboda",
+      "position": "TE",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7531",
       "name": "Feleipe Franks",
       "position": "TE",
@@ -36657,7 +36669,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "12817",
@@ -36753,7 +36765,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11113",
@@ -37014,7 +37026,7 @@
       "team": "GB",
       "status": "Active",
       "injury_status": "PUP",
-      "age": 25,
+      "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
@@ -37029,7 +37041,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13013",
@@ -37269,7 +37281,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13870",
@@ -37281,7 +37293,7 @@
       "age": null,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "7536",
@@ -37365,7 +37377,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12217",
@@ -37568,8 +37580,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 3
     },
     {
       "player_id": "3271",
@@ -39360,18 +39372,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13630",
-      "name": "Evan Svoboda",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7483",
       "name": "Farrod Green",
       "position": "TE",
@@ -40461,7 +40461,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 6
     },
     {
       "player_id": "8778",
