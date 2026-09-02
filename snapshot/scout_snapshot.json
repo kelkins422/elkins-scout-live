@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T13:53:36.068503Z",
+  "generated_at_utc": "2026-09-02T14:13:21.809144Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -199,10 +199,9 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 620,
     "sport": "nfl",
     "last_message_id": "1400682663769038848",
-    "draft_id": "1353413007752839168",
+    "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,6 +211,7 @@
     "last_message_time": 1788311279769,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -240,9 +240,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -4603,7 +4603,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12498",
@@ -4760,7 +4760,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12455",
@@ -8992,7 +8992,7 @@
             "position": "WR",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
