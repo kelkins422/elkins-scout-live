@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T03:13:20.437771Z",
+  "generated_at_utc": "2026-09-02T03:30:09.804705Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,7 +202,6 @@
       "st_ff": 0.0
     },
     "last_message_id": "1400682663769038848",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,11 +211,14 @@
     "last_message_time": 1788311279769,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -243,8 +245,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -15608,6 +15608,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13779",
+      "name": "Al-Jay Henderson",
+      "position": "RB",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12928",
       "name": "Amar Johnson",
       "position": "RB",
@@ -15870,6 +15882,18 @@
       "years_exp": 7,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "13725",
+      "name": "Dominic Richardson",
+      "position": "RB",
+      "team": "NYJ",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 7
     },
     {
       "player_id": "11574",
@@ -16888,18 +16912,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13779",
-      "name": "Al-Jay Henderson",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -18330,18 +18342,6 @@
       "years_exp": 11,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "13725",
-      "name": "Dominic Richardson",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 7
     },
     {
       "player_id": "2820",
@@ -22496,6 +22496,18 @@
       "depth_chart_order": 8
     },
     {
+      "player_id": "12906",
+      "name": "Cam Camper",
+      "position": "WR",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13726",
       "name": "Camden Brown",
       "position": "WR",
@@ -23348,6 +23360,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12925",
+      "name": "Jamaal Pritchett",
+      "position": "WR",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11633",
       "name": "Jamari Thrash",
       "position": "WR",
@@ -23920,6 +23944,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13825",
+      "name": "Malik McClain",
+      "position": "WR",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -25906,18 +25942,6 @@
     {
       "player_id": "8251",
       "name": "Calvin Jackson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12906",
-      "name": "Cam Camper",
       "position": "WR",
       "team": null,
       "status": "Active",
@@ -29252,18 +29276,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12925",
-      "name": "Jamaal Pritchett",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "4198",
       "name": "Jamal Agnew",
       "position": "WR",
@@ -31996,18 +32008,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13825",
-      "name": "Malik McClain",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36224,6 +36224,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "13839",
+      "name": "Chase Curtis",
+      "position": "TE",
+      "team": "NYJ",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
+    },
+    {
       "player_id": "3048",
       "name": "Chris Manhertz",
       "position": "TE",
@@ -38574,18 +38586,6 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "13839",
-      "name": "Chase Curtis",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 5
     },
     {
       "player_id": "7481",
