@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T17:14:20.188034Z",
+  "generated_at_utc": "2026-09-02T17:29:18.722821Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -210,10 +210,12 @@
     "last_message_text_map": null,
     "last_message_time": 1788362948891,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
     "roster_positions": [
       "QB",
@@ -241,17 +243,15 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
-    "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 1,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -37352,6 +37352,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "3258",
+      "name": "Nick Vannett",
+      "position": "TE",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 33,
+      "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8107",
       "name": "Nikola Kalinic",
       "position": "TE",
@@ -41404,18 +41416,6 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "3258",
-      "name": "Nick Vannett",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
