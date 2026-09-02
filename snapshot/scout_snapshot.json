@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T16:19:53.921864Z",
+  "generated_at_utc": "2026-09-02T16:42:28.881799Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -214,7 +214,11 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -241,10 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2838,7 +2838,7 @@
           "position": "RB",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -3100,7 +3100,7 @@
           "position": "RB",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "settings": {
@@ -11596,7 +11596,7 @@
             "position": "RB",
             "team": "TB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -22532,18 +22532,6 @@
       "depth_chart_order": 8
     },
     {
-      "player_id": "12906",
-      "name": "Cam Camper",
-      "position": "WR",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13726",
       "name": "Camden Brown",
       "position": "WR",
@@ -23178,18 +23166,6 @@
       "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": 7
-    },
-    {
-      "player_id": "13776",
-      "name": "Hank Beatty",
-      "position": "WR",
-      "team": "TEN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13670",
@@ -24704,6 +24680,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "12520",
+      "name": "Xavier Restrepo",
+      "position": "WR",
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11168",
       "name": "Xavier Smith",
       "position": "WR",
@@ -26014,6 +26002,18 @@
     {
       "player_id": "8251",
       "name": "Calvin Jackson",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12906",
+      "name": "Cam Camper",
       "position": "WR",
       "team": null,
       "status": "Active",
@@ -28600,6 +28600,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13776",
+      "name": "Hank Beatty",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35800,18 +35812,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12520",
-      "name": "Xavier Restrepo",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
