@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T22:29:57.714747Z",
+  "generated_at_utc": "2026-09-02T22:44:15.780591Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -214,7 +214,11 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -241,10 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -12012,9 +12012,9 @@
     "total": 2545,
     "by_position": {
       "QB": 297,
-      "RB": 553,
+      "RB": 554,
       "WR": 1145,
-      "TE": 550
+      "TE": 549
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -16470,6 +16470,18 @@
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "13516",
+      "name": "Max Bredeson",
+      "position": "RB",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "7607",
@@ -37230,18 +37242,6 @@
       "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "13516",
-      "name": "Max Bredeson",
-      "position": "TE",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 4
     },
     {
       "player_id": "12154",
