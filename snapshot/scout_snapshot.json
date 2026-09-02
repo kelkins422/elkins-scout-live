@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T01:46:04.064725Z",
+  "generated_at_utc": "2026-09-02T02:21:30.801619Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -36395,7 +36395,7 @@
       "player_id": "13210",
       "name": "Drake Dabney",
       "position": "TE",
-      "team": "DET",
+      "team": "GB",
       "status": "Active",
       "injury_status": null,
       "age": 24,
