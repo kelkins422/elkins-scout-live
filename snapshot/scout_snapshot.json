@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T03:30:09.804705Z",
+  "generated_at_utc": "2026-09-02T03:52:29.388974Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -16340,6 +16340,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "12969",
+      "name": "Lan Larison",
+      "position": "RB",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12544",
       "name": "LeQuint Allen",
       "position": "RB",
@@ -19960,18 +19972,6 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12969",
-      "name": "Lan Larison",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23826,6 +23826,18 @@
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "13830",
+      "name": "Kyle Dixon",
+      "position": "WR",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12699",
@@ -31540,18 +31552,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13830",
-      "name": "Kyle Dixon",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
