@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T04:15:23.219600Z",
+  "generated_at_utc": "2026-09-02T04:41:42.941362Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15836,6 +15836,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "4718",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "age": 32,
+      "years_exp": 9,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13339",
       "name": "Davon Booth",
       "position": "RB",
@@ -16228,6 +16240,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13010",
+      "name": "Jordan Waters",
+      "position": "RB",
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -17840,18 +17864,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "4718",
-      "name": "Dare Ogunbowale",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 32,
-      "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7316",
       "name": "Darius Bradwell",
       "position": "RB",
@@ -19419,18 +19431,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13010",
-      "name": "Jordan Waters",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -22424,6 +22424,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13011",
+      "name": "Brennan Presley",
+      "position": "WR",
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8414",
       "name": "Britain Covey",
       "position": "WR",
@@ -22566,6 +22578,18 @@
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "13410",
+      "name": "Chase Roberts",
+      "position": "WR",
+      "team": "LV",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": 10
     },
     {
       "player_id": "7521",
@@ -22902,6 +22926,18 @@
       "years_exp": 2,
       "depth_chart_position": "SWR",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "8253",
+      "name": "Deven Thompkins",
+      "position": "WR",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6847",
@@ -25640,18 +25676,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13011",
-      "name": "Brennan Presley",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "2331",
       "name": "Breshad Perriman",
       "position": "WR",
@@ -26178,18 +26202,6 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "13410",
-      "name": "Chase Roberts",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": "IR",
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": 10
     },
     {
       "player_id": "3582",
@@ -27616,18 +27628,6 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8253",
-      "name": "Deven Thompkins",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35972,6 +35972,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "6843",
+      "name": "Albert Okwuegbunam",
+      "position": "TE",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "3202",
       "name": "Austin Hooper",
       "position": "TE",
@@ -36246,6 +36258,18 @@
       "years_exp": 11,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "6529",
+      "name": "Chris Myarick",
+      "position": "TE",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6826",
@@ -37772,18 +37796,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "6843",
-      "name": "Albert Okwuegbunam",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5385",
       "name": "Alec Bloom",
       "position": "TE",
@@ -38632,18 +38644,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6529",
-      "name": "Chris Myarick",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
