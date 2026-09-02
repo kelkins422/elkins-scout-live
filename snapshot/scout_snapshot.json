@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-02T02:21:30.801619Z",
+  "generated_at_utc": "2026-09-02T02:46:40.903734Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,11 +201,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "last_message_id": "1400682663769038848",
-    "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -214,6 +214,11 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,11 +245,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -16388,6 +16388,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "8116",
+      "name": "Pierre Strong",
+      "position": "RB",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12472",
       "name": "Raheim Sanders",
       "position": "RB",
@@ -20828,18 +20840,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8116",
-      "name": "Pierre Strong",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7560",
       "name": "Pooka Williams",
       "position": "RB",
@@ -22542,6 +22542,18 @@
       "years_exp": 5,
       "depth_chart_position": "LWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "13674",
+      "name": "Chris Hilton",
+      "position": "WR",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "3269",
@@ -26164,18 +26176,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13674",
-      "name": "Chris Hilton",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36152,6 +36152,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "10210",
+      "name": "Cameron Latu",
+      "position": "TE",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "13580",
       "name": "Carsen Ryan",
       "position": "TE",
@@ -38442,18 +38454,6 @@
       "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "10210",
-      "name": "Cameron Latu",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 3
     },
     {
       "player_id": "11213",
