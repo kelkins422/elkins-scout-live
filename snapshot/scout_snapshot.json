@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-03T19:39:59.734936Z",
+  "generated_at_utc": "2026-09-03T21:28:39.447028Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -2232,7 +2232,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8110",
@@ -2544,7 +2544,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6819",
@@ -4561,7 +4561,7 @@
           "position": "WR",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12534",
@@ -4752,7 +4752,7 @@
           "position": "WR",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11631",
@@ -8907,7 +8907,7 @@
             "position": "WR",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -9495,7 +9495,7 @@
             "position": "RB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
