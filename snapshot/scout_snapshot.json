@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-03T19:14:19.922700Z",
+  "generated_at_utc": "2026-09-03T19:39:59.734936Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -12286,7 +12286,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "5845",
@@ -12322,7 +12322,7 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "12792",
@@ -12418,7 +12418,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "7262",
@@ -12730,7 +12730,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "7583",
@@ -22438,7 +22438,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_order": 8
     },
     {
       "player_id": "7757",
