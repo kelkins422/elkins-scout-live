@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-03T13:54:00.877448Z",
+  "generated_at_utc": "2026-09-03T14:32:19.938674Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15661,6 +15661,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12797",
+      "name": "Ahmani Marshall",
+      "position": "RB",
+      "team": "CAR",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13779",
       "name": "Al-Jay Henderson",
       "position": "RB",
@@ -17037,18 +17049,6 @@
       "injury_status": null,
       "age": 37,
       "years_exp": 15,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12797",
-      "name": "Ahmani Marshall",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
