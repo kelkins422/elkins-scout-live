@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-04T16:14:01.020573Z",
+  "generated_at_utc": "2026-09-04T21:53:46.229780Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -942,7 +942,7 @@
         {
           "player_id": "12530",
           "name": "Travis Hunter",
-          "position": "WR",
+          "position": "DB",
           "team": "JAX",
           "status": "Active",
           "injury_status": null
@@ -1041,7 +1041,7 @@
         {
           "player_id": "12530",
           "name": "Travis Hunter",
-          "position": "WR",
+          "position": "DB",
           "team": "JAX",
           "status": "Active",
           "injury_status": null
@@ -10262,7 +10262,7 @@
           "player": {
             "player_id": "12530",
             "name": "Travis Hunter",
-            "position": "WR",
+            "position": "DB",
             "team": "JAX",
             "status": "Active",
             "injury_status": null
