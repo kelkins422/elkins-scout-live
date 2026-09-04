@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-04T13:54:38.025268Z",
+  "generated_at_utc": "2026-09-04T16:14:01.020573Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,6 +197,10 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
     "last_message_id": "1401045127501254656",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -214,6 +214,11 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,11 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -7567,7 +7567,7 @@
             "player_id": "12476",
             "name": "Devin Neal",
             "position": "RB",
-            "team": "NO",
+            "team": null,
             "status": "Inactive",
             "injury_status": "Questionable"
           },
@@ -11607,7 +11607,7 @@
             "player_id": "12476",
             "name": "Devin Neal",
             "position": "RB",
-            "team": "NO",
+            "team": null,
             "status": "Inactive",
             "injury_status": "Questionable"
           }
@@ -12050,11 +12050,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2541,
+    "total": 2537,
     "by_position": {
       "QB": 298,
-      "RB": 553,
-      "WR": 1144,
+      "RB": 551,
+      "WR": 1142,
       "TE": 546
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -15985,18 +15985,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12476",
-      "name": "Devin Neal",
-      "position": "RB",
-      "team": "NO",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6130",
       "name": "Devin Singletary",
       "position": "RB",
@@ -16007,18 +15995,6 @@
       "years_exp": 7,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "13725",
-      "name": "Dominic Richardson",
-      "position": "RB",
-      "team": "NYJ",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "11574",
@@ -23065,18 +23041,6 @@
       "depth_chart_order": 10
     },
     {
-      "player_id": "12946",
-      "name": "Dontae Fleming",
-      "position": "WR",
-      "team": "MIN",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5282",
       "name": "Duplicate Player",
       "position": "WR",
@@ -24181,18 +24145,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13227",
-      "name": "Mitch Van Vooren",
-      "position": "WR",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13199",
       "name": "Montorie Foster",
       "position": "WR",
@@ -24431,18 +24383,6 @@
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 8
-    },
-    {
-      "player_id": "13604",
-      "name": "Sincere Brown",
-      "position": "WR",
-      "team": "LAC",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "8168",
@@ -32881,6 +32821,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13227",
+      "name": "Mitch Van Vooren",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4727",
       "name": "Mitchell Paige",
       "position": "WR",
@@ -36013,18 +35965,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "6843",
-      "name": "Albert Okwuegbunam",
-      "position": "TE",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "3202",
       "name": "Austin Hooper",
       "position": "TE",
@@ -37881,6 +37821,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6843",
+      "name": "Albert Okwuegbunam",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
