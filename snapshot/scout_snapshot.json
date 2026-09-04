@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-04T01:43:49.168127Z",
+  "generated_at_utc": "2026-09-04T03:13:31.084705Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1401045127501254656",
+    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,7 +202,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1401045127501254656",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -214,6 +214,9 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,9 +243,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -12157,6 +12157,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12538",
+      "name": "Brady Cook",
+      "position": "QB",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
+    },
+    {
       "player_id": "3161",
       "name": "Carson Wentz",
       "position": "QB",
@@ -13199,18 +13211,6 @@
       "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "12538",
-      "name": "Brady Cook",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "3357",
