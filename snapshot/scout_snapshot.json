@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-04T23:25:18.278374Z",
+  "generated_at_utc": "2026-09-04T23:37:35.373017Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -24270,7 +24270,7 @@
       "position": "WR",
       "team": "CHI",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 8,
       "depth_chart_position": "RWR",
