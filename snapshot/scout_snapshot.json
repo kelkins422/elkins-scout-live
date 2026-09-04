@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-03T21:53:40.616868Z",
+  "generated_at_utc": "2026-09-04T00:44:55.094924Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -15993,8 +15993,8 @@
       "injury_status": "Questionable",
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6130",
@@ -16017,8 +16017,8 @@
       "injury_status": "Questionable",
       "age": 25,
       "years_exp": 0,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11574",
@@ -23074,7 +23074,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": null
     },
     {
       "player_id": "5282",
@@ -24430,7 +24430,7 @@
       "age": null,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": null
     },
     {
       "player_id": "8168",
@@ -37339,7 +37339,7 @@
       "team": "JAX",
       "status": "Active",
       "injury_status": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 0,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
