@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-04T00:44:55.094924Z",
+  "generated_at_utc": "2026-09-04T00:57:54.964385Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -24361,6 +24361,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "10221",
+      "name": "Ronnie Bell",
+      "position": "WR",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11421",
       "name": "Ryan Miller",
       "position": "WR",
@@ -33969,18 +33981,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "10221",
-      "name": "Ronnie Bell",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
