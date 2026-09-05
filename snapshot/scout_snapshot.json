@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-05T04:13:13.421020Z",
+  "generated_at_utc": "2026-09-05T09:40:42.796472Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -22762,7 +22762,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 11
     },
     {
       "player_id": "6453",
@@ -23050,7 +23050,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 10
     },
     {
       "player_id": "5282",
@@ -23710,7 +23710,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "7066",
@@ -24082,7 +24082,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "7618",
@@ -36010,7 +36010,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11082",
@@ -36310,7 +36310,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13355",
@@ -37258,7 +37258,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11433",
@@ -37414,7 +37414,7 @@
       "age": null,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "7536",
