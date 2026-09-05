@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-05T09:40:42.796472Z",
+  "generated_at_utc": "2026-09-05T16:12:48.709188Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,7 +197,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
     "last_message_id": "1401045127501254656",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -211,14 +212,8 @@
     "last_message_time": 1788397697857,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +240,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
-    "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 1,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -37633,6 +37633,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "8924",
+      "name": "Thomas Odukoya",
+      "position": "TE",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12113",
       "name": "Thomas Yassmin",
       "position": "TE",
@@ -42105,18 +42117,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8924",
-      "name": "Thomas Odukoya",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
