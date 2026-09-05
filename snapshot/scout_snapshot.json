@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-05T16:12:48.709188Z",
+  "generated_at_utc": "2026-09-05T16:28:31.451841Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,12 +201,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
     "last_message_id": "1401045127501254656",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,8 +211,14 @@
     "last_message_time": 1788397697857,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,18 +245,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 1,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -12050,11 +12050,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2537,
+    "total": 2533,
     "by_position": {
-      "QB": 298,
-      "RB": 552,
-      "WR": 1142,
+      "QB": 297,
+      "RB": 551,
+      "WR": 1140,
       "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -12203,18 +12203,6 @@
       "years_exp": 14,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
-    },
-    {
-      "player_id": "8413",
-      "name": "Chris Oladokun",
-      "position": "QB",
-      "team": "KC",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 29,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "6147",
@@ -16019,18 +16007,6 @@
       "years_exp": 2,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "13778",
-      "name": "EJ Smith",
-      "position": "RB",
-      "team": "KC",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13423",
@@ -22645,18 +22621,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13410",
-      "name": "Chase Roberts",
-      "position": "WR",
-      "team": "LV",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7521",
       "name": "Chris Blair",
       "position": "WR",
@@ -24273,18 +24237,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5096",
-      "name": "Ray-Ray McCloud",
-      "position": "WR",
-      "team": "CHI",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 29,
-      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
