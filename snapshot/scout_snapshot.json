@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-05T21:39:08.997525Z",
+  "generated_at_utc": "2026-09-05T22:39:05.352468Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,10 +201,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
     "last_message_id": "1401045127501254656",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -210,8 +210,8 @@
     "last_message_text_map": null,
     "last_message_time": 1788397697857,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
@@ -3237,18 +3237,18 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13301",
-          "name": "Antonio Williams",
-          "position": "WR",
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13330",
           "name": "Kenyon Sadiq",
           "position": "TE",
           "team": "NYJ",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF",
           "status": "Active",
           "injury_status": "Questionable"
         },
@@ -3319,6 +3319,14 @@
       ],
       "taxi": [
         {
+          "player_id": "13301",
+          "name": "Antonio Williams",
+          "position": "WR",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13320",
           "name": "Zachariah Branch",
           "position": "WR",
@@ -3331,14 +3339,6 @@
           "name": "Brenen Thompson",
           "position": "WR",
           "team": "LAC",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
-          "player_id": "13417",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
           "status": "Active",
           "injury_status": "Questionable"
         }
