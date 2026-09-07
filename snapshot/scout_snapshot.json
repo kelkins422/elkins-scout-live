@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-07T00:22:43.685894Z",
+  "generated_at_utc": "2026-09-07T00:47:56.983818Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -22905,7 +22905,7 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 10,
-      "depth_chart_position": "RWR",
+      "depth_chart_position": "LWR",
       "depth_chart_order": 4
     },
     {
@@ -23061,7 +23061,7 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RWR",
+      "depth_chart_position": "SWR",
       "depth_chart_order": 6
     },
     {
@@ -23601,7 +23601,7 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": "RWR",
       "depth_chart_order": 6
     },
     {
@@ -23961,7 +23961,7 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
-      "depth_chart_position": "LWR",
+      "depth_chart_position": "RWR",
       "depth_chart_order": 4
     },
     {
