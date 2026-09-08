@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-08T00:47:56.382938Z",
+  "generated_at_utc": "2026-09-08T01:13:03.761519Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,7 +63,7 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 6
+      "daily_waivers_last_ran": 7
     },
     "avatar": null,
     "company_id": null,
@@ -201,24 +201,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1402816333397131264",
+    "last_message_id": "1402857427145109504",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788819986250,
+    "last_message_time": 1788829783763,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +243,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1190,7 +1190,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": {
@@ -1356,6 +1356,14 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "13533",
@@ -1531,6 +1539,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13424",
+          "name": "Seth McGowan",
+          "position": "RB",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13533",
           "name": "Barion Brown",
           "position": "WR",
@@ -1649,8 +1665,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 40,
-        "waiver_position": 7,
+        "waiver_budget_used": 42,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": null
@@ -2142,7 +2158,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -3094,7 +3110,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 8,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -6599,6 +6615,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1402816458383216640",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-07T22:26:56.049000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13424",
+            "name": "Seth McGowan",
+            "position": "RB",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 2
+    },
     {
       "transaction_id": "1402816333279735808",
       "type": "free_agent",
@@ -12062,10 +12106,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2534,
+    "total": 2533,
     "by_position": {
       "QB": 297,
-      "RB": 551,
+      "RB": 550,
       "WR": 1140,
       "TE": 546
     },
@@ -16701,18 +16745,6 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 9,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
-      "player_id": "13424",
-      "name": "Seth McGowan",
-      "position": "RB",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
     },
