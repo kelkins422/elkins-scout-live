@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-07T23:13:19.257083Z",
+  "generated_at_utc": "2026-09-08T00:47:56.382938Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -12118,7 +12118,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8157",
@@ -12201,8 +12201,8 @@
       "injury_status": "IR",
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "1737",
@@ -15862,7 +15862,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "11644",
@@ -15871,7 +15871,7 @@
       "team": "DEN",
       "status": "Active",
       "injury_status": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -16294,7 +16294,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "8143",
@@ -22546,7 +22546,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 9
     },
     {
       "player_id": "5223",
@@ -22726,7 +22726,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": null
     },
     {
       "player_id": "13898",
@@ -22738,7 +22738,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 11
     },
     {
       "player_id": "6453",
@@ -22774,7 +22774,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "13336",
@@ -22833,8 +22833,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 7,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "4274",
@@ -23026,7 +23026,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 10
     },
     {
       "player_id": "5282",
@@ -23275,7 +23275,7 @@
       "team": "BUF",
       "status": "Active",
       "injury_status": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -23314,7 +23314,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "13760",
@@ -23686,7 +23686,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 9
     },
     {
       "player_id": "7066",
@@ -23878,7 +23878,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13830",
@@ -24058,7 +24058,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 9
     },
     {
       "player_id": "7618",
@@ -24718,7 +24718,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "830",
@@ -36154,7 +36154,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13580",
@@ -36190,7 +36190,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8127",
@@ -36274,7 +36274,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13355",
@@ -36358,7 +36358,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5906",
@@ -36574,7 +36574,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8177",
@@ -36931,7 +36931,7 @@
       "team": "GB",
       "status": "Active",
       "injury_status": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
@@ -36970,7 +36970,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8088",
@@ -37222,7 +37222,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "11433",
@@ -37402,7 +37402,7 @@
       "age": null,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "7536",
@@ -37546,7 +37546,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "5409",
