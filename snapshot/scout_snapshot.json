@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-08T14:44:23.222729Z",
+  "generated_at_utc": "2026-09-08T16:20:33.080787Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,7 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1402857427145109504",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -201,7 +202,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1402857427145109504",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -210,15 +210,10 @@
     "last_message_text_map": null,
     "last_message_time": 1788829783763,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +240,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -12106,12 +12106,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2533,
+    "total": 2527,
     "by_position": {
-      "QB": 297,
+      "QB": 296,
       "RB": 550,
-      "WR": 1140,
-      "TE": 546
+      "WR": 1136,
+      "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -12235,18 +12235,6 @@
       "years_exp": 10,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
-    },
-    {
-      "player_id": "11851",
-      "name": "Carter Bradley",
-      "position": "QB",
-      "team": "JAX",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "1737",
@@ -16581,18 +16569,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12897",
-      "name": "Nathan Carter",
-      "position": "RB",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13437",
       "name": "Noah Whittington",
       "position": "RB",
@@ -20685,6 +20661,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12897",
+      "name": "Nathan Carter",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7466",
       "name": "Nathan Cottrell",
       "position": "RB",
@@ -22281,18 +22269,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12865",
-      "name": "AJ Henning",
-      "position": "WR",
-      "team": "MIA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "4937",
       "name": "Al Riles",
       "position": "WR",
@@ -22737,30 +22713,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "12210",
-      "name": "Cole Burgess",
-      "position": "WR",
-      "team": "PIT",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": 9
-    },
-    {
-      "player_id": "12829",
-      "name": "Coleman Owen",
-      "position": "WR",
-      "team": "IND",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13898",
       "name": "Corey Rucker",
       "position": "WR",
@@ -22855,18 +22807,6 @@
       "years_exp": 4,
       "depth_chart_position": "SWR",
       "depth_chart_order": 5
-    },
-    {
-      "player_id": "6149",
-      "name": "Darius Slayton",
-      "position": "WR",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "4274",
@@ -23169,18 +23109,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "6045",
-      "name": "Gary Jennings",
-      "position": "WR",
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5970",
       "name": "Greg Dortch",
       "position": "WR",
@@ -23335,18 +23263,6 @@
       "years_exp": 2,
       "depth_chart_position": "SWR",
       "depth_chart_order": 5
-    },
-    {
-      "player_id": "13120",
-      "name": "Jacoby Jones",
-      "position": "WR",
-      "team": "WAS",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": 9
     },
     {
       "player_id": "13760",
@@ -24129,18 +24045,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8202",
-      "name": "Michael Woods",
-      "position": "WR",
-      "team": "DEN",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 26,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13645",
       "name": "Michael Wortham",
       "position": "WR",
@@ -24785,6 +24689,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12865",
+      "name": "AJ Henning",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -27153,6 +27069,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "6149",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4676",
       "name": "Darreus Rogers",
       "position": "WR",
@@ -28493,6 +28421,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36981,18 +36921,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12883",
-      "name": "Joshua Simon",
-      "position": "TE",
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11371",
       "name": "Julian Hill",
       "position": "TE",
@@ -37423,18 +37351,6 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 5
-    },
-    {
-      "player_id": "13870",
-      "name": "Quentin Moore",
-      "position": "TE",
-      "team": "WAS",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 6
     },
     {
       "player_id": "7536",
@@ -40480,6 +40396,18 @@
       "status": "Active",
       "injury_status": null,
       "age": null,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12883",
+      "name": "Joshua Simon",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
