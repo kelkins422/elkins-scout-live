@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T20:31:17.532651Z",
+  "generated_at_utc": "2026-09-09T20:52:18.921304Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -210,8 +210,8 @@
     "last_message_text_map": null,
     "last_message_time": 1788984940380,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
@@ -337,7 +337,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7523",
@@ -529,7 +529,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12504",
@@ -1276,7 +1276,7 @@
           "position": "TE",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7543",
@@ -1516,7 +1516,7 @@
           "position": "TE",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12533",
@@ -1786,7 +1786,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12529",
@@ -1960,7 +1960,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12524",
@@ -2342,7 +2342,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8111",
@@ -2564,7 +2564,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7547",
@@ -3685,7 +3685,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12508",
@@ -3996,7 +3996,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6786",
@@ -4115,12 +4115,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11604",
-          "name": "Brock Bowers",
+          "player_id": "6865",
+          "name": "Colby Parkinson",
           "position": "TE",
-          "team": "LV",
+          "team": "LAR",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": null
         },
         {
           "player_id": "12512",
@@ -4136,7 +4136,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9756",
@@ -4178,7 +4178,15 @@
           "position": "TE",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
+        },
+        {
+          "player_id": "11604",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active",
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "11638",
@@ -4243,14 +4251,6 @@
           "team": "SF",
           "status": "Active",
           "injury_status": "DNR"
-        },
-        {
-          "player_id": "6865",
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "8676",
@@ -4319,7 +4319,7 @@
           "position": "TE",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11604",
@@ -4391,7 +4391,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13289",
@@ -4717,7 +4717,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9480",
@@ -4946,7 +4946,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8155",
@@ -8813,7 +8813,7 @@
             "position": "WR",
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -8883,7 +8883,7 @@
             "position": "TE",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -9681,7 +9681,7 @@
             "position": "RB",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -9919,7 +9919,7 @@
             "position": "WR",
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -9975,7 +9975,7 @@
             "position": "WR",
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -10157,7 +10157,7 @@
             "position": "WR",
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -10633,7 +10633,7 @@
             "position": "RB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -11053,7 +11053,7 @@
             "position": "TE",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12780,7 +12780,7 @@
       "position": "QB",
       "team": "TEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "QB",
@@ -13020,7 +13020,7 @@
       "position": "QB",
       "team": "CHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "QB",
@@ -22871,7 +22871,7 @@
       "name": "David Sills",
       "position": "WR",
       "team": "TB",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 30,
       "years_exp": 7,
@@ -24444,7 +24444,7 @@
       "position": "WR",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
