@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T14:55:43.874567Z",
+  "generated_at_utc": "2026-09-09T16:14:58.498408Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -66,6 +66,8 @@
       "daily_waivers_last_ran": 8
     },
     "avatar": null,
+    "company_id": null,
+    "last_message_id": "1403143349505945600",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -196,16 +198,14 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "company_id": null,
     "season": "2026",
     "season_type": "regular",
     "shard": 620,
     "sport": "nfl",
-    "last_message_id": "1403143349505945600",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
-    "draft_id": "1353413007752839168",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
@@ -240,9 +240,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -12141,12 +12141,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2528,
+    "total": 2527,
     "by_position": {
       "QB": 296,
       "RB": 550,
       "WR": 1136,
-      "TE": 546
+      "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -22556,18 +22556,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "11959",
-      "name": "Bryce Oliver",
-      "position": "WR",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11157",
       "name": "Brycen Tremayne",
       "position": "WR",
@@ -24614,7 +24602,7 @@
       "team": "ATL",
       "status": "Active",
       "injury_status": null,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -25840,6 +25828,18 @@
       "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11959",
+      "name": "Bryce Oliver",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36698,7 +36698,7 @@
       "team": "ATL",
       "status": "Active",
       "injury_status": null,
-      "age": null,
+      "age": 22,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -37422,18 +37422,6 @@
       "years_exp": 5,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "13430",
-      "name": "RJ Maryland",
-      "position": "TE",
-      "team": "GB",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13433",
