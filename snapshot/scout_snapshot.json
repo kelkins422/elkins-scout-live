@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T19:53:49.579220Z",
+  "generated_at_utc": "2026-09-09T20:14:25.355412Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,11 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1403143349505945600",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,23 +197,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "draft_id": "1353413007752839168",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1403507265570447360",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788897952968,
+    "last_message_time": 1788984717318,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +240,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -734,7 +734,18 @@
         "waiver_position": 6,
         "wins": 0
       },
-      "metadata": null
+      "metadata": {
+        "p_nick_11628": "Bust",
+        "p_nick_12490": "RB1",
+        "p_nick_12527": "The Jentrifier",
+        "p_nick_13285": "GOAT",
+        "p_nick_13317": "Fred Durst",
+        "p_nick_13347": "Spoda",
+        "p_nick_13421": "Baby Gronk",
+        "p_nick_5022": "Circle K Employee",
+        "p_nick_5872": "BBL Drizzy",
+        "p_nick_9493": "Rehab boy"
+      }
     },
     {
       "roster_id": 2,
@@ -1725,7 +1736,7 @@
           "position": "TE",
           "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9997",
@@ -1925,7 +1936,7 @@
           "position": "TE",
           "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11564",
@@ -3661,20 +3672,20 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "10232",
           "name": "Michael Wilson",
           "position": "WR",
           "team": "ARI",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12508",
@@ -3743,6 +3754,14 @@
           "injury_status": null
         },
         {
+          "player_id": "4199",
+          "name": "Aaron Jones",
+          "position": "RB",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "5001",
           "name": "Dalton Schultz",
           "position": "TE",
@@ -3757,14 +3776,6 @@
           "team": "DEN",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "7049",
@@ -4109,7 +4120,7 @@
           "position": "TE",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12512",
@@ -4316,7 +4327,7 @@
           "position": "TE",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11638",
@@ -8480,7 +8491,7 @@
             "position": "TE",
             "team": "LV",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -9180,7 +9191,7 @@
             "position": "TE",
             "team": "DET",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
