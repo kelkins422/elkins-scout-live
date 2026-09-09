@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T20:52:18.921304Z",
+  "generated_at_utc": "2026-09-09T21:12:07.715991Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -321,7 +321,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11628",
@@ -721,7 +721,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "settings": {
@@ -1874,7 +1874,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9504",
@@ -2112,7 +2112,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8167",
@@ -2688,7 +2688,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11635",
@@ -2712,7 +2712,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5892",
@@ -3056,7 +3056,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6804",
@@ -3072,7 +3072,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7611",
@@ -7272,7 +7272,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -7346,7 +7346,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -8435,7 +8435,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -9219,7 +9219,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -9513,7 +9513,7 @@
             "position": "WR",
             "team": "IND",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -10241,7 +10241,7 @@
             "position": "WR",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16015,6 +16015,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13949",
+      "name": "Damon Bankston",
+      "position": "RB",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4718",
       "name": "Dare Ogunbowale",
       "position": "RB",
@@ -17967,18 +17979,6 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13949",
-      "name": "Damon Bankston",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22476,7 +22476,7 @@
       "position": "WR",
       "team": "PIT",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "RWR",
@@ -23883,6 +23883,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13208",
+      "name": "Kyrese Rowan",
+      "position": "WR",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -31675,18 +31687,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13208",
-      "name": "Kyrese Rowan",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8595",
       "name": "Kyric McGowan",
       "position": "WR",
@@ -36444,7 +36444,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
@@ -37021,7 +37021,7 @@
       "team": "SF",
       "status": "Active",
       "injury_status": null,
-      "age": null,
+      "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
