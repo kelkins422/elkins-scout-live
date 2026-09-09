@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T16:34:13.382227Z",
+  "generated_at_utc": "2026-09-09T16:54:08.833267Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
+    "last_message_id": "1403143349505945600",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,7 +198,10 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1403143349505945600",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
     "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -240,9 +240,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -2664,10 +2664,10 @@
           "injury_status": null
         },
         {
-          "player_id": "5892",
-          "name": "David Montgomery",
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
           "position": "RB",
-          "team": "HOU",
+          "team": "NE",
           "status": "Active",
           "injury_status": null
         },
@@ -2704,10 +2704,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
+          "player_id": "5892",
+          "name": "David Montgomery",
           "position": "RB",
-          "team": "NE",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
