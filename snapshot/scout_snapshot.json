@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T01:12:49.977427Z",
+  "generated_at_utc": "2026-09-09T02:31:30.837799Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1390,14 +1390,6 @@
           "injury_status": null
         },
         {
-          "player_id": "8205",
-          "name": "Isiah Pacheco",
-          "position": "RB",
-          "team": "DET",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "8408",
           "name": "Jordan Mason",
           "position": "RB",
@@ -1440,7 +1432,16 @@
           "injury_status": null
         }
       ],
-      "injured_reserve": [],
+      "injured_reserve": [
+        {
+          "player_id": "8205",
+          "name": "Isiah Pacheco",
+          "position": "RB",
+          "team": "DET",
+          "status": "Inactive",
+          "injury_status": "IR"
+        }
+      ],
       "all_players": [
         {
           "player_id": "10213",
