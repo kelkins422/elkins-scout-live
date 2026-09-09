@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-09T17:52:44.866587Z",
+  "generated_at_utc": "2026-09-09T19:53:49.579220Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -2259,7 +2259,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11627",
@@ -2409,7 +2409,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11627",
@@ -3207,7 +3207,7 @@
           "position": "RB",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7021",
@@ -3542,7 +3542,7 @@
           "position": "RB",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8137",
@@ -9544,7 +9544,7 @@
             "position": "RB",
             "team": "CAR",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -11546,7 +11546,7 @@
             "position": "WR",
             "team": "CAR",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12445,7 +12445,7 @@
       "position": "QB",
       "team": "CAR",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "QB",
