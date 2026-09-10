@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T17:28:17.929146Z",
+  "generated_at_utc": "2026-09-10T17:55:14.033866Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -2902,7 +2902,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "NA"
         }
       ],
       "all_players": [
@@ -3032,7 +3032,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "NA"
         },
         {
           "player_id": "5892",
@@ -9374,7 +9374,7 @@
             "position": "RB",
             "team": "GB",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "NA"
           }
         },
         {
