@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T14:13:26.298132Z",
+  "generated_at_utc": "2026-09-10T14:55:35.429783Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -12321,11 +12321,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2527,
+    "total": 2528,
     "by_position": {
       "QB": 296,
       "RB": 550,
-      "WR": 1137,
+      "WR": 1138,
       "TE": 544
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -16325,7 +16325,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "9220",
@@ -17105,7 +17105,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "8208",
@@ -34124,6 +34124,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7601",
+      "name": "Rondale Moore",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12431",
       "name": "Rory Starkey",
       "position": "WR",
@@ -36317,7 +36329,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "12735",
@@ -36557,7 +36569,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "5906",
@@ -37337,7 +37349,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "13032",
