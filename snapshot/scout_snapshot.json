@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T00:46:13.894053Z",
+  "generated_at_utc": "2026-09-10T01:12:40.482640Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,10 +63,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 8
+      "daily_waivers_last_ran": 9
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,28 +201,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1403508201160261632",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
-    "last_author_is_bot": false,
+    "last_message_id": "1403579836596822016",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1788984940380,
+    "last_message_time": 1789002019599,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +243,15 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -731,7 +731,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": {
@@ -1201,7 +1201,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": {
@@ -1353,6 +1353,14 @@
           "injury_status": null
         },
         {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -1499,6 +1507,14 @@
           "name": "Jaylen Wright",
           "position": "RB",
           "team": "MIA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "1166",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "team": "LV",
           "status": "Active",
           "injury_status": null
         },
@@ -2170,7 +2186,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "metadata": null
@@ -2646,7 +2662,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       },
       "metadata": null
@@ -3122,7 +3138,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 8,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": {
@@ -3603,7 +3619,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       },
       "metadata": null
@@ -4242,7 +4258,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6803",
@@ -4261,10 +4277,10 @@
           "injury_status": null
         },
         {
-          "player_id": "9229",
-          "name": "Anthony Richardson",
-          "position": "QB",
-          "team": "IND",
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
           "status": "Active",
           "injury_status": null
         }
@@ -4447,7 +4463,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6770",
@@ -4490,10 +4506,10 @@
           "injury_status": null
         },
         {
-          "player_id": "9229",
-          "name": "Anthony Richardson",
-          "position": "QB",
-          "team": "IND",
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
           "status": "Active",
           "injury_status": null
         },
@@ -4520,8 +4536,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 2,
+        "waiver_budget_used": 18,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": null
@@ -4980,7 +4996,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 0
       },
       "metadata": null
@@ -6634,6 +6650,159 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1403575379058294784",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-10T00:42:36.839000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1166",
+            "name": "Kirk Cousins",
+            "position": "QB",
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1403530580217298944",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-09-09T21:44:35.963000Z",
+      "teams": [
+        "bubba gump"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "position": "TE",
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "bubba gump"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 9
+    },
+    {
+      "transaction_id": "1403515863260311552",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-09T20:46:07.167000Z",
+      "teams": [
+        "TylerScheib123"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "position": "TE",
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 9,
+          "team": "TylerScheib123"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9229",
+            "name": "Anthony Richardson",
+            "position": "QB",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 9,
+          "team": "TylerScheib123"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 18
+    },
+    {
+      "transaction_id": "1403515101805326336",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-09-09T20:43:05.622000Z",
+      "teams": [
+        "TylerScheib123"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "position": "TE",
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 9,
+          "team": "TylerScheib123"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1403509178034655232",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-09-09T20:19:33.285000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9482",
+            "name": "Michael Mayer",
+            "position": "TE",
+            "team": "LV",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 10
+    },
+    {
       "transaction_id": "1403113835761565696",
       "type": "free_agent",
       "status": "complete",
@@ -6926,7 +7095,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 2,
           "team": "bubba gump"
@@ -7106,7 +7275,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -9611,7 +9780,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -11361,7 +11530,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12152,12 +12321,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2527,
+    "total": 2526,
     "by_position": {
       "QB": 296,
       "RB": 550,
       "WR": 1136,
-      "TE": 545
+      "TE": 544
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -12195,6 +12364,18 @@
       "injury_status": null,
       "age": 38,
       "years_exp": 15,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
+    },
+    {
+      "player_id": "9229",
+      "name": "Anthony Richardson",
+      "position": "QB",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 3,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -12641,18 +12822,6 @@
       "years_exp": 4,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
-    },
-    {
-      "player_id": "1166",
-      "name": "Kirk Cousins",
-      "position": "QB",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "age": 38,
-      "years_exp": 14,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1
     },
     {
       "player_id": "12477",
@@ -16656,7 +16825,7 @@
       "position": "RB",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -37195,18 +37364,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "9482",
-      "name": "Michael Mayer",
-      "position": "TE",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "4993",
       "name": "Mike Gesicki",
       "position": "TE",
@@ -37764,7 +37921,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
