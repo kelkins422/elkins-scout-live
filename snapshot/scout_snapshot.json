@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T13:54:30.171343Z",
+  "generated_at_utc": "2026-09-10T14:13:26.298132Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -209,9 +209,9 @@
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789047684401,
+    "draft_id": "1353413007752839168",
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -12321,11 +12321,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2526,
+    "total": 2527,
     "by_position": {
       "QB": 296,
       "RB": 550,
-      "WR": 1136,
+      "WR": 1137,
       "TE": 544
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -23214,6 +23214,18 @@
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 10
+    },
+    {
+      "player_id": "12946",
+      "name": "Dontae Fleming",
+      "position": "WR",
+      "team": "MIN",
+      "status": "Inactive",
+      "injury_status": "Questionable",
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "5282",
