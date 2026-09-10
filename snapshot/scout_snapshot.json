@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T21:27:52.381534Z",
+  "generated_at_utc": "2026-09-10T21:42:49.819204Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -24219,7 +24219,7 @@
       "position": "WR",
       "team": "DEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "SWR",
@@ -36159,7 +36159,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
