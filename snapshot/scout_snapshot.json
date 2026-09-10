@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T18:57:19.842812Z",
+  "generated_at_utc": "2026-09-10T19:14:27.410753Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1403853079400480768",
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,21 +202,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1403850839398830080",
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
-    "last_author_is_bot": false,
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789066631701,
+    "last_message_time": 1789067165760,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -240,9 +240,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -2195,7 +2195,7 @@
       "roster_id": 5,
       "owner_user_id": "1353434409738457088",
       "manager": "zacharyelkins",
-      "team_name": "Brown St Brown Brown",
+      "team_name": "AJ Brown fucking sucks",
       "co_owners": [],
       "starters": [
         {
@@ -2665,7 +2665,9 @@
         "waiver_position": 4,
         "wins": 0
       },
-      "metadata": null
+      "metadata": {
+        "p_nick_5859": "Fuck this guy"
+      }
     },
     {
       "roster_id": 6,
@@ -5047,9 +5049,9 @@
       "season": "2026",
       "round": 1,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5147,9 +5149,9 @@
       "season": "2026",
       "round": 2,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5247,9 +5249,9 @@
       "season": "2026",
       "round": 3,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5347,9 +5349,9 @@
       "season": "2026",
       "round": 4,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5447,9 +5449,9 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5547,9 +5549,9 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5647,9 +5649,9 @@
       "season": "2027",
       "round": 3,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5747,9 +5749,9 @@
       "season": "2027",
       "round": 4,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5847,9 +5849,9 @@
       "season": "2028",
       "round": 1,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -5947,9 +5949,9 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -6047,9 +6049,9 @@
       "season": "2028",
       "round": 3,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -6147,9 +6149,9 @@
       "season": "2028",
       "round": 4,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -6247,9 +6249,9 @@
       "season": "2029",
       "round": 1,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -6347,9 +6349,9 @@
       "season": "2029",
       "round": 2,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -6447,9 +6449,9 @@
       "season": "2029",
       "round": 3,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -6547,9 +6549,9 @@
       "season": "2029",
       "round": 4,
       "original_roster_id": 5,
-      "original_team": "Brown St Brown Brown",
+      "original_team": "AJ Brown fucking sucks",
       "current_roster_id": 5,
-      "current_team": "Brown St Brown Brown",
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 5,
       "is_traded": false
     },
@@ -7402,7 +7404,7 @@
       "week": 1,
       "created_utc": "2026-08-25T01:38:00.242000Z",
       "teams": [
-        "Brown St Brown Brown"
+        "AJ Brown fucking sucks"
       ],
       "adds": [
         {
@@ -7415,7 +7417,7 @@
             "injury_status": null
           },
           "roster_id": 5,
-          "team": "Brown St Brown Brown"
+          "team": "AJ Brown fucking sucks"
         }
       ],
       "drops": [],
@@ -8639,7 +8641,7 @@
           "pick_no": 8,
           "round": 1,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "7547",
             "name": "Amon-Ra St. Brown",
@@ -8709,7 +8711,7 @@
           "pick_no": 13,
           "round": 2,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "4881",
             "name": "Lamar Jackson",
@@ -8919,7 +8921,7 @@
           "pick_no": 28,
           "round": 3,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "4034",
             "name": "Christian McCaffrey",
@@ -8989,7 +8991,7 @@
           "pick_no": 33,
           "round": 4,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "9224",
             "name": "Chase Brown",
@@ -9199,7 +9201,7 @@
           "pick_no": 48,
           "round": 5,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "5859",
             "name": "A.J. Brown",
@@ -9269,7 +9271,7 @@
           "pick_no": 53,
           "round": 6,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "7553",
             "name": "Kyle Pitts",
@@ -9479,7 +9481,7 @@
           "pick_no": 68,
           "round": 7,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "8183",
             "name": "Brock Purdy",
@@ -9549,7 +9551,7 @@
           "pick_no": 73,
           "round": 8,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "3198",
             "name": "Derrick Henry",
@@ -9759,7 +9761,7 @@
           "pick_no": 88,
           "round": 9,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "6790",
             "name": "D'Andre Swift",
@@ -9829,7 +9831,7 @@
           "pick_no": 93,
           "round": 10,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "8110",
             "name": "Jake Ferguson",
@@ -10039,7 +10041,7 @@
           "pick_no": 108,
           "round": 11,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13346",
             "name": "Denzel Boston",
@@ -10109,7 +10111,7 @@
           "pick_no": 113,
           "round": 12,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13288",
             "name": "Nicholas Singleton",
@@ -10319,7 +10321,7 @@
           "pick_no": 128,
           "round": 13,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "6819",
             "name": "Michael Pittman",
@@ -10389,7 +10391,7 @@
           "pick_no": 133,
           "round": 14,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "8210",
             "name": "Chig Okonkwo",
@@ -10599,7 +10601,7 @@
           "pick_no": 148,
           "round": 15,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "5870",
             "name": "Daniel Jones",
@@ -10669,7 +10671,7 @@
           "pick_no": 153,
           "round": 16,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13272",
             "name": "Carson Beck",
@@ -10879,7 +10881,7 @@
           "pick_no": 168,
           "round": 17,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13278",
             "name": "Max Klare",
@@ -10949,7 +10951,7 @@
           "pick_no": 173,
           "round": 18,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "9225",
             "name": "Tank Bigsby",
@@ -11159,7 +11161,7 @@
           "pick_no": 188,
           "round": 19,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13353",
             "name": "Chris Brazzell",
@@ -11229,7 +11231,7 @@
           "pick_no": 193,
           "round": 20,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13401",
             "name": "Michael Trigg",
@@ -11439,7 +11441,7 @@
           "pick_no": 208,
           "round": 21,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "12457",
             "name": "Jaydon Blue",
@@ -11509,7 +11511,7 @@
           "pick_no": 213,
           "round": 22,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "12492",
             "name": "Pat Bryant",
@@ -11719,7 +11721,7 @@
           "pick_no": 228,
           "round": 23,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "11626",
             "name": "Xavier Legette",
@@ -11789,7 +11791,7 @@
           "pick_no": 233,
           "round": 24,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "11627",
             "name": "Troy Franklin",
@@ -11999,7 +12001,7 @@
           "pick_no": 248,
           "round": 25,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "9479",
             "name": "Darnell Washington",
@@ -12069,7 +12071,7 @@
           "pick_no": 253,
           "round": 26,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "13338",
             "name": "Kevin Coleman",
@@ -12279,7 +12281,7 @@
           "pick_no": 268,
           "round": 27,
           "roster_id": 5,
-          "team": "Brown St Brown Brown",
+          "team": "AJ Brown fucking sucks",
           "player": {
             "player_id": "12487",
             "name": "Terrance Ferguson",
