@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T17:12:50.425148Z",
+  "generated_at_utc": "2026-09-10T17:28:17.929146Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -16820,6 +16820,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12897",
+      "name": "Nate Carter",
+      "position": "RB",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13437",
       "name": "Noah Whittington",
       "position": "RB",
@@ -20859,18 +20871,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12897",
-      "name": "Nathan Carter",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
