@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-10T15:14:56.404169Z",
+  "generated_at_utc": "2026-09-10T16:14:03.229274Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,11 +201,8 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
     "last_message_id": "1403771368641712128",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -210,7 +211,6 @@
     "last_message_text_map": null,
     "last_message_time": 1789047684401,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -12321,12 +12321,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2528,
+    "total": 2524,
     "by_position": {
       "QB": 296,
-      "RB": 550,
-      "WR": 1138,
-      "TE": 544
+      "RB": 549,
+      "WR": 1136,
+      "TE": 543
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -16580,18 +16580,6 @@
       "depth_chart_order": 6
     },
     {
-      "player_id": "8143",
-      "name": "Jerome Ford",
-      "position": "RB",
-      "team": "WAS",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 26,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7087",
       "name": "Jonathan Ward",
       "position": "RB",
@@ -16861,7 +16849,7 @@
       "position": "RB",
       "team": "GB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
@@ -22964,18 +22952,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13202",
-      "name": "Dalevon Campbell",
-      "position": "WR",
-      "team": "LAC",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13336",
       "name": "Dane Key",
       "position": "WR",
@@ -23106,18 +23082,6 @@
       "years_exp": 10,
       "depth_chart_position": "LWR",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "8801",
-      "name": "Dennis Houston",
-      "position": "WR",
-      "team": "TB",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "10234",
@@ -23332,6 +23296,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28672,18 +28648,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6045",
-      "name": "Gary Jennings",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36292,18 +36256,6 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12941",
-      "name": "Bryson Nesbit",
-      "position": "TE",
-      "team": "MIN",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 23,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
