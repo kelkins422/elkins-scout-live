@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T19:41:37.125720Z",
+  "generated_at_utc": "2026-09-11T19:53:35.726329Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,28 +201,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1404219265250316288",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1404226700589486080",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789154471270,
+    "last_message_time": 1789156243993,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +243,15 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -454,12 +454,12 @@
           "injury_status": null
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null
+          "team": "NE",
+          "status": "Inactive",
+          "injury_status": "IR"
         }
       ],
       "taxi": [
@@ -676,12 +676,12 @@
           "injury_status": null
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null
+          "team": "NE",
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "7523",
@@ -2237,14 +2237,6 @@
           "injury_status": null
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "7553",
           "name": "Kyle Pitts",
           "position": "TE",
@@ -2355,6 +2347,14 @@
           "name": "Daniel Jones",
           "position": "QB",
           "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "5872",
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
           "status": "Active",
           "injury_status": null
         },
@@ -2557,18 +2557,18 @@
           "injury_status": null
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "5870",
           "name": "Daniel Jones",
           "position": "QB",
           "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "5872",
+          "name": "Deebo Samuel",
+          "position": "WR",
+          "team": "SF",
           "status": "Active",
           "injury_status": null
         },
@@ -5517,10 +5517,10 @@
       "round": 2,
       "original_roster_id": 1,
       "original_team": "Jeantrification",
-      "current_roster_id": 1,
-      "current_team": "Jeantrification",
+      "current_roster_id": 5,
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 1,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2027",
@@ -6317,10 +6317,10 @@
       "round": 2,
       "original_roster_id": 1,
       "original_team": "Jeantrification",
-      "current_roster_id": 1,
-      "current_team": "Jeantrification",
+      "current_roster_id": 5,
+      "current_team": "AJ Brown fucking sucks",
       "previous_roster_id": 1,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2029",
@@ -6622,6 +6622,13 @@
       "previous_owner_id": 3
     },
     {
+      "round": 2,
+      "season": "2027",
+      "roster_id": 1,
+      "owner_id": 5,
+      "previous_owner_id": 1
+    },
+    {
       "round": 4,
       "season": "2027",
       "roster_id": 2,
@@ -6645,6 +6652,13 @@
     {
       "round": 2,
       "season": "2029",
+      "roster_id": 1,
+      "owner_id": 5,
+      "previous_owner_id": 1
+    },
+    {
+      "round": 2,
+      "season": "2029",
       "roster_id": 10,
       "owner_id": 1,
       "previous_owner_id": 10
@@ -6658,6 +6672,87 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1404222911799177216",
+      "type": "trade",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-11T19:35:40.675000Z",
+      "teams": [
+        "Jeantrification",
+        "AJ Brown fucking sucks"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5859",
+            "name": "A.J. Brown",
+            "position": "WR",
+            "team": "NE",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "5872",
+            "name": "Deebo Samuel",
+            "position": "WR",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "AJ Brown fucking sucks"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5872",
+            "name": "Deebo Samuel",
+            "position": "WR",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "5859",
+            "name": "A.J. Brown",
+            "position": "WR",
+            "team": "NE",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 5,
+          "team": "AJ Brown fucking sucks"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 2,
+          "roster_id": 1,
+          "owner_id": 5,
+          "previous_owner_id": 1
+        },
+        {
+          "season": "2029",
+          "round": 2,
+          "roster_id": 1,
+          "owner_id": 5,
+          "previous_owner_id": 1
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1403850145614815232",
       "type": "waiver",
