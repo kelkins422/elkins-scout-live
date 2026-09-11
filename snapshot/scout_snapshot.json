@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T17:54:16.466651Z",
+  "generated_at_utc": "2026-09-11T18:15:49.082742Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -3390,7 +3390,7 @@
           "position": "WR",
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13380",
@@ -3465,7 +3465,7 @@
           "position": "WR",
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13330",
@@ -11089,7 +11089,7 @@
             "position": "WR",
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
