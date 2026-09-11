@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T21:53:07.667515Z",
+  "generated_at_utc": "2026-09-11T22:13:09.725250Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -946,7 +946,7 @@
           "position": "RB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "taxi": [
@@ -1191,7 +1191,7 @@
           "position": "RB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "settings": {
@@ -3398,7 +3398,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "injured_reserve": [],
@@ -3481,7 +3481,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13417",
@@ -8654,7 +8654,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -8683,7 +8683,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -11842,7 +11842,7 @@
             "position": "RB",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12304,7 +12304,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -23155,7 +23155,7 @@
       "position": "WR",
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
