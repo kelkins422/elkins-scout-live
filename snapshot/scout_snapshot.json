@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T00:44:44.253056Z",
+  "generated_at_utc": "2026-09-11T01:16:31.413918Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,15 +63,15 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 9
+      "daily_waivers_last_ran": 10
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1403853079400480768",
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
+    "last_message_id": "1403944645163020288",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -208,12 +208,15 @@
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789067165760,
+    "last_message_time": 1789088996738,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,9 +243,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -909,18 +909,18 @@
           "injury_status": ""
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -1114,18 +1114,18 @@
           "injury_status": ""
         },
         {
-          "player_id": "7002",
-          "name": "Juwan Johnson",
-          "position": "TE",
-          "team": "NO",
+          "player_id": "5854",
+          "name": "Drew Lock",
+          "position": "QB",
+          "team": "SEA",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
-          "position": "WR",
-          "team": "BAL",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -1200,8 +1200,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 2,
-        "waiver_position": 8,
+        "waiver_budget_used": 19,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": {
@@ -1694,7 +1694,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": null
@@ -2783,14 +2783,6 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12048",
-          "name": "George Holani",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12469",
           "name": "Dylan Sampson",
           "position": "RB",
@@ -2859,6 +2851,14 @@
           "name": "Malik Davis",
           "position": "RB",
           "team": "DAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9229",
+          "name": "Anthony Richardson",
+          "position": "QB",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -2937,14 +2937,6 @@
           "name": "Ladd McConkey",
           "position": "WR",
           "team": "LAC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12048",
-          "name": "George Holani",
-          "position": "RB",
-          "team": "SEA",
           "status": "Active",
           "injury_status": null
         },
@@ -3125,6 +3117,14 @@
           "injury_status": null
         },
         {
+          "player_id": "9229",
+          "name": "Anthony Richardson",
+          "position": "QB",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "9506",
           "name": "Sean Tucker",
           "position": "RB",
@@ -3139,8 +3139,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 8,
-        "waiver_position": 7,
+        "waiver_budget_used": 20,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": {
@@ -4540,7 +4540,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 18,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -6652,6 +6652,88 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1403850145614815232",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-10T18:54:26.291000Z",
+      "teams": [
+        "bubba gump"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "position": "QB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "bubba gump"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7571",
+            "name": "Rashod Bateman",
+            "position": "WR",
+            "team": "BAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "bubba gump"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 17
+    },
+    {
+      "transaction_id": "1403767414155390976",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-10T13:25:41.574000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9229",
+            "name": "Anthony Richardson",
+            "position": "QB",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12048",
+            "name": "George Holani",
+            "position": "RB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 12
+    },
     {
       "transaction_id": "1403575379058294784",
       "type": "waiver",
@@ -12326,9 +12408,9 @@
   "free_agent_summary": {
     "total": 2524,
     "by_position": {
-      "QB": 296,
-      "RB": 549,
-      "WR": 1136,
+      "QB": 294,
+      "RB": 550,
+      "WR": 1137,
       "TE": 543
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -12367,18 +12449,6 @@
       "injury_status": null,
       "age": 38,
       "years_exp": 15,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
-    },
-    {
-      "player_id": "9229",
-      "name": "Anthony Richardson",
-      "position": "QB",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 3,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -12547,18 +12617,6 @@
       "injury_status": "IR",
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
-    },
-    {
-      "player_id": "5854",
-      "name": "Drew Lock",
-      "position": "QB",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -16353,6 +16411,18 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12048",
+      "name": "George Holani",
+      "position": "RB",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "4914",
@@ -24417,6 +24487,18 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "7571",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 5,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 2
     },
     {
       "player_id": "13297",
