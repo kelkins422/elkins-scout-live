@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T17:42:36.816794Z",
+  "generated_at_utc": "2026-09-11T17:54:16.466651Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,10 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,7 +202,6 @@
       "st_ff": 0.0
     },
     "last_message_id": "1404020450568249344",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,13 +211,9 @@
     "last_message_time": 1789107070156,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +240,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2241,7 +2241,7 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "NE",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -2561,7 +2561,7 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "NE",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -4734,7 +4734,7 @@
           "position": "QB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8126",
@@ -4955,7 +4955,7 @@
           "position": "QB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "6806",
@@ -9296,7 +9296,7 @@
             "name": "A.J. Brown",
             "position": "WR",
             "team": "NE",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           }
         },
@@ -11635,7 +11635,7 @@
             "position": "QB",
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -23059,7 +23059,7 @@
       "name": "Danny Gray",
       "position": "WR",
       "team": "PHI",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
@@ -24923,6 +24923,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11306",
+      "name": "Xavier Gipson",
+      "position": "WR",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36023,18 +36035,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11306",
-      "name": "Xavier Gipson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
