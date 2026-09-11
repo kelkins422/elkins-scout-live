@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T01:42:04.252704Z",
+  "generated_at_utc": "2026-09-11T02:14:34.798230Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -3302,7 +3302,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "3214",
@@ -3483,7 +3483,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "2133",
@@ -8160,7 +8160,7 @@
             "position": "TE",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -11363,7 +11363,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -12175,7 +12175,7 @@
             "position": "TE",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -36998,7 +36998,7 @@
       "position": "TE",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
