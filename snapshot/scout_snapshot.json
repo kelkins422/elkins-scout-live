@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-11T15:53:51.161519Z",
+  "generated_at_utc": "2026-09-11T16:14:19.552451Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,11 +67,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1404020450568249344",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,6 +197,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1404020450568249344",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -12412,12 +12412,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2524,
+    "total": 2522,
     "by_position": {
       "QB": 294,
       "RB": 550,
       "WR": 1137,
-      "TE": 543
+      "TE": 541
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -36243,18 +36243,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "11082",
-      "name": "Ben Sims",
-      "position": "TE",
-      "team": "MIA",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11596",
       "name": "Ben Sinnott",
       "position": "TE",
@@ -37693,18 +37681,6 @@
       "years_exp": 0,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "6964",
-      "name": "Sean McKeon",
-      "position": "TE",
-      "team": "IND",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13429",
