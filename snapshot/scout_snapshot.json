@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-12T19:10:57.003342Z",
+  "generated_at_utc": "2026-09-12T19:25:01.856535Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -210,12 +210,15 @@
     "last_message_text_map": null,
     "last_message_time": 1789238904418,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,16 +245,13 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -16199,7 +16199,7 @@
       "name": "Audric Estime",
       "position": "RB",
       "team": "NO",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 23,
       "years_exp": 2,
@@ -22843,6 +22843,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "8204",
+      "name": "Bo Melton",
+      "position": "WR",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8756",
       "name": "Brandon Johnson",
       "position": "WR",
@@ -24815,7 +24827,7 @@
       "name": "Tim Patrick",
       "position": "WR",
       "team": "NYJ",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 32,
       "years_exp": 9,
@@ -25875,18 +25887,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8204",
-      "name": "Bo Melton",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
