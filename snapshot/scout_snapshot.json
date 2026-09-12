@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-12T01:15:48.569822Z",
+  "generated_at_utc": "2026-09-12T09:42:36.136859Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -23200,7 +23200,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_order": 8
     },
     {
       "player_id": "8527",
