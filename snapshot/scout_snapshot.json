@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-12T18:52:00.624860Z",
+  "generated_at_utc": "2026-09-12T19:10:57.003342Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -210,15 +210,12 @@
     "last_message_text_map": null,
     "last_message_time": 1789238904418,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
+    "bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +242,16 @@
       "BN",
       "BN"
     ],
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -16896,7 +16896,7 @@
       "position": "RB",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "RB",
