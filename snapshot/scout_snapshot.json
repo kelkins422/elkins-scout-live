@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-12T18:14:45.534258Z",
+  "generated_at_utc": "2026-09-12T18:31:43.166075Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -2858,7 +2858,7 @@
           "position": "RB",
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "9229",
@@ -3120,7 +3120,7 @@
           "position": "RB",
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "9229",
@@ -7934,7 +7934,7 @@
             "position": "RB",
             "team": "DAL",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -16200,7 +16200,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "IR",
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "RB",
