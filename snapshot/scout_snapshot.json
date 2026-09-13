@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-13T01:27:53.958783Z",
+  "generated_at_utc": "2026-09-13T01:43:30.708528Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,11 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1404673794605395968",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,23 +201,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1404677771082436608",
     "draft_id": "1353413007752839168",
-    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
-    "last_author_display_name": "Donovanelkins6",
-    "last_author_id": "1030955970991603712",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789262839513,
+    "last_message_time": 1789263787579,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +240,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1737,6 +1737,14 @@
           "injury_status": null
         },
         {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "7569",
           "name": "Nico Collins",
           "position": "WR",
@@ -1865,14 +1873,6 @@
           "team": "GB",
           "status": "Active",
           "injury_status": "NA"
-        },
-        {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "7528",
@@ -2887,14 +2887,6 @@
       ],
       "taxi": [
         {
-          "player_id": "12467",
-          "name": "Jordan James",
-          "position": "RB",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": "Out"
-        },
-        {
           "player_id": "12521",
           "name": "Elijah Arroyo",
           "position": "TE",
@@ -2952,14 +2944,6 @@
           "team": "LAC",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "12467",
-          "name": "Jordan James",
-          "position": "RB",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": "Out"
         },
         {
           "player_id": "12469",
@@ -6692,6 +6676,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1404677285520367616",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-13T01:41:11.811000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12467",
+            "name": "Jordan James",
+            "position": "RB",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "Out"
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1404663149776367616",
       "type": "trade",
@@ -12745,10 +12757,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2520,
+    "total": 2521,
     "by_position": {
       "QB": 294,
-      "RB": 549,
+      "RB": 550,
       "WR": 1136,
       "TE": 541
     },
@@ -16978,6 +16990,18 @@
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12467",
+      "name": "Jordan James",
+      "position": "RB",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": "Out",
+      "age": 22,
+      "years_exp": 1,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "6167",
