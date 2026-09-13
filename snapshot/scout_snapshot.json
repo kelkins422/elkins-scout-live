@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-13T22:53:14.474698Z",
+  "generated_at_utc": "2026-09-13T23:11:58.960797Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,9 +67,7 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1405000834231648256",
     "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
@@ -201,24 +199,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1404996434314477568",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "7572250c2fb084c434fed0e82229e183",
-    "last_author_display_name": "zacharyelkins",
-    "last_author_id": "1353434409738457088",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
+    "last_author_display_name": "kelkins81",
+    "last_author_id": "1362238574824546304",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789339762814,
+    "last_message_time": 1789340811836,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +241,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -784,7 +784,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "10229",
@@ -1031,7 +1031,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12493",
@@ -2380,7 +2380,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9225",
@@ -2634,7 +2634,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9224",
@@ -2736,7 +2736,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5892",
@@ -2935,7 +2935,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12469",
@@ -9304,7 +9304,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -9556,7 +9556,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -10844,7 +10844,7 @@
             "position": "TE",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -24389,7 +24389,7 @@
       "position": "WR",
       "team": "LAC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
