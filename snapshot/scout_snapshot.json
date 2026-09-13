@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-13T00:45:49.389706Z",
+  "generated_at_utc": "2026-09-13T01:11:36.099406Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,14 +63,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 11
+      "daily_waivers_last_ran": 12
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,21 +201,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1404573403540643840",
+    "last_message_id": "1404669077066186752",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789238904418,
+    "last_message_time": 1789261714763,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,9 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1201,7 +1201,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 19,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": {
@@ -2773,6 +2773,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "DAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11583",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -2853,14 +2861,6 @@
           "injury_status": null
         },
         {
-          "player_id": "8800",
-          "name": "Malik Davis",
-          "position": "RB",
-          "team": "DAL",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9229",
           "name": "Anthony Richardson",
           "position": "QB",
@@ -2919,6 +2919,14 @@
           "name": "Jayden Reed",
           "position": "WR",
           "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -3115,14 +3123,6 @@
           "injury_status": null
         },
         {
-          "player_id": "8800",
-          "name": "Malik Davis",
-          "position": "RB",
-          "team": "DAL",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9229",
           "name": "Anthony Richardson",
           "position": "QB",
@@ -3146,7 +3146,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 9,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": {
@@ -6672,6 +6672,47 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1404567496278757376",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-12T18:24:56.017000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11199",
+            "name": "Emari Demercado",
+            "position": "RB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8800",
+            "name": "Malik Davis",
+            "position": "RB",
+            "team": "DAL",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1404223714798641152",
       "type": "waiver",
@@ -16519,18 +16560,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11199",
-      "name": "Emari Demercado",
-      "position": "RB",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "9220",
       "name": "Evan Hull",
       "position": "RB",
@@ -16973,6 +17002,18 @@
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "8800",
+      "name": "Malik Davis",
+      "position": "RB",
+      "team": "DAL",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "13516",
