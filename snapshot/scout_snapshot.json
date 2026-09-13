@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-13T01:11:36.099406Z",
+  "generated_at_utc": "2026-09-13T01:27:53.958783Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,6 +67,7 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1404673794605395968",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -201,15 +202,14 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1404669077066186752",
     "draft_id": "1353413007752839168",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
+    "last_author_display_name": "Donovanelkins6",
+    "last_author_id": "1030955970991603712",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789261714763,
+    "last_message_time": 1789262839513,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
@@ -1737,14 +1737,6 @@
           "injury_status": null
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "7569",
           "name": "Nico Collins",
           "position": "WR",
@@ -1867,17 +1859,25 @@
           "injury_status": null
         },
         {
-          "player_id": "7528",
-          "name": "Najee Harris",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "NYG",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": "NA"
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
-          "position": "TE",
+          "player_id": "7528",
+          "name": "Najee Harris",
+          "position": "RB",
           "team": "NYG",
           "status": "Active",
           "injury_status": null
@@ -2073,10 +2073,18 @@
           "injury_status": null
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": "NA"
+        },
+        {
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "MIN",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -2109,14 +2117,6 @@
           "name": "Nico Collins",
           "position": "WR",
           "team": "HOU",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
@@ -2731,14 +2731,6 @@
           "injury_status": null
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -2861,6 +2853,22 @@
           "injury_status": null
         },
         {
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8131",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "9229",
           "name": "Anthony Richardson",
           "position": "QB",
@@ -2903,16 +2911,7 @@
           "injury_status": null
         }
       ],
-      "injured_reserve": [
-        {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": "NA"
-        }
-      ],
+      "injured_reserve": [],
       "all_players": [
         {
           "player_id": "10222",
@@ -3035,14 +3034,6 @@
           "injury_status": null
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": "NA"
-        },
-        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -3075,10 +3066,10 @@
           "injury_status": null
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "CIN",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         },
@@ -3111,6 +3102,14 @@
           "name": "Trey McBride",
           "position": "TE",
           "team": "ARI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8131",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
@@ -5467,10 +5466,10 @@
       "round": 1,
       "original_roster_id": 6,
       "original_team": "KELKINS KARTEL",
-      "current_roster_id": 6,
-      "current_team": "KELKINS KARTEL",
+      "current_roster_id": 4,
+      "current_team": "Mayek It Clap",
       "previous_roster_id": 6,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2027",
@@ -5967,10 +5966,10 @@
       "round": 2,
       "original_roster_id": 6,
       "original_team": "KELKINS KARTEL",
-      "current_roster_id": 6,
-      "current_team": "KELKINS KARTEL",
+      "current_roster_id": 4,
+      "current_team": "Mayek It Clap",
       "previous_roster_id": 6,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2028",
@@ -6367,10 +6366,10 @@
       "round": 2,
       "original_roster_id": 6,
       "original_team": "KELKINS KARTEL",
-      "current_roster_id": 6,
-      "current_team": "KELKINS KARTEL",
+      "current_roster_id": 4,
+      "current_team": "Mayek It Clap",
       "previous_roster_id": 6,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2029",
@@ -6622,6 +6621,13 @@
       "previous_owner_id": 3
     },
     {
+      "round": 1,
+      "season": "2027",
+      "roster_id": 6,
+      "owner_id": 4,
+      "previous_owner_id": 6
+    },
+    {
       "round": 2,
       "season": "2027",
       "roster_id": 1,
@@ -6651,10 +6657,24 @@
     },
     {
       "round": 2,
+      "season": "2028",
+      "roster_id": 6,
+      "owner_id": 4,
+      "previous_owner_id": 6
+    },
+    {
+      "round": 2,
       "season": "2029",
       "roster_id": 1,
       "owner_id": 5,
       "previous_owner_id": 1
+    },
+    {
+      "round": 2,
+      "season": "2029",
+      "roster_id": 6,
+      "owner_id": 4,
+      "previous_owner_id": 6
     },
     {
       "round": 2,
@@ -6672,6 +6692,142 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1404663149776367616",
+      "type": "trade",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-13T00:45:01.587000Z",
+      "teams": [
+        "Mayek It Clap",
+        "KELKINS KARTEL"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "5850",
+            "name": "Josh Jacobs",
+            "position": "RB",
+            "team": "GB",
+            "status": "Active",
+            "injury_status": "NA"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "6801",
+            "name": "Tee Higgins",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "6794",
+            "name": "Justin Jefferson",
+            "position": "WR",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        },
+        {
+          "player": {
+            "player_id": "8131",
+            "name": "Isaiah Likely",
+            "position": "TE",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6794",
+            "name": "Justin Jefferson",
+            "position": "WR",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "8131",
+            "name": "Isaiah Likely",
+            "position": "TE",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "5850",
+            "name": "Josh Jacobs",
+            "position": "RB",
+            "team": "GB",
+            "status": "Active",
+            "injury_status": "NA"
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        },
+        {
+          "player": {
+            "player_id": "6801",
+            "name": "Tee Higgins",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 1,
+          "roster_id": 6,
+          "owner_id": 4,
+          "previous_owner_id": 6
+        },
+        {
+          "season": "2028",
+          "round": 2,
+          "roster_id": 6,
+          "owner_id": 4,
+          "previous_owner_id": 6
+        },
+        {
+          "season": "2029",
+          "round": 2,
+          "roster_id": 6,
+          "owner_id": 4,
+          "previous_owner_id": 6
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1404567496278757376",
       "type": "waiver",
