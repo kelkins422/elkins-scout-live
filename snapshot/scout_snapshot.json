@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-13T01:43:30.708528Z",
+  "generated_at_utc": "2026-09-13T01:56:16.879772Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -201,19 +201,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1404677771082436608",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
+    "last_message_id": "1404680627877343232",
+    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
+    "last_author_display_name": "Donovanelkins6",
+    "last_author_id": "1030955970991603712",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789263787579,
+    "last_message_time": 1789264468691,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,11 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2715,10 +2715,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "LAC",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         },
@@ -2731,6 +2731,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "5892",
           "name": "David Montgomery",
           "position": "RB",
@@ -2739,18 +2747,18 @@
           "injury_status": null
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
+          "player_id": "8131",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
+          "player_id": "5849",
+          "name": "Kyler Murray",
           "position": "QB",
-          "team": "GB",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         }
@@ -2797,14 +2805,6 @@
           "injury_status": null
         },
         {
-          "player_id": "13150",
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "4035",
           "name": "Alvin Kamara",
           "position": "RB",
@@ -2829,10 +2829,10 @@
           "injury_status": null
         },
         {
-          "player_id": "5849",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "team": "MIN",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null
         },
@@ -2853,18 +2853,10 @@
           "injury_status": null
         },
         {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "team": "NYG",
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
           "status": "Active",
           "injury_status": null
         },
@@ -2958,14 +2950,6 @@
           "name": "Elijah Arroyo",
           "position": "TE",
           "team": "SEA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13150",
-          "name": "Darius Cooper",
-          "position": "WR",
-          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -6676,6 +6660,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1404678840588013568",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-13T01:47:22.568000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13150",
+            "name": "Darius Cooper",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1404677285520367616",
       "type": "free_agent",
@@ -12757,11 +12769,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2521,
+    "total": 2522,
     "by_position": {
       "QB": 294,
       "RB": 550,
-      "WR": 1136,
+      "WR": 1137,
       "TE": 541
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -23421,6 +23433,18 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
+      "depth_chart_order": 5
+    },
+    {
+      "player_id": "13150",
+      "name": "Darius Cooper",
+      "position": "WR",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "RWR",
       "depth_chart_order": 5
     },
     {
