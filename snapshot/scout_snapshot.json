@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-13T23:26:28.558933Z",
+  "generated_at_utc": "2026-09-13T23:52:23.779802Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -211,10 +211,14 @@
     "last_message_text_map": null,
     "last_message_time": 1789340811836,
     "last_pinned_message_id": null,
-    "league_id": "1353413006104485888",
     "last_read_id": null,
+    "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -241,10 +245,6 @@
       "BN",
       "BN"
     ],
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1896,7 +1896,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9504",
@@ -2134,7 +2134,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8167",
@@ -10130,7 +10130,7 @@
             "position": "WR",
             "team": "IND",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
