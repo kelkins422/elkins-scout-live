@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-14T00:46:44.881524Z",
+  "generated_at_utc": "2026-09-14T01:13:22.009452Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,10 +63,14 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 12
+      "daily_waivers_last_ran": 13
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,23 +201,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1405000834231648256",
-    "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
-    "last_author_display_name": "kelkins81",
-    "last_author_id": "1362238574824546304",
-    "last_author_is_bot": false,
+    "last_message_id": "1405029457923784704",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789340811836,
+    "last_message_time": 1789347636255,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,9 +243,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -2821,10 +2821,10 @@
           "injury_status": null
         },
         {
-          "player_id": "4981",
-          "name": "Calvin Ridley",
-          "position": "WR",
-          "team": "TEN",
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -2978,18 +2978,18 @@
           "injury_status": null
         },
         {
-          "player_id": "4981",
-          "name": "Calvin Ridley",
-          "position": "WR",
-          "team": "TEN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
           "team": "BUF",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -3112,7 +3112,7 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 20,
+        "waiver_budget_used": 40,
         "waiver_position": 10,
         "wins": 0
       },
@@ -6660,6 +6660,47 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1404991876758614016",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-13T22:31:16.208000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4993",
+            "name": "Mike Gesicki",
+            "position": "TE",
+            "team": "CIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4981",
+            "name": "Calvin Ridley",
+            "position": "WR",
+            "team": "TEN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 20
+    },
     {
       "transaction_id": "1404678840588013568",
       "type": "free_agent",
@@ -12773,8 +12814,8 @@
     "by_position": {
       "QB": 294,
       "RB": 550,
-      "WR": 1137,
-      "TE": 541
+      "WR": 1138,
+      "TE": 540
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -23218,6 +23259,18 @@
       "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": 7
+    },
+    {
+      "player_id": "4981",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 8,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 3
     },
     {
       "player_id": "13726",
@@ -37774,18 +37827,6 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "4993",
-      "name": "Mike Gesicki",
-      "position": "TE",
-      "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 8,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1
     },
     {
       "player_id": "12473",
