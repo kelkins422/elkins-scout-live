@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-14T03:55:20.132663Z",
+  "generated_at_utc": "2026-09-14T09:43:40.438869Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -67,7 +67,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1405070828701315072",
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -198,10 +201,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
+    "last_message_id": "1405070828701315072",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -12876,7 +12876,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "829",
@@ -12972,7 +12972,7 @@
       "age": 33,
       "years_exp": 10,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "1737",
@@ -12984,7 +12984,7 @@
       "age": 38,
       "years_exp": 14,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "6147",
@@ -13008,7 +13008,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "4574",
@@ -13020,7 +13020,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "QB",
-      "depth_chart_order": 1
+      "depth_chart_order": 3
     },
     {
       "player_id": "12773",
@@ -13056,7 +13056,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 4
     },
     {
       "player_id": "5845",
@@ -13092,7 +13092,7 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "12792",
@@ -13344,7 +13344,7 @@
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "12494",
@@ -13608,7 +13608,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "10857",
@@ -13632,7 +13632,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13306",
@@ -13644,7 +13644,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11292",
@@ -13704,7 +13704,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "12511",
@@ -13740,7 +13740,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "1895",
@@ -16452,7 +16452,7 @@
       "age": 33,
       "years_exp": 11,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "14041",
@@ -16500,7 +16500,7 @@
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "7048",
@@ -16536,7 +16536,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8423",
@@ -16548,7 +16548,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "13277",
@@ -16560,7 +16560,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 7
     },
     {
       "player_id": "11186",
@@ -16608,7 +16608,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "11963",
@@ -16680,7 +16680,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "8129",
@@ -16764,7 +16764,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "6130",
@@ -16980,7 +16980,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "11439",
@@ -17016,7 +17016,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11569",
@@ -17064,7 +17064,7 @@
       "age": 30,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7087",
@@ -17124,7 +17124,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8254",
@@ -17136,7 +17136,7 @@
       "age": 25,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "5995",
@@ -17184,7 +17184,7 @@
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "7720",
@@ -17280,7 +17280,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 2
     },
     {
       "player_id": "13516",
@@ -17292,7 +17292,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "7607",
@@ -17400,7 +17400,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "7204",
@@ -17472,7 +17472,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "6918",
@@ -17520,7 +17520,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "12543",
@@ -17604,7 +17604,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6039",
@@ -17616,7 +17616,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "8208",
@@ -17700,7 +17700,7 @@
       "age": 25,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "6664",
@@ -23160,7 +23160,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "8756",
@@ -23196,7 +23196,7 @@
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13011",
@@ -23220,7 +23220,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "13420",
@@ -23232,7 +23232,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11157",
@@ -23244,7 +23244,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11748",
@@ -23292,7 +23292,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 4
     },
     {
       "player_id": "4981",
@@ -23400,7 +23400,7 @@
       "age": 33,
       "years_exp": 10,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "4950",
@@ -23520,7 +23520,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 8
     },
     {
       "player_id": "13150",
@@ -23556,7 +23556,7 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 8
     },
     {
       "player_id": "6540",
@@ -23604,7 +23604,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 9
     },
     {
       "player_id": "3286",
@@ -23664,7 +23664,7 @@
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11629",
@@ -23676,7 +23676,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "13621",
@@ -23712,7 +23712,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 5
     },
     {
       "player_id": "12946",
@@ -23796,7 +23796,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13313",
@@ -23856,7 +23856,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "6699",
@@ -23868,7 +23868,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "13670",
@@ -24036,7 +24036,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "10867",
@@ -24108,7 +24108,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 3
     },
     {
       "player_id": "9497",
@@ -24156,7 +24156,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 7
     },
     {
       "player_id": "13392",
@@ -24192,7 +24192,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13173",
@@ -24216,7 +24216,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "6677",
@@ -24324,7 +24324,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "12848",
@@ -24372,7 +24372,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 10
     },
     {
       "player_id": "7066",
@@ -24420,7 +24420,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "13491",
@@ -24444,7 +24444,7 @@
       "age": 32,
       "years_exp": 10,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "11994",
@@ -24456,7 +24456,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "12971",
@@ -24516,7 +24516,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 8
     },
     {
       "player_id": "5773",
@@ -24600,7 +24600,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "3155",
@@ -24660,7 +24660,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 4
     },
     {
       "player_id": "4177",
@@ -24696,7 +24696,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11210",
@@ -24756,7 +24756,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 5
     },
     {
       "player_id": "7618",
@@ -24840,7 +24840,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "3050",
@@ -24912,7 +24912,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13905",
@@ -24960,7 +24960,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 5
     },
     {
       "player_id": "12475",
@@ -25008,7 +25008,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "12482",
@@ -25020,7 +25020,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 4
     },
     {
       "player_id": "6290",
@@ -25056,7 +25056,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "8168",
@@ -25068,7 +25068,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "12756",
@@ -25116,7 +25116,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "12860",
@@ -25236,7 +25236,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "7562",
@@ -25284,7 +25284,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "13600",
@@ -25404,7 +25404,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "12520",
@@ -36684,7 +36684,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11596",
@@ -36756,7 +36756,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "7891",
@@ -36852,7 +36852,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "13407",
@@ -36924,7 +36924,7 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "6826",
@@ -36960,7 +36960,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13355",
@@ -36972,7 +36972,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "13577",
@@ -37116,7 +37116,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "6001",
@@ -37140,7 +37140,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "11304",
@@ -37152,7 +37152,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "10231",
@@ -37224,7 +37224,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "5985",
@@ -37308,7 +37308,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "4995",
@@ -37320,7 +37320,7 @@
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "5957",
@@ -37344,7 +37344,7 @@
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "1706",
@@ -37368,7 +37368,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13846",
@@ -37524,7 +37524,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "11113",
@@ -37572,7 +37572,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 4
     },
     {
       "player_id": "4144",
@@ -37584,7 +37584,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 5
     },
     {
       "player_id": "13273",
@@ -37800,7 +37800,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 2
     },
     {
       "player_id": "10871",
@@ -37812,7 +37812,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "13013",
@@ -37872,7 +37872,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "4054",
@@ -37896,7 +37896,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "11433",
@@ -38004,7 +38004,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "13913",
@@ -38064,7 +38064,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "7536",
@@ -38076,7 +38076,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13433",
@@ -38196,7 +38196,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13408",
@@ -38208,7 +38208,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "8227",
@@ -38292,7 +38292,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7149",
@@ -38352,7 +38352,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "13705",
@@ -38412,7 +38412,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "4490",
