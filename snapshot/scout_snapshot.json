@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-14T20:31:23.786903Z",
+  "generated_at_utc": "2026-09-14T20:54:30.569978Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -197,11 +197,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1405070828701315072",
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
     "shard": 620,
-    "last_message_id": "1405070828701315072",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -23355,6 +23355,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12908",
+      "name": "Chandler Brayboy",
+      "position": "WR",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "10228",
       "name": "Charlie Jones",
       "position": "WR",
@@ -24717,7 +24729,7 @@
       "team": "NYJ",
       "status": "Active",
       "injury_status": null,
-      "age": null,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -26915,18 +26927,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12908",
-      "name": "Chandler Brayboy",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
