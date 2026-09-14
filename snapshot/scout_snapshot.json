@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-14T02:13:53.713502Z",
+  "generated_at_utc": "2026-09-14T03:33:32.632144Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -201,17 +201,17 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1405042447901360128",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "578c6b253dd7b4bab45382e1af102204",
-    "last_author_display_name": "kelkins81",
-    "last_author_id": "1362238574824546304",
-    "last_author_is_bot": false,
+    "last_message_id": "1405065515705102336",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789350733308,
+    "last_message_time": 1789356233101,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -240,9 +240,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -250,8 +250,8 @@
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -735,7 +735,7 @@
         "wins": 0
       },
       "metadata": {
-        "p_nick_11628": "Bust",
+        "p_nick_11628": "Dogshit #1",
         "p_nick_12490": "RB1",
         "p_nick_12527": "The Jentrifier",
         "p_nick_13285": "GOAT",
@@ -744,7 +744,8 @@
         "p_nick_13421": "Baby Gronk",
         "p_nick_5022": "Circle K Employee",
         "p_nick_5872": "BBL Drizzy",
-        "p_nick_9493": "Rehab boy"
+        "p_nick_9493": "Rehab boy",
+        "p_nick_9500": "Dogshit #2"
       }
     },
     {
@@ -3125,18 +3126,21 @@
         "p_nick_4217": "Zero Mierdo",
         "p_nick_4981": "The Gambler",
         "p_nick_4984": "Terminator",
-        "p_nick_5849": "Mighty Mouse",
+        "p_nick_4993": "Sickle Cell",
+        "p_nick_5849": "Tua 2.0",
         "p_nick_5850": "Tyson",
         "p_nick_5892": "Knuckles",
         "p_nick_5927": "Diggs Sidepiece",
         "p_nick_5947": "Bean",
         "p_nick_6783": "Scary Jerry",
+        "p_nick_6794": "🛩️",
         "p_nick_6801": "Tee Time",
         "p_nick_6804": "Love Gun",
-        "p_nick_7564": "Reaper",
+        "p_nick_7564": "Burrows Cuck",
         "p_nick_7611": "Butterfingers",
         "p_nick_8130": "Thor",
-        "p_nick_8138": "Chef",
+        "p_nick_8131": "Marlbro Red",
+        "p_nick_8138": "Josh Allens Cuck",
         "p_nick_9506": "Pl44sed"
       }
     },
