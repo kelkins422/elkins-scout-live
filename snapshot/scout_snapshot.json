@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-14T19:13:37.872312Z",
+  "generated_at_utc": "2026-09-14T19:31:50.631966Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -16869,7 +16869,7 @@
       "team": "LAC",
       "status": "Active",
       "injury_status": null,
-      "age": null,
+      "age": 25,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
