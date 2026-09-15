@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T04:43:49.004533Z",
+  "generated_at_utc": "2026-09-15T07:15:48.578145Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -61,17 +61,13 @@
       "trade_review_days": 2,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 1,
+      "leg": 2,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
       "daily_waivers_last_ran": 14
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,22 +198,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1405423799561719808",
+    "shard": 620,
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
-    "draft_id": "1353413007752839168",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789441654628,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,6 +241,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -835,10 +835,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
+          "player_id": "3161",
+          "name": "Carson Wentz",
           "position": "QB",
-          "team": "MIA",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         }
@@ -909,14 +909,6 @@
           "injury_status": null
         },
         {
-          "player_id": "3161",
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -945,6 +937,14 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ARI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8161",
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
