@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T15:54:44.547705Z",
+  "generated_at_utc": "2026-09-15T16:13:57.231714Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,7 +204,6 @@
     "shard": 620,
     "sport": "nfl",
     "last_message_id": "1405616816172122112",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,6 +212,7 @@
     "last_message_text_map": null,
     "last_message_time": 1789487673374,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -17081,18 +17081,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8123",
-      "name": "Hassan Haskins",
-      "position": "RB",
-      "team": "NE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11651",
       "name": "Isaac Guerendo",
       "position": "RB",
@@ -19777,6 +19765,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8123",
+      "name": "Hassan Haskins",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23693,18 +23693,6 @@
       "depth_chart_order": 6
     },
     {
-      "player_id": "12888",
-      "name": "Dalen Cambre",
-      "position": "WR",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": "Out",
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13336",
       "name": "Dane Key",
       "position": "WR",
@@ -24841,18 +24829,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5938",
-      "name": "Lil'Jordan Humphrey",
-      "position": "WR",
-      "team": "DEN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -27720,6 +27696,18 @@
       "status": "Active",
       "injury_status": null,
       "age": null,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12888",
+      "name": "Dalen Cambre",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": "Out",
+      "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -32773,6 +32761,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "5938",
+      "name": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
