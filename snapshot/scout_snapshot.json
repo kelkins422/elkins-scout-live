@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T00:46:53.572181Z",
+  "generated_at_utc": "2026-09-15T01:13:51.702507Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -63,10 +63,13 @@
       "leg": 1,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 13
+      "daily_waivers_last_ran": 14
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -197,28 +200,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1405070828701315072",
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "shard": 620,
+    "last_message_id": "1405394155500269568",
     "draft_id": "1353413007752839168",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
-    "last_author_is_bot": false,
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789357499817,
+    "last_message_time": 1789434586933,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +240,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 1,
     "leg": 1,
-    "season_type": "regular",
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -731,7 +731,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 0
       },
       "metadata": {
@@ -902,20 +902,20 @@
           "injury_status": null
         },
         {
+          "player_id": "3161",
+          "name": "Carson Wentz",
+          "position": "QB",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
           "status": "Active",
           "injury_status": ""
-        },
-        {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "7002",
@@ -1107,20 +1107,20 @@
           "injury_status": null
         },
         {
+          "player_id": "3161",
+          "name": "Carson Wentz",
+          "position": "QB",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
           "team": null,
           "status": "Active",
           "injury_status": ""
-        },
-        {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "7002",
@@ -1201,8 +1201,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 19,
-        "waiver_position": 9,
+        "waiver_budget_used": 22,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": {
@@ -1701,7 +1701,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": null
@@ -2193,7 +2193,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": {
@@ -2326,10 +2326,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -2484,10 +2484,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12457",
-          "name": "Jaydon Blue",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -2698,8 +2698,8 @@
         "losses": 0,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 4,
+        "waiver_budget_used": 25,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": {
@@ -3144,7 +3144,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": {
@@ -4547,7 +4547,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 18,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 0
       },
       "metadata": null
@@ -6694,6 +6694,144 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1405168047970414592",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-14T10:11:18.697000Z",
+      "teams": [
+        "AJ Brown fucking sucks"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11834",
+            "name": "Devaughn Vele",
+            "position": "WR",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "AJ Brown fucking sucks"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12457",
+            "name": "Jaydon Blue",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "AJ Brown fucking sucks"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 25
+    },
+    {
+      "transaction_id": "1405096625067638784",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-14T05:27:30.151000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3161",
+            "name": "Carson Wentz",
+            "position": "QB",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "position": "QB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 3
+    },
+    {
+      "transaction_id": "1405096049852391424",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-09-14T05:25:13.008000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11834",
+            "name": "Devaughn Vele",
+            "position": "WR",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 3
+    },
+    {
+      "transaction_id": "1405029601008160768",
+      "type": "waiver",
+      "status": "failed",
+      "week": 1,
+      "created_utc": "2026-09-14T01:01:10.370000Z",
+      "teams": [
+        "Pickens My Nose"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11834",
+            "name": "Devaughn Vele",
+            "position": "WR",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1404991876758614016",
       "type": "waiver",
@@ -12847,8 +12985,8 @@
     "total": 2522,
     "by_position": {
       "QB": 294,
-      "RB": 550,
-      "WR": 1138,
+      "RB": 551,
+      "WR": 1137,
       "TE": 540
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -12963,18 +13101,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "3161",
-      "name": "Carson Wentz",
-      "position": "QB",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 10,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "1737",
       "name": "Case Keenum",
       "position": "QB",
@@ -13057,6 +13183,18 @@
       "years_exp": 1,
       "depth_chart_position": "QB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "5854",
+      "name": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
     },
     {
       "player_id": "5845",
@@ -17051,6 +17189,18 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12457",
+      "name": "Jaydon Blue",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23643,18 +23793,6 @@
       "depth_chart_order": 6
     },
     {
-      "player_id": "11834",
-      "name": "Devaughn Vele",
-      "position": "WR",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "8253",
       "name": "Deven Thompkins",
       "position": "WR",
@@ -24752,7 +24890,7 @@
       "position": "WR",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "SWR",
