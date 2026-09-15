@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T04:20:02.564204Z",
+  "generated_at_utc": "2026-09-15T04:43:49.004533Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -32,6 +32,7 @@
       "playoff_type": 1,
       "taxi_slots": 3,
       "sub_start_time_eligibility": 0,
+      "last_scored_leg": 1,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -67,10 +68,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -205,15 +206,18 @@
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
+    "draft_id": "1353413007752839168",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789441654628,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -240,9 +244,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -725,9 +726,13 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 184,
+        "fpts_against": 200,
+        "fpts_against_decimal": 71,
+        "fpts_decimal": 80,
+        "losses": 1,
+        "ppts": 218,
+        "ppts_decimal": 75,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
@@ -745,7 +750,9 @@
         "p_nick_5022": "Circle K Employee",
         "p_nick_5872": "BBL Drizzy",
         "p_nick_9493": "Rehab boy",
-        "p_nick_9500": "Dogshit #2"
+        "p_nick_9500": "Dogshit #2",
+        "record": "L",
+        "streak": "1L"
       }
     },
     {
@@ -1196,14 +1203,18 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 159,
+        "fpts_against": 106,
+        "fpts_against_decimal": 37,
+        "fpts_decimal": 46,
         "losses": 0,
+        "ppts": 176,
+        "ppts_decimal": 36,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 22,
         "waiver_position": 10,
-        "wins": 0
+        "wins": 1
       },
       "metadata": {
         "p_nick_10229": "crashee",
@@ -1227,7 +1238,9 @@
         "p_nick_8148": "ground fucker",
         "p_nick_8161": "runningblack",
         "p_nick_9509": "mustardddddd",
-        "p_nick_9511": "mcdaniel’s cuck"
+        "p_nick_9511": "mcdaniel’s cuck",
+        "record": "W",
+        "streak": "1W"
       }
     },
     {
@@ -1695,16 +1708,23 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 134,
+        "fpts_against": 204,
+        "fpts_against_decimal": 16,
+        "fpts_decimal": 5,
+        "losses": 1,
+        "ppts": 177,
+        "ppts_decimal": 31,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
         "waiver_position": 7,
         "wins": 0
       },
-      "metadata": null
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      }
     },
     {
       "roster_id": 4,
@@ -2187,14 +2207,18 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 168,
+        "fpts_against": 128,
+        "fpts_against_decimal": 59,
+        "fpts_decimal": 34,
         "losses": 0,
+        "ppts": 173,
+        "ppts_decimal": 84,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
         "waiver_position": 5,
-        "wins": 0
+        "wins": 1
       },
       "metadata": {
         "p_nick_10859": "vanilla ice🥶",
@@ -2225,7 +2249,9 @@
         "p_nick_9502": "🔫",
         "p_nick_9504": "i miss u💔",
         "p_nick_9753": "🏥♿️",
-        "p_nick_9997": "Black Flash⚡️"
+        "p_nick_9997": "Black Flash⚡️",
+        "record": "W",
+        "streak": "1W"
       }
     },
     {
@@ -2693,17 +2719,23 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 200,
+        "fpts_against": 184,
+        "fpts_against_decimal": 80,
+        "fpts_decimal": 71,
         "losses": 0,
+        "ppts": 216,
+        "ppts_decimal": 11,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
         "waiver_position": 9,
-        "wins": 0
+        "wins": 1
       },
       "metadata": {
-        "p_nick_5859": "Fuck this guy"
+        "p_nick_5859": "Fuck this guy",
+        "record": "W",
+        "streak": "1W"
       }
     },
     {
@@ -3138,14 +3170,18 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 207,
+        "fpts_against": 127,
+        "fpts_against_decimal": 9,
+        "fpts_decimal": 73,
         "losses": 0,
+        "ppts": 238,
+        "ppts_decimal": 84,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
         "waiver_position": 8,
-        "wins": 0
+        "wins": 1
       },
       "metadata": {
         "p_nick_10222": "5 📖",
@@ -3171,7 +3207,9 @@
         "p_nick_8130": "Thor",
         "p_nick_8131": "Marlbro Red",
         "p_nick_8138": "Josh Allens Cuck",
-        "p_nick_9506": "Pl44sed"
+        "p_nick_9506": "Pl44sed",
+        "record": "W",
+        "streak": "1W"
       }
     },
     {
@@ -3622,16 +3660,23 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 127,
+        "fpts_against": 207,
+        "fpts_against_decimal": 73,
+        "fpts_decimal": 9,
+        "losses": 1,
+        "ppts": 180,
+        "ppts_decimal": 49,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 3,
         "wins": 0
       },
-      "metadata": null
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      }
     },
     {
       "roster_id": 8,
@@ -4081,16 +4126,23 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 204,
+        "fpts_against": 134,
+        "fpts_against_decimal": 5,
+        "fpts_decimal": 16,
         "losses": 0,
+        "ppts": 223,
+        "ppts_decimal": 80,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 1,
-        "wins": 0
+        "wins": 1
       },
-      "metadata": null
+      "metadata": {
+        "record": "W",
+        "streak": "1W"
+      }
     },
     {
       "roster_id": 9,
@@ -4541,16 +4593,23 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 106,
+        "fpts_against": 159,
+        "fpts_against_decimal": 46,
+        "fpts_decimal": 37,
+        "losses": 1,
+        "ppts": 127,
+        "ppts_decimal": 27,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 18,
         "waiver_position": 6,
         "wins": 0
       },
-      "metadata": null
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      }
     },
     {
       "roster_id": 10,
@@ -5000,16 +5059,23 @@
         }
       ],
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 128,
+        "fpts_against": 168,
+        "fpts_against_decimal": 34,
+        "fpts_decimal": 59,
+        "losses": 1,
+        "ppts": 159,
+        "ppts_decimal": 3,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 2,
         "wins": 0
       },
-      "metadata": null
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      }
     }
   ],
   "future_picks": [
