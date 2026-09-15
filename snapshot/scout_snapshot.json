@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T09:45:52.656860Z",
+  "generated_at_utc": "2026-09-15T10:14:15.204837Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -3284,12 +3284,12 @@
           "injury_status": null
         },
         {
-          "player_id": "7021",
-          "name": "Rico Dowdle",
-          "position": "RB",
-          "team": "PIT",
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3163",
@@ -3310,28 +3310,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "11783",
           "name": "Ryan Flournoy",
           "position": "WR",
           "team": "DAL",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "13281",
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "team": "NO",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "13330",
@@ -3378,6 +3362,14 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7021",
+          "name": "Rico Dowdle",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null
         },
@@ -3440,7 +3432,16 @@
           "injury_status": null
         }
       ],
-      "injured_reserve": [],
+      "injured_reserve": [
+        {
+          "player_id": "13281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "team": "NO",
+          "status": "Inactive",
+          "injury_status": "IR"
+        }
+      ],
       "all_players": [
         {
           "player_id": "10219",
