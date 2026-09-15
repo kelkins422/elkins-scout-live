@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T22:13:20.083885Z",
+  "generated_at_utc": "2026-09-15T23:12:58.950244Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,10 +203,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
     "last_message_id": "1405616816172122112",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -216,6 +216,11 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1743,12 +1743,12 @@
           "injury_status": null
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
+          "player_id": "12529",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "TB",
+          "team": "NE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "8228",
@@ -1833,14 +1833,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12529",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "team": "NE",
-          "status": "Active",
-          "injury_status": "Out"
-        },
-        {
           "player_id": "13294",
           "name": "Makai Lemon",
           "position": "WR",
@@ -1903,6 +1895,14 @@
           "team": "NYG",
           "status": "Active",
           "injury_status": "Out"
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "8134",
