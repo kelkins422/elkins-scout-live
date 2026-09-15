@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T10:14:15.204837Z",
+  "generated_at_utc": "2026-09-15T11:30:42.609347Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -68,6 +68,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1405423799561719808",
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -198,11 +203,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1405423799561719808",
-    "shard": 620,
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -215,6 +215,9 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -241,9 +244,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -269,10 +269,10 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "NO",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         },
@@ -317,18 +317,18 @@
           "injury_status": null
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11628",
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -379,6 +379,14 @@
           "name": "Jaylin Noel",
           "position": "WR",
           "team": "HOU",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -439,28 +447,12 @@
           "injury_status": null
         },
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5022",
           "name": "Dallas Goedert",
           "position": "TE",
           "team": "PHI",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "status": "Inactive",
-          "injury_status": "IR"
         }
       ],
       "taxi": [
@@ -495,6 +487,14 @@
           "name": "Jayden Higgins",
           "position": "WR",
           "team": "HOU",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
           "status": "Inactive",
           "injury_status": "IR"
         }
