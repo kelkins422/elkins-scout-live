@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T19:40:22.592654Z",
+  "generated_at_utc": "2026-09-16T19:52:12.285859Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,23 +203,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
-    "last_message_id": "1406035963481706496",
-    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
-    "last_author_display_name": "Donovanelkins6",
-    "last_author_id": "1030955970991603712",
+    "last_message_id": "1406038978192257024",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789587605880,
+    "last_message_time": 1789588324644,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,18 +247,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -445,7 +445,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "13421",
@@ -659,7 +659,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "13421",
@@ -6794,7 +6794,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -6844,7 +6844,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -12236,7 +12236,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -13335,7 +13335,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8157",
@@ -13935,7 +13935,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "12470",
@@ -16946,8 +16946,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "7048",
@@ -17210,8 +17210,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "11574",
@@ -17658,6 +17658,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7608",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11647",
       "name": "Kimani Vidal",
       "position": "RB",
@@ -17727,7 +17739,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7607",
@@ -21126,18 +21138,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "7608",
-      "name": "Khalil Herbert",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12026",
       "name": "Kobe Lewis",
       "position": "RB",
@@ -23727,7 +23727,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 9
     },
     {
       "player_id": "5223",
@@ -23858,8 +23858,8 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 6
     },
     {
       "player_id": "4950",
@@ -24938,8 +24938,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 7
     },
     {
       "player_id": "13981",
@@ -25046,7 +25046,7 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 7,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": "LWR",
       "depth_chart_order": 6
     },
     {
@@ -37395,7 +37395,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13355",
@@ -37899,7 +37899,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 4
     },
     {
       "player_id": "8170",
@@ -38259,7 +38259,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "9481",
@@ -38414,8 +38414,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 4
     },
     {
       "player_id": "3258",
