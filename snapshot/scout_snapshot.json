@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T21:53:22.823003Z",
+  "generated_at_utc": "2026-09-16T22:13:03.515089Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,6 +204,7 @@
       "st_ff": 0.0
     },
     "last_message_id": "1406057066379968512",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
     "last_author_display_name": "brettstalvey2528",
     "last_author_id": "474981049038794752",
@@ -213,12 +214,8 @@
     "last_message_time": 1789592637204,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,15 +242,18 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1788,7 +1788,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10859",
@@ -2156,7 +2156,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8134",
@@ -10133,7 +10133,7 @@
             "position": "WR",
             "team": "HOU",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
