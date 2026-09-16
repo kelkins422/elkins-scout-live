@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-15T23:12:58.950244Z",
+  "generated_at_utc": "2026-09-16T00:18:15.412416Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -13050,10 +13050,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2522,
+    "total": 2523,
     "by_position": {
       "QB": 294,
-      "RB": 551,
+      "RB": 552,
       "WR": 1137,
       "TE": 540
     },
@@ -16707,6 +16707,18 @@
       "years_exp": 2,
       "depth_chart_position": "RB",
       "depth_chart_order": 6
+    },
+    {
+      "player_id": "11273",
+      "name": "Ben VanSumeren",
+      "position": "RB",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7048",
