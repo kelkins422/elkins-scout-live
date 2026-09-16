@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T19:52:12.285859Z",
+  "generated_at_utc": "2026-09-16T20:14:33.363395Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -203,16 +203,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1406038978192257024",
-    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
-    "last_author_display_name": "brettstalvey2528",
-    "last_author_id": "474981049038794752",
+    "last_message_id": "1406039942567608336",
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": "484bdce177721551758a27e423ab4652",
+    "last_author_display_name": "ealvarezz",
+    "last_author_id": "871280621559926784",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789588324644,
+    "last_message_time": 1789588554569,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -4159,7 +4159,7 @@
           "position": "QB",
           "team": "CIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4866",
@@ -4535,7 +4535,7 @@
           "position": "QB",
           "team": "CIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6803",
@@ -9660,7 +9660,7 @@
             "position": "QB",
             "team": "CIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
