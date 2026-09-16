@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T16:41:56.461567Z",
+  "generated_at_utc": "2026-09-16T16:55:38.769193Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,19 +199,28 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1405989770391207936",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1405994357483483136",
+    "shard": 620,
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789576592590,
+    "last_message_time": 1789577686238,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,18 +247,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -302,10 +302,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "CHI",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -440,6 +440,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "injury_status": "Doubtful"
+        },
+        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "position": "TE",
@@ -538,14 +546,6 @@
           "name": "Kaleb Johnson",
           "position": "RB",
           "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -654,6 +654,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "injury_status": "Doubtful"
+        },
+        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "position": "TE",
@@ -690,6 +698,14 @@
           "name": "Trevor Lawrence",
           "position": "QB",
           "team": "JAX",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -3253,10 +3269,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "PHI",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -3333,14 +3349,6 @@
           "team": "NYJ",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "13417",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": "Doubtful"
         },
         {
           "player_id": "421",
@@ -3485,6 +3493,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -3523,14 +3539,6 @@
           "team": "LAC",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "13417",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": "Doubtful"
         },
         {
           "player_id": "2133",
@@ -3601,14 +3609,6 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "team": "PIT",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -5686,10 +5686,10 @@
       "round": 3,
       "original_roster_id": 1,
       "original_team": "Jeantrification",
-      "current_roster_id": 1,
-      "current_team": "Jeantrification",
+      "current_roster_id": 7,
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 1,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2027",
@@ -6086,10 +6086,10 @@
       "round": 3,
       "original_roster_id": 1,
       "original_team": "Jeantrification",
-      "current_roster_id": 1,
-      "current_team": "Jeantrification",
+      "current_roster_id": 7,
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 1,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2028",
@@ -6705,6 +6705,13 @@
       "previous_owner_id": 1
     },
     {
+      "round": 3,
+      "season": "2027",
+      "roster_id": 1,
+      "owner_id": 7,
+      "previous_owner_id": 1
+    },
+    {
       "round": 4,
       "season": "2027",
       "roster_id": 2,
@@ -6731,6 +6738,13 @@
       "roster_id": 6,
       "owner_id": 4,
       "previous_owner_id": 6
+    },
+    {
+      "round": 3,
+      "season": "2028",
+      "roster_id": 1,
+      "owner_id": 7,
+      "previous_owner_id": 1
     },
     {
       "round": 2,
@@ -6762,6 +6776,111 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1405989662572511232",
+      "type": "trade",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-16T16:36:06.884000Z",
+      "teams": [
+        "Jeantrification",
+        "Pickens My Nose"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13417",
+            "name": "De'Zhaun Stribling",
+            "position": "WR",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "Doubtful"
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "7525",
+            "name": "DeVonta Smith",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "12519",
+            "name": "Luther Burden",
+            "position": "WR",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12519",
+            "name": "Luther Burden",
+            "position": "WR",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "13417",
+            "name": "De'Zhaun Stribling",
+            "position": "WR",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": "Doubtful"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        },
+        {
+          "player": {
+            "player_id": "7525",
+            "name": "DeVonta Smith",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 3,
+          "roster_id": 1,
+          "owner_id": 7,
+          "previous_owner_id": 1
+        },
+        {
+          "season": "2028",
+          "round": 3,
+          "roster_id": 1,
+          "owner_id": 7,
+          "previous_owner_id": 1
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1405724563077111808",
       "type": "waiver",
