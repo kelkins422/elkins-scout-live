@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T07:14:40.739784Z",
+  "generated_at_utc": "2026-09-16T09:54:31.518506Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1405754227405451264",
-    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1405754227405451264",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,10 +204,10 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
+    "draft_id": "1353413007752839168",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
@@ -24184,7 +24184,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "5970",
@@ -24292,7 +24292,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "12746",
@@ -24820,7 +24820,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "13412",
@@ -25396,7 +25396,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "8168",
@@ -37048,7 +37048,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7568",
