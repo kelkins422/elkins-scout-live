@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T19:16:55.154481Z",
+  "generated_at_utc": "2026-09-16T19:40:22.592654Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1406030014658379776",
-    "sport": "nfl",
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,13 +199,18 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 620,
+    "last_message_id": "1406035963481706496",
+    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
+    "last_author_display_name": "Donovanelkins6",
+    "last_author_id": "1030955970991603712",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789586187572,
+    "last_message_time": 1789587605880,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1353413007752839168",
@@ -444,7 +444,7 @@
           "name": "De'Zhaun Stribling",
           "position": "WR",
           "team": "SF",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Doubtful"
         },
         {
@@ -658,7 +658,7 @@
           "name": "De'Zhaun Stribling",
           "position": "WR",
           "team": "SF",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Doubtful"
         },
         {
@@ -4297,7 +4297,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "IR"
         },
         {
           "player_id": "4033",
@@ -4313,7 +4313,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "6865",
@@ -4487,7 +4487,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "IR"
         },
         {
           "player_id": "13337",
@@ -4527,7 +4527,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "6770",
@@ -6793,7 +6793,7 @@
             "name": "De'Zhaun Stribling",
             "position": "WR",
             "team": "SF",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "Doubtful"
           },
           "roster_id": 1,
@@ -6843,7 +6843,7 @@
             "name": "De'Zhaun Stribling",
             "position": "WR",
             "team": "SF",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "Doubtful"
           },
           "roster_id": 7,
@@ -10738,7 +10738,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -12235,7 +12235,7 @@
             "name": "De'Zhaun Stribling",
             "position": "WR",
             "team": "SF",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "Doubtful"
           }
         },
@@ -12418,7 +12418,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "IR"
           }
         },
         {
