@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T22:43:53.729792Z",
+  "generated_at_utc": "2026-09-16T22:55:43.950795Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -2898,7 +2898,7 @@
           "position": "TE",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4993",
@@ -3055,7 +3055,7 @@
           "position": "TE",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4984",
@@ -11267,7 +11267,7 @@
             "position": "TE",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
