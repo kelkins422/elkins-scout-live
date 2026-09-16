@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T03:32:23.114479Z",
+  "generated_at_utc": "2026-09-16T06:18:08.981979Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -13160,12 +13160,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2523,
+    "total": 2524,
     "by_position": {
       "QB": 294,
       "RB": 552,
       "WR": 1136,
-      "TE": 541
+      "TE": 542
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -37697,6 +37697,18 @@
       "years_exp": 0,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "7946",
+      "name": "Jack Stoll",
+      "position": "TE",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13846",
