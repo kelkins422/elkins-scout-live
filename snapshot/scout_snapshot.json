@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T20:14:33.363395Z",
+  "generated_at_utc": "2026-09-16T20:32:09.489453Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,24 +199,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1406039942567608336",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1406049007972704256",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
     "draft_id": "1353413007752839168",
-    "last_author_avatar": "484bdce177721551758a27e423ab4652",
-    "last_author_display_name": "ealvarezz",
-    "last_author_id": "871280621559926784",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789588554569,
+    "last_message_time": 1789590715930,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,13 +242,18 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1284,10 +1284,10 @@
           "injury_status": null
         },
         {
-          "player_id": "9226",
-          "name": "De'Von Achane",
+          "player_id": "6813",
+          "name": "Jonathan Taylor",
           "position": "RB",
-          "team": "MIA",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -1308,10 +1308,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
+          "player_id": "8172",
+          "name": "Greg Dulcich",
           "position": "TE",
-          "team": "IND",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -1332,10 +1332,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
+          "player_id": "9226",
+          "name": "De'Von Achane",
+          "position": "RB",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -1398,6 +1398,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1426,14 +1434,6 @@
           "name": "Darnell Mooney",
           "position": "WR",
           "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8172",
-          "name": "Greg Dulcich",
-          "position": "TE",
-          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -1564,14 +1564,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12518",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1632,6 +1624,14 @@
           "name": "Justin Herbert",
           "position": "QB",
           "team": "LAC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6813",
+          "name": "Jonathan Taylor",
+          "position": "RB",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -2340,7 +2340,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6819",
@@ -2348,7 +2348,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8183",
@@ -2652,7 +2652,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6819",
@@ -2660,7 +2660,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7547",
@@ -3245,10 +3245,10 @@
           "injury_status": null
         },
         {
-          "player_id": "6813",
-          "name": "Jonathan Taylor",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
           "position": "RB",
-          "team": "IND",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3277,10 +3277,10 @@
           "injury_status": null
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "12518",
+          "name": "Tyler Warren",
           "position": "TE",
-          "team": "BAL",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -3293,10 +3293,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "team": "CAR",
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
           "status": "Active",
           "injury_status": null
         },
@@ -3493,6 +3493,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12518",
+          "name": "Tyler Warren",
+          "position": "TE",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12519",
           "name": "Luther Burden",
           "position": "WR",
@@ -3593,14 +3601,6 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "6813",
-          "name": "Jonathan Taylor",
-          "position": "RB",
-          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -4674,7 +4674,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11620",
@@ -4756,7 +4756,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13311",
@@ -4889,7 +4889,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12498",
@@ -4937,7 +4937,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12540",
@@ -5706,10 +5706,10 @@
       "round": 3,
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
-      "current_roster_id": 3,
-      "current_team": "Nix so big u waddle ",
+      "current_roster_id": 7,
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 3,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2027",
@@ -6106,10 +6106,10 @@
       "round": 3,
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
-      "current_roster_id": 3,
-      "current_team": "Nix so big u waddle ",
+      "current_roster_id": 7,
+      "current_team": "Pickens My Nose",
       "previous_roster_id": 3,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2028",
@@ -6712,6 +6712,13 @@
       "previous_owner_id": 1
     },
     {
+      "round": 3,
+      "season": "2027",
+      "roster_id": 3,
+      "owner_id": 7,
+      "previous_owner_id": 3
+    },
+    {
       "round": 4,
       "season": "2027",
       "roster_id": 2,
@@ -6747,6 +6754,13 @@
       "previous_owner_id": 1
     },
     {
+      "round": 3,
+      "season": "2028",
+      "roster_id": 3,
+      "owner_id": 7,
+      "previous_owner_id": 3
+    },
+    {
       "round": 2,
       "season": "2029",
       "roster_id": 1,
@@ -6776,6 +6790,87 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1406034204369682432",
+      "type": "trade",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-16T19:33:06.475000Z",
+      "teams": [
+        "Nix so big u waddle ",
+        "Pickens My Nose"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6813",
+            "name": "Jonathan Taylor",
+            "position": "RB",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        },
+        {
+          "player": {
+            "player_id": "12518",
+            "name": "Tyler Warren",
+            "position": "TE",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12518",
+            "name": "Tyler Warren",
+            "position": "TE",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        },
+        {
+          "player": {
+            "player_id": "6813",
+            "name": "Jonathan Taylor",
+            "position": "RB",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 3,
+          "roster_id": 3,
+          "owner_id": 7,
+          "previous_owner_id": 3
+        },
+        {
+          "season": "2028",
+          "round": 3,
+          "roster_id": 3,
+          "owner_id": 7,
+          "previous_owner_id": 3
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1405989662572511232",
       "type": "trade",
@@ -10542,7 +10637,7 @@
             "position": "RB",
             "team": "DEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -10724,7 +10819,7 @@
             "position": "RB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -10976,7 +11071,7 @@
             "position": "RB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -11284,7 +11379,7 @@
             "position": "WR",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14135,7 +14230,7 @@
       "position": "QB",
       "team": "CHI",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "QB",
@@ -24587,7 +24682,7 @@
       "position": "WR",
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
