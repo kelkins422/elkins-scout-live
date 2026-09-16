@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T01:43:59.033504Z",
+  "generated_at_utc": "2026-09-16T03:32:23.114479Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -24955,6 +24955,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "5938",
+      "name": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 7,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "11520",
       "name": "Lucky Jackson",
       "position": "WR",
@@ -32909,18 +32921,6 @@
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "5938",
-      "name": "Lil'Jordan Humphrey",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 7,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 6
     },
     {
       "player_id": "12077",
