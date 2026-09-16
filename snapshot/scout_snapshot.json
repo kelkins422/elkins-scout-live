@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T18:57:50.544894Z",
+  "generated_at_utc": "2026-09-16T19:16:55.154481Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1406030014658379776",
+    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,17 +204,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1406025059788759040",
     "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
     "last_author_display_name": "sleezycreesey69",
     "last_author_id": "825521088418144256",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789585006238,
+    "last_message_time": 1789586187572,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1443,7 +1443,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "IR"
         },
         {
           "player_id": "9486",
@@ -1689,7 +1689,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "IR"
         },
         {
           "player_id": "9221",
@@ -9032,7 +9032,7 @@
             "name": "Jake Tonges",
             "position": "TE",
             "team": "SF",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           },
           "roster_id": 1,
@@ -11228,7 +11228,7 @@
             "position": "RB",
             "team": "MIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "IR"
           }
         },
         {
@@ -13047,7 +13047,7 @@
             "name": "Jake Tonges",
             "position": "TE",
             "team": "SF",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           }
         },
@@ -37894,7 +37894,7 @@
       "name": "Jake Tonges",
       "position": "TE",
       "team": "SF",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 27,
       "years_exp": 4,
