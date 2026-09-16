@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T14:42:40.951595Z",
+  "generated_at_utc": "2026-09-16T16:15:47.802755Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,8 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1405754227405451264",
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1405754227405451264",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -201,19 +204,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
+    "draft_id": "1353413007752839168",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1789520434765,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -17227,18 +17227,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "9227",
-      "name": "Israel Abanikanda",
-      "position": "RB",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5004",
       "name": "Ito Smith",
       "position": "RB",
@@ -19953,6 +19941,18 @@
     {
       "player_id": "8153",
       "name": "Isaiah Spiller",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "9227",
+      "name": "Israel Abanikanda",
       "position": "RB",
       "team": null,
       "status": "Active",
@@ -23731,18 +23731,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "13674",
-      "name": "Chris Hilton",
-      "position": "WR",
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "3269",
       "name": "Chris Moore",
       "position": "WR",
@@ -24223,18 +24211,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8861",
       "name": "Irv Charles",
       "position": "WR",
@@ -24541,18 +24517,6 @@
       "team": "KC",
       "status": "Inactive",
       "injury_status": "IR",
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12523",
-      "name": "Jimmy Horn",
-      "position": "WR",
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
@@ -27391,6 +27355,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13674",
+      "name": "Chris Hilton",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "1329",
       "name": "Chris Hogan",
       "position": "WR",
@@ -29803,6 +29779,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6626",
       "name": "Isaac Zico",
       "position": "WR",
@@ -31071,6 +31059,18 @@
       "injury_status": null,
       "age": 34,
       "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12523",
+      "name": "Jimmy Horn",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -38479,18 +38479,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "8041",
-      "name": "Shane Zylstra",
-      "position": "TE",
-      "team": "NE",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 29,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12217",
       "name": "Shawn Bowman",
       "position": "TE",
@@ -42867,6 +42855,18 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8041",
+      "name": "Shane Zylstra",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 29,
+      "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
