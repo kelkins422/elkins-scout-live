@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T00:45:57.748207Z",
+  "generated_at_utc": "2026-09-16T01:12:28.479150Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,11 +65,11 @@
       "leg": 2,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 14
+      "daily_waivers_last_ran": 15
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1405616816172122112",
+    "last_message_id": "1405754227405451264",
     "sport": "nfl",
     "shard": 620,
     "season": "2026",
@@ -204,14 +204,14 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1353413007752839168",
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789487673374,
+    "last_message_time": 1789520434765,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -737,7 +737,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 20,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       },
       "metadata": {
@@ -1214,7 +1214,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 22,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 1
       },
       "metadata": {
@@ -1316,12 +1316,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9754",
-          "name": "Quentin Johnston",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "8408",
+          "name": "Jordan Mason",
+          "position": "RB",
+          "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11563",
@@ -1430,18 +1430,18 @@
           "injury_status": null
         },
         {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "9486",
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9754",
+          "name": "Quentin Johnston",
+          "position": "WR",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null
         }
@@ -1719,7 +1719,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
-        "waiver_position": 7,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": {
@@ -1889,12 +1889,12 @@
           "injury_status": "NA"
         },
         {
-          "player_id": "7528",
-          "name": "Najee Harris",
+          "player_id": "6130",
+          "name": "Devin Singletary",
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "7567",
@@ -2103,6 +2103,14 @@
           "injury_status": "NA"
         },
         {
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "6801",
           "name": "Tee Higgins",
           "position": "WR",
@@ -2117,14 +2125,6 @@
           "team": "PHI",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "7528",
-          "name": "Najee Harris",
-          "position": "RB",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": "Out"
         },
         {
           "player_id": "7567",
@@ -2218,7 +2218,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 5,
+        "waiver_position": 10,
         "wins": 1
       },
       "metadata": {
@@ -2730,7 +2730,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -3181,7 +3181,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 8,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -3343,18 +3343,18 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "421",
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -3549,14 +3549,6 @@
           "injury_status": null
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "3294",
           "name": "Dak Prescott",
           "position": "QB",
@@ -3569,6 +3561,14 @@
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "4454",
+          "name": "Kendrick Bourne",
+          "position": "WR",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -3671,8 +3671,8 @@
         "ppts_decimal": 49,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_budget_used": 5,
+        "waiver_position": 9,
         "wins": 0
       },
       "metadata": {
@@ -4605,7 +4605,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 18,
-        "waiver_position": 6,
+        "waiver_position": 4,
         "wins": 0
       },
       "metadata": {
@@ -6762,6 +6762,116 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1405724563077111808",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-15T23:02:42.239000Z",
+      "teams": [
+        "Mayek It Clap"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6130",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7528",
+            "name": "Najee Harris",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": "Out"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1405557495098839040",
+      "type": "waiver",
+      "status": "failed",
+      "week": 2,
+      "created_utc": "2026-09-15T11:58:50.129000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4454",
+            "name": "Kendrick Bourne",
+            "position": "WR",
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1405394552155652096",
+      "type": "waiver",
+      "status": "complete",
+      "week": 1,
+      "created_utc": "2026-09-15T01:11:21.504000Z",
+      "teams": [
+        "Pickens My Nose"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4454",
+            "name": "Kendrick Bourne",
+            "position": "WR",
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3214",
+            "name": "Hunter Henry",
+            "position": "TE",
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5
+    },
     {
       "transaction_id": "1405168047970414592",
       "type": "waiver",
@@ -13054,8 +13164,8 @@
     "by_position": {
       "QB": 294,
       "RB": 552,
-      "WR": 1137,
-      "TE": 540
+      "WR": 1136,
+      "TE": 541
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -16985,18 +17095,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "6130",
-      "name": "Devin Singletary",
-      "position": "RB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "11574",
       "name": "Dylan Laube",
       "position": "RB",
@@ -17559,6 +17657,18 @@
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "7528",
+      "name": "Najee Harris",
+      "position": "RB",
+      "team": "NYG",
+      "status": "Active",
+      "injury_status": "Out",
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "12897",
@@ -24711,18 +24821,6 @@
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 8
-    },
-    {
-      "player_id": "4454",
-      "name": "Kendrick Bourne",
-      "position": "WR",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 31,
-      "years_exp": 9,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3
     },
     {
       "player_id": "13412",
@@ -37515,6 +37613,18 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "3214",
+      "name": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 10,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1
     },
     {
       "player_id": "7535",
