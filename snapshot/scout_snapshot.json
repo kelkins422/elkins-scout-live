@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-16T01:12:28.479150Z",
+  "generated_at_utc": "2026-09-16T01:43:59.033504Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -25039,6 +25039,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "5086",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 8,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5848",
       "name": "Marquise Brown",
       "position": "WR",
@@ -31692,7 +31704,7 @@
       "position": "WR",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 9,
       "depth_chart_position": null,
@@ -33411,18 +33423,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5086",
-      "name": "Marquez Valdes-Scantling",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 31,
-      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -38472,7 +38472,7 @@
       "position": "TE",
       "team": "NE",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": null,
