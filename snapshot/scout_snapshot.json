@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-17T20:14:10.508192Z",
+  "generated_at_utc": "2026-09-17T20:51:54.984767Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -3757,7 +3757,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10236",
@@ -4140,7 +4140,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8150",
@@ -10137,7 +10137,7 @@
             "position": "WR",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
