@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-17T23:10:51.511885Z",
+  "generated_at_utc": "2026-09-17T23:51:57.446482Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -4812,7 +4812,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6768",
@@ -5025,7 +5025,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "4892",
@@ -13273,7 +13273,7 @@
             "position": "WR",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
