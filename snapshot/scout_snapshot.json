@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T00:44:53.311262Z",
+  "generated_at_utc": "2026-09-18T01:17:20.811009Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 2,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 16
+      "daily_waivers_last_ran": 17
     },
     "avatar": null,
     "company_id": null,
@@ -203,14 +203,14 @@
     "season_type": "regular",
     "shard": 620,
     "sport": "nfl",
-    "last_message_id": "1406325590805532672",
+    "last_message_id": "1406478920726990848",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1789656658416,
+    "last_message_time": 1789693215118,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
@@ -318,10 +318,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
+          "player_id": "7571",
+          "name": "Rashod Bateman",
           "position": "WR",
-          "team": "ARI",
+          "team": "BAL",
           "status": "Active",
           "injury_status": null
         },
@@ -352,6 +352,14 @@
       ],
       "bench": [
         {
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12474",
           "name": "Woody Marks",
           "position": "RB",
@@ -364,14 +372,6 @@
           "name": "Kaleb Johnson",
           "position": "RB",
           "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET",
           "status": "Active",
           "injury_status": null
         },
@@ -558,14 +558,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12535",
-          "name": "Isaac TeSlaa",
-          "position": "WR",
-          "team": "DET",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12536",
           "name": "Jaylin Noel",
           "position": "WR",
@@ -710,6 +702,14 @@
           "injury_status": null
         },
         {
+          "player_id": "7571",
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "8151",
           "name": "Kenneth Walker",
           "position": "RB",
@@ -752,8 +752,8 @@
         "ppts_decimal": 75,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 20,
-        "waiver_position": 3,
+        "waiver_budget_used": 25,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": {
@@ -1230,7 +1230,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 22,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -1366,14 +1366,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11575",
-          "name": "Ray Davis",
-          "position": "RB",
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -1394,6 +1386,14 @@
           "name": "Kirk Cousins",
           "position": "QB",
           "team": "LV",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11729",
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET",
           "status": "Active",
           "injury_status": null
         },
@@ -1532,14 +1532,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11575",
-          "name": "Ray Davis",
-          "position": "RB",
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -1560,6 +1552,14 @@
           "name": "Kirk Cousins",
           "position": "QB",
           "team": "LV",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11729",
+          "name": "Sione Vaki",
+          "position": "RB",
+          "team": "DET",
           "status": "Active",
           "injury_status": null
         },
@@ -1750,7 +1750,7 @@
         "ppts_decimal": 31,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 42,
+        "waiver_budget_used": 44,
         "waiver_position": 9,
         "wins": 0
       },
@@ -2250,7 +2250,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -2762,7 +2762,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 1
       },
       "metadata": {
@@ -3213,7 +3213,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 1
       },
       "metadata": {
@@ -3395,6 +3395,14 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6931",
+          "name": "DeeJay Dallas",
+          "position": "RB",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         },
@@ -3633,6 +3641,14 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6931",
+          "name": "DeeJay Dallas",
+          "position": "RB",
+          "team": "MIN",
           "status": "Active",
           "injury_status": null
         },
@@ -4637,7 +4653,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 18,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 0
       },
       "metadata": {
@@ -6822,6 +6838,116 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1406471918734901248",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-18T00:32:25.712000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11729",
+            "name": "Sione Vaki",
+            "position": "RB",
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11575",
+            "name": "Ray Davis",
+            "position": "RB",
+            "team": "BUF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 2
+    },
+    {
+      "transaction_id": "1406362553319247872",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-17T17:17:50.966000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7571",
+            "name": "Rashod Bateman",
+            "position": "WR",
+            "team": "BAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12535",
+            "name": "Isaac TeSlaa",
+            "position": "WR",
+            "team": "DET",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5
+    },
+    {
+      "transaction_id": "1406118336579870720",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-17T01:07:25.158000Z",
+      "teams": [
+        "Pickens My Nose"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6931",
+            "name": "DeeJay Dallas",
+            "position": "RB",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1406059405287440384",
       "type": "waiver",
@@ -13490,10 +13616,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2523,
+    "total": 2522,
     "by_position": {
       "QB": 294,
-      "RB": 553,
+      "RB": 552,
       "WR": 1135,
       "TE": 541
     },
@@ -17413,18 +17539,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "6931",
-      "name": "DeeJay Dallas",
-      "position": "RB",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "11574",
       "name": "Dylan Laube",
       "position": "RB",
@@ -18109,6 +18223,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "11575",
+      "name": "Ray Davis",
+      "position": "RB",
+      "team": "BUF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "7204",
       "name": "Reggie Gilliam",
       "position": "RB",
@@ -18215,18 +18341,6 @@
       "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "11729",
-      "name": "Sione Vaki",
-      "position": "RB",
-      "team": "DET",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "12543",
@@ -24589,6 +24703,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "12535",
+      "name": "Isaac TeSlaa",
+      "position": "WR",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "4451",
       "name": "Isaac Whitney",
       "position": "WR",
@@ -25631,18 +25757,6 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "7571",
-      "name": "Rashod Bateman",
-      "position": "WR",
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 5,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 2
     },
     {
       "player_id": "13297",
