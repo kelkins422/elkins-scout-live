@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T22:12:48.277605Z",
+  "generated_at_utc": "2026-09-18T22:28:22.694622Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -299,7 +299,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7525",
@@ -731,7 +731,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9500",
@@ -9929,7 +9929,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -38906,7 +38906,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
