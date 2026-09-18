@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T05:12:30.178789Z",
+  "generated_at_utc": "2026-09-18T09:52:54.843279Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -14118,7 +14118,7 @@
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "12494",
@@ -24666,7 +24666,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "6699",
@@ -26118,7 +26118,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 5
     },
     {
       "player_id": "13600",
