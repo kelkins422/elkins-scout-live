@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-17T23:51:57.446482Z",
+  "generated_at_utc": "2026-09-18T00:18:44.559621Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,12 +203,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "last_message_id": "1406325590805532672",
-    "shard": 620,
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,14 +212,10 @@
     "last_message_text_map": null,
     "last_message_time": 1789656658416,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,13 +242,18 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -2335,10 +2335,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
+          "player_id": "8110",
+          "name": "Jake Ferguson",
           "position": "TE",
-          "team": "ATL",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -2449,10 +2449,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
+          "player_id": "7553",
+          "name": "Kyle Pitts",
           "position": "TE",
-          "team": "DAL",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
