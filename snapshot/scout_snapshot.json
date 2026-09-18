@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T02:31:55.625620Z",
+  "generated_at_utc": "2026-09-18T02:53:22.544867Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,8 +199,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
     "last_message_id": "1406478920726990848",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,9 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1789693215118,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1873,6 +1873,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13411",
           "name": "Zavion Thomas",
           "position": "WR",
@@ -1967,14 +1975,6 @@
           "name": "Shedeur Sanders",
           "position": "QB",
           "team": "CLE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13296",
-          "name": "Caleb Douglas",
-          "position": "WR",
-          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
