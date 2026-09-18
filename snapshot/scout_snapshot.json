@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T22:28:22.694622Z",
+  "generated_at_utc": "2026-09-18T22:42:37.701558Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -25118,7 +25118,7 @@
       "position": "WR",
       "team": "LAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
