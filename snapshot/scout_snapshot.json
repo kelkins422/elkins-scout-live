@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T15:13:17.785053Z",
+  "generated_at_utc": "2026-09-18T16:12:52.408535Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -14169,18 +14169,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "13816",
-      "name": "Mark Gronowski",
-      "position": "QB",
-      "team": "HOU",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "4972",
       "name": "Mason Rudolph",
       "position": "QB",
@@ -16337,6 +16325,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13816",
+      "name": "Mark Gronowski",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -25341,18 +25341,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13749",
-      "name": "Kole Wilson",
-      "position": "WR",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12718",
       "name": "Konata Mumpfield",
       "position": "WR",
@@ -33089,6 +33077,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13749",
+      "name": "Kole Wilson",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
