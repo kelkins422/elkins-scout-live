@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-19T20:42:24.474544Z",
+  "generated_at_utc": "2026-09-19T20:54:01.193880Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1801,12 +1801,12 @@
           "injury_status": null
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "8142",
+          "name": "Alec Pierce",
           "position": "WR",
-          "team": "HOU",
+          "team": "IND",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "10859",
@@ -1817,12 +1817,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
+          "player_id": "4037",
+          "name": "Chris Godwin",
           "position": "WR",
-          "team": "BAL",
+          "team": "TB",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "8167",
@@ -1907,14 +1907,6 @@
           "injury_status": null
         },
         {
-          "player_id": "4037",
-          "name": "Chris Godwin",
-          "position": "WR",
-          "team": "TB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5850",
           "name": "Josh Jacobs",
           "position": "RB",
@@ -1939,18 +1931,18 @@
           "injury_status": null
         },
         {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
           "player_id": "8134",
           "name": "Khalil Shakir",
           "position": "WR",
           "team": "BUF",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8142",
-          "name": "Alec Pierce",
-          "position": "WR",
-          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -1961,6 +1953,14 @@
           "team": "HOU",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "9997",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": "Out"
         }
       ],
       "taxi": [
