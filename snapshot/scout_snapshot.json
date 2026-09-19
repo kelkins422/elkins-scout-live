@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-19T21:27:13.373957Z",
+  "generated_at_utc": "2026-09-19T21:40:58.897256Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -13646,7 +13646,7 @@
       "position": "QB",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "QB",
