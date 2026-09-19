@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-19T09:43:08.742324Z",
+  "generated_at_utc": "2026-09-19T14:53:33.776856Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -73,6 +73,7 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1406768621123895296",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,7 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1406768621123895296",
     "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
     "last_author_display_name": "Donovanelkins6",
     "last_author_id": "1030955970991603712",
@@ -212,10 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1789762285074,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,18 +247,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -25470,7 +25470,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13329",
@@ -26058,7 +26058,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "7595",
@@ -26070,7 +26070,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "6960",
@@ -26226,7 +26226,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 2
+      "depth_chart_order": 1
     },
     {
       "player_id": "12520",
@@ -26250,7 +26250,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "830",
@@ -37566,7 +37566,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12735",
@@ -38202,7 +38202,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8698",
@@ -38250,7 +38250,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "13422",
