@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-18T22:42:37.701558Z",
+  "generated_at_utc": "2026-09-19T00:44:43.805332Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -14127,7 +14127,7 @@
       "team": "MIA",
       "status": "Active",
       "injury_status": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 1,
       "depth_chart_position": "QB",
       "depth_chart_order": 3
@@ -17274,7 +17274,7 @@
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11273",
@@ -17345,8 +17345,8 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
     },
     {
       "player_id": "11186",
@@ -25554,7 +25554,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 5
     },
     {
       "player_id": "7618",
@@ -38667,7 +38667,7 @@
       "team": "IND",
       "status": "Active",
       "injury_status": null,
-      "age": 32,
+      "age": 33,
       "years_exp": 9,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
@@ -38682,7 +38682,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11433",
@@ -39126,7 +39126,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13705",
