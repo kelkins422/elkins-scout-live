@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-19T20:54:01.193880Z",
+  "generated_at_utc": "2026-09-19T21:27:13.373957Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,7 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1407136323751403520",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -203,7 +204,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1407136323751403520",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -212,10 +213,13 @@
     "last_message_text_map": null,
     "last_message_time": 1789849952213,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,10 +246,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
@@ -384,6 +384,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13276",
+          "name": "Omar Cooper",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "13285",
           "name": "Malachi Fields",
           "position": "WR",
@@ -422,14 +430,6 @@
           "team": "KC",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "13417",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "status": "Inactive",
-          "injury_status": "Out"
         },
         {
           "player_id": "13421",
@@ -500,10 +500,10 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13276",
-          "name": "Omar Cooper",
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
           "position": "WR",
-          "team": "NYJ",
+          "team": "SF",
           "status": "Inactive",
           "injury_status": "IR"
         }
@@ -651,7 +651,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Inactive",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "13421",
@@ -7105,7 +7105,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -7155,7 +7155,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -12575,7 +12575,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Inactive",
-            "injury_status": "Out"
+            "injury_status": "IR"
           }
         },
         {
