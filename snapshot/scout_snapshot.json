@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T21:41:56.550098Z",
+  "generated_at_utc": "2026-09-20T22:12:10.075235Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -785,7 +785,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9509",
@@ -1016,7 +1016,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11576",
@@ -1381,7 +1381,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "1166",
@@ -1547,7 +1547,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "1166",
@@ -4363,7 +4363,7 @@
           "position": "TE",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "4943",
@@ -4561,7 +4561,7 @@
           "position": "TE",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "4866",
@@ -10083,7 +10083,7 @@
             "position": "QB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12799,7 +12799,7 @@
             "position": "TE",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -13149,7 +13149,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
