@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T15:54:02.912648Z",
+  "generated_at_utc": "2026-09-20T16:13:42.416581Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1318,10 +1318,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne",
-          "position": "RB",
-          "team": "NO",
+          "player_id": "12501",
+          "name": "Matthew Golden",
+          "position": "WR",
+          "team": "GB",
           "status": "Active",
           "injury_status": null
         },
@@ -1400,14 +1400,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1436,6 +1428,14 @@
           "name": "Darnell Mooney",
           "position": "WR",
           "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7543",
+          "name": "Travis Etienne",
+          "position": "RB",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
