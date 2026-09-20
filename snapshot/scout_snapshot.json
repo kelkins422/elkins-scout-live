@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T22:54:20.889373Z",
+  "generated_at_utc": "2026-09-20T23:11:37.454245Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1407534206417973248",
+    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,7 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1407534206417973248",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -216,6 +216,11 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -785,7 +785,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9509",
@@ -1016,7 +1016,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "11576",
@@ -3374,7 +3374,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "421",
@@ -3604,7 +3604,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "3294",
@@ -4241,7 +4241,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9482",
@@ -4553,7 +4553,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4033",
@@ -7076,7 +7076,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -8283,7 +8283,7 @@
             "position": "RB",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10083,7 +10083,7 @@
             "position": "QB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -11679,7 +11679,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13219,7 +13219,7 @@
             "position": "RB",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14270,7 +14270,7 @@
       "position": "QB",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -17462,7 +17462,7 @@
       "position": "RB",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -24314,7 +24314,7 @@
       "position": "WR",
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
@@ -37646,7 +37646,7 @@
       "position": "TE",
       "team": "LAC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
