@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T21:12:20.645695Z",
+  "generated_at_utc": "2026-09-20T21:41:56.550098Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -3374,7 +3374,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "421",
@@ -3604,7 +3604,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3294",
@@ -7076,7 +7076,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
