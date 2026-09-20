@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T18:14:38.863417Z",
+  "generated_at_utc": "2026-09-20T18:52:18.389633Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -2834,7 +2834,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5892",
@@ -3033,7 +3033,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12469",
@@ -4782,7 +4782,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "12498",
@@ -4939,7 +4939,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "12498",
@@ -10405,7 +10405,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -10881,7 +10881,7 @@
             "position": "RB",
             "team": "DEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
