@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T19:11:06.008555Z",
+  "generated_at_utc": "2026-09-20T19:25:05.635241Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
-    "last_message_id": "1407136323751403520",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,6 +199,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1407136323751403520",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -216,6 +216,11 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1487,7 +1487,7 @@
           "position": "RB",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "injured_reserve": [
@@ -1603,7 +1603,7 @@
           "position": "RB",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13424",
@@ -2498,7 +2498,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13338",
@@ -2574,7 +2574,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13278",
@@ -7773,7 +7773,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -8200,7 +8200,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -8365,7 +8365,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -8599,7 +8599,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11973,7 +11973,7 @@
             "position": "QB",
             "team": "ARI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -12967,7 +12967,7 @@
             "position": "RB",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -13730,7 +13730,7 @@
       "position": "QB",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -14102,7 +14102,7 @@
       "position": "QB",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -24902,7 +24902,7 @@
       "position": "WR",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "LWR",
@@ -25094,7 +25094,7 @@
       "position": "WR",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
@@ -25742,7 +25742,7 @@
       "position": "WR",
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
@@ -38438,7 +38438,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
