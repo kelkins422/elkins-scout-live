@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-20T23:11:37.454245Z",
+  "generated_at_utc": "2026-09-20T23:26:24.352442Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1978,7 +1978,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13302",
@@ -2070,7 +2070,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13302",
@@ -3865,7 +3865,7 @@
           "position": "RB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4017",
@@ -4062,7 +4062,7 @@
           "position": "RB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13345",
@@ -9552,7 +9552,7 @@
             "position": "WR",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10825,7 +10825,7 @@
             "position": "RB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13886,7 +13886,7 @@
       "position": "QB",
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "QB",
@@ -38246,7 +38246,7 @@
       "position": "TE",
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
