@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-21T22:31:06.204852Z",
+  "generated_at_utc": "2026-09-21T22:52:08.187191Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,7 +204,6 @@
       "st_ff": 0.0
     },
     "last_message_id": "1407890721230327808",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
     "last_author_display_name": "brettstalvey2528",
     "last_author_id": "474981049038794752",
@@ -214,11 +213,9 @@
     "last_message_time": 1790029814588,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,15 +242,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -39319,6 +39319,18 @@
       "depth_chart_order": 40
     },
     {
+      "player_id": "1339",
+      "name": "Zach Ertz",
+      "position": "TE",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 35,
+      "years_exp": 13,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8799",
       "name": "Zaire Mitchell-Paden",
       "position": "TE",
@@ -43947,18 +43959,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "1339",
-      "name": "Zach Ertz",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 35,
-      "years_exp": 13,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
