@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-21T21:13:21.277265Z",
+  "generated_at_utc": "2026-09-21T21:29:32.449568Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -3426,7 +3426,7 @@
           "position": "RB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8180",
@@ -3688,7 +3688,7 @@
           "position": "RB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8180",
@@ -13139,7 +13139,7 @@
             "position": "RB",
             "team": "ATL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -38730,7 +38730,7 @@
       "position": "TE",
       "team": "ATL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
