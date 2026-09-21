@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-21T22:14:28.281332Z",
+  "generated_at_utc": "2026-09-21T22:31:06.204852Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1407871157532688384",
-    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,18 +203,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1407890721230327808",
     "draft_id": "1353413007752839168",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790025150238,
+    "last_message_time": 1790029814588,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,18 +245,15 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -376,14 +376,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
-          "position": "QB",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13276",
           "name": "Omar Cooper",
           "position": "WR",
@@ -424,20 +416,20 @@
           "injury_status": null
         },
         {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "position": "WR",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "position": "TE",
           "team": "NE",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "5859",
@@ -452,6 +444,14 @@
           "name": "Rashod Bateman",
           "position": "WR",
           "team": "BAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -566,14 +566,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
-          "position": "QB",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13276",
           "name": "Omar Cooper",
           "position": "WR",
@@ -638,14 +630,6 @@
           "injury_status": null
         },
         {
-          "player_id": "13413",
-          "name": "Cyrus Allen",
-          "position": "WR",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13417",
           "name": "De'Zhaun Stribling",
           "position": "WR",
@@ -660,6 +644,14 @@
           "team": "NE",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "4046",
@@ -722,6 +714,14 @@
           "name": "Tucker Kraft",
           "position": "TE",
           "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -848,14 +848,6 @@
           "injury_status": null
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "3161",
           "name": "Carson Wentz",
           "position": "QB",
@@ -906,6 +898,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13269",
           "name": "Fernando Mendoza",
           "position": "QB",
@@ -922,10 +922,10 @@
           "injury_status": null
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "position": "QB",
-          "team": "NYJ",
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         },
@@ -1087,6 +1087,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13264",
           "name": "Dohnte Meyers",
           "position": "WR",
@@ -1119,10 +1127,10 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "position": "QB",
-          "team": "NYJ",
+          "player_id": "13413",
+          "name": "Cyrus Allen",
+          "position": "WR",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         },
@@ -1195,14 +1203,6 @@
           "name": "Malik Willis",
           "position": "QB",
           "team": "MIA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "9487",
-          "name": "Parker Washington",
-          "position": "WR",
-          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -6844,6 +6844,120 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1407881378879586304",
+      "type": "trade",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-21T21:53:07.198000Z",
+      "teams": [
+        "Jeantrification",
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1373",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "9487",
+            "name": "Parker Washington",
+            "position": "WR",
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "12545",
+            "name": "Tyler Shough",
+            "position": "QB",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        },
+        {
+          "player": {
+            "player_id": "13413",
+            "name": "Cyrus Allen",
+            "position": "WR",
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12545",
+            "name": "Tyler Shough",
+            "position": "QB",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "13413",
+            "name": "Cyrus Allen",
+            "position": "WR",
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "1373",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        },
+        {
+          "player": {
+            "player_id": "9487",
+            "name": "Parker Washington",
+            "position": "WR",
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1406471918734901248",
       "type": "waiver",
