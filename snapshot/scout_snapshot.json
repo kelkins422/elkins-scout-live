@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-21T22:52:08.187191Z",
+  "generated_at_utc": "2026-09-21T23:12:19.436733Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,17 +199,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1407890721230327808",
-    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
-    "last_author_display_name": "brettstalvey2528",
-    "last_author_id": "474981049038794752",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1407898412300435456",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790029814588,
+    "last_message_time": 1790031648282,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -294,12 +294,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "13285",
+          "name": "Malachi Fields",
           "position": "WR",
-          "team": "LAR",
+          "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7525",
@@ -384,14 +384,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13305",
           "name": "Mike Washington",
           "position": "RB",
@@ -454,6 +446,14 @@
           "team": "JAX",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "9500",
@@ -731,7 +731,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9500",
@@ -4401,7 +4401,7 @@
           "position": "QB",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13289",
@@ -4517,7 +4517,7 @@
           "position": "QB",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13279",
@@ -4892,7 +4892,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         }
       ],
       "injured_reserve": [],
@@ -5007,7 +5007,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13287",
@@ -10047,7 +10047,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -12035,7 +12035,7 @@
             "position": "QB",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -13673,7 +13673,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -25224,7 +25224,7 @@
       "position": "WR",
       "team": "LAR",
       "status": "Active",
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
@@ -39132,7 +39132,7 @@
       "position": "TE",
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
