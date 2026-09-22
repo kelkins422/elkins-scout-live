@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-22T01:11:31.189481Z",
+  "generated_at_utc": "2026-09-22T01:27:35.291894Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1407928570151436288",
-    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,7 +203,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "draft_id": "1353413007752839168",
+    "last_message_id": "1407928570151436288",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -214,6 +213,7 @@
     "last_message_time": 1790038838473,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "group_id": null,
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 2,
-    "leg": 2,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -813,7 +813,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10229",
@@ -1068,7 +1068,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12493",
@@ -10450,7 +10450,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
