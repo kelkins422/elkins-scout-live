@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-22T03:31:23.260783Z",
+  "generated_at_utc": "2026-09-22T04:13:34.825340Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -250,10 +250,10 @@
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 2,
+    "week": 3,
+    "leg": 3,
     "season_type": "regular",
     "season": "2026",
-    "leg": 2,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -24631,6 +24631,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "6149",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4274",
       "name": "David Moore",
       "position": "WR",
@@ -28935,18 +28947,6 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6149",
-      "name": "Darius Slayton",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
