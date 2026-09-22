@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-22T00:45:23.217879Z",
+  "generated_at_utc": "2026-09-22T01:11:31.189481Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,15 @@
       "leg": 2,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 20
+      "daily_waivers_last_ran": 21
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1407928570151436288",
     "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,19 +204,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1407898412300435456",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
-    "last_author_is_bot": false,
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790031648282,
+    "last_message_time": 1790038838473,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,16 +245,15 @@
     ],
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 2,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 2,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 0
       },
       "metadata": {
@@ -846,17 +846,17 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "3161",
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
         }
       ],
       "bench": [
+        {
+          "player_id": "11256",
+          "name": "Tyson Bagent",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
+        },
         {
           "player_id": "11576",
           "name": "Braelon Allen",
@@ -898,6 +898,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12496",
+          "name": "Tai Felton",
+          "position": "WR",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12545",
           "name": "Tyler Shough",
           "position": "QB",
@@ -910,14 +918,6 @@
           "name": "Fernando Mendoza",
           "position": "QB",
           "team": "LV",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13307",
-          "name": "Marlin Klein",
-          "position": "TE",
-          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
@@ -1015,6 +1015,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11256",
+          "name": "Tyson Bagent",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11566",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -1071,6 +1079,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12496",
+          "name": "Tai Felton",
+          "position": "WR",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12517",
           "name": "Colston Loveland",
           "position": "TE",
@@ -1111,14 +1127,6 @@
           "injury_status": null
         },
         {
-          "player_id": "13307",
-          "name": "Marlin Klein",
-          "position": "TE",
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13402",
           "name": "Skyler Bell",
           "position": "WR",
@@ -1139,14 +1147,6 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "3161",
-          "name": "Carson Wentz",
-          "position": "QB",
-          "team": "MIN",
           "status": "Active",
           "injury_status": null
         },
@@ -1233,8 +1233,8 @@
         "ppts_decimal": 36,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 22,
-        "waiver_position": 6,
+        "waiver_budget_used": 63,
+        "waiver_position": 9,
         "wins": 1
       },
       "metadata": {
@@ -1757,7 +1757,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 44,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 0
       },
       "metadata": {
@@ -2256,7 +2256,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -3381,18 +3381,18 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
+          "player_id": "3634",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3619,18 +3619,18 @@
           "injury_status": null
         },
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
+          "player_id": "3634",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "4454",
-          "name": "Kendrick Bourne",
-          "position": "WR",
-          "team": "ARI",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3819,7 +3819,7 @@
           "position": "QB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "bench": [
@@ -4034,7 +4034,7 @@
           "position": "QB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12514",
@@ -6957,6 +6957,185 @@
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null
+    },
+    {
+      "transaction_id": "1407835252906377216",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-21T18:49:49.908000Z",
+      "teams": [
+        "Pickens My Nose"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3634",
+            "name": "Kalif Raymond",
+            "position": "WR",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4454",
+            "name": "Kendrick Bourne",
+            "position": "WR",
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Nose"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1407648365847625728",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-21T06:27:12.561000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12496",
+            "name": "Tai Felton",
+            "position": "WR",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13307",
+            "name": "Marlin Klein",
+            "position": "TE",
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 1
+    },
+    {
+      "transaction_id": "1407647274632249344",
+      "type": "waiver",
+      "status": "failed",
+      "week": 2,
+      "created_utc": "2026-09-21T06:22:52.395000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2307",
+            "name": "Marcus Mariota",
+            "position": "QB",
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 15
+    },
+    {
+      "transaction_id": "1407647169892139008",
+      "type": "waiver",
+      "status": "complete",
+      "week": 2,
+      "created_utc": "2026-09-21T06:22:27.424000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11256",
+            "name": "Tyson Bagent",
+            "position": "QB",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3161",
+            "name": "Carson Wentz",
+            "position": "QB",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 40
+    },
+    {
+      "transaction_id": "1407645530233876480",
+      "type": "waiver",
+      "status": "failed",
+      "week": 2,
+      "created_utc": "2026-09-21T06:15:56.498000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11256",
+            "name": "Tyson Bagent",
+            "position": "QB",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 28
     },
     {
       "transaction_id": "1406471918734901248",
@@ -10929,7 +11108,7 @@
             "position": "QB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13740,8 +13919,8 @@
     "by_position": {
       "QB": 294,
       "RB": 552,
-      "WR": 1135,
-      "TE": 541
+      "WR": 1134,
+      "TE": 542
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -13853,6 +14032,18 @@
       "years_exp": 1,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "3161",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 33,
+      "years_exp": 10,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "1737",
@@ -14571,18 +14762,6 @@
       "injury_status": null,
       "age": 37,
       "years_exp": 15,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
-    },
-    {
-      "player_id": "11256",
-      "name": "Tyson Bagent",
-      "position": "QB",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -25351,18 +25530,6 @@
       "depth_chart_order": 6
     },
     {
-      "player_id": "3634",
-      "name": "Kalif Raymond",
-      "position": "WR",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 32,
-      "years_exp": 10,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 5
-    },
-    {
       "player_id": "11994",
       "name": "Kameron Johnson",
       "position": "WR",
@@ -25397,6 +25564,18 @@
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "4454",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 9,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3
     },
     {
       "player_id": "13412",
@@ -25997,18 +26176,6 @@
       "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "12496",
-      "name": "Tai Felton",
-      "position": "WR",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 4
     },
     {
       "player_id": "8250",
@@ -38729,6 +38896,18 @@
       "years_exp": 1,
       "depth_chart_position": "TE",
       "depth_chart_order": 7
+    },
+    {
+      "player_id": "13307",
+      "name": "Marlin Klein",
+      "position": "TE",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 3
     },
     {
       "player_id": "13032",
