@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-22T17:18:37.065079Z",
+  "generated_at_utc": "2026-09-22T20:25:13.863902Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,7 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1408158247558369280",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
@@ -204,10 +203,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1408158247558369280",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
-    "draft_id": "1353413007752839168",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
@@ -216,9 +216,6 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +242,9 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -294,12 +294,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "JAX",
+          "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "7525",
@@ -326,12 +326,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "LAR",
+          "team": "JAX",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "12490",
@@ -784,12 +784,12 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "11566",
-          "name": "Jayden Daniels",
+          "player_id": "8161",
+          "name": "Malik Willis",
           "position": "QB",
-          "team": "WAS",
+          "team": "MIA",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "9509",
@@ -846,6 +846,22 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12545",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "bench": [
@@ -855,7 +871,15 @@
           "position": "QB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
+        },
+        {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "11576",
@@ -882,14 +906,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12493",
           "name": "Oronde Gadsden",
           "position": "TE",
@@ -902,14 +918,6 @@
           "name": "Tai Felton",
           "position": "WR",
           "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12545",
-          "name": "Tyler Shough",
-          "position": "QB",
-          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -958,14 +966,6 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -1020,7 +1020,7 @@
           "position": "QB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11566",
@@ -3743,12 +3743,12 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "CHI",
+          "team": "CAR",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "11584",
@@ -3815,12 +3815,12 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12508",
-          "name": "Jaxson Dart",
+          "player_id": "4017",
+          "name": "Deshaun Watson",
           "position": "QB",
-          "team": "NYG",
+          "team": "CLE",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         }
       ],
       "bench": [
@@ -3831,6 +3831,14 @@
           "team": "ARI",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "11565",
@@ -3865,20 +3873,20 @@
           "injury_status": null
         },
         {
+          "player_id": "12508",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
           "status": "Active",
           "injury_status": "Questionable"
-        },
-        {
-          "player_id": "4017",
-          "name": "Deshaun Watson",
-          "position": "QB",
-          "team": "CLE",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "4066",
@@ -3925,14 +3933,6 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
           "status": "Active",
           "injury_status": null
         }
@@ -7086,7 +7086,7 @@
             "position": "QB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -7127,7 +7127,7 @@
             "position": "QB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -14779,6 +14779,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "9999",
+      "name": "Will Levis",
+      "position": "QB",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4924",
       "name": "Zach Terrell",
       "position": "QB",
@@ -17391,18 +17403,6 @@
       "injury_status": "NA",
       "age": 31,
       "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "9999",
-      "name": "Will Levis",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -24232,7 +24232,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 6
     },
     {
       "player_id": "7757",
@@ -38320,7 +38320,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13712",
@@ -39507,8 +39507,8 @@
       "injury_status": null,
       "age": 35,
       "years_exp": 13,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 4
     },
     {
       "player_id": "8799",
