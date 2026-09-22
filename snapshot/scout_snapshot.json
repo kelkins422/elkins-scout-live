@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-22T04:53:43.715898Z",
+  "generated_at_utc": "2026-09-22T07:13:45.138009Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -62,18 +62,13 @@
       "trade_review_days": 2,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 2,
+      "leg": 3,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
       "daily_waivers_last_ran": 21
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1407964556352925696",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,6 +199,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 620,
+    "last_message_id": "1407964556352925696",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,9 +214,11 @@
     "last_message_time": 1790047418253,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,9 +245,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
