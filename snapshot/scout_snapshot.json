@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-23T12:16:36.595091Z",
+  "generated_at_utc": "2026-09-23T17:22:50.686250Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -203,22 +203,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1408341096202821632",
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
-    "last_author_is_bot": false,
+    "last_message_id": "1408515961002196992",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790137192349,
-    "draft_id": "1353413007752839168",
+    "last_message_time": 1790178883366,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -759,17 +759,23 @@
       "metadata": {
         "p_nick_11628": "Lost Cause",
         "p_nick_12490": "RB1",
-        "p_nick_12527": "The Jentrifier",
+        "p_nick_12527": "The Jeantrifier",
         "p_nick_13285": "GOAT",
+        "p_nick_13305": "Temu Jeantrifier",
         "p_nick_13317": "Fred Durst",
+        "p_nick_13337": "Temu K9",
         "p_nick_13347": "Spoda",
         "p_nick_13405": "Kaytron3100",
         "p_nick_13421": "Baby Gronk",
+        "p_nick_1373": "🐇⏱️",
         "p_nick_4046": "Still Best QB in the NFL",
+        "p_nick_4866": "Elite Employee",
         "p_nick_5022": "Circle K Employee",
         "p_nick_5859": "Loading",
         "p_nick_5872": "BBL Drizzy",
+        "p_nick_7523": "The One",
         "p_nick_8151": "Fantasy Jesus",
+        "p_nick_9487": "Parkhim Washinghim",
         "p_nick_9493": "Rehab boy",
         "p_nick_9500": "Dogshit #2",
         "record": "LW",
@@ -879,7 +885,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "11576",
@@ -951,7 +957,7 @@
           "position": "WR",
           "team": null,
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": ""
         },
         {
           "player_id": "8121",
@@ -1028,7 +1034,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "11576",
@@ -1156,7 +1162,7 @@
           "position": "WR",
           "team": null,
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": ""
         },
         {
           "player_id": "7002",
@@ -1795,7 +1801,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6801",
@@ -1957,7 +1963,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "9504",
@@ -2195,7 +2201,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "8167",
@@ -2211,7 +2217,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9502",
@@ -2366,10 +2372,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
-          "position": "TE",
-          "team": "ATL",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -2396,14 +2402,6 @@
           "name": "Troy Franklin",
           "position": "WR",
           "team": "DEN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -2462,6 +2460,14 @@
           "team": "PIT",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "7553",
+          "name": "Kyle Pitts",
+          "position": "TE",
+          "team": "ATL",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "8111",
@@ -2884,14 +2890,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11583",
-          "name": "Jonathon Brooks",
-          "position": "RB",
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": "Doubtful"
-        },
-        {
           "player_id": "11618",
           "name": "Jalen McMillan",
           "position": "WR",
@@ -2992,6 +2990,14 @@
       ],
       "injured_reserve": [
         {
+          "player_id": "11583",
+          "name": "Jonathon Brooks",
+          "position": "RB",
+          "team": "CAR",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "12469",
           "name": "Dylan Sampson",
           "position": "RB",
@@ -3022,8 +3028,8 @@
           "name": "Jonathon Brooks",
           "position": "RB",
           "team": "CAR",
-          "status": "Active",
-          "injury_status": "Doubtful"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "11618",
@@ -3380,7 +3386,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "3634",
@@ -3404,7 +3410,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6931",
@@ -3444,7 +3450,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "96",
@@ -3610,7 +3616,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "3294",
@@ -3650,7 +3656,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6931",
@@ -3706,7 +3712,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "96",
@@ -3871,7 +3877,7 @@
           "position": "QB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "13286",
@@ -4028,7 +4034,7 @@
           "position": "QB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "12514",
@@ -7781,7 +7787,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "Doubtful"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -10788,7 +10794,7 @@
             "position": "QB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -11516,7 +11522,7 @@
             "position": "QB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -11684,7 +11690,7 @@
             "position": "WR",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -11922,7 +11928,7 @@
             "position": "RB",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12566,7 +12572,7 @@
             "position": "RB",
             "team": "TEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12775,8 +12781,8 @@
             "name": "Jonathon Brooks",
             "position": "RB",
             "team": "CAR",
-            "status": "Active",
-            "injury_status": "Doubtful"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -13126,7 +13132,7 @@
             "position": "RB",
             "team": "TEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13938,7 +13944,7 @@
             "position": "WR",
             "team": null,
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": ""
           }
         },
         {
@@ -14323,10 +14329,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2523,
+    "total": 2522,
     "by_position": {
       "QB": 292,
-      "RB": 552,
+      "RB": 551,
       "WR": 1136,
       "TE": 543
     },
@@ -14380,18 +14386,6 @@
       "years_exp": 0,
       "depth_chart_position": "QB",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "8157",
-      "name": "Bailey Zappe",
-      "position": "QB",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13295",
@@ -15362,6 +15356,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8157",
+      "name": "Bailey Zappe",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -17910,18 +17916,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "14041",
-      "name": "Anderson Castle",
-      "position": "RB",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6323",
       "name": "Andrew Beck",
       "position": "RB",
@@ -17942,18 +17936,6 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11579",
-      "name": "Audric Estime",
-      "position": "RB",
-      "team": "NO",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 23,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -19394,6 +19376,18 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "14041",
+      "name": "Anderson Castle",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -25230,18 +25224,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13805",
-      "name": "E.J. Williams",
-      "position": "WR",
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12542",
       "name": "Efton Chism",
       "position": "WR",
@@ -25261,6 +25243,18 @@
       "status": "Active",
       "injury_status": null,
       "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12909",
+      "name": "Eli Pancol",
+      "position": "WR",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -25322,18 +25316,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6045",
-      "name": "Gary Jennings",
-      "position": "WR",
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -25587,7 +25569,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11506",
@@ -25635,7 +25617,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "9497",
@@ -25851,7 +25833,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13394",
@@ -26079,7 +26061,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13830",
@@ -26487,7 +26469,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "12475",
@@ -26730,18 +26712,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "14038",
-      "name": "Trayvon Rudolph",
-      "position": "WR",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13356",
       "name": "Trebor Pena",
       "position": "WR",
@@ -26967,7 +26937,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "12520",
@@ -30438,6 +30408,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13805",
+      "name": "E.J. Williams",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7337",
       "name": "Easop Winston",
       "position": "WR",
@@ -30457,18 +30439,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12909",
-      "name": "Eli Pancol",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -30710,6 +30680,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -37310,6 +37292,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "14038",
+      "name": "Trayvon Rudolph",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
