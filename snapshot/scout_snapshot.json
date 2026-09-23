@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-23T17:22:50.686250Z",
+  "generated_at_utc": "2026-09-23T20:36:52.385266Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -212,13 +212,13 @@
     "last_message_text_map": null,
     "last_message_time": 1790178883366,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -1962,7 +1962,7 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out"
         },
         {
@@ -2200,7 +2200,7 @@
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Out"
         },
         {
@@ -2879,7 +2879,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "11199",
@@ -3013,7 +3013,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "11199",
@@ -3336,7 +3336,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3163",
@@ -3484,7 +3484,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "injured_reserve": [
@@ -3512,7 +3512,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11783",
@@ -3592,7 +3592,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "2133",
@@ -3819,7 +3819,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4017",
@@ -3967,7 +3967,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "injured_reserve": [],
@@ -4074,7 +4074,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4017",
@@ -4098,7 +4098,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5001",
@@ -4367,7 +4367,7 @@
           "position": "TE",
           "team": "LAC",
           "status": "Inactive",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "4943",
@@ -4573,7 +4573,7 @@
           "position": "TE",
           "team": "LAC",
           "status": "Inactive",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "4943",
@@ -4818,7 +4818,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13311",
@@ -4999,7 +4999,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12540",
@@ -8994,7 +8994,7 @@
             "position": "RB",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10476,7 +10476,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -10505,7 +10505,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -11689,7 +11689,7 @@
             "name": "Alec Pierce",
             "position": "WR",
             "team": "IND",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "Out"
           }
         },
@@ -12026,7 +12026,7 @@
             "position": "RB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12362,7 +12362,7 @@
             "position": "RB",
             "team": "DEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12446,7 +12446,7 @@
             "position": "WR",
             "team": "CAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12516,7 +12516,7 @@
             "position": "WR",
             "team": "GB",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -13216,7 +13216,7 @@
             "position": "RB",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13510,7 +13510,7 @@
             "position": "TE",
             "team": "LAC",
             "status": "Inactive",
-            "injury_status": "Out"
+            "injury_status": "IR"
           }
         },
         {
@@ -13930,7 +13930,7 @@
             "position": "RB",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14126,7 +14126,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17973,7 +17973,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "12171",
@@ -18125,7 +18125,7 @@
       "position": "RB",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -18321,7 +18321,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11571",
@@ -18933,7 +18933,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13418",
@@ -24496,8 +24496,8 @@
       "name": "Andrei Iosivas",
       "position": "WR",
       "team": "CIN",
-      "status": "Active",
-      "injury_status": null,
+      "status": "Inactive",
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
@@ -24572,8 +24572,8 @@
       "injury_status": "IR",
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_position": null,
+      "depth_chart_order": 5
     },
     {
       "player_id": "6427",
@@ -24789,7 +24789,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "4981",
@@ -24909,7 +24909,7 @@
       "age": 29,
       "years_exp": 8,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "7039",
@@ -25341,7 +25341,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13670",
@@ -25989,7 +25989,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "4454",
@@ -26013,7 +26013,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 6
     },
     {
       "player_id": "8200",
@@ -26217,7 +26217,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 7
     },
     {
       "player_id": "5086",
@@ -26228,8 +26228,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 6
     },
     {
       "player_id": "5848",
@@ -26265,7 +26265,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 5
     },
     {
       "player_id": "7618",
@@ -26337,7 +26337,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 7
     },
     {
       "player_id": "13075",
@@ -26697,7 +26697,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6588",
@@ -38181,7 +38181,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12374",
@@ -38925,7 +38925,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8170",
@@ -38949,7 +38949,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "11595",
@@ -39009,7 +39009,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11113",
@@ -39141,7 +39141,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13400",
@@ -39405,7 +39405,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11433",
@@ -39681,7 +39681,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8849",
@@ -39801,7 +39801,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7149",
@@ -39861,7 +39861,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13705",
