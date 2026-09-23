@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-23T20:36:52.385266Z",
+  "generated_at_utc": "2026-09-23T23:10:50.305339Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -216,11 +216,6 @@
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,13 +242,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 3,
-    "leg": 3,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 3,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1432,7 +1432,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7090",
@@ -1448,7 +1448,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8172",
@@ -1630,7 +1630,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3214",
@@ -1686,7 +1686,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8146",
@@ -1867,7 +1867,7 @@
           "position": "WR",
           "team": "BUF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11655",
@@ -2041,7 +2041,7 @@
           "position": "WR",
           "team": "BUF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11655",
@@ -2411,7 +2411,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12492",
@@ -2569,7 +2569,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12492",
@@ -2935,7 +2935,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6804",
@@ -3141,7 +3141,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6794",
@@ -3418,7 +3418,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7021",
@@ -3664,7 +3664,7 @@
           "position": "RB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7021",
@@ -3925,7 +3925,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7600",
@@ -4146,7 +4146,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7600",
@@ -4383,7 +4383,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8676",
@@ -4605,7 +4605,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7571",
@@ -4826,7 +4826,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3257",
@@ -5039,7 +5039,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3257",
@@ -7650,7 +7650,7 @@
             "position": "RB",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Nose"
@@ -9972,7 +9972,7 @@
             "position": "WR",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -10013,7 +10013,7 @@
             "position": "WR",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11438,7 +11438,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12432,7 +12432,7 @@
             "position": "WR",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12502,7 +12502,7 @@
             "position": "WR",
             "team": "JAX",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12936,7 +12936,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -13608,7 +13608,7 @@
             "position": "WR",
             "team": "BUF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14028,7 +14028,7 @@
             "position": "TE",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14294,7 +14294,7 @@
             "position": "TE",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14329,11 +14329,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2522,
+    "total": 2523,
     "by_position": {
       "QB": 292,
       "RB": 551,
-      "WR": 1136,
+      "WR": 1137,
       "TE": 543
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -18725,7 +18725,7 @@
       "position": "RB",
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -18917,7 +18917,7 @@
       "position": "RB",
       "team": "NE",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "RB",
@@ -18964,8 +18964,8 @@
       "name": "Ronnie Rivers",
       "position": "RB",
       "team": "LAR",
-      "status": "Active",
-      "injury_status": "Questionable",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
@@ -19109,7 +19109,7 @@
       "position": "RB",
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RB",
@@ -24893,7 +24893,7 @@
       "position": "WR",
       "team": "BAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 33,
       "years_exp": 10,
       "depth_chart_position": "RWR",
@@ -26184,6 +26184,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "14058",
+      "name": "Malick Meiga",
+      "position": "WR",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13329",
       "name": "Malik Benson",
       "position": "WR",
@@ -26513,7 +26525,7 @@
       "position": "WR",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
