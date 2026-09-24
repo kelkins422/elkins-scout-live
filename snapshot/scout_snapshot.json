@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-24T20:40:33.955060Z",
+  "generated_at_utc": "2026-09-24T23:30:08.551751Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -201,8 +201,8 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 620,
     "sport": "nfl",
+    "shard": 620,
     "last_message_id": "1408654358119297024",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 3,
-    "leg": 3,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
+    "leg": 3,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -307,7 +307,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9484",
@@ -699,7 +699,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8151",
@@ -819,7 +819,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "10229",
@@ -1074,7 +1074,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12493",
@@ -2348,10 +2348,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8110",
-          "name": "Jake Ferguson",
+          "player_id": "7553",
+          "name": "Kyle Pitts",
           "position": "TE",
-          "team": "DAL",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -2462,10 +2462,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
+          "player_id": "8110",
+          "name": "Jake Ferguson",
           "position": "TE",
-          "team": "ATL",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -2491,7 +2491,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9479",
@@ -2753,7 +2753,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9479",
@@ -3868,8 +3868,8 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13286",
@@ -4025,8 +4025,8 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "team": "NYG",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "12514",
@@ -4375,7 +4375,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6865",
@@ -4581,7 +4581,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6770",
@@ -4786,7 +4786,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12498",
@@ -4866,7 +4866,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8126",
@@ -4951,7 +4951,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12498",
@@ -5087,7 +5087,7 @@
           "position": "RB",
           "team": "DEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8126",
@@ -7938,7 +7938,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -7988,7 +7988,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -9035,7 +9035,7 @@
             "position": "QB",
             "team": "ATL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -9784,7 +9784,7 @@
             "position": "QB",
             "team": "ATL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -10974,7 +10974,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -11436,7 +11436,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -11631,8 +11631,8 @@
             "name": "Jaxson Dart",
             "position": "QB",
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -11702,7 +11702,7 @@
             "position": "RB",
             "team": "DEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -11898,7 +11898,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12822,7 +12822,7 @@
             "position": "RB",
             "team": "DEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -13074,7 +13074,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14599,7 +14599,7 @@
       "position": "QB",
       "team": "ATL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "QB",
@@ -14743,7 +14743,7 @@
       "position": "QB",
       "team": "ATL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "QB",
@@ -18751,7 +18751,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "RB",
@@ -19267,7 +19267,7 @@
       "position": "RB",
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "RB",
@@ -25123,7 +25123,7 @@
       "position": "WR",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
@@ -38599,7 +38599,7 @@
       "position": "TE",
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "TE",
