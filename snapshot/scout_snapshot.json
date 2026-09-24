@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-23T23:10:50.305339Z",
+  "generated_at_utc": "2026-09-24T01:26:29.934486Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 3,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 22
+      "daily_waivers_last_ran": 23
     },
     "avatar": null,
     "company_id": null,
@@ -73,6 +73,7 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
+    "last_message_id": "1408654358119297024",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,17 +204,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1408515961002196992",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790178883366,
+    "last_message_time": 1790211879809,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 3,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 3,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -294,12 +294,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "9487",
+          "name": "Parker Washington",
           "position": "WR",
-          "team": "LAR",
+          "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7525",
@@ -326,12 +326,12 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "JAX",
+          "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12490",
@@ -421,7 +421,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13421",
@@ -627,7 +627,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13417",
@@ -1240,7 +1240,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -3227,7 +3227,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 2
       },
       "metadata": {
@@ -3263,7 +3263,7 @@
       "roster_id": 7,
       "owner_user_id": "1376255902989963264",
       "manager": "coleellingworth2",
-      "team_name": "Pickens My Nose",
+      "team_name": "Pickens My Chuba",
       "co_owners": [],
       "starters": [
         {
@@ -3357,6 +3357,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11608",
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11783",
           "name": "Ryan Flournoy",
           "position": "WR",
@@ -3409,14 +3417,6 @@
           "name": "Tony Pollard",
           "position": "RB",
           "team": "TEN",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
-          "player_id": "6931",
-          "name": "DeeJay Dallas",
-          "position": "RB",
-          "team": "MIN",
           "status": "Active",
           "injury_status": "Questionable"
         },
@@ -3503,6 +3503,14 @@
           "name": "Chris Rodriguez",
           "position": "RB",
           "team": "JAX",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11608",
+          "name": "Isaiah Williams",
+          "position": "WR",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null
         },
@@ -3659,14 +3667,6 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "6931",
-          "name": "DeeJay Dallas",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "7021",
           "name": "Rico Dowdle",
           "position": "RB",
@@ -3734,7 +3734,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 5,
-        "waiver_position": 7,
+        "waiver_position": 10,
         "wins": 1
       },
       "metadata": {
@@ -3864,14 +3864,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12497",
-          "name": "Tory Horton",
-          "position": "WR",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -3886,6 +3878,14 @@
           "team": "SEA",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "2307",
+          "name": "Marcus Mariota",
+          "position": "QB",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "4066",
@@ -4021,14 +4021,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12497",
-          "name": "Tory Horton",
-          "position": "WR",
-          "team": "SEA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12508",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -4075,6 +4067,14 @@
           "team": "DEN",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "2307",
+          "name": "Marcus Mariota",
+          "position": "QB",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "4017",
@@ -4199,7 +4199,7 @@
         "ppts_decimal": 5,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 15,
+        "waiver_budget_used": 30,
         "waiver_position": 9,
         "wins": 2
       },
@@ -4842,7 +4842,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5844",
@@ -5055,7 +5055,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4892",
@@ -5207,9 +5207,9 @@
       "season": "2026",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5307,9 +5307,9 @@
       "season": "2026",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5407,9 +5407,9 @@
       "season": "2026",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5507,9 +5507,9 @@
       "season": "2026",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5607,9 +5607,9 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5707,9 +5707,9 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5749,7 +5749,7 @@
       "original_roster_id": 1,
       "original_team": "Jeantrification",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 1,
       "is_traded": true
     },
@@ -5769,7 +5769,7 @@
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 3,
       "is_traded": true
     },
@@ -5807,9 +5807,9 @@
       "season": "2027",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5907,9 +5907,9 @@
       "season": "2027",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5999,7 +5999,7 @@
       "original_roster_id": 6,
       "original_team": "KELKINS KARTEL",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 6,
       "is_traded": true
     },
@@ -6007,9 +6007,9 @@
       "season": "2028",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6107,9 +6107,9 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6149,7 +6149,7 @@
       "original_roster_id": 1,
       "original_team": "Jeantrification",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 1,
       "is_traded": true
     },
@@ -6169,7 +6169,7 @@
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 3,
       "is_traded": true
     },
@@ -6207,9 +6207,9 @@
       "season": "2028",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6307,9 +6307,9 @@
       "season": "2028",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6407,9 +6407,9 @@
       "season": "2029",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6507,9 +6507,9 @@
       "season": "2029",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6599,7 +6599,7 @@
       "original_roster_id": 6,
       "original_team": "KELKINS KARTEL",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 6,
       "is_traded": true
     },
@@ -6607,9 +6607,9 @@
       "season": "2029",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6707,9 +6707,9 @@
       "season": "2029",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Nose",
+      "original_team": "Pickens My Chuba",
       "current_roster_id": 7,
-      "current_team": "Pickens My Nose",
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6866,6 +6866,116 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1408540332559224832",
+      "type": "waiver",
+      "status": "complete",
+      "week": 3,
+      "created_utc": "2026-09-23T17:31:33.997000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11608",
+            "name": "Isaiah Williams",
+            "position": "WR",
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6931",
+            "name": "DeeJay Dallas",
+            "position": "RB",
+            "team": "MIN",
+            "status": "Active",
+            "injury_status": "Questionable"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1408346709037178880",
+      "type": "waiver",
+      "status": "failed",
+      "week": 3,
+      "created_utc": "2026-09-23T04:42:10.553000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2307",
+            "name": "Marcus Mariota",
+            "position": "QB",
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1408293811985174528",
+      "type": "waiver",
+      "status": "complete",
+      "week": 3,
+      "created_utc": "2026-09-23T01:11:58.913000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2307",
+            "name": "Marcus Mariota",
+            "position": "QB",
+            "team": "WAS",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12497",
+            "name": "Tory Horton",
+            "position": "WR",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 15
+    },
     {
       "transaction_id": "1408282290001309696",
       "type": "waiver",
@@ -7379,7 +7489,7 @@
       "week": 2,
       "created_utc": "2026-09-21T18:49:49.908000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -7392,7 +7502,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [
@@ -7406,7 +7516,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "draft_picks": [],
@@ -7640,7 +7750,7 @@
       "week": 2,
       "created_utc": "2026-09-17T01:07:25.158000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -7653,7 +7763,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [],
@@ -7697,7 +7807,7 @@
       "created_utc": "2026-09-16T19:33:06.475000Z",
       "teams": [
         "Nix so big u waddle ",
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -7722,7 +7832,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [
@@ -7748,7 +7858,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "draft_picks": [
@@ -7777,7 +7887,7 @@
       "week": 2,
       "created_utc": "2026-09-16T16:39:16.360000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -7790,7 +7900,7 @@
             "injury_status": "Doubtful"
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [],
@@ -7806,7 +7916,7 @@
       "created_utc": "2026-09-16T16:36:06.884000Z",
       "teams": [
         "Jeantrification",
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -7843,7 +7953,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [
@@ -7869,7 +7979,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         },
         {
           "player": {
@@ -7881,7 +7991,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "draft_picks": [
@@ -8007,7 +8117,7 @@
       "week": 1,
       "created_utc": "2026-09-15T01:11:21.504000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -8020,7 +8130,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [
@@ -8034,7 +8144,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "draft_picks": [],
@@ -8158,7 +8268,7 @@
       "week": 1,
       "created_utc": "2026-09-14T01:01:10.370000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -8171,7 +8281,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [],
@@ -8647,7 +8757,7 @@
             "position": "RB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -8952,7 +9062,7 @@
             "position": "RB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -9439,7 +9549,7 @@
       "created_utc": "2026-08-25T01:12:43.288000Z",
       "teams": [
         "KELKINS KARTEL",
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -9476,7 +9586,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         },
         {
           "player": {
@@ -9488,7 +9598,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [
@@ -9526,7 +9636,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         },
         {
           "player": {
@@ -9538,7 +9648,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "draft_picks": [
@@ -10466,7 +10576,7 @@
       "week": 1,
       "created_utc": "2026-07-14T01:54:14.907000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [
         {
@@ -10479,7 +10589,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "drops": [],
@@ -10494,7 +10604,7 @@
       "week": 1,
       "created_utc": "2026-07-14T01:52:13.287000Z",
       "teams": [
-        "Pickens My Nose"
+        "Pickens My Chuba"
       ],
       "adds": [],
       "drops": [
@@ -10508,7 +10618,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "Pickens My Nose"
+          "team": "Pickens My Chuba"
         }
       ],
       "draft_picks": [],
@@ -10605,7 +10715,7 @@
           "pick_no": 5,
           "round": 1,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "7564",
             "name": "Ja'Marr Chase",
@@ -10759,7 +10869,7 @@
           "pick_no": 16,
           "round": 2,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "6813",
             "name": "Jonathan Taylor",
@@ -10885,7 +10995,7 @@
           "pick_no": 25,
           "round": 3,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "8138",
             "name": "James Cook",
@@ -11039,7 +11149,7 @@
           "pick_no": 36,
           "round": 4,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "3294",
             "name": "Dak Prescott",
@@ -11165,7 +11275,7 @@
           "pick_no": 45,
           "round": 5,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "3163",
             "name": "Jared Goff",
@@ -11319,7 +11429,7 @@
           "pick_no": 56,
           "round": 6,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "7525",
             "name": "DeVonta Smith",
@@ -11445,7 +11555,7 @@
           "pick_no": 65,
           "round": 7,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "12506",
             "name": "Harold Fannin",
@@ -11599,7 +11709,7 @@
           "pick_no": 76,
           "round": 8,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "13281",
             "name": "Jordyn Tyson",
@@ -11725,7 +11835,7 @@
           "pick_no": 85,
           "round": 9,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "7594",
             "name": "Chuba Hubbard",
@@ -11879,7 +11989,7 @@
           "pick_no": 96,
           "round": 10,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "421",
             "name": "Matthew Stafford",
@@ -12005,7 +12115,7 @@
           "pick_no": 105,
           "round": 11,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "13330",
             "name": "Kenyon Sadiq",
@@ -12159,7 +12269,7 @@
           "pick_no": 116,
           "round": 12,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "2133",
             "name": "Davante Adams",
@@ -12285,7 +12395,7 @@
           "pick_no": 125,
           "round": 13,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "7021",
             "name": "Rico Dowdle",
@@ -12439,7 +12549,7 @@
           "pick_no": 136,
           "round": 14,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "11646",
             "name": "Jalen Coker",
@@ -12565,7 +12675,7 @@
           "pick_no": 145,
           "round": 15,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "5967",
             "name": "Tony Pollard",
@@ -12719,7 +12829,7 @@
           "pick_no": 156,
           "round": 16,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "13301",
             "name": "Antonio Williams",
@@ -12845,7 +12955,7 @@
           "pick_no": 165,
           "round": 17,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "5012",
             "name": "Mark Andrews",
@@ -12999,7 +13109,7 @@
           "pick_no": 176,
           "round": 18,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "13320",
             "name": "Zachariah Branch",
@@ -13125,7 +13235,7 @@
           "pick_no": 185,
           "round": 19,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "9508",
             "name": "Tyjae Spears",
@@ -13279,7 +13389,7 @@
           "pick_no": 196,
           "round": 20,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "13417",
             "name": "De'Zhaun Stribling",
@@ -13405,7 +13515,7 @@
           "pick_no": 205,
           "round": 21,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "10219",
             "name": "Chris Rodriguez",
@@ -13559,7 +13669,7 @@
           "pick_no": 216,
           "round": 22,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "11783",
             "name": "Ryan Flournoy",
@@ -13685,7 +13795,7 @@
           "pick_no": 225,
           "round": 23,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "8180",
             "name": "Jalen Nailor",
@@ -13720,7 +13830,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13839,7 +13949,7 @@
           "pick_no": 236,
           "round": 24,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "8154",
             "name": "Brian Robinson",
@@ -13965,7 +14075,7 @@
           "pick_no": 245,
           "round": 25,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "3214",
             "name": "Hunter Henry",
@@ -14112,14 +14222,14 @@
             "position": "WR",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
           "pick_no": 256,
           "round": 26,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "13380",
             "name": "Brenen Thompson",
@@ -14245,7 +14355,7 @@
           "pick_no": 265,
           "round": 27,
           "roster_id": 7,
-          "team": "Pickens My Nose",
+          "team": "Pickens My Chuba",
           "player": {
             "player_id": "96",
             "name": "Aaron Rodgers",
@@ -14331,8 +14441,8 @@
   "free_agent_summary": {
     "total": 2523,
     "by_position": {
-      "QB": 292,
-      "RB": 551,
+      "QB": 291,
+      "RB": 552,
       "WR": 1137,
       "TE": 543
     },
@@ -14385,7 +14495,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13295",
@@ -14844,18 +14954,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "2307",
-      "name": "Marcus Mariota",
-      "position": "QB",
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "age": 32,
-      "years_exp": 11,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1
-    },
-    {
       "player_id": "4972",
       "name": "Mason Rudolph",
       "position": "QB",
@@ -15150,7 +15248,7 @@
       "team": "PIT",
       "status": "Active",
       "injury_status": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
       "depth_chart_position": "QB",
       "depth_chart_order": 3
@@ -17969,7 +18067,7 @@
       "position": "RB",
       "team": "SEA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "RB",
@@ -18204,6 +18302,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "6931",
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 28,
+      "years_exp": 6,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2
+    },
+    {
       "player_id": "11574",
       "name": "Dylan Laube",
       "position": "RB",
@@ -18281,7 +18391,7 @@
       "position": "RB",
       "team": "SEA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
@@ -24501,7 +24611,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "12863",
@@ -24573,7 +24683,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 5
+      "depth_chart_order": 8
     },
     {
       "player_id": "6427",
@@ -24585,7 +24695,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "7746",
@@ -24633,7 +24743,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "2197",
@@ -24789,7 +24899,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "4981",
@@ -24933,7 +25043,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "13898",
@@ -24957,7 +25067,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "12888",
@@ -25089,7 +25199,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "10234",
@@ -25101,7 +25211,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "8253",
@@ -25341,7 +25451,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13670",
@@ -25440,18 +25550,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11608",
-      "name": "Isaiah Williams",
-      "position": "WR",
-      "team": "NYJ",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "13770",
       "name": "J. Michael Sturdivant",
       "position": "WR",
@@ -25461,7 +25559,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "12746",
@@ -25661,7 +25759,7 @@
       "position": "WR",
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
@@ -25989,7 +26087,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "4454",
@@ -26013,7 +26111,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 8
     },
     {
       "player_id": "8200",
@@ -26109,7 +26207,7 @@
       "age": 31,
       "years_exp": 10,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13541",
@@ -26229,7 +26327,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 10
     },
     {
       "player_id": "5086",
@@ -26241,7 +26339,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "5848",
@@ -26277,7 +26375,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 9
     },
     {
       "player_id": "7618",
@@ -26601,7 +26699,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12756",
@@ -26649,7 +26747,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "12485",
@@ -26709,7 +26807,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "6588",
@@ -26721,7 +26819,19 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
+    },
+    {
+      "player_id": "12497",
+      "name": "Tory Horton",
+      "position": "WR",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 4
     },
     {
       "player_id": "13356",
@@ -38145,7 +38255,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11596",
@@ -38361,7 +38471,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "7075",
@@ -38637,7 +38747,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "10231",
@@ -38757,7 +38867,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13712",
@@ -38781,7 +38891,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 2
     },
     {
       "player_id": "7535",
@@ -38961,7 +39071,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "11595",
@@ -39009,7 +39119,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13435",
@@ -39021,7 +39131,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11113",
@@ -39069,7 +39179,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "4144",
@@ -39153,7 +39263,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13400",
@@ -39225,7 +39335,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7602",
@@ -39417,7 +39527,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11433",
@@ -39693,7 +39803,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "8849",
@@ -39813,7 +39923,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7149",
@@ -39873,7 +39983,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13705",
@@ -39957,7 +40067,7 @@
       "age": 35,
       "years_exp": 13,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 1
     },
     {
       "player_id": "8799",
