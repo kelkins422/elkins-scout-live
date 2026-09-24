@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-24T17:19:08.827478Z",
+  "generated_at_utc": "2026-09-24T20:40:33.955060Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "last_message_id": "1408654358119297024",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,7 +199,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "draft_id": "1353413007752839168",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1408654358119297024",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,9 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1790211879809,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -859,7 +859,7 @@
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12545",
@@ -1066,7 +1066,7 @@
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11632",
@@ -1812,10 +1812,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7569",
-          "name": "Nico Collins",
+          "player_id": "9997",
+          "name": "Zay Flowers",
           "position": "WR",
-          "team": "HOU",
+          "team": "BAL",
           "status": "Active",
           "injury_status": "Questionable"
         },
@@ -1828,12 +1828,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9997",
-          "name": "Zay Flowers",
-          "position": "WR",
-          "team": "BAL",
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8167",
@@ -1910,14 +1910,6 @@
           "injury_status": null
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "position": "WR",
@@ -1948,6 +1940,14 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "7569",
+          "name": "Nico Collins",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8134",
@@ -2395,7 +2395,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11627",
@@ -2545,7 +2545,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11627",
@@ -3299,10 +3299,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12519",
-          "name": "Luther Burden",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "CHI",
+          "team": "LAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3315,12 +3315,12 @@
           "injury_status": null
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
+          "player_id": "11646",
+          "name": "Jalen Coker",
           "position": "WR",
-          "team": "LAR",
+          "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5012",
@@ -3331,12 +3331,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
+          "player_id": "12519",
+          "name": "Luther Burden",
           "position": "WR",
-          "team": "CAR",
+          "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3163",
@@ -3806,14 +3806,6 @@
           "injury_status": null
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "4199",
           "name": "Aaron Jones",
           "position": "RB",
@@ -3822,10 +3814,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "4017",
-          "name": "Deshaun Watson",
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "5854",
+          "name": "Drew Lock",
           "position": "QB",
-          "team": "CLE",
+          "team": "SEA",
           "status": "Active",
           "injury_status": null
         }
@@ -3888,18 +3888,18 @@
           "injury_status": null
         },
         {
-          "player_id": "4066",
-          "name": "Evan Engram",
-          "position": "TE",
-          "team": "DEN",
+          "player_id": "4017",
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
+          "player_id": "4066",
+          "name": "Evan Engram",
           "position": "TE",
-          "team": "HOU",
+          "team": "DEN",
           "status": "Active",
           "injury_status": null
         },
@@ -3912,10 +3912,10 @@
           "injury_status": null
         },
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null
         },
@@ -13844,7 +13844,7 @@
             "position": "WR",
             "team": "CAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13984,7 +13984,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -24566,6 +24566,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12865",
+      "name": "AJ Henning",
+      "position": "WR",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4937",
       "name": "Al Riles",
       "position": "WR",
@@ -25426,6 +25438,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -27118,18 +27142,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12865",
-      "name": "AJ Henning",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -30802,18 +30814,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6045",
-      "name": "Gary Jennings",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
