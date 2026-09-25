@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-25T12:53:18.877345Z",
+  "generated_at_utc": "2026-09-25T17:49:21.111032Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -72,7 +72,6 @@
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
-    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,20 +203,24 @@
       "st_ff": 0.0
     },
     "last_message_id": "1408654358119297024",
-    "draft_id": "1353413007752839168",
-    "last_message_time": 1790211879809,
-    "league_id": "1353413006104485888",
+    "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "previous_league_id": null,
+    "last_message_time": 1790211879809,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
+    "league_id": "1353413006104485888",
+    "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,9 +247,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1281,10 +1281,10 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "6797",
-          "name": "Justin Herbert",
+          "player_id": "11563",
+          "name": "Bo Nix",
           "position": "QB",
-          "team": "LAC",
+          "team": "DEN",
           "status": "Active",
           "injury_status": null
         },
@@ -1353,10 +1353,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11563",
-          "name": "Bo Nix",
+          "player_id": "6797",
+          "name": "Justin Herbert",
           "position": "QB",
-          "team": "DEN",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null
         }
@@ -1392,7 +1392,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "1166",
@@ -1558,7 +1558,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "1166",
@@ -1947,7 +1947,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "8134",
@@ -1989,7 +1989,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13302",
@@ -2081,7 +2081,7 @@
           "position": "WR",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13302",
@@ -2185,7 +2185,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "8134",
@@ -2483,7 +2483,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "9225",
@@ -2737,7 +2737,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "9224",
@@ -4794,7 +4794,7 @@
           "position": "TE",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "12499",
@@ -4959,7 +4959,7 @@
           "position": "TE",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "12499",
@@ -10373,7 +10373,7 @@
             "position": "WR",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -11198,7 +11198,7 @@
             "position": "WR",
             "team": "HOU",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           }
         },
         {
@@ -12514,7 +12514,7 @@
             "position": "TE",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           }
         },
         {
@@ -12696,7 +12696,7 @@
             "position": "TE",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -13970,7 +13970,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           }
         },
         {
@@ -14567,7 +14567,7 @@
       "age": 38,
       "years_exp": 14,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 1
     },
     {
       "player_id": "6147",
@@ -24623,7 +24623,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "12863",
@@ -24703,7 +24703,7 @@
       "position": "WR",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
@@ -26099,7 +26099,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "12670",
@@ -26664,18 +26664,6 @@
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 8
-    },
-    {
-      "player_id": "6290",
-      "name": "Scotty Miller",
-      "position": "WR",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "5638",
@@ -36446,6 +36434,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "6290",
+      "name": "Scotty Miller",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7237",
       "name": "Scotty Washington",
       "position": "WR",
@@ -38255,7 +38255,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11596",
@@ -39275,7 +39275,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8088",
@@ -39335,7 +39335,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "7602",
@@ -39755,7 +39755,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12217",
