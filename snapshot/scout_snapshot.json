@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-27T20:27:27.023085Z",
+  "generated_at_utc": "2026-09-27T23:20:44.228417Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -203,17 +203,17 @@
     "season_type": "regular",
     "shard": 620,
     "sport": "nfl",
-    "last_message_id": "1409922568726597632",
-    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
-    "last_author_display_name": "brettstalvey2528",
-    "last_author_id": "474981049038794752",
+    "last_message_id": "1410075797489758208",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790514244780,
+    "last_message_time": 1790550777365,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -461,7 +461,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         }
       ],
       "taxi": [
@@ -731,7 +731,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "9500",
@@ -1448,7 +1448,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8172",
@@ -1686,7 +1686,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8146",
@@ -2821,7 +2821,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "7564",
@@ -2895,7 +2895,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13150",
@@ -3037,7 +3037,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11635",
@@ -3149,7 +3149,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "6804",
@@ -3328,7 +3328,7 @@
           "position": "TE",
           "team": "BAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5967",
@@ -3656,7 +3656,7 @@
           "position": "TE",
           "team": "BAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5967",
@@ -4253,7 +4253,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "11604",
@@ -4327,7 +4327,7 @@
           "position": "WR",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "12509",
@@ -4501,7 +4501,7 @@
           "position": "WR",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "12509",
@@ -4581,7 +4581,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "4033",
@@ -8472,7 +8472,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -8498,7 +8498,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10794,7 +10794,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -10962,7 +10962,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -11592,7 +11592,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -12544,7 +12544,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -12950,7 +12950,7 @@
             "position": "WR",
             "team": "TB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13006,7 +13006,7 @@
             "position": "TE",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13944,7 +13944,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -15111,7 +15111,7 @@
       "position": "QB",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "QB",
@@ -26271,7 +26271,7 @@
       "position": "WR",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "LWR",
@@ -26403,7 +26403,7 @@
       "position": "WR",
       "team": "DEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "SWR",
@@ -38595,7 +38595,7 @@
       "position": "TE",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "TE",
