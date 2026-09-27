@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-26T23:25:02.206641Z",
+  "generated_at_utc": "2026-09-27T01:39:48.509139Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,10 @@
       "leg": 3,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 25
+      "daily_waivers_last_ran": 26
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,24 +199,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1408654358119297024",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1409745865089818624",
     "draft_id": "1353413007752839168",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
+    "last_author_display_name": "sleezycreesey69",
+    "last_author_id": "825521088418144256",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790211879809,
+    "last_message_time": 1790472115351,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,6 +242,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 1
       },
       "metadata": {
@@ -1240,7 +1240,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -1764,7 +1764,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 44,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 0
       },
       "metadata": {
@@ -2263,7 +2263,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 1
       },
       "metadata": {
@@ -2775,7 +2775,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 2
       },
       "metadata": {
@@ -3227,7 +3227,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 2
       },
       "metadata": {
@@ -3734,7 +3734,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 5,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "metadata": {
@@ -4200,7 +4200,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 30,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 2
       },
       "metadata": {
@@ -4358,6 +4358,14 @@
           "name": "Ted Hurst",
           "position": "WR",
           "team": "TB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13423",
+          "name": "Eli Heidenreich",
+          "position": "RB",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null
         },
@@ -4560,6 +4568,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13423",
+          "name": "Eli Heidenreich",
+          "position": "RB",
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -4666,8 +4682,8 @@
         "ppts_decimal": 77,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 18,
-        "waiver_position": 2,
+        "waiver_budget_used": 24,
+        "waiver_position": 10,
         "wins": 0
       },
       "metadata": {
@@ -6866,6 +6882,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1409727665488826368",
+      "type": "waiver",
+      "status": "complete",
+      "week": 3,
+      "created_utc": "2026-09-27T00:09:36.227000Z",
+      "teams": [
+        "TylerScheib123"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13423",
+            "name": "Eli Heidenreich",
+            "position": "RB",
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 9,
+          "team": "TylerScheib123"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 6
+    },
     {
       "transaction_id": "1408540332559224832",
       "type": "waiver",
@@ -14439,10 +14483,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2522,
+    "total": 2521,
     "by_position": {
       "QB": 291,
-      "RB": 552,
+      "RB": 551,
       "WR": 1136,
       "TE": 543
     },
@@ -14567,7 +14611,7 @@
       "age": 38,
       "years_exp": 14,
       "depth_chart_position": "QB",
-      "depth_chart_order": 1
+      "depth_chart_order": 2
     },
     {
       "player_id": "6147",
@@ -14614,8 +14658,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "7585",
@@ -14758,8 +14802,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
     },
     {
       "player_id": "12510",
@@ -18035,7 +18079,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11273",
@@ -18298,8 +18342,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "6931",
@@ -18324,18 +18368,6 @@
       "years_exp": 2,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "13423",
-      "name": "Eli Heidenreich",
-      "position": "RB",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "4263",
@@ -18850,8 +18882,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
     },
     {
       "player_id": "8800",
@@ -19079,7 +19111,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "10235",
@@ -19174,8 +19206,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "12531",
@@ -24802,8 +24834,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13011",
@@ -24827,7 +24859,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13420",
@@ -25042,8 +25074,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 4
     },
     {
       "player_id": "13477",
@@ -25127,7 +25159,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "6149",
@@ -25379,7 +25411,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13313",
@@ -25690,8 +25722,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 4
     },
     {
       "player_id": "6798",
@@ -25943,7 +25975,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "13394",
@@ -26134,8 +26166,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "5773",
@@ -26158,8 +26190,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 9
     },
     {
       "player_id": "12718",
@@ -26171,7 +26203,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13830",
@@ -26315,7 +26347,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11210",
@@ -26363,7 +26395,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "9494",
@@ -26384,7 +26416,7 @@
       "team": "NO",
       "status": "Active",
       "injury_status": "PUP",
-      "age": 25,
+      "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RWR",
       "depth_chart_order": 8
@@ -26974,8 +27006,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13343",
@@ -27083,7 +27115,7 @@
       "age": 29,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "830",
@@ -38555,7 +38587,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13577",
@@ -39646,8 +39678,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "10227",
@@ -39683,7 +39715,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7536",
@@ -39707,7 +39739,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "4602",
@@ -39814,8 +39846,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13408",
