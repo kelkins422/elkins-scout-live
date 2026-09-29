@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-29T15:06:58.854059Z",
+  "generated_at_utc": "2026-09-29T19:59:51.699874Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -16,7 +16,7 @@
     },
     "settings": {
       "best_ball": 0,
-      "last_report": 2,
+      "last_report": 3,
       "waiver_budget": 150,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,19 +199,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1410646164742680576",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1410690352104353792",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790686763514,
+    "last_message_time": 1790697298602,
     "last_pinned_message_id": null,
-    "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "last_read_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -790,10 +790,10 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
+          "player_id": "12545",
+          "name": "Tyler Shough",
           "position": "QB",
-          "team": "MIA",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -854,18 +854,18 @@
           "injury_status": null
         },
         {
-          "player_id": "11625",
-          "name": "Adonai Mitchell",
-          "position": "WR",
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
-          "player_id": "12545",
-          "name": "Tyler Shough",
+          "player_id": "2306",
+          "name": "Jameis Winston",
           "position": "QB",
-          "team": "NO",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         }
@@ -888,14 +888,6 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11610",
           "name": "Malik Washington",
           "position": "WR",
@@ -910,6 +902,14 @@
           "team": "KC",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "12493",
@@ -944,14 +944,6 @@
           "injury_status": null
         },
         {
-          "player_id": "2306",
-          "name": "Jameis Winston",
-          "position": "QB",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -972,6 +964,14 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "team": "ARI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8161",
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -15134,18 +15134,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "10215",
-      "name": "Jake Haener",
-      "position": "QB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12510",
       "name": "Jalen Milroe",
       "position": "QB",
@@ -15370,8 +15358,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "13310",
@@ -16918,6 +16906,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "10215",
+      "name": "Jake Haener",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -19258,8 +19258,8 @@
       "injury_status": "Out",
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "6992",
@@ -24995,7 +24995,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "12863",
@@ -25174,8 +25174,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 4
     },
     {
       "player_id": "13011",
@@ -25283,7 +25283,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "4981",
@@ -25847,7 +25847,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13670",
@@ -26482,8 +26482,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12670",
@@ -26842,8 +26842,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 6
     },
     {
       "player_id": "13199",
@@ -27012,18 +27012,6 @@
       "years_exp": 2,
       "depth_chart_position": "SWR",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "10221",
-      "name": "Ronnie Bell",
-      "position": "WR",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "11421",
@@ -27276,6 +27264,18 @@
       "years_exp": 4,
       "depth_chart_position": "SWR",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "13862",
+      "name": "Treyvhon Saunders",
+      "position": "WR",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7562",
@@ -36626,6 +36626,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "10221",
+      "name": "Ronnie Bell",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12431",
       "name": "Rory Starkey",
       "position": "WR",
@@ -38002,18 +38014,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13862",
-      "name": "Treyvhon Saunders",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -39515,7 +39515,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11113",
@@ -39540,6 +39540,18 @@
       "years_exp": 5,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "8500",
+      "name": "John FitzPatrick",
+      "position": "TE",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13342",
@@ -40222,8 +40234,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13408",
@@ -42922,18 +42934,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "8500",
-      "name": "John FitzPatrick",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 25,
-      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
