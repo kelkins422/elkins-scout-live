@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-29T23:38:49.008889Z",
+  "generated_at_utc": "2026-09-30T02:25:17.125717Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 4,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 28
+      "daily_waivers_last_ran": 29
     },
     "avatar": null,
     "company_id": null,
@@ -203,19 +203,19 @@
     "season_type": "regular",
     "shard": 620,
     "sport": "nfl",
-    "last_message_id": "1410690352104353792",
-    "draft_id": "1353413007752839168",
+    "last_message_id": "1410830028496711680",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790697298602,
+    "last_message_time": 1790730600049,
     "last_pinned_message_id": null,
+    "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "last_read_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 110,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -2247,7 +2247,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 8,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -2759,7 +2759,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 2
       },
       "metadata": {
@@ -3341,6 +3341,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11783",
           "name": "Ryan Flournoy",
           "position": "WR",
@@ -3379,14 +3387,6 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "3634",
@@ -3495,6 +3495,14 @@
           "name": "Isaiah Williams",
           "position": "WR",
           "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11630",
+          "name": "Roman Wilson",
+          "position": "WR",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null
         },
@@ -3611,14 +3619,6 @@
           "injury_status": null
         },
         {
-          "player_id": "3286",
-          "name": "Demarcus Robinson",
-          "position": "WR",
-          "team": "SF",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "3294",
           "name": "Dak Prescott",
           "position": "QB",
@@ -3717,8 +3717,8 @@
         "ppts_decimal": 17,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 5,
-        "waiver_position": 6,
+        "waiver_budget_used": 30,
+        "waiver_position": 9,
         "wins": 2
       },
       "metadata": {
@@ -3848,10 +3848,26 @@
           "injury_status": null
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13286",
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "1737",
+          "name": "Case Keenum",
+          "position": "QB",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -3884,14 +3900,6 @@
           "name": "DK Metcalf",
           "position": "WR",
           "team": "PIT",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
           "status": "Active",
           "injury_status": null
         },
@@ -4030,6 +4038,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13268",
           "name": "Elijah Sarratt",
           "position": "WR",
@@ -4052,6 +4068,14 @@
           "team": "DEN",
           "status": "Inactive",
           "injury_status": "IR"
+        },
+        {
+          "player_id": "1737",
+          "name": "Case Keenum",
+          "position": "QB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "2307",
@@ -4106,14 +4130,6 @@
           "name": "DK Metcalf",
           "position": "WR",
           "team": "PIT",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
           "status": "Active",
           "injury_status": null
         },
@@ -4184,8 +4200,8 @@
         "ppts_decimal": 38,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 30,
-        "waiver_position": 5,
+        "waiver_budget_used": 40,
+        "waiver_position": 10,
         "wins": 3
       },
       "metadata": {
@@ -4249,10 +4265,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7571",
-          "name": "Rashod Bateman",
+          "player_id": "13279",
+          "name": "Carnell Tate",
           "position": "WR",
-          "team": "BAL",
+          "team": "TEN",
           "status": "Active",
           "injury_status": null
         },
@@ -4331,14 +4347,6 @@
           "injury_status": null
         },
         {
-          "player_id": "13279",
-          "name": "Carnell Tate",
-          "position": "WR",
-          "team": "TEN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13317",
           "name": "Ted Hurst",
           "position": "WR",
@@ -4377,6 +4385,14 @@
           "team": "LAR",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "7571",
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "8676",
@@ -4668,7 +4684,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
-        "waiver_position": 7,
+        "waiver_position": 5,
         "wins": 1
       },
       "metadata": {
@@ -6875,6 +6891,62 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1410676087003881472",
+      "type": "waiver",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-09-29T14:58:17.538000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12718",
+            "name": "Konata Mumpfield",
+            "position": "WR",
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1410611810138136576",
+      "type": "waiver",
+      "status": "failed",
+      "week": 4,
+      "created_utc": "2026-09-29T10:42:52.738000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11630",
+            "name": "Roman Wilson",
+            "position": "WR",
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 6
+    },
+    {
       "transaction_id": "1410611722208702464",
       "type": "free_agent",
       "status": "complete",
@@ -6901,6 +6973,88 @@
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null
+    },
+    {
+      "transaction_id": "1410499095285522432",
+      "type": "waiver",
+      "status": "complete",
+      "week": 3,
+      "created_utc": "2026-09-29T03:14:59.424000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1737",
+            "name": "Case Keenum",
+            "position": "QB",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5854",
+            "name": "Drew Lock",
+            "position": "QB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 10
+    },
+    {
+      "transaction_id": "1410477822606106624",
+      "type": "waiver",
+      "status": "complete",
+      "week": 3,
+      "created_utc": "2026-09-29T01:50:27.622000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11630",
+            "name": "Roman Wilson",
+            "position": "WR",
+            "team": "PIT",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "3286",
+            "name": "Demarcus Robinson",
+            "position": "WR",
+            "team": "SF",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 25
     },
     {
       "transaction_id": "1410465490991599616",
@@ -14823,11 +14977,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2524,
+    "total": 2523,
     "by_position": {
       "QB": 291,
       "RB": 552,
-      "WR": 1138,
+      "WR": 1137,
       "TE": 543
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -14954,18 +15108,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "1737",
-      "name": "Case Keenum",
-      "position": "QB",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 38,
-      "years_exp": 14,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "6147",
       "name": "Clayton Thorson",
       "position": "QB",
@@ -15034,6 +15176,18 @@
       "injury_status": "IR",
       "age": 25,
       "years_exp": 1,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
+    },
+    {
+      "player_id": "5854",
+      "name": "Drew Lock",
+      "position": "QB",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -15452,7 +15606,7 @@
       "team": "DEN",
       "status": "Active",
       "injury_status": "Out",
-      "age": 27,
+      "age": 28,
       "years_exp": 5,
       "depth_chart_position": "QB",
       "depth_chart_order": 3
@@ -18430,7 +18584,7 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_position": null,
+      "depth_chart_position": "RB",
       "depth_chart_order": null
     },
     {
@@ -18563,7 +18717,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "11644",
@@ -18658,8 +18812,8 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "13339",
@@ -18694,8 +18848,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "6931",
@@ -18718,7 +18872,7 @@
       "injury_status": "Questionable",
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": null,
+      "depth_chart_position": "RB",
       "depth_chart_order": null
     },
     {
@@ -19040,7 +19194,7 @@
       "team": "BAL",
       "status": "Active",
       "injury_status": null,
-      "age": 28,
+      "age": 29,
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -25378,8 +25532,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 7
     },
     {
       "player_id": "7521",
@@ -25426,8 +25580,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13477",
@@ -25451,7 +25605,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 11
+      "depth_chart_order": 10
     },
     {
       "player_id": "6453",
@@ -25510,7 +25664,7 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": null,
+      "depth_chart_position": "SWR",
       "depth_chart_order": null
     },
     {
@@ -25523,7 +25677,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "6149",
@@ -25622,6 +25776,18 @@
       "depth_chart_order": 6
     },
     {
+      "player_id": "3286",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "team": "SF",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 32,
+      "years_exp": 10,
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 7
+    },
+    {
       "player_id": "10234",
       "name": "Derius Davis",
       "position": "WR",
@@ -25703,7 +25869,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 9
     },
     {
       "player_id": "5282",
@@ -26423,7 +26589,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": null
     },
     {
       "player_id": "7066",
@@ -26582,18 +26748,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12718",
-      "name": "Konata Mumpfield",
-      "position": "WR",
-      "team": "LAR",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "13830",
       "name": "Kyle Dixon",
       "position": "WR",
@@ -26735,7 +26889,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11210",
@@ -27036,18 +27190,6 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "11630",
-      "name": "Roman Wilson",
-      "position": "WR",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3
     },
     {
       "player_id": "11421",
@@ -35155,7 +35297,7 @@
       "position": "WR",
       "team": null,
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 33,
       "years_exp": 11,
       "depth_chart_position": null,
@@ -39527,7 +39669,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11113",
