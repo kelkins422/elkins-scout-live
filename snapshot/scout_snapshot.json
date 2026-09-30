@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-09-30T08:54:15.383292Z",
+  "generated_at_utc": "2026-09-30T15:44:24.319969Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,6 +199,10 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 620,
     "last_message_id": "1410861800546750464",
     "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
     "last_author_display_name": "brettstalvey2528",
@@ -212,8 +212,8 @@
     "last_message_text_map": null,
     "last_message_time": 1790738175096,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -949,7 +949,7 @@
           "position": "WR",
           "team": null,
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": ""
         },
         {
           "player_id": "8121",
@@ -1162,7 +1162,7 @@
           "position": "WR",
           "team": null,
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": ""
         },
         {
           "player_id": "7002",
@@ -2878,8 +2878,8 @@
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13150",
@@ -3020,8 +3020,8 @@
           "name": "Jalen McMillan",
           "position": "WR",
           "team": "TB",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "11635",
@@ -3275,6 +3275,14 @@
           "injury_status": null
         },
         {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "2133",
           "name": "Davante Adams",
           "position": "WR",
@@ -3299,18 +3307,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "12506",
+          "name": "Harold Fannin",
           "position": "TE",
-          "team": "BAL",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "12519",
+          "name": "Luther Burden",
+          "position": "WR",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -3357,22 +3365,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12506",
-          "name": "Harold Fannin",
-          "position": "TE",
-          "team": "CLE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12519",
-          "name": "Luther Burden",
-          "position": "WR",
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13330",
           "name": "Kenyon Sadiq",
           "position": "TE",
@@ -3405,6 +3397,22 @@
           "injury_status": null
         },
         {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "5967",
+          "name": "Tony Pollard",
+          "position": "RB",
+          "team": "TEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "7021",
           "name": "Rico Dowdle",
           "position": "RB",
@@ -3417,14 +3425,6 @@
           "name": "Brian Robinson",
           "position": "RB",
           "team": "ATL",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "IND",
           "status": "Active",
           "injury_status": null
         },
@@ -3925,7 +3925,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -4163,7 +4163,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8144",
@@ -13443,8 +13443,8 @@
             "name": "Jalen McMillan",
             "position": "WR",
             "team": "TB",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -13570,7 +13570,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14592,7 +14592,7 @@
             "position": "WR",
             "team": null,
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": ""
           }
         },
         {
@@ -14977,11 +14977,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2524,
+    "total": 2525,
     "by_position": {
       "QB": 291,
       "RB": 553,
-      "WR": 1137,
+      "WR": 1138,
       "TE": 543
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -18585,7 +18585,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": null
+      "depth_chart_order": 5
     },
     {
       "player_id": "11273",
@@ -18861,7 +18861,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "6931",
@@ -18885,7 +18885,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": null
+      "depth_chart_order": 6
     },
     {
       "player_id": "11574",
@@ -25245,7 +25245,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "6427",
@@ -25593,7 +25593,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13477",
@@ -25617,7 +25617,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 11
     },
     {
       "player_id": "6453",
@@ -25676,7 +25676,7 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": null
     },
     {
@@ -25881,7 +25881,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 10
     },
     {
       "player_id": "5282",
@@ -26349,7 +26349,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "11056",
@@ -26808,6 +26808,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "12001",
+      "name": "Lawrence Keys",
+      "position": "WR",
+      "team": "DET",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13541",
       "name": "Lewis Bond",
       "position": "WR",
@@ -26925,7 +26937,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 11
+      "depth_chart_order": 10
     },
     {
       "player_id": "5086",
@@ -27225,7 +27237,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "5638",
@@ -40005,7 +40017,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13307",
@@ -40485,7 +40497,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11716",
