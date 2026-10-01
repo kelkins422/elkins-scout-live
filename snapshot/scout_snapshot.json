@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-01T18:48:32.850920Z",
+  "generated_at_utc": "2026-10-01T23:02:02.083678Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,21 +203,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1411189980381929472",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1411507031998771200",
+    "last_author_avatar": "51385ba57cd089261f6de9ce483b8716",
+    "last_author_display_name": "coleellingworth2",
+    "last_author_id": "1376255902989963264",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1790816419266,
+    "last_message_time": 1790892010264,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +243,8 @@
       "BN"
     ],
     "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -356,14 +356,6 @@
           "name": "Woody Marks",
           "position": "RB",
           "team": "HOU",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
-          "position": "RB",
-          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -538,14 +530,6 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
-          "position": "RB",
-          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -1392,7 +1376,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "1166",
@@ -1439,8 +1423,8 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "NO",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "8172",
@@ -1558,7 +1542,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "1166",
@@ -1685,8 +1669,8 @@
           "name": "Travis Etienne",
           "position": "RB",
           "team": "NO",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "8146",
@@ -1804,12 +1788,12 @@
           "injury_status": null
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "7569",
+          "name": "Nico Collins",
           "position": "WR",
-          "team": "CIN",
+          "team": "HOU",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9997",
@@ -1817,7 +1801,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "10859",
@@ -1828,10 +1812,10 @@
           "injury_status": null
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
+          "player_id": "6801",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -1870,6 +1854,14 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13294",
           "name": "Makai Lemon",
           "position": "WR",
@@ -1891,6 +1883,14 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -1899,7 +1899,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5850",
@@ -1932,14 +1932,6 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "7569",
-          "name": "Nico Collins",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "8134",
@@ -2044,6 +2036,14 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12524",
           "name": "Shedeur Sanders",
           "position": "QB",
@@ -2105,7 +2105,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "2505",
@@ -2121,7 +2121,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5850",
@@ -2249,7 +2249,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "settings": {
@@ -2369,7 +2369,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13346",
@@ -2385,7 +2385,7 @@
           "position": "QB",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "bench": [
@@ -2657,7 +2657,7 @@
           "position": "QB",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5870",
@@ -2681,7 +2681,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6819",
@@ -3426,7 +3426,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7021",
@@ -3672,7 +3672,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7021",
@@ -3798,10 +3798,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
+          "player_id": "10232",
+          "name": "Michael Wilson",
           "position": "WR",
-          "team": "TB",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -3832,14 +3832,6 @@
       ],
       "bench": [
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
-          "position": "WR",
-          "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11560",
           "name": "Caleb Williams",
           "position": "QB",
@@ -3860,6 +3852,14 @@
           "name": "AJ Barner",
           "position": "TE",
           "team": "SEA",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
           "status": "Active",
           "injury_status": null
         },
@@ -4376,7 +4376,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "4033",
@@ -4442,7 +4442,7 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         }
       ],
       "injured_reserve": [
@@ -4566,7 +4566,7 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13293",
@@ -4590,7 +4590,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "2216",
@@ -5811,10 +5811,10 @@
       "round": 3,
       "original_roster_id": 4,
       "original_team": "Mayek It Clap",
-      "current_roster_id": 4,
-      "current_team": "Mayek It Clap",
+      "current_roster_id": 1,
+      "current_team": "Jeantrification",
       "previous_roster_id": 4,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2027",
@@ -6821,6 +6821,13 @@
       "previous_owner_id": 3
     },
     {
+      "round": 3,
+      "season": "2027",
+      "roster_id": 4,
+      "owner_id": 1,
+      "previous_owner_id": 4
+    },
+    {
       "round": 4,
       "season": "2027",
       "roster_id": 2,
@@ -6906,6 +6913,56 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1411499302370443264",
+      "type": "trade",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-10-01T21:29:27.376000Z",
+      "teams": [
+        "Jeantrification",
+        "Mayek It Clap"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12495",
+            "name": "Ollie Gordon",
+            "position": "RB",
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12495",
+            "name": "Ollie Gordon",
+            "position": "RB",
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2027",
+          "round": 3,
+          "roster_id": 4,
+          "owner_id": 1,
+          "previous_owner_id": 4
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1410864980831612928",
       "type": "waiver",
@@ -7478,7 +7535,7 @@
             "position": "RB",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 9,
           "team": "TylerScheib123"
@@ -10567,7 +10624,7 @@
             "position": "WR",
             "team": "IND",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -11457,7 +11514,7 @@
             "position": "QB",
             "team": "BAL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12143,7 +12200,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -12170,8 +12227,8 @@
             "name": "Travis Etienne",
             "position": "RB",
             "team": "NO",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -12507,7 +12564,7 @@
             "position": "RB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13221,7 +13278,7 @@
             "position": "WR",
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -13305,7 +13362,7 @@
             "position": "RB",
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14593,7 +14650,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14803,7 +14860,7 @@
             "position": "QB",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -15810,7 +15867,7 @@
       "position": "QB",
       "team": "CLE",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
@@ -15870,7 +15927,7 @@
       "position": "QB",
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -19554,7 +19611,7 @@
       "position": "RB",
       "team": "HOU",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
@@ -19871,6 +19928,18 @@
       "years_exp": 2,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "12826",
+      "name": "Ulysses Bentley",
+      "position": "RB",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "3309",
@@ -25021,18 +25090,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12826",
-      "name": "Ulysses Bentley",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6203",
       "name": "Valentine Holmes",
       "position": "RB",
@@ -25330,7 +25387,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 9
     },
     {
       "player_id": "6427",
@@ -25338,7 +25395,7 @@
       "position": "WR",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
@@ -26434,7 +26491,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 8
     },
     {
       "player_id": "11056",
@@ -26989,6 +27046,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "5781",
+      "name": "Malik Turner",
+      "position": "WR",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 8,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5086",
       "name": "Marquez Valdes-Scantling",
       "position": "WR",
@@ -27430,7 +27499,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "6588",
@@ -35053,18 +35122,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "5781",
-      "name": "Malik Turner",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8770",
       "name": "Malik Williams",
       "position": "WR",
@@ -35382,7 +35439,7 @@
       "position": "WR",
       "team": null,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "age": 33,
       "years_exp": 11,
       "depth_chart_position": null,
@@ -39378,7 +39435,7 @@
       "position": "TE",
       "team": "BAL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
@@ -40206,7 +40263,7 @@
       "position": "TE",
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "TE",
@@ -40266,7 +40323,7 @@
       "position": "TE",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "TE",
