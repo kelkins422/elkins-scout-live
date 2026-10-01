@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-01T05:57:31.027835Z",
+  "generated_at_utc": "2026-10-01T18:48:32.850920Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
-    "last_message_id": "1411189980381929472",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,6 +203,8 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1411189980381929472",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,13 +213,11 @@
     "last_message_text_map": null,
     "last_message_time": 1790816419266,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,15 +244,16 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 4,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 4,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -2014,7 +2014,7 @@
           "name": "Zach Charbonnet",
           "position": "RB",
           "team": "SEA",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "PUP"
         }
       ],
@@ -2240,7 +2240,7 @@
           "name": "Zach Charbonnet",
           "position": "RB",
           "team": "SEA",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "PUP"
         },
         {
@@ -12940,7 +12940,7 @@
             "name": "Zach Charbonnet",
             "position": "RB",
             "team": "SEA",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "PUP"
           }
         },
@@ -22278,7 +22278,7 @@
       "position": "RB",
       "team": null,
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "",
       "age": 29,
       "years_exp": 9,
       "depth_chart_position": null,
@@ -25330,7 +25330,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 7
     },
     {
       "player_id": "6427",
@@ -26434,7 +26434,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 6
     },
     {
       "player_id": "11056",
@@ -26651,18 +26651,6 @@
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "12151",
-      "name": "Julian Hicks",
-      "position": "WR",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "7066",
@@ -27313,18 +27301,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11257",
-      "name": "Shedrick Jackson",
-      "position": "WR",
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7812",
       "name": "Simi Fehoko",
       "position": "WR",
@@ -27454,7 +27430,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "6588",
@@ -33649,6 +33625,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12151",
+      "name": "Julian Hicks",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5804",
       "name": "Julian Williams",
       "position": "WR",
@@ -37293,6 +37281,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11257",
+      "name": "Shedrick Jackson",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
