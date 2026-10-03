@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-03T18:18:27.996179Z",
+  "generated_at_utc": "2026-10-03T21:39:22.284648Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,9 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,9 +199,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1411916401760874496",
+    "season": "2026",
+    "season_type": "regular",
     "shard": 620,
-    "draft_id": "1353413007752839168",
+    "sport": "nfl",
+    "last_message_id": "1411916401760874496",
     "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
     "last_author_display_name": "sleezycreesey69",
     "last_author_id": "825521088418144256",
@@ -214,13 +213,9 @@
     "last_message_time": 1790989611619,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,13 +242,18 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 4,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 4,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -1432,7 +1432,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3214",
@@ -1638,7 +1638,7 @@
           "position": "WR",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3214",
@@ -3876,8 +3876,8 @@
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "1737",
@@ -4074,8 +4074,8 @@
           "name": "Jadarian Price",
           "position": "RB",
           "team": "SEA",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13345",
@@ -7795,8 +7795,8 @@
             "name": "Xavier Legette",
             "position": "WR",
             "team": "CAR",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -11175,7 +11175,7 @@
             "position": "WR",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11216,7 +11216,7 @@
             "position": "WR",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -12738,8 +12738,8 @@
             "name": "Jadarian Price",
             "position": "RB",
             "team": "SEA",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -14936,8 +14936,8 @@
             "name": "Xavier Legette",
             "position": "WR",
             "team": "CAR",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -15560,7 +15560,7 @@
       "position": "QB",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "QB",
@@ -19235,8 +19235,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "11582",
@@ -19331,8 +19331,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "12471",
@@ -25776,7 +25776,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13582",
@@ -25824,7 +25824,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7746",
@@ -26268,7 +26268,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7090",
@@ -26352,7 +26352,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "3286",
@@ -26952,7 +26952,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13124",
@@ -27324,7 +27324,7 @@
       "age": 31,
       "years_exp": 10,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "12001",
@@ -27347,6 +27347,18 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "5938",
+      "name": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -27611,8 +27623,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 9
     },
     {
       "player_id": "1604",
@@ -27815,8 +27827,8 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 4
     },
     {
       "player_id": "12496",
@@ -28171,8 +28183,8 @@
       "name": "Xavier Legette",
       "position": "WR",
       "team": "CAR",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
@@ -35307,18 +35319,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "5938",
-      "name": "Lil'Jordan Humphrey",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12077",
       "name": "Lincoln Victor",
       "position": "WR",
@@ -39708,7 +39708,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13577",
@@ -40320,7 +40320,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "4314",
@@ -40848,7 +40848,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7536",
