@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-04T05:55:45.508469Z",
+  "generated_at_utc": "2026-10-04T12:04:14.890648Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -2927,7 +2927,7 @@
           "position": "WR",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5947",
@@ -3133,7 +3133,7 @@
           "position": "WR",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5947",
@@ -13145,7 +13145,7 @@
             "position": "WR",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Questionable"
           }
         },
         {
@@ -25820,7 +25820,7 @@
       "position": "WR",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
@@ -26147,7 +26147,7 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": "LWR",
+      "depth_chart_position": "SWR",
       "depth_chart_order": 3
     },
     {
@@ -40664,7 +40664,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 33,
       "years_exp": 9,
       "depth_chart_position": "TE",
