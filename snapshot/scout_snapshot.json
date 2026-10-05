@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-04T22:56:08.378085Z",
+  "generated_at_utc": "2026-10-05T01:46:20.309537Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 4,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 3
+      "daily_waivers_last_ran": 4
     },
     "avatar": null,
     "company_id": null,
@@ -203,22 +203,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1412608078280417280",
+    "last_message_id": "1412639466664775680",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "draft_id": "1353413007752839168",
-    "last_message_time": 1791154520152,
+    "last_message_time": 1791162003726,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,15 +247,13 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 4,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 4,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 116,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "metadata": {
@@ -1764,7 +1764,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 59,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -1963,7 +1963,7 @@
           "position": "WR",
           "team": "KC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "9504",
@@ -2217,7 +2217,7 @@
           "position": "WR",
           "team": "KC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "8228",
@@ -2263,7 +2263,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 3,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "metadata": {
@@ -2419,7 +2419,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13278",
@@ -2569,7 +2569,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13272",
@@ -3357,14 +3357,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11608",
-          "name": "Isaiah Williams",
-          "position": "WR",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11630",
           "name": "Roman Wilson",
           "position": "WR",
@@ -3378,7 +3370,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "11783",
@@ -3393,6 +3385,14 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13394",
+          "name": "Josh Cameron",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -3515,14 +3515,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11608",
-          "name": "Isaiah Williams",
-          "position": "WR",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11630",
           "name": "Roman Wilson",
           "position": "WR",
@@ -3536,7 +3528,7 @@
           "position": "WR",
           "team": "CAR",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "11783",
@@ -3609,6 +3601,14 @@
           "team": "LAC",
           "status": "Active",
           "injury_status": "Out"
+        },
+        {
+          "player_id": "13394",
+          "name": "Josh Cameron",
+          "position": "WR",
+          "team": "JAX",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "13405",
@@ -3733,8 +3733,8 @@
         "ppts_decimal": 17,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 30,
-        "waiver_position": 6,
+        "waiver_budget_used": 42,
+        "waiver_position": 10,
         "wins": 2
       },
       "metadata": {
@@ -4217,7 +4217,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 3
       },
       "metadata": {
@@ -6917,6 +6917,47 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1412554584349499392",
+      "type": "waiver",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-10-04T19:22:46.206000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13394",
+            "name": "Josh Cameron",
+            "position": "WR",
+            "team": "JAX",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11608",
+            "name": "Isaiah Williams",
+            "position": "WR",
+            "team": "NYJ",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 12
+    },
+    {
       "transaction_id": "1411798969176035328",
       "type": "trade",
       "status": "complete",
@@ -7907,7 +7948,7 @@
             "position": "WR",
             "team": "KC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -13649,7 +13690,7 @@
             "position": "WR",
             "team": "CAR",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14727,7 +14768,7 @@
             "position": "WR",
             "team": "DEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15824,7 +15865,7 @@
       "position": "QB",
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "QB",
@@ -19236,7 +19277,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11582",
@@ -19560,7 +19601,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11571",
@@ -19581,7 +19622,7 @@
       "team": "DAL",
       "status": "Active",
       "injury_status": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -19764,7 +19805,7 @@
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "6167",
@@ -25968,7 +26009,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "11748",
@@ -26292,7 +26333,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6154",
@@ -26715,6 +26756,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11608",
+      "name": "Isaiah Williams",
+      "position": "WR",
+      "team": "NYJ",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 2,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 2
+    },
+    {
       "player_id": "13770",
       "name": "J. Michael Sturdivant",
       "position": "WR",
@@ -27036,7 +27089,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11636",
@@ -27095,18 +27148,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 4
-    },
-    {
-      "player_id": "13394",
-      "name": "Josh Cameron",
-      "position": "WR",
-      "team": "JAX",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": "SWR",
       "depth_chart_order": 4
     },
@@ -27264,7 +27305,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13981",
@@ -28188,7 +28229,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "12520",
@@ -39540,7 +39581,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "12062",
@@ -39684,7 +39725,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11942",
@@ -39720,7 +39761,7 @@
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "13321",
@@ -39960,7 +40001,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5985",
@@ -40076,11 +40117,11 @@
       "position": "TE",
       "team": "CAR",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "1706",
@@ -40224,7 +40265,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13422",
@@ -40428,7 +40469,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "8088",
@@ -41156,7 +41197,7 @@
       "position": "TE",
       "team": "DET",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
