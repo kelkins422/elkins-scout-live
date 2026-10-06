@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-06T03:13:29.845872Z",
+  "generated_at_utc": "2026-10-06T10:29:07.175884Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -33,7 +33,7 @@
       "playoff_type": 1,
       "taxi_slots": 3,
       "sub_start_time_eligibility": 0,
-      "last_scored_leg": 3,
+      "last_scored_leg": 4,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -62,13 +62,14 @@
       "trade_review_days": 2,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 4,
+      "leg": 5,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
       "daily_waivers_last_ran": 5
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1413032754290925568",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -203,8 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1413032754290925568",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -214,11 +213,12 @@
     "last_message_time": 1791255770803,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -250,10 +250,10 @@
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 4,
-    "leg": 4,
-    "season_type": "regular",
+    "week": 5,
+    "leg": 5,
     "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -727,18 +727,18 @@
         }
       ],
       "settings": {
-        "fpts": 469,
-        "fpts_against": 461,
-        "fpts_against_decimal": 91,
-        "fpts_decimal": 71,
+        "fpts": 627,
+        "fpts_against": 578,
+        "fpts_against_decimal": 59,
+        "fpts_decimal": 9,
         "losses": 2,
-        "ppts": 573,
-        "ppts_decimal": 93,
+        "ppts": 752,
+        "ppts_decimal": 41,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 116,
         "waiver_position": 7,
-        "wins": 1
+        "wins": 2
       },
       "metadata": {
         "p_nick_11628": "Lost Cause",
@@ -762,8 +762,8 @@
         "p_nick_9487": "Parkhim Washinghim",
         "p_nick_9493": "Rehab boy",
         "p_nick_9500": "Dogshit #2",
-        "record": "LWL",
-        "streak": "1L"
+        "record": "LWLW",
+        "streak": "1W"
       }
     },
     {
@@ -1214,13 +1214,13 @@
         }
       ],
       "settings": {
-        "fpts": 426,
-        "fpts_against": 444,
-        "fpts_against_decimal": 42,
-        "fpts_decimal": 92,
-        "losses": 1,
-        "ppts": 505,
-        "ppts_decimal": 8,
+        "fpts": 603,
+        "fpts_against": 628,
+        "fpts_against_decimal": 90,
+        "fpts_decimal": 46,
+        "losses": 2,
+        "ppts": 712,
+        "ppts_decimal": 77,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
@@ -1253,8 +1253,8 @@
         "p_nick_8161": "runningblack",
         "p_nick_9509": "mustardddddd",
         "p_nick_9511": "mcdaniel’s cuck",
-        "record": "WLW",
-        "streak": "1W"
+        "record": "WLWL",
+        "streak": "1L"
       }
     },
     {
@@ -1738,13 +1738,13 @@
         }
       ],
       "settings": {
-        "fpts": 448,
-        "fpts_against": 563,
-        "fpts_against_decimal": 38,
-        "fpts_decimal": 28,
-        "losses": 2,
-        "ppts": 567,
-        "ppts_decimal": 16,
+        "fpts": 566,
+        "fpts_against": 726,
+        "fpts_against_decimal": 78,
+        "fpts_decimal": 80,
+        "losses": 3,
+        "ppts": 721,
+        "ppts_decimal": 52,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 59,
@@ -1752,8 +1752,8 @@
         "wins": 1
       },
       "metadata": {
-        "record": "LLW",
-        "streak": "1W"
+        "record": "LLWL",
+        "streak": "1L"
       }
     },
     {
@@ -2237,18 +2237,18 @@
         }
       ],
       "settings": {
-        "fpts": 444,
-        "fpts_against": 434,
-        "fpts_against_decimal": 56,
-        "fpts_decimal": 15,
+        "fpts": 632,
+        "fpts_against": 594,
+        "fpts_against_decimal": 46,
+        "fpts_decimal": 49,
         "losses": 2,
-        "ppts": 488,
-        "ppts_decimal": 42,
+        "ppts": 748,
+        "ppts_decimal": 30,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
         "waiver_position": 10,
-        "wins": 1
+        "wins": 2
       },
       "metadata": {
         "p_nick_10859": "vanilla ice🥶",
@@ -2280,8 +2280,8 @@
         "p_nick_9504": "i miss u💔",
         "p_nick_9753": "🏥♿️",
         "p_nick_9997": "Black Flash⚡️",
-        "record": "WLL",
-        "streak": "2L"
+        "record": "WLLW",
+        "streak": "1W"
       }
     },
     {
@@ -2749,12 +2749,12 @@
         }
       ],
       "settings": {
-        "fpts": 550,
-        "fpts_against": 454,
-        "fpts_against_decimal": 22,
-        "fpts_decimal": 51,
-        "losses": 1,
-        "ppts": 615,
+        "fpts": 710,
+        "fpts_against": 642,
+        "fpts_against_decimal": 56,
+        "fpts_decimal": 41,
+        "losses": 2,
+        "ppts": 792,
         "ppts_decimal": 26,
         "ties": 0,
         "total_moves": 0,
@@ -2764,8 +2764,8 @@
       },
       "metadata": {
         "p_nick_5859": "Fuck this guy",
-        "record": "WWL",
-        "streak": "1L"
+        "record": "WWLL",
+        "streak": "2L"
       }
     },
     {
@@ -3201,13 +3201,13 @@
         }
       ],
       "settings": {
-        "fpts": 516,
-        "fpts_against": 432,
-        "fpts_against_decimal": 35,
-        "fpts_decimal": 28,
-        "losses": 1,
-        "ppts": 621,
-        "ppts_decimal": 90,
+        "fpts": 605,
+        "fpts_against": 589,
+        "fpts_against_decimal": 91,
+        "fpts_decimal": 93,
+        "losses": 2,
+        "ppts": 793,
+        "ppts_decimal": 70,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
@@ -3239,8 +3239,8 @@
         "p_nick_8131": "Marlbro Red",
         "p_nick_8138": "Josh Allens Cuck",
         "p_nick_9506": "Pl44sed",
-        "record": "WWL",
-        "streak": "1L"
+        "record": "WWLL",
+        "streak": "2L"
       }
     },
     {
@@ -3259,18 +3259,18 @@
           "injury_status": null
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "CAR",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "8154",
+          "name": "Brian Robinson",
           "position": "RB",
-          "team": "NYJ",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -3291,26 +3291,26 @@
           "injury_status": null
         },
         {
-          "player_id": "13330",
-          "name": "Kenyon Sadiq",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "3634",
-          "name": "Kalif Raymond",
-          "position": "WR",
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12506",
           "name": "Harold Fannin",
           "position": "TE",
           "team": "CLE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "5012",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null
         },
@@ -3341,6 +3341,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11630",
           "name": "Roman Wilson",
           "position": "WR",
@@ -3365,14 +3373,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13394",
           "name": "Josh Cameron",
           "position": "WR",
@@ -3389,18 +3389,18 @@
           "injury_status": null
         },
         {
-          "player_id": "421",
-          "name": "Matthew Stafford",
-          "position": "QB",
-          "team": "LAR",
+          "player_id": "3634",
+          "name": "Kalif Raymond",
+          "position": "WR",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
+          "player_id": "421",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "team": "LAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3421,10 +3421,10 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "8154",
-          "name": "Brian Robinson",
+          "player_id": "7594",
+          "name": "Chuba Hubbard",
           "position": "RB",
-          "team": "ATL",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3708,13 +3708,13 @@
         }
       ],
       "settings": {
-        "fpts": 481,
-        "fpts_against": 468,
-        "fpts_against_decimal": 86,
-        "fpts_decimal": 43,
-        "losses": 1,
-        "ppts": 612,
-        "ppts_decimal": 17,
+        "fpts": 598,
+        "fpts_against": 626,
+        "fpts_against_decimal": 24,
+        "fpts_decimal": 11,
+        "losses": 2,
+        "ppts": 799,
+        "ppts_decimal": 96,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
@@ -3722,8 +3722,8 @@
         "wins": 2
       },
       "metadata": {
-        "record": "LWW",
-        "streak": "2W"
+        "record": "LWWL",
+        "streak": "1L"
       }
     },
     {
@@ -4191,22 +4191,22 @@
         }
       ],
       "settings": {
-        "fpts": 501,
-        "fpts_against": 409,
-        "fpts_against_decimal": 83,
-        "fpts_decimal": 88,
+        "fpts": 686,
+        "fpts_against": 586,
+        "fpts_against_decimal": 37,
+        "fpts_decimal": 36,
         "losses": 0,
-        "ppts": 644,
-        "ppts_decimal": 38,
+        "ppts": 851,
+        "ppts_decimal": 46,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 80,
         "waiver_position": 9,
-        "wins": 3
+        "wins": 4
       },
       "metadata": {
-        "record": "WWW",
-        "streak": "3W"
+        "record": "WWWW",
+        "streak": "4W"
       }
     },
     {
@@ -4642,22 +4642,22 @@
         }
       ],
       "settings": {
-        "fpts": 369,
-        "fpts_against": 456,
-        "fpts_against_decimal": 12,
-        "fpts_decimal": 53,
+        "fpts": 532,
+        "fpts_against": 574,
+        "fpts_against_decimal": 64,
+        "fpts_decimal": 93,
         "losses": 2,
-        "ppts": 438,
-        "ppts_decimal": 86,
+        "ppts": 616,
+        "ppts_decimal": 66,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
         "waiver_position": 4,
-        "wins": 1
+        "wins": 2
       },
       "metadata": {
-        "record": "LLW",
-        "streak": "1W"
+        "record": "LLWW",
+        "streak": "2W"
       }
     },
     {
@@ -5108,22 +5108,22 @@
         }
       ],
       "settings": {
-        "fpts": 380,
-        "fpts_against": 463,
-        "fpts_against_decimal": 76,
-        "fpts_decimal": 72,
+        "fpts": 538,
+        "fpts_against": 553,
+        "fpts_against_decimal": 41,
+        "fpts_decimal": 28,
         "losses": 3,
-        "ppts": 479,
-        "ppts_decimal": 88,
+        "ppts": 696,
+        "ppts_decimal": 48,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 1,
-        "wins": 0
+        "wins": 1
       },
       "metadata": {
-        "record": "LLL",
-        "streak": "3L"
+        "record": "LLLW",
+        "streak": "1W"
       }
     }
   ],
@@ -20433,7 +20433,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "13418",
@@ -20444,8 +20444,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 10
     },
     {
       "player_id": "13416",
@@ -26193,7 +26193,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13011",
@@ -26373,7 +26373,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7521",
@@ -27225,7 +27225,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 8
     },
     {
       "player_id": "13392",
@@ -27681,7 +27681,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "4177",
@@ -27801,7 +27801,7 @@
       "age": 24,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11895",
