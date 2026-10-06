@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-05T23:17:26.561898Z",
+  "generated_at_utc": "2026-10-06T03:13:29.845872Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,10 +65,14 @@
       "leg": 4,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 4
+      "daily_waivers_last_ran": 5
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,23 +203,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1412976011699617792",
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
+    "last_message_id": "1413032754290925568",
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791242242316,
+    "last_message_time": 1791255770803,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
-    "league_id": "1353413006104485888",
     "last_read_id": null,
+    "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,18 +247,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
     "week": 4,
     "leg": 4,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -737,7 +737,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 116,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -1435,14 +1435,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "8172",
-          "name": "Greg Dulcich",
-          "position": "TE",
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "9226",
           "name": "De'Von Achane",
           "position": "RB",
@@ -1689,14 +1681,6 @@
           "injury_status": null
         },
         {
-          "player_id": "8172",
-          "name": "Greg Dulcich",
-          "position": "TE",
-          "team": "MIA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "8205",
           "name": "Isiah Pacheco",
           "position": "RB",
@@ -1764,7 +1748,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 59,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -1910,20 +1894,20 @@
           "injury_status": null
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": "Out"
-        },
-        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "4018",
+          "name": "Joe Mixon",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": "Active"
         },
         {
           "player_id": "4037",
@@ -2116,20 +2100,20 @@
           "injury_status": null
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": "Out"
-        },
-        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "4018",
+          "name": "Joe Mixon",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": "Active"
         },
         {
           "player_id": "4037",
@@ -2262,8 +2246,8 @@
         "ppts_decimal": 42,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 3,
-        "waiver_position": 8,
+        "waiver_budget_used": 13,
+        "waiver_position": 10,
         "wins": 1
       },
       "metadata": {
@@ -2911,7 +2895,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4993",
@@ -3085,7 +3069,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4217",
@@ -3734,7 +3718,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 2
       },
       "metadata": {
@@ -3848,6 +3832,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11577",
+          "name": "Will Shipley",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -3862,14 +3854,6 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "13286",
@@ -4014,6 +3998,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11577",
+          "name": "Will Shipley",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "position": "RB",
@@ -4052,14 +4044,6 @@
           "team": "NE",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "13268",
@@ -4216,8 +4200,8 @@
         "ppts_decimal": 38,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 40,
-        "waiver_position": 6,
+        "waiver_budget_used": 80,
+        "waiver_position": 9,
         "wins": 3
       },
       "metadata": {
@@ -6916,6 +6900,278 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1412997906423672832",
+      "type": "waiver",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-10-06T00:44:22.425000Z",
+      "teams": [
+        "Mayek It Clap"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4018",
+            "name": "Joe Mixon",
+            "position": "RB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": "Active"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "1479",
+            "name": "Keenan Allen",
+            "position": "WR",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": "Out"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 10
+    },
+    {
+      "transaction_id": "1412985044120662016",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-10-05T23:53:15.812000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8172",
+            "name": "Greg Dulcich",
+            "position": "TE",
+            "team": "MIA",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1412978417778835456",
+      "type": "waiver",
+      "status": "failed",
+      "week": 4,
+      "created_utc": "2026-10-05T23:26:55.969000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11577",
+            "name": "Will Shipley",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 24
+    },
+    {
+      "transaction_id": "1412964736114438144",
+      "type": "waiver",
+      "status": "failed",
+      "week": 4,
+      "created_utc": "2026-10-05T22:32:34.007000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4018",
+            "name": "Joe Mixon",
+            "position": "RB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": "Active"
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1412964600072220672",
+      "type": "waiver",
+      "status": "failed",
+      "week": 4,
+      "created_utc": "2026-10-05T22:32:01.571000Z",
+      "teams": [
+        "Brown St. Brown Samuel"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4018",
+            "name": "Joe Mixon",
+            "position": "RB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": "Active"
+          },
+          "roster_id": 5,
+          "team": "Brown St. Brown Samuel"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1412958780609568768",
+      "type": "trade",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-10-05T22:08:54.103000Z",
+      "teams": [
+        "Jeantrification",
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9757",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9757",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2029",
+          "round": 3,
+          "roster_id": 6,
+          "owner_id": 1,
+          "previous_owner_id": 3
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1412957288406241280",
+      "type": "waiver",
+      "status": "failed",
+      "week": 4,
+      "created_utc": "2026-10-05T22:02:58.334000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "4018",
+            "name": "Joe Mixon",
+            "position": "RB",
+            "team": "SEA",
+            "status": "Active",
+            "injury_status": "Active"
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1412943590300151808",
+      "type": "waiver",
+      "status": "complete",
+      "week": 4,
+      "created_utc": "2026-10-05T21:08:32.452000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11577",
+            "name": "Will Shipley",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12718",
+            "name": "Konata Mumpfield",
+            "position": "WR",
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": "Questionable"
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 40
+    },
     {
       "transaction_id": "1412554584349499392",
       "type": "waiver",
@@ -10472,7 +10728,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -10568,7 +10824,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -14544,7 +14800,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15573,12 +15829,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2527,
+    "total": 2528,
     "by_position": {
       "QB": 291,
-      "RB": 554,
-      "WR": 1139,
-      "TE": 543
+      "RB": 552,
+      "WR": 1141,
+      "TE": 544
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -15629,7 +15885,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13295",
@@ -19276,8 +19532,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11582",
@@ -19781,19 +20037,7 @@
       "age": 30,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
-    },
-    {
-      "player_id": "4018",
-      "name": "Joe Mixon",
-      "position": "RB",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": "Active",
-      "age": 30,
-      "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_order": 5
     },
     {
       "player_id": "7087",
@@ -20195,7 +20439,7 @@
       "player_id": "13418",
       "name": "Robert Henry",
       "position": "RB",
-      "team": "WAS",
+      "team": "SEA",
       "status": "Active",
       "injury_status": null,
       "age": 24,
@@ -20430,18 +20674,6 @@
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "11577",
-      "name": "Will Shipley",
-      "position": "RB",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
     },
     {
       "player_id": "8139",
@@ -25958,7 +26190,7 @@
       "team": "NYG",
       "status": "Inactive",
       "injury_status": "Out",
-      "age": 30,
+      "age": 31,
       "years_exp": 8,
       "depth_chart_position": "RWR",
       "depth_chart_order": 4
@@ -26150,7 +26382,7 @@
       "team": "ATL",
       "status": "Active",
       "injury_status": null,
-      "age": 28,
+      "age": 29,
       "years_exp": 5,
       "depth_chart_position": "LWR",
       "depth_chart_order": 5
@@ -27040,8 +27272,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13173",
@@ -27272,6 +27504,18 @@
       "depth_chart_order": 8
     },
     {
+      "player_id": "1479",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": "Out",
+      "age": 34,
+      "years_exp": 13,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "4454",
       "name": "Kendrick Bourne",
       "position": "WR",
@@ -27318,6 +27562,18 @@
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12718",
+      "name": "Konata Mumpfield",
+      "position": "WR",
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3
     },
     {
       "player_id": "13830",
@@ -27425,7 +27681,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "4177",
@@ -27809,7 +28065,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 9
     },
     {
       "player_id": "5638",
@@ -28024,7 +28280,7 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": "RWR",
       "depth_chart_order": 3
     },
     {
@@ -39461,7 +39717,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11201",
@@ -39686,7 +39942,7 @@
       "team": "LV",
       "status": "Active",
       "injury_status": null,
-      "age": 30,
+      "age": 31,
       "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -39749,7 +40005,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13577",
@@ -39929,7 +40185,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "10231",
@@ -40049,7 +40305,19 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
+    },
+    {
+      "player_id": "8172",
+      "name": "Greg Dulcich",
+      "position": "TE",
+      "team": "MIA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 4,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1
     },
     {
       "player_id": "13712",
@@ -40373,7 +40641,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 1
+      "depth_chart_order": 2
     },
     {
       "player_id": "4144",
@@ -40637,7 +40905,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "13307",
@@ -40805,7 +41073,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "7828",
@@ -40829,7 +41097,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13913",
@@ -40889,7 +41157,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7536",
@@ -41105,7 +41373,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11716",
