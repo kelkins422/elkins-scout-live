@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-07T00:58:43.755023Z",
+  "generated_at_utc": "2026-10-07T07:07:11.719177Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,14 @@
       "leg": 5,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 5
+      "daily_waivers_last_ran": 6
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,21 +203,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1413265423754932224",
-    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
-    "last_author_display_name": "Donovanelkins6",
-    "last_author_id": "1030955970991603712",
-    "last_author_is_bot": false,
+    "last_message_id": "1413366723440136192",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791311243529,
+    "last_message_time": 1791335395253,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,9 +247,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -257,7 +257,7 @@
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
-    "display_week": 4,
+    "display_week": 5,
     "league_create_season": "2026",
     "season_has_scores": true
   },
@@ -406,6 +406,14 @@
           "team": "NE",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "4046",
@@ -638,6 +646,14 @@
           "injury_status": null
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
           "player_id": "4046",
           "name": "Patrick Mahomes",
           "position": "QB",
@@ -737,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 116,
-        "waiver_position": 7,
+        "waiver_position": 10,
         "wins": 2
       },
       "metadata": {
@@ -806,12 +822,12 @@
           "injury_status": null
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
+          "player_id": "8148",
+          "name": "Jameson Williams",
           "position": "WR",
-          "team": "KC",
+          "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7002",
@@ -822,18 +838,18 @@
           "injury_status": null
         },
         {
-          "player_id": "8148",
-          "name": "Jameson Williams",
-          "position": "WR",
-          "team": "DET",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
+          "player_id": "9511",
+          "name": "Keaton Mitchell",
+          "position": "RB",
+          "team": "LAC",
           "status": "Active",
           "injury_status": null
         },
@@ -855,6 +871,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
         {
           "player_id": "11256",
           "name": "Tyson Bagent",
@@ -928,6 +952,14 @@
           "injury_status": null
         },
         {
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -944,26 +976,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "8161",
           "name": "Malik Willis",
           "position": "QB",
           "team": "MIA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "9511",
-          "name": "Keaton Mitchell",
-          "position": "RB",
-          "team": "LAC",
           "status": "Active",
           "injury_status": null
         }
@@ -2247,7 +2263,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 2
       },
       "metadata": {
@@ -2470,14 +2486,6 @@
           "injury_status": null
         },
         {
-          "player_id": "9225",
-          "name": "Tank Bigsby",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9479",
           "name": "Darnell Washington",
           "position": "TE",
@@ -2518,6 +2526,14 @@
           "name": "Chris Brazzell",
           "position": "WR",
           "team": "CAR",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
+          "player_id": "9225",
+          "name": "Tank Bigsby",
+          "position": "RB",
+          "team": "PHI",
           "status": "Inactive",
           "injury_status": "IR"
         }
@@ -3718,7 +3734,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 42,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 2
       },
       "metadata": {
@@ -4201,7 +4217,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 80,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 4
       },
       "metadata": {
@@ -6900,6 +6916,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1413164530871128064",
+      "type": "waiver",
+      "status": "complete",
+      "week": 5,
+      "created_utc": "2026-10-06T11:46:28.788000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1479",
+            "name": "Keenan Allen",
+            "position": "WR",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": "Out"
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1412997906423672832",
       "type": "waiver",
@@ -15829,11 +15873,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2529,
+    "total": 2528,
     "by_position": {
       "QB": 291,
       "RB": 552,
-      "WR": 1141,
+      "WR": 1140,
       "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -27514,18 +27558,6 @@
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 8
-    },
-    {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": "Out",
-      "age": 34,
-      "years_exp": 13,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 6
     },
     {
       "player_id": "4454",
