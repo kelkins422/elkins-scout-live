@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-06T21:28:16.814437Z",
+  "generated_at_utc": "2026-10-07T00:58:43.755023Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -270,18 +270,18 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "4046",
-          "name": "Patrick Mahomes",
+          "player_id": "7523",
+          "name": "Trevor Lawrence",
           "position": "QB",
-          "team": "KC",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker",
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
           "position": "RB",
-          "team": "KC",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -294,20 +294,20 @@
           "injury_status": null
         },
         {
+          "player_id": "9493",
+          "name": "Puka Nacua",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "9487",
           "name": "Parker Washington",
           "position": "WR",
           "team": "JAX",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": "Out"
         },
         {
           "player_id": "9484",
@@ -318,26 +318,34 @@
           "injury_status": null
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": "Out"
-        },
-        {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "team": "JAX",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "7523",
-          "name": "Trevor Lawrence",
+          "player_id": "13285",
+          "name": "Malachi Fields",
+          "position": "WR",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "1373",
+          "name": "Geno Smith",
           "position": "QB",
-          "team": "JAX",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null
         }
@@ -348,14 +356,6 @@
           "name": "Marvin Harrison",
           "position": "WR",
           "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
@@ -384,14 +384,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13305",
           "name": "Mike Washington",
           "position": "RB",
@@ -416,12 +408,20 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "NYJ",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "5022",
@@ -440,18 +440,18 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "DAL",
+          "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
-          "position": "WR",
-          "team": "LAR",
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         }
@@ -1472,7 +1472,7 @@
           "player_id": "13403",
           "name": "Jam Miller",
           "position": "RB",
-          "team": null,
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -1596,7 +1596,7 @@
           "player_id": "13403",
           "name": "Jam Miller",
           "position": "RB",
-          "team": null,
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -2475,7 +2475,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Inactive",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "9479",
@@ -2737,7 +2737,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Inactive",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "9479",
@@ -14336,7 +14336,7 @@
             "player_id": "13403",
             "name": "Jam Miller",
             "position": "RB",
-            "team": null,
+            "team": "ATL",
             "status": "Active",
             "injury_status": null
           }
@@ -14464,7 +14464,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Inactive",
-            "injury_status": "Out"
+            "injury_status": "IR"
           }
         },
         {
@@ -19424,8 +19424,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11579",
@@ -19952,8 +19952,8 @@
       "injury_status": "Out",
       "age": 26,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 7
     },
     {
       "player_id": "11237",
@@ -20457,7 +20457,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13418",
@@ -20469,7 +20469,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 10
+      "depth_chart_order": 9
     },
     {
       "player_id": "13416",
@@ -26192,7 +26192,7 @@
       "injury_status": "Out",
       "age": 31,
       "years_exp": 8,
-      "depth_chart_position": "RWR",
+      "depth_chart_position": "SWR",
       "depth_chart_order": 5
     },
     {
@@ -26323,6 +26323,18 @@
       "status": "Active",
       "injury_status": null,
       "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13744",
+      "name": "Cameron Ross",
+      "position": "WR",
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -27222,7 +27234,7 @@
       "team": "HOU",
       "status": "Active",
       "injury_status": null,
-      "age": 25,
+      "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -27236,7 +27248,7 @@
       "injury_status": "IR",
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": 8
     },
     {
@@ -28313,7 +28325,7 @@
       "position": "WR",
       "team": "HOU",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": null,
       "years_exp": 0,
       "depth_chart_position": null,
@@ -28326,7 +28338,7 @@
       "team": "LAR",
       "status": "Active",
       "injury_status": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 5
@@ -29900,18 +29912,6 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13744",
-      "name": "Cameron Ross",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -40173,7 +40173,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "11304",
@@ -40665,7 +40665,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "5973",
@@ -41324,8 +41324,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 4
     },
     {
       "player_id": "3333",
