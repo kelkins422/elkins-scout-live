@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-08T13:41:02.399152Z",
+  "generated_at_utc": "2026-10-08T19:29:00.036406Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,7 +199,12 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "last_message_id": "1413729094343864320",
+    "shard": 620,
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,12 +214,11 @@
     "last_message_time": 1791421791209,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -2380,12 +2380,12 @@
           "injury_status": null
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "bench": [
@@ -2394,14 +2394,6 @@
           "name": "Troy Franklin",
           "position": "WR",
           "team": "DEN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "11834",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -2430,6 +2422,14 @@
           "injury_status": null
         },
         {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
           "player_id": "5870",
           "name": "Daniel Jones",
           "position": "QB",
@@ -2443,7 +2443,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "7553",
@@ -2657,7 +2657,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "7547",
@@ -13943,7 +13943,7 @@
             "position": "WR",
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -19525,6 +19525,18 @@
       "depth_chart_order": 4
     },
     {
+      "player_id": "12939",
+      "name": "Anthony Tyus",
+      "position": "RB",
+      "team": "CAR",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11579",
       "name": "Audric Estime",
       "position": "RB",
@@ -21069,18 +21081,6 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 11,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12939",
-      "name": "Anthony Tyus",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -26341,6 +26341,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "11959",
+      "name": "Bryce Oliver",
+      "position": "WR",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11157",
       "name": "Brycen Tremayne",
       "position": "WR",
@@ -29817,18 +29829,6 @@
       "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11959",
-      "name": "Bryce Oliver",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
