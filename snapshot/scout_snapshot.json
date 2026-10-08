@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-08T06:14:17.830019Z",
+  "generated_at_utc": "2026-10-08T13:41:02.399152Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,12 +203,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "last_message_id": "1413729094343864320",
-    "shard": 620,
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -214,11 +213,12 @@
     "last_message_time": 1791421791209,
     "last_pinned_message_id": null,
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -3251,10 +3251,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "8154",
-          "name": "Brian Robinson",
+          "player_id": "11576",
+          "name": "Braelon Allen",
           "position": "RB",
-          "team": "ATL",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null
         },
@@ -3321,14 +3321,6 @@
           "name": "Chris Rodriguez",
           "position": "RB",
           "team": "JAX",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
           "status": "Active",
           "injury_status": null
         },
@@ -3409,6 +3401,14 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "team": "CAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8154",
+          "name": "Brian Robinson",
+          "position": "RB",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -4668,12 +4668,12 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
           "position": "RB",
-          "team": "NYJ",
+          "team": "CHI",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9488",
@@ -4790,14 +4790,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "13311",
           "name": "Chris Bell",
           "position": "WR",
@@ -4844,6 +4836,14 @@
           "team": "TEN",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": "Doubtful"
         }
       ],
       "taxi": [
@@ -27490,7 +27490,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "10225",
@@ -27922,7 +27922,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "5848",
