@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-08T23:54:07.711869Z",
+  "generated_at_utc": "2026-10-09T05:17:03.394367Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,14 @@
       "leg": 5,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 7
+      "daily_waivers_last_ran": 8
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,19 +203,24 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1414015126989721600",
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
+    "last_message_id": "1414107513703399424",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1791489986706,
+    "last_message_time": 1791512013416,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -360,6 +360,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12487",
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "12504",
           "name": "Kaleb Johnson",
           "position": "RB",
@@ -406,14 +414,6 @@
           "team": "NE",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "4046",
@@ -534,6 +534,14 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "12487",
+          "name": "Terrance Ferguson",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "12490",
           "name": "Bhayshul Tuten",
           "position": "RB",
@@ -646,14 +654,6 @@
           "injury_status": null
         },
         {
-          "player_id": "1479",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "4046",
           "name": "Patrick Mahomes",
           "position": "QB",
@@ -752,8 +752,8 @@
         "ppts_decimal": 41,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 116,
-        "waiver_position": 9,
+        "waiver_budget_used": 140,
+        "waiver_position": 10,
         "wins": 2
       },
       "metadata": {
@@ -838,12 +838,12 @@
           "injury_status": null
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9511",
@@ -862,10 +862,10 @@
           "injury_status": null
         },
         {
-          "player_id": "2306",
-          "name": "Jameis Winston",
+          "player_id": "8161",
+          "name": "Malik Willis",
           "position": "QB",
-          "team": "NYG",
+          "team": "MIA",
           "status": "Active",
           "injury_status": null
         }
@@ -952,12 +952,12 @@
           "injury_status": null
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
+          "player_id": "2306",
+          "name": "Jameis Winston",
+          "position": "QB",
+          "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3321",
@@ -976,10 +976,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         }
@@ -3747,7 +3747,7 @@
           "position": "WR",
           "team": "DAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8144",
@@ -4115,7 +4115,7 @@
           "position": "WR",
           "team": "DAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7049",
@@ -4185,7 +4185,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 4
       },
       "metadata": {
@@ -6926,6 +6926,47 @@
       "waiver_bid": 20
     },
     {
+      "transaction_id": "1413633776210161664",
+      "type": "waiver",
+      "status": "complete",
+      "week": 5,
+      "created_utc": "2026-10-07T18:51:05.595000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12487",
+            "name": "Terrance Ferguson",
+            "position": "TE",
+            "team": "LAR",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "1479",
+            "name": "Keenan Allen",
+            "position": "WR",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": "Questionable"
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 24
+    },
+    {
       "transaction_id": "1413600129247686656",
       "type": "free_agent",
       "status": "complete",
@@ -7271,7 +7312,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -7868,7 +7909,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -12305,7 +12346,7 @@
             "position": "WR",
             "team": "DAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15942,8 +15983,8 @@
     "by_position": {
       "QB": 291,
       "RB": 553,
-      "WR": 1141,
-      "TE": 546
+      "WR": 1142,
+      "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -16185,8 +16226,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 7,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "6011",
@@ -20158,7 +20199,7 @@
       "age": 30,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "7087",
@@ -20493,8 +20534,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "12472",
@@ -26362,7 +26403,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": null
+      "depth_chart_order": 7
     },
     {
       "player_id": "11157",
@@ -26658,11 +26699,11 @@
       "position": "WR",
       "team": "SF",
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": null
     },
     {
       "player_id": "8527",
@@ -27685,6 +27726,18 @@
       "depth_chart_order": 9
     },
     {
+      "player_id": "1479",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 34,
+      "years_exp": 13,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 2
+    },
+    {
       "player_id": "4454",
       "name": "Kendrick Bourne",
       "position": "WR",
@@ -27718,7 +27771,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13981",
@@ -27738,7 +27791,7 @@
       "position": "WR",
       "team": "LAR",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "SWR",
@@ -40126,7 +40179,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13577",
@@ -40675,7 +40728,7 @@
       "team": "NYJ",
       "status": "Active",
       "injury_status": null,
-      "age": 27,
+      "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
       "depth_chart_order": 4
@@ -41290,7 +41343,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7536",
@@ -41447,18 +41500,6 @@
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "12487",
-      "name": "Terrance Ferguson",
-      "position": "TE",
-      "team": "LAR",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 5
     },
     {
       "player_id": "12715",
