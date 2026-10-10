@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-10T14:46:15.531946Z",
+  "generated_at_utc": "2026-10-10T19:09:55.694769Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -318,10 +318,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11628",
-          "name": "Marvin Harrison",
-          "position": "WR",
-          "team": "ARI",
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
           "status": "Active",
           "injury_status": null
         },
@@ -352,12 +352,12 @@
       ],
       "bench": [
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
+          "player_id": "11628",
+          "name": "Marvin Harrison",
+          "position": "WR",
+          "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "12487",
@@ -515,7 +515,7 @@
           "position": "WR",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "12474",
@@ -838,12 +838,12 @@
           "injury_status": null
         },
         {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
+          "player_id": "11610",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "WAS",
+          "team": "MIA",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "9511",
@@ -892,14 +892,6 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
           "status": "Active",
           "injury_status": null
         },
@@ -958,6 +950,14 @@
           "team": "NYG",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "2449",
+          "name": "Stefon Diggs",
+          "position": "WR",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": "Out"
         },
         {
           "player_id": "3321",
@@ -13228,7 +13228,7 @@
             "position": "WR",
             "team": "ARI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -16014,18 +16014,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "829",
-      "name": "Andy Dalton",
-      "position": "QB",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 38,
-      "years_exp": 15,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13557",
       "name": "Athan Kaliakmanis",
       "position": "QB",
@@ -16934,6 +16922,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "829",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 38,
+      "years_exp": 15,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -26399,7 +26399,7 @@
       "position": "WR",
       "team": "HOU",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "SWR",
@@ -26711,7 +26711,7 @@
       "position": "WR",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RWR",
@@ -27611,7 +27611,7 @@
       "position": "WR",
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
