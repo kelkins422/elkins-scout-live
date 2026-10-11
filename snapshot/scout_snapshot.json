@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-11T07:41:44.512646Z",
+  "generated_at_utc": "2026-10-11T14:23:31.617714Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1414760655596122112",
+    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,8 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1414760655596122112",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -213,9 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1791667734577,
     "last_pinned_message_id": null,
-    "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "last_read_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2808,12 +2808,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "4217",
@@ -2866,6 +2866,14 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
           "player_id": "13150",
           "name": "Darius Cooper",
           "position": "WR",
@@ -2880,14 +2888,6 @@
           "team": "NO",
           "status": "Active",
           "injury_status": "Questionable"
-        },
-        {
-          "player_id": "4993",
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "team": "CIN",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "5927",
@@ -19659,7 +19659,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "13277",
@@ -19683,7 +19683,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11582",
@@ -20871,7 +20871,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "8122",
@@ -26211,7 +26211,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13582",
@@ -26259,7 +26259,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "7746",
@@ -26435,7 +26435,7 @@
       "position": "WR",
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
@@ -26535,7 +26535,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "12908",
@@ -26655,7 +26655,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "12888",
@@ -26715,7 +26715,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "7090",
@@ -26847,7 +26847,7 @@
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11629",
@@ -27115,7 +27115,7 @@
     },
     {
       "player_id": "8861",
-      "name": "Irv Charles",
+      "name": "Irvin Charles",
       "position": "WR",
       "team": "SEA",
       "status": "Inactive",
@@ -28143,7 +28143,7 @@
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 5
     },
     {
       "player_id": "1604",
@@ -28275,7 +28275,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "12475",
@@ -28431,7 +28431,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "6465",
@@ -28623,7 +28623,7 @@
       "age": 30,
       "years_exp": 6,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "8223",
