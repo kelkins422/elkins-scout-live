@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-12T02:11:51.461189Z",
+  "generated_at_utc": "2026-10-12T09:17:54.877037Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,8 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1415176237768347648",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,8 +204,6 @@
     "season": "2026",
     "season_type": "regular",
     "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1415176237768347648",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -4657,7 +4657,7 @@
           "position": "QB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13287",
@@ -4880,7 +4880,7 @@
           "position": "QB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11589",
@@ -14878,7 +14878,7 @@
             "position": "QB",
             "team": "ATL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
