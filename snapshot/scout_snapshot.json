@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-12T09:17:54.877037Z",
+  "generated_at_utc": "2026-10-12T19:14:09.624969Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1962,8 +1962,8 @@
           "name": "Tyquan Thornton",
           "position": "WR",
           "team": "KC",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "9504",
@@ -2216,8 +2216,8 @@
           "name": "Tyquan Thornton",
           "position": "WR",
           "team": "KC",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "8228",
@@ -2871,7 +2871,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13150",
@@ -3013,7 +3013,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12469",
@@ -8435,8 +8435,8 @@
             "name": "Tyquan Thornton",
             "position": "WR",
             "team": "KC",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -12848,7 +12848,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16576,6 +16576,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "13816",
+      "name": "Mark Gronowski",
+      "position": "QB",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4972",
       "name": "Mason Rudolph",
       "position": "QB",
@@ -18744,18 +18756,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13816",
-      "name": "Mark Gronowski",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -26488,6 +26488,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "11959",
+      "name": "Bryce Oliver",
+      "position": "WR",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11157",
       "name": "Brycen Tremayne",
       "position": "WR",
@@ -27372,7 +27384,7 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": "LWR",
+      "depth_chart_position": "SWR",
       "depth_chart_order": 3
     },
     {
@@ -27637,7 +27649,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12848",
@@ -27662,6 +27674,18 @@
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 7
+    },
+    {
+      "player_id": "5374",
+      "name": "Justin Watson",
+      "position": "WR",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 8,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7066",
@@ -27792,7 +27816,7 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": "RWR",
       "depth_chart_order": 2
     },
     {
@@ -27829,7 +27853,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13830",
@@ -28521,7 +28545,7 @@
       "position": "WR",
       "team": "DET",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "RWR",
@@ -29928,18 +29952,6 @@
       "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11959",
-      "name": "Bryce Oliver",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -34824,18 +34836,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5374",
-      "name": "Justin Watson",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -41541,7 +41541,7 @@
       "position": "TE",
       "team": "CIN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
