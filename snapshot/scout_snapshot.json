@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-15T05:41:06.935686Z",
+  "generated_at_utc": "2026-10-15T10:21:10.387142Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -27434,7 +27434,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "13770",
@@ -28742,7 +28742,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "6588",
@@ -28958,7 +28958,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "11626",
