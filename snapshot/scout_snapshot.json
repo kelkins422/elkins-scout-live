@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-15T00:55:20.043744Z",
+  "generated_at_utc": "2026-10-15T05:41:06.935686Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 6,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 13
+      "daily_waivers_last_ran": 14
     },
     "avatar": null,
     "company_id": null,
@@ -73,6 +73,7 @@
     "season_type": "regular",
     "season": "2026",
     "shard": 620,
+    "last_message_id": "1416166616932139008",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,7 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1416166616932139008",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
     "last_author_display_name": "sleezycreesey69",
@@ -216,9 +216,9 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -4668,12 +4668,12 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "8155",
-          "name": "Breece Hall",
+          "player_id": "12489",
+          "name": "RJ Harvey",
           "position": "RB",
-          "team": "NYJ",
+          "team": "DEN",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": null
         },
         {
           "player_id": "9488",
@@ -4746,14 +4746,6 @@
           "name": "Brian Thomas",
           "position": "WR",
           "team": "JAX",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12489",
-          "name": "RJ Harvey",
-          "position": "RB",
-          "team": "DEN",
           "status": "Active",
           "injury_status": null
         },
@@ -4844,6 +4836,14 @@
           "team": "PHI",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": "Doubtful"
         }
       ],
       "taxi": [
@@ -26849,6 +26849,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "3269",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 33,
+      "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4950",
       "name": "Christian Kirk",
       "position": "WR",
@@ -30589,18 +30601,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "3269",
-      "name": "Chris Moore",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
