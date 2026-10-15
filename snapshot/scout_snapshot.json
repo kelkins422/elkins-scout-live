@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-15T10:21:10.387142Z",
+  "generated_at_utc": "2026-10-15T19:19:07.691107Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
-    "last_message_id": "1416166616932139008",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,6 +199,11 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1416166616932139008",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
     "last_author_display_name": "sleezycreesey69",
@@ -217,10 +217,6 @@
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,6 +243,10 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1780,10 +1780,10 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "6770",
-          "name": "Joe Burrow",
+          "player_id": "11564",
+          "name": "Drake Maye",
           "position": "QB",
-          "team": "CIN",
+          "team": "NE",
           "status": "Active",
           "injury_status": null
         },
@@ -1820,20 +1820,20 @@
           "injury_status": null
         },
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
+          "player_id": "1466",
+          "name": "Travis Kelce",
           "position": "TE",
-          "team": "DET",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "team": "CIN",
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8167",
@@ -1844,28 +1844,28 @@
           "injury_status": null
         },
         {
-          "player_id": "1466",
-          "name": "Travis Kelce",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "KC",
+          "team": "CAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
           "status": "Active",
           "injury_status": null
         }
       ],
       "bench": [
         {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
           "status": "Active",
           "injury_status": null
         },
@@ -1882,14 +1882,6 @@
           "name": "Ollie Gordon",
           "position": "RB",
           "team": "MIA",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
-          "player_id": "12512",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "team": "CLE",
           "status": "Active",
           "injury_status": "Questionable"
         },
@@ -1918,14 +1910,6 @@
           "injury_status": null
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "4037",
           "name": "Chris Godwin",
           "position": "WR",
@@ -1942,18 +1926,34 @@
           "injury_status": "NA"
         },
         {
-          "player_id": "7567",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "team": "TB",
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "BUF",
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
           "status": "Active",
           "injury_status": null
         },
@@ -2169,7 +2169,7 @@
           "position": "QB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "7567",
@@ -12775,7 +12775,7 @@
             "position": "QB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
