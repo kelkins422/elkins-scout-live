@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-16T21:43:39.062657Z",
+  "generated_at_utc": "2026-10-16T23:56:21.770479Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,9 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,17 +199,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "shard": 620,
     "last_message_id": "1416166616932139008",
     "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
     "last_author_display_name": "sleezycreesey69",
     "last_author_id": "825521088418144256",
     "last_author_is_bot": false,
-    "draft_id": "1353413007752839168",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1792002941882,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -2380,12 +2380,12 @@
           "injury_status": null
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
+          "player_id": "5870",
+          "name": "Daniel Jones",
           "position": "QB",
-          "team": "BAL",
-          "status": "Inactive",
-          "injury_status": "Out"
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "bench": [
@@ -2422,12 +2422,12 @@
           "injury_status": null
         },
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
           "position": "QB",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
+          "team": "BAL",
+          "status": "Inactive",
+          "injury_status": "Out"
         },
         {
           "player_id": "5872",
@@ -3917,7 +3917,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -4163,7 +4163,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8144",
@@ -8352,7 +8352,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -14848,7 +14848,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15618,7 +15618,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -21095,7 +21095,7 @@
       "position": "RB",
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RB",
@@ -27575,7 +27575,7 @@
       "position": "WR",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
