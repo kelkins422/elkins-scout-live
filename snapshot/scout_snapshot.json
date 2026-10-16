@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-16T00:46:55.256893Z",
+  "generated_at_utc": "2026-10-16T05:35:43.171067Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 6,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 14
+      "daily_waivers_last_ran": 15
     },
     "avatar": null,
     "company_id": null,
@@ -202,8 +202,8 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1416166616932139008",
     "shard": 620,
+    "last_message_id": "1416166616932139008",
     "draft_id": "1353413007752839168",
     "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
     "last_author_display_name": "sleezycreesey69",
@@ -216,6 +216,7 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,7 +243,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
@@ -1318,7 +1318,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12518",
@@ -1678,7 +1678,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7543",
@@ -2961,7 +2961,7 @@
           "position": "TE",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "13425",
@@ -3045,7 +3045,7 @@
           "position": "TE",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "13150",
@@ -13265,7 +13265,7 @@
             "position": "WR",
             "team": "DEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15561,7 +15561,7 @@
             "position": "TE",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Doubtful"
           }
         },
         {
@@ -21106,7 +21106,7 @@
       "position": "RB",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
