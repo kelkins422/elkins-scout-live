@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-17T03:59:27.703133Z",
+  "generated_at_utc": "2026-10-17T08:29:21.170706Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
-    "last_message_id": "1416989632003895296",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,6 +203,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1416989632003895296",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
@@ -252,8 +252,8 @@
   "nfl_state": {
     "week": 6,
     "leg": 6,
-    "season": "2026",
     "season_type": "regular",
+    "season": "2026",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -838,12 +838,12 @@
           "injury_status": null
         },
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "9511",
@@ -871,6 +871,14 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
+          "status": "Active",
+          "injury_status": "Out"
+        },
         {
           "player_id": "11256",
           "name": "Tyson Bagent",
@@ -956,14 +964,6 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "NE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
