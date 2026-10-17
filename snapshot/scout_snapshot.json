@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-17T12:21:42.965858Z",
+  "generated_at_utc": "2026-10-17T15:49:50.538669Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -318,12 +318,12 @@
           "injury_status": null
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "DAL",
+          "team": "NE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "IR"
         },
         {
           "player_id": "12474",
@@ -448,18 +448,18 @@
           "injury_status": null
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8137",
+          "name": "George Pickens",
+          "position": "WR",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         }
@@ -682,7 +682,7 @@
           "name": "A.J. Brown",
           "position": "WR",
           "team": "NE",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR"
         },
         {
@@ -10477,7 +10477,7 @@
             "name": "A.J. Brown",
             "position": "WR",
             "team": "NE",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           },
           "roster_id": 1,
@@ -10515,7 +10515,7 @@
             "name": "A.J. Brown",
             "position": "WR",
             "team": "NE",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           },
           "roster_id": 5,
@@ -13179,7 +13179,7 @@
             "name": "A.J. Brown",
             "position": "WR",
             "team": "NE",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           }
         },
@@ -16447,7 +16447,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "4574",
