@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-17T15:49:50.538669Z",
+  "generated_at_utc": "2026-10-17T18:16:43.408196Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,16 +199,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
     "last_message_id": "1416989632003895296",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
     "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
-    "draft_id": "1353413007752839168",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1792199163965,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -318,12 +318,12 @@
           "injury_status": null
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "NE",
+          "team": "DAL",
           "status": "Active",
-          "injury_status": "IR"
+          "injury_status": null
         },
         {
           "player_id": "12474",
@@ -448,18 +448,18 @@
           "injury_status": null
         },
         {
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "7525",
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
           "status": "Active",
           "injury_status": null
         }
@@ -3259,12 +3259,12 @@
           "injury_status": null
         },
         {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
+          "player_id": "5967",
+          "name": "Tony Pollard",
           "position": "RB",
-          "team": "WAS",
+          "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11576",
@@ -3357,6 +3357,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "team": "WAS",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
           "player_id": "13330",
           "name": "Kenyon Sadiq",
           "position": "TE",
@@ -3385,14 +3393,6 @@
           "name": "Jared Goff",
           "position": "QB",
           "team": "DET",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
           "status": "Active",
           "injury_status": null
         },
@@ -3544,7 +3544,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13281",
@@ -3795,7 +3795,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5001",
@@ -3853,7 +3853,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "4017",
@@ -3909,7 +3909,7 @@
           "position": "TE",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8136",
@@ -4075,7 +4075,7 @@
           "position": "QB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "4017",
@@ -4123,7 +4123,7 @@
           "position": "WR",
           "team": "PIT",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6786",
@@ -4155,7 +4155,7 @@
           "position": "TE",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8136",
@@ -7783,7 +7783,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -7797,7 +7797,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -8780,7 +8780,7 @@
             "position": "QB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -8808,7 +8808,7 @@
             "position": "QB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9437,7 +9437,7 @@
             "position": "QB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -13964,7 +13964,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14062,7 +14062,7 @@
             "position": "WR",
             "team": "PIT",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15462,7 +15462,7 @@
             "position": "TE",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -21087,7 +21087,7 @@
       "position": "RB",
       "team": "CAR",
       "status": "Active",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -41990,8 +41990,8 @@
       "name": "Will Mallory",
       "position": "TE",
       "team": "IND",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
