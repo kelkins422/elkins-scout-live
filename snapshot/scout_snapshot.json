@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-18T00:48:11.837709Z",
+  "generated_at_utc": "2026-10-18T05:32:06.158024Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,10 @@
       "leg": 6,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 16
+      "daily_waivers_last_ran": 17
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,15 +199,19 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1417276696574377984",
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
-    "last_author_is_bot": false,
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1417350688106668032",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792267605493,
+    "draft_id": "1353413007752839168",
+    "last_message_time": 1792285246448,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "league_id": "1353413006104485888",
@@ -219,6 +219,8 @@
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,8 +247,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -368,14 +368,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12536",
           "name": "Jaylin Noel",
           "position": "WR",
@@ -462,6 +454,14 @@
           "team": "PHI",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "7591",
+          "name": "Justin Fields",
+          "position": "QB",
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "taxi": [
@@ -546,14 +546,6 @@
           "name": "Bhayshul Tuten",
           "position": "RB",
           "team": "JAX",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12504",
-          "name": "Kaleb Johnson",
-          "position": "RB",
-          "team": "GB",
           "status": "Active",
           "injury_status": null
         },
@@ -702,6 +694,14 @@
           "injury_status": null
         },
         {
+          "player_id": "7591",
+          "name": "Justin Fields",
+          "position": "QB",
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "8137",
           "name": "George Pickens",
           "position": "WR",
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 140,
-        "waiver_position": 7,
+        "waiver_position": 10,
         "wins": 2
       },
       "metadata": {
@@ -880,14 +880,6 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "11256",
-          "name": "Tyson Bagent",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11610",
           "name": "Malik Washington",
           "position": "WR",
@@ -1010,7 +1002,16 @@
           "injury_status": null
         }
       ],
-      "injured_reserve": [],
+      "injured_reserve": [
+        {
+          "player_id": "11589",
+          "name": "Trey Benson",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Inactive",
+          "injury_status": "IR"
+        }
+      ],
       "all_players": [
         {
           "player_id": "10229",
@@ -1021,20 +1022,20 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "11256",
-          "name": "Tyson Bagent",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11566",
           "name": "Jayden Daniels",
           "position": "QB",
           "team": "WAS",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "11589",
+          "name": "Trey Benson",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "11610",
@@ -1239,8 +1240,8 @@
         "ppts_decimal": 57,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 100,
-        "waiver_position": 1,
+        "waiver_budget_used": 103,
+        "waiver_position": 9,
         "wins": 2
       },
       "metadata": {
@@ -1764,7 +1765,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 59,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 2
       },
       "metadata": {
@@ -2263,7 +2264,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 3
       },
       "metadata": {
@@ -2759,7 +2760,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 3
       },
       "metadata": {
@@ -3211,7 +3212,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 2,
+        "waiver_position": 1,
         "wins": 3
       },
       "metadata": {
@@ -3718,7 +3719,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 57,
-        "waiver_position": 8,
+        "waiver_position": 6,
         "wins": 2
       },
       "metadata": {
@@ -4201,7 +4202,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 5
       },
       "metadata": {
@@ -4636,7 +4637,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 2
       },
       "metadata": {
@@ -5102,7 +5103,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 8,
         "wins": 1
       },
       "metadata": {
@@ -6898,6 +6899,88 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1417192534857256960",
+      "type": "waiver",
+      "status": "complete",
+      "week": 6,
+      "created_utc": "2026-10-17T14:32:19.775000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7591",
+            "name": "Justin Fields",
+            "position": "QB",
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12504",
+            "name": "Kaleb Johnson",
+            "position": "RB",
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1417042062724886528",
+      "type": "waiver",
+      "status": "complete",
+      "week": 6,
+      "created_utc": "2026-10-17T04:34:24.423000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11589",
+            "name": "Trey Benson",
+            "position": "RB",
+            "team": "ARI",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11256",
+            "name": "Tyson Bagent",
+            "position": "QB",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 3
+    },
     {
       "transaction_id": "1416911791304237056",
       "type": "waiver",
@@ -16738,18 +16821,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "7591",
-      "name": "Justin Fields",
-      "position": "QB",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 5,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "11648",
       "name": "Kedon Slovis",
       "position": "QB",
@@ -17120,6 +17191,18 @@
       "years_exp": 15,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "11256",
+      "name": "Tyson Bagent",
+      "position": "QB",
+      "team": "CHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "12511",
@@ -20626,6 +20709,18 @@
       "depth_chart_order": 2
     },
     {
+      "player_id": "12504",
+      "name": "Kaleb Johnson",
+      "position": "RB",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 1,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "12516",
       "name": "Kalel Mullings",
       "position": "RB",
@@ -21092,18 +21187,6 @@
       "years_exp": 1,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
-    },
-    {
-      "player_id": "11589",
-      "name": "Trey Benson",
-      "position": "RB",
-      "team": "ARI",
-      "status": "Inactive",
-      "injury_status": "IR",
-      "age": 24,
-      "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
     },
     {
       "player_id": "7593",
