@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-18T09:54:28.873897Z",
+  "generated_at_utc": "2026-10-18T13:49:50.115709Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -3799,12 +3799,12 @@
           "injury_status": null
         },
         {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
+          "player_id": "7600",
+          "name": "Pat Freiermuth",
           "position": "TE",
-          "team": "HOU",
+          "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11560",
@@ -3881,6 +3881,14 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -3903,14 +3911,6 @@
           "team": "BAL",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "8136",
@@ -9493,7 +9493,7 @@
             "position": "TE",
             "team": "HOU",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -10519,7 +10519,7 @@
             "position": "TE",
             "team": "HOU",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -26834,7 +26834,7 @@
       "position": "WR",
       "team": "JAX",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "LWR",
@@ -41474,7 +41474,7 @@
       "position": "TE",
       "team": "HOU",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
