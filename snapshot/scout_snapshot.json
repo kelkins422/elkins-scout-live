@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-19T20:27:21.727493Z",
+  "generated_at_utc": "2026-10-19T23:53:43.558285Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,7 @@
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1417713128665276416",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -202,7 +203,6 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1417713128665276416",
     "shard": 620,
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -212,15 +212,13 @@
     "last_message_text_map": null,
     "last_message_time": 1792371659011,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,6 +245,8 @@
       "BN",
       "BN"
     ],
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -827,7 +827,7 @@
           "position": "WR",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7002",
@@ -964,8 +964,8 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "NE",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "8148",
@@ -1171,7 +1171,7 @@
           "position": "WR",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3321",
@@ -1202,8 +1202,8 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "NE",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "8132",
@@ -2362,7 +2362,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8110",
@@ -2634,7 +2634,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3198",
@@ -2978,7 +2978,7 @@
           "position": "TE",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "13425",
@@ -3062,7 +3062,7 @@
           "position": "TE",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "13150",
@@ -3305,7 +3305,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "12506",
@@ -3378,7 +3378,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -3560,7 +3560,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "IR"
         },
         {
@@ -3625,7 +3625,7 @@
           "position": "WR",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "3163",
@@ -7250,7 +7250,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -7264,7 +7264,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -7953,7 +7953,7 @@
             "name": "Jacory Croskey-Merritt",
             "position": "RB",
             "team": "WAS",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           },
           "roster_id": 7,
@@ -7967,7 +7967,7 @@
             "name": "Jacory Croskey-Merritt",
             "position": "RB",
             "team": "WAS",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           },
           "roster_id": 3,
@@ -14134,7 +14134,7 @@
             "name": "Jacory Croskey-Merritt",
             "position": "RB",
             "team": "WAS",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "IR"
           }
         },
@@ -14303,7 +14303,7 @@
             "position": "WR",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -14527,7 +14527,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14610,8 +14610,8 @@
             "name": "Romeo Doubs",
             "position": "WR",
             "team": "NE",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -15451,7 +15451,7 @@
             "position": "WR",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15773,7 +15773,7 @@
             "position": "TE",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -16938,7 +16938,7 @@
       "position": "QB",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -20681,7 +20681,7 @@
       "name": "Jeremy McNichols",
       "position": "RB",
       "team": "WAS",
-      "status": "Inactive",
+      "status": "Active",
       "injury_status": null,
       "age": 30,
       "years_exp": 9,
@@ -28737,6 +28737,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11421",
+      "name": "Ryan Miller",
+      "position": "WR",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -38361,18 +38373,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11421",
-      "name": "Ryan Miller",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
