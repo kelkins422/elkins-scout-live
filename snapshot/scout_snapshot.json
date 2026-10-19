@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-19T14:55:38.410542Z",
+  "generated_at_utc": "2026-10-19T20:27:21.727493Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,7 +204,6 @@
     "sport": "nfl",
     "last_message_id": "1417713128665276416",
     "shard": 620,
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,9 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1792371659011,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -3379,7 +3379,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "13330",
@@ -3561,7 +3561,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": "IR"
         },
         {
           "player_id": "13281",
@@ -7954,7 +7954,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -7968,7 +7968,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -14135,7 +14135,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "IR"
           }
         },
         {
@@ -16510,7 +16510,7 @@
       "age": 38,
       "years_exp": 15,
       "depth_chart_position": "QB",
-      "depth_chart_order": null
+      "depth_chart_order": 2
     },
     {
       "player_id": "13557",
@@ -16631,18 +16631,6 @@
       "years_exp": 0,
       "depth_chart_position": "QB",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "4574",
-      "name": "Cooper Rush",
-      "position": "QB",
-      "team": "ATL",
-      "status": "Active",
-      "injury_status": "Out",
-      "age": 32,
-      "years_exp": 9,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "12773",
@@ -18021,6 +18009,18 @@
       "injury_status": null,
       "age": null,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "4574",
+      "name": "Cooper Rush",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 32,
+      "years_exp": 9,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -20061,8 +20061,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11579",
@@ -20433,8 +20433,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11573",
@@ -20649,8 +20649,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13419",
@@ -20682,7 +20682,7 @@
       "position": "RB",
       "team": "WAS",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": null,
       "age": 30,
       "years_exp": 9,
       "depth_chart_position": "RB",
@@ -21345,8 +21345,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8122",
@@ -26649,8 +26649,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 8
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "3702",
@@ -26793,8 +26793,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 4,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7865",
@@ -26805,8 +26805,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "5121",
@@ -26997,8 +26997,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12908",
@@ -27093,8 +27093,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13898",
@@ -27921,7 +27921,7 @@
       "injury_status": "IR",
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
+      "depth_chart_position": "RWR",
       "depth_chart_order": 9
     },
     {
@@ -27970,7 +27970,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "10225",
@@ -28053,8 +28053,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7066",
@@ -40942,7 +40942,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8172",
@@ -41341,6 +41341,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7050",
+      "name": "Josiah Deguara",
+      "position": "TE",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11371",
       "name": "Julian Hill",
       "position": "TE",
@@ -41674,7 +41686,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8523",
@@ -41921,8 +41933,8 @@
       "name": "Tanner Hudson",
       "position": "TE",
       "team": "CIN",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
@@ -44817,18 +44829,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7050",
-      "name": "Josiah Deguara",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
