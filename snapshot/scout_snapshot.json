@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-20T18:39:22.734707Z",
+  "generated_at_utc": "2026-10-20T21:54:35.751121Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,11 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1418337396491083776",
-    "sport": "nfl",
     "shard": 620,
     "season": "2026",
     "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,15 +203,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
+    "last_message_id": "1418347919651737600",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792520496059,
+    "last_message_time": 1792523004978,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -2031,7 +2031,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR"
         }
       ],
@@ -2249,7 +2249,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR"
         },
         {
@@ -3426,8 +3426,8 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "5012",
@@ -3648,8 +3648,8 @@
           "name": "Davante Adams",
           "position": "WR",
           "team": "LAR",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "3163",
@@ -14420,8 +14420,8 @@
             "name": "Davante Adams",
             "position": "WR",
             "team": "LAR",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -15582,7 +15582,7 @@
             "name": "Tank Dell",
             "position": "WR",
             "team": "HOU",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           }
         },
@@ -16584,12 +16584,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2530,
+    "total": 2532,
     "by_position": {
       "QB": 291,
-      "RB": 551,
+      "RB": 552,
       "WR": 1142,
-      "TE": 546
+      "TE": 547
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -16640,7 +16640,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13295",
@@ -17085,6 +17085,18 @@
       "years_exp": 1,
       "depth_chart_position": "QB",
       "depth_chart_order": 3
+    },
+    {
+      "player_id": "7605",
+      "name": "Kyle Trask",
+      "position": "QB",
+      "team": "DAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13314",
@@ -19175,18 +19187,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "7605",
-      "name": "Kyle Trask",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13599",
       "name": "Kyron Drones",
       "position": "QB",
@@ -20504,7 +20504,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11574",
@@ -20526,6 +20526,18 @@
       "status": "Active",
       "injury_status": null,
       "age": 27,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "7561",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 28,
       "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -21404,7 +21416,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "3309",
@@ -25099,8 +25111,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8058",
@@ -26876,7 +26888,7 @@
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "8204",
@@ -26992,7 +27004,7 @@
       "position": "WR",
       "team": "CLE",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
@@ -27959,6 +27971,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11311",
+      "name": "Jason Brownlee",
+      "position": "WR",
+      "team": "NYG",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12641",
       "name": "Jaylin Lane",
       "position": "WR",
@@ -27968,7 +27992,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13392",
@@ -28581,6 +28605,18 @@
       "years_exp": 2,
       "depth_chart_position": "RWR",
       "depth_chart_order": 8
+    },
+    {
+      "player_id": "5917",
+      "name": "Mecole Hardman",
+      "position": "WR",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 7,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7618",
@@ -34091,18 +34127,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11311",
-      "name": "Jason Brownlee",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6247",
       "name": "Jason Moore",
       "position": "WR",
@@ -37075,18 +37099,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "5917",
-      "name": "Mecole Hardman",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -40796,7 +40808,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "10214",
@@ -41276,7 +41288,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "8219",
@@ -41925,6 +41937,18 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "13870",
+      "name": "Quentin Moore",
+      "position": "TE",
+      "team": "WAS",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7536",
