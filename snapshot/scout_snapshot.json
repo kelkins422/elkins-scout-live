@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-19T23:53:43.558285Z",
+  "generated_at_utc": "2026-10-20T04:04:35.253091Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,11 +65,15 @@
       "leg": 6,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 18
+      "daily_waivers_last_ran": 19
     },
     "avatar": null,
     "company_id": null,
-    "last_message_id": "1417713128665276416",
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
+    "last_message_id": "1418097650720411648",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -200,25 +204,18 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
+    "last_author_display_name": "Donovanelkins6",
+    "last_author_id": "1030955970991603712",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792371659011,
+    "last_message_time": 1792463336214,
     "last_pinned_message_id": null,
     "last_read_id": null,
     "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,13 +242,16 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 6,
-    "leg": 6,
+    "week": 7,
+    "leg": 7,
     "season": "2026",
     "season_type": "regular",
     "league_season": "2026",
@@ -445,7 +445,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7525",
@@ -675,7 +675,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7523",
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 140,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 2
       },
       "metadata": {
@@ -1257,7 +1257,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 2
       },
       "metadata": {
@@ -1781,7 +1781,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 59,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 2
       },
       "metadata": {
@@ -2280,7 +2280,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 3
       },
       "metadata": {
@@ -2362,7 +2362,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "8110",
@@ -2435,6 +2435,14 @@
           "name": "Zach Ertz",
           "position": "TE",
           "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "2197",
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF",
           "status": "Active",
           "injury_status": null
         },
@@ -2629,12 +2637,20 @@
           "injury_status": null
         },
         {
+          "player_id": "2197",
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "3198",
@@ -2776,7 +2792,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 2,
+        "waiver_position": 10,
         "wins": 3
       },
       "metadata": {
@@ -2830,7 +2846,7 @@
           "position": "WR",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "8130",
@@ -3134,7 +3150,7 @@
           "position": "WR",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "5947",
@@ -3735,7 +3751,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 57,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 2
       },
       "metadata": {
@@ -4218,7 +4234,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 100,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 5
       },
       "metadata": {
@@ -4669,7 +4685,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 2
       },
       "metadata": {
@@ -5135,7 +5151,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 1
       },
       "metadata": {
@@ -6932,6 +6948,34 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1418027917610340352",
+      "type": "waiver",
+      "status": "complete",
+      "week": 6,
+      "created_utc": "2026-10-19T21:51:50.545000Z",
+      "teams": [
+        "Brown St. Brown Samuel"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2197",
+            "name": "Brandin Cooks",
+            "position": "WR",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "Brown St. Brown Samuel"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
       "transaction_id": "1417580072579182592",
       "type": "waiver",
       "status": "complete",
@@ -7250,7 +7294,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -7264,7 +7308,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -10649,7 +10693,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -10687,7 +10731,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -13351,7 +13395,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14079,7 +14123,7 @@
             "position": "WR",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -14527,7 +14571,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -16466,11 +16510,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2531,
+    "total": 2530,
     "by_position": {
       "QB": 291,
       "RB": 551,
-      "WR": 1143,
+      "WR": 1142,
       "TE": 546
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -16522,7 +16566,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13295",
@@ -16701,8 +16745,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 7,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6011",
@@ -20134,7 +20178,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "8423",
@@ -20146,7 +20190,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "13277",
@@ -20302,7 +20346,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13339",
@@ -20506,7 +20550,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11571",
@@ -20757,8 +20801,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8254",
@@ -20950,7 +20994,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "7528",
@@ -20986,7 +21030,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "11384",
@@ -26710,7 +26754,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 7
     },
     {
       "player_id": "6427",
@@ -26770,18 +26814,6 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 3
-    },
-    {
-      "player_id": "2197",
-      "name": "Brandin Cooks",
-      "position": "WR",
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 12,
-      "depth_chart_position": "SWR",
       "depth_chart_order": 3
     },
     {
@@ -27862,7 +27894,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13392",
@@ -27874,7 +27906,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 8
     },
     {
       "player_id": "13124",
@@ -27922,7 +27954,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 7
     },
     {
       "player_id": "12523",
@@ -28437,8 +28469,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 7
     },
     {
       "player_id": "5848",
@@ -28618,7 +28650,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13318",
@@ -28795,7 +28827,7 @@
       "team": "ARI",
       "status": "Active",
       "injury_status": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -40390,7 +40422,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12374",
@@ -40966,7 +40998,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "12389",
@@ -41134,7 +41166,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8170",
@@ -41170,7 +41202,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13422",
@@ -41266,7 +41298,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "4314",
@@ -41362,7 +41394,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13400",
@@ -41554,7 +41586,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13032",
@@ -41722,7 +41754,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5857",
@@ -41914,7 +41946,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8849",
