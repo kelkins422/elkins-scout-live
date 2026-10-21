@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-21T19:29:26.791951Z",
+  "generated_at_utc": "2026-10-21T22:40:28.147357Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -73,7 +73,6 @@
     "season": "2026",
     "season_type": "regular",
     "sport": "nfl",
-    "last_message_id": "1418439502367625216",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,21 +203,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
-    "last_author_is_bot": false,
+    "last_message_id": "1418760280338444288",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792544839998,
+    "last_message_time": 1792621319427,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -251,9 +251,9 @@
   },
   "nfl_state": {
     "week": 7,
-    "season_type": "regular",
-    "season": "2026",
     "leg": 7,
+    "season": "2026",
+    "season_type": "regular",
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -279,7 +279,7 @@
         },
         {
           "player_id": "8151",
-          "name": "Kenneth Walker",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
           "status": "Active",
@@ -307,7 +307,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9484",
@@ -353,7 +353,7 @@
       "bench": [
         {
           "player_id": "11628",
-          "name": "Marvin Harrison",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
           "team": "HOU",
           "status": "Active",
@@ -393,7 +393,7 @@
         },
         {
           "player_id": "13276",
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
@@ -409,7 +409,7 @@
         },
         {
           "player_id": "13305",
-          "name": "Mike Washington",
+          "name": "Mike Washington Jr.",
           "position": "RB",
           "team": "LV",
           "status": "Active",
@@ -511,7 +511,7 @@
       "all_players": [
         {
           "player_id": "11628",
-          "name": "Marvin Harrison",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
           "team": "HOU",
           "status": "Active",
@@ -567,7 +567,7 @@
         },
         {
           "player_id": "13276",
-          "name": "Omar Cooper",
+          "name": "Omar Cooper Jr.",
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
@@ -583,7 +583,7 @@
         },
         {
           "player_id": "13305",
-          "name": "Mike Washington",
+          "name": "Mike Washington Jr.",
           "position": "RB",
           "team": "LV",
           "status": "Active",
@@ -675,7 +675,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7523",
@@ -711,7 +711,7 @@
         },
         {
           "player_id": "8151",
-          "name": "Kenneth Walker",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
           "status": "Active",
@@ -968,14 +968,6 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "8121",
-          "name": "Romeo Doubs",
-          "position": "WR",
-          "team": "NE",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9511",
           "name": "Keaton Mitchell",
           "position": "RB",
@@ -1016,6 +1008,14 @@
           "name": "Trey Benson",
           "position": "RB",
           "team": "ARI",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
+          "player_id": "8121",
+          "name": "Romeo Doubs",
+          "position": "WR",
+          "team": "NE",
           "status": "Inactive",
           "injury_status": "IR"
         }
@@ -1351,7 +1351,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11581",
@@ -1393,7 +1393,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11729",
@@ -1453,7 +1453,7 @@
         },
         {
           "player_id": "7543",
-          "name": "Travis Etienne",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
           "team": "NO",
           "status": "Inactive",
@@ -1575,7 +1575,7 @@
           "position": "RB",
           "team": "MIA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "1166",
@@ -1599,7 +1599,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12518",
@@ -1699,7 +1699,7 @@
         },
         {
           "player_id": "7543",
-          "name": "Travis Etienne",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
           "team": "NO",
           "status": "Inactive",
@@ -1858,7 +1858,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10859",
@@ -1888,7 +1888,7 @@
         },
         {
           "player_id": "11655",
-          "name": "Tyrone Tracy",
+          "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG",
           "status": "Active",
@@ -1904,7 +1904,7 @@
         },
         {
           "player_id": "12495",
-          "name": "Ollie Gordon",
+          "name": "Ollie Gordon II",
           "position": "RB",
           "team": "MIA",
           "status": "Active",
@@ -1944,7 +1944,7 @@
         },
         {
           "player_id": "4037",
-          "name": "Chris Godwin",
+          "name": "Chris Godwin Jr.",
           "position": "WR",
           "team": "TB",
           "status": "Active",
@@ -2062,7 +2062,7 @@
         },
         {
           "player_id": "11655",
-          "name": "Tyrone Tracy",
+          "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG",
           "status": "Active",
@@ -2078,7 +2078,7 @@
         },
         {
           "player_id": "12495",
-          "name": "Ollie Gordon",
+          "name": "Ollie Gordon II",
           "position": "RB",
           "team": "MIA",
           "status": "Active",
@@ -2150,7 +2150,7 @@
         },
         {
           "player_id": "4037",
-          "name": "Chris Godwin",
+          "name": "Chris Godwin Jr.",
           "position": "WR",
           "team": "TB",
           "status": "Active",
@@ -2226,7 +2226,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8188",
@@ -2362,11 +2362,11 @@
           "position": "WR",
           "team": "CLE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7553",
-          "name": "Kyle Pitts",
+          "name": "Kyle Pitts Sr.",
           "position": "TE",
           "team": "ATL",
           "status": "Active",
@@ -2472,7 +2472,7 @@
         },
         {
           "player_id": "5872",
-          "name": "Deebo Samuel",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
           "team": "SF",
           "status": "Active",
@@ -2480,7 +2480,7 @@
         },
         {
           "player_id": "6819",
-          "name": "Michael Pittman",
+          "name": "Michael Pittman Jr.",
           "position": "WR",
           "team": "PIT",
           "status": "Inactive",
@@ -2522,7 +2522,7 @@
         },
         {
           "player_id": "13338",
-          "name": "Kevin Coleman",
+          "name": "Kevin Coleman Jr.",
           "position": "WR",
           "team": "MIA",
           "status": "Active",
@@ -2540,7 +2540,7 @@
       "injured_reserve": [
         {
           "player_id": "13353",
-          "name": "Chris Brazzell",
+          "name": "Chris Brazzell II",
           "position": "WR",
           "team": "CAR",
           "status": "Inactive",
@@ -2598,7 +2598,7 @@
         },
         {
           "player_id": "13338",
-          "name": "Kevin Coleman",
+          "name": "Kevin Coleman Jr.",
           "position": "WR",
           "team": "MIA",
           "status": "Active",
@@ -2610,11 +2610,11 @@
           "position": "WR",
           "team": "CLE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13353",
-          "name": "Chris Brazzell",
+          "name": "Chris Brazzell II",
           "position": "WR",
           "team": "CAR",
           "status": "Inactive",
@@ -2686,7 +2686,7 @@
         },
         {
           "player_id": "5872",
-          "name": "Deebo Samuel",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
           "team": "SF",
           "status": "Active",
@@ -2702,7 +2702,7 @@
         },
         {
           "player_id": "6819",
-          "name": "Michael Pittman",
+          "name": "Michael Pittman Jr.",
           "position": "WR",
           "team": "PIT",
           "status": "Inactive",
@@ -2718,7 +2718,7 @@
         },
         {
           "player_id": "7553",
-          "name": "Kyle Pitts",
+          "name": "Kyle Pitts Sr.",
           "position": "TE",
           "team": "ATL",
           "status": "Active",
@@ -2818,7 +2818,7 @@
         },
         {
           "player_id": "8138",
-          "name": "James Cook",
+          "name": "James Cook III",
           "position": "RB",
           "team": "BUF",
           "status": "Active",
@@ -2862,7 +2862,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4217",
@@ -2886,7 +2886,7 @@
           "position": "QB",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "bench": [
@@ -2960,7 +2960,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7564",
@@ -2972,7 +2972,7 @@
         },
         {
           "player_id": "9229",
-          "name": "Anthony Richardson",
+          "name": "Anthony Richardson Sr.",
           "position": "QB",
           "team": "IND",
           "status": "Active",
@@ -2984,7 +2984,7 @@
           "position": "RB",
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "taxi": [
@@ -3102,7 +3102,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4217",
@@ -3166,7 +3166,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6804",
@@ -3174,7 +3174,7 @@
           "position": "QB",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7564",
@@ -3210,7 +3210,7 @@
         },
         {
           "player_id": "8138",
-          "name": "James Cook",
+          "name": "James Cook III",
           "position": "RB",
           "team": "BUF",
           "status": "Active",
@@ -3218,7 +3218,7 @@
         },
         {
           "player_id": "9229",
-          "name": "Anthony Richardson",
+          "name": "Anthony Richardson Sr.",
           "position": "QB",
           "team": "IND",
           "status": "Active",
@@ -3230,7 +3230,7 @@
           "position": "RB",
           "team": "TB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "settings": {
@@ -3325,7 +3325,7 @@
         },
         {
           "player_id": "12506",
-          "name": "Harold Fannin",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
           "team": "CLE",
           "status": "Active",
@@ -3349,7 +3349,7 @@
         },
         {
           "player_id": "12519",
-          "name": "Luther Burden",
+          "name": "Luther Burden III",
           "position": "WR",
           "team": "CHI",
           "status": "Active",
@@ -3367,7 +3367,7 @@
       "bench": [
         {
           "player_id": "10219",
-          "name": "Chris Rodriguez",
+          "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
           "status": "Active",
@@ -3443,11 +3443,11 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8154",
-          "name": "Brian Robinson",
+          "name": "Brian Robinson Jr.",
           "position": "RB",
           "team": "ATL",
           "status": "Active",
@@ -3459,7 +3459,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "96",
@@ -3517,7 +3517,7 @@
       "all_players": [
         {
           "player_id": "10219",
-          "name": "Chris Rodriguez",
+          "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
           "status": "Active",
@@ -3557,7 +3557,7 @@
         },
         {
           "player_id": "12506",
-          "name": "Harold Fannin",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
           "team": "CLE",
           "status": "Active",
@@ -3565,7 +3565,7 @@
         },
         {
           "player_id": "12519",
-          "name": "Luther Burden",
+          "name": "Luther Burden III",
           "position": "WR",
           "team": "CHI",
           "status": "Active",
@@ -3689,11 +3689,11 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8154",
-          "name": "Brian Robinson",
+          "name": "Brian Robinson Jr.",
           "position": "RB",
           "team": "ATL",
           "status": "Active",
@@ -3729,7 +3729,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "96",
@@ -3780,7 +3780,7 @@
           "position": "RB",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8150",
@@ -3812,7 +3812,7 @@
           "position": "TE",
           "team": "HOU",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10232",
@@ -3878,7 +3878,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "2307",
@@ -3914,7 +3914,7 @@
         },
         {
           "player_id": "4199",
-          "name": "Aaron Jones",
+          "name": "Aaron Jones Sr.",
           "position": "RB",
           "team": "MIN",
           "status": "Active",
@@ -4044,7 +4044,7 @@
           "position": "RB",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11603",
@@ -4068,7 +4068,7 @@
           "position": "WR",
           "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12547",
@@ -4136,7 +4136,7 @@
         },
         {
           "player_id": "4199",
-          "name": "Aaron Jones",
+          "name": "Aaron Jones Sr.",
           "position": "RB",
           "team": "MIN",
           "status": "Active",
@@ -4148,7 +4148,7 @@
           "position": "TE",
           "team": "HOU",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5045",
@@ -4319,7 +4319,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "13274",
@@ -4397,7 +4397,7 @@
         },
         {
           "player_id": "13317",
-          "name": "Ted Hurst",
+          "name": "Ted Hurst III",
           "position": "WR",
           "team": "TB",
           "status": "Active",
@@ -4587,7 +4587,7 @@
         },
         {
           "player_id": "13317",
-          "name": "Ted Hurst",
+          "name": "Ted Hurst III",
           "position": "WR",
           "team": "TB",
           "status": "Active",
@@ -4679,7 +4679,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9758",
@@ -4718,7 +4718,7 @@
       "starters": [
         {
           "player_id": "11559",
-          "name": "Michael Penix",
+          "name": "Michael Penix Jr.",
           "position": "QB",
           "team": "ATL",
           "status": "Active",
@@ -4782,11 +4782,11 @@
         },
         {
           "player_id": "13298",
-          "name": "KC Concepcion",
+          "name": "KC Concepcion Jr.",
           "position": "WR",
           "team": "CLE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "3257",
@@ -4808,7 +4808,7 @@
         },
         {
           "player_id": "11631",
-          "name": "Brian Thomas",
+          "name": "Brian Thomas Jr.",
           "position": "WR",
           "team": "JAX",
           "status": "Active",
@@ -4949,7 +4949,7 @@
         },
         {
           "player_id": "11559",
-          "name": "Michael Penix",
+          "name": "Michael Penix Jr.",
           "position": "QB",
           "team": "ATL",
           "status": "Active",
@@ -4965,7 +4965,7 @@
         },
         {
           "player_id": "11631",
-          "name": "Brian Thomas",
+          "name": "Brian Thomas Jr.",
           "position": "WR",
           "team": "JAX",
           "status": "Active",
@@ -5053,11 +5053,11 @@
         },
         {
           "player_id": "13298",
-          "name": "KC Concepcion",
+          "name": "KC Concepcion Jr.",
           "position": "WR",
           "team": "CLE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13311",
@@ -7045,7 +7045,7 @@
         {
           "player": {
             "player_id": "11655",
-            "name": "Tyrone Tracy",
+            "name": "Tyrone Tracy Jr.",
             "position": "RB",
             "team": "NYG",
             "status": "Active",
@@ -7059,7 +7059,7 @@
         {
           "player": {
             "player_id": "12542",
-            "name": "Efton Chism",
+            "name": "Efton Chism III",
             "position": "WR",
             "team": "NE",
             "status": "Active",
@@ -7587,7 +7587,7 @@
         {
           "player": {
             "player_id": "12542",
-            "name": "Efton Chism",
+            "name": "Efton Chism III",
             "position": "WR",
             "team": "NE",
             "status": "Active",
@@ -8559,7 +8559,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -8573,7 +8573,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -8650,7 +8650,7 @@
         {
           "player": {
             "player_id": "2078",
-            "name": "Odell Beckham",
+            "name": "Odell Beckham Jr.",
             "position": "WR",
             "team": "MIN",
             "status": "Active",
@@ -8738,7 +8738,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -8871,7 +8871,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -9038,7 +9038,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -9066,7 +9066,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -9094,7 +9094,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -9136,7 +9136,7 @@
         {
           "player": {
             "player_id": "11655",
-            "name": "Tyrone Tracy",
+            "name": "Tyrone Tracy Jr.",
             "position": "RB",
             "team": "NYG",
             "status": "Active",
@@ -9367,7 +9367,7 @@
         {
           "player": {
             "player_id": "13317",
-            "name": "Ted Hurst",
+            "name": "Ted Hurst III",
             "position": "WR",
             "team": "TB",
             "status": "Active",
@@ -9393,7 +9393,7 @@
         {
           "player": {
             "player_id": "13317",
-            "name": "Ted Hurst",
+            "name": "Ted Hurst III",
             "position": "WR",
             "team": "TB",
             "status": "Active",
@@ -10258,7 +10258,7 @@
         {
           "player": {
             "player_id": "12519",
-            "name": "Luther Burden",
+            "name": "Luther Burden III",
             "position": "WR",
             "team": "CHI",
             "status": "Active",
@@ -10272,7 +10272,7 @@
         {
           "player": {
             "player_id": "12519",
-            "name": "Luther Burden",
+            "name": "Luther Burden III",
             "position": "WR",
             "team": "CHI",
             "status": "Active",
@@ -10632,7 +10632,7 @@
             "position": "WR",
             "team": "TEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -10740,7 +10740,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -10766,7 +10766,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10906,7 +10906,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -10934,7 +10934,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -10942,7 +10942,7 @@
         {
           "player": {
             "player_id": "5872",
-            "name": "Deebo Samuel",
+            "name": "Deebo Samuel Sr.",
             "position": "WR",
             "team": "SF",
             "status": "Active",
@@ -10956,7 +10956,7 @@
         {
           "player": {
             "player_id": "5872",
-            "name": "Deebo Samuel",
+            "name": "Deebo Samuel Sr.",
             "position": "WR",
             "team": "SF",
             "status": "Active",
@@ -10972,7 +10972,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -11051,7 +11051,7 @@
         {
           "player": {
             "player_id": "9229",
-            "name": "Anthony Richardson",
+            "name": "Anthony Richardson Sr.",
             "position": "QB",
             "team": "IND",
             "status": "Active",
@@ -11162,7 +11162,7 @@
         {
           "player": {
             "player_id": "9229",
-            "name": "Anthony Richardson",
+            "name": "Anthony Richardson Sr.",
             "position": "QB",
             "team": "IND",
             "status": "Active",
@@ -11333,7 +11333,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -11498,7 +11498,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11521,7 +11521,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -11650,7 +11650,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -11701,7 +11701,7 @@
         {
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -11732,7 +11732,7 @@
             "position": "TE",
             "team": "MIA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11746,7 +11746,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11879,7 +11879,7 @@
         {
           "player": {
             "player_id": "8138",
-            "name": "James Cook",
+            "name": "James Cook III",
             "position": "RB",
             "team": "BUF",
             "status": "Active",
@@ -11953,7 +11953,7 @@
         {
           "player": {
             "player_id": "8138",
-            "name": "James Cook",
+            "name": "James Cook III",
             "position": "RB",
             "team": "BUF",
             "status": "Active",
@@ -12147,7 +12147,7 @@
         {
           "player": {
             "player_id": "12541",
-            "name": "Dont'e Thornton",
+            "name": "Dont'e Thornton Jr.",
             "position": "WR",
             "team": "LV",
             "status": "Inactive",
@@ -12293,7 +12293,7 @@
         {
           "player": {
             "player_id": "2078",
-            "name": "Odell Beckham",
+            "name": "Odell Beckham Jr.",
             "position": "WR",
             "team": "MIN",
             "status": "Active",
@@ -12528,7 +12528,7 @@
         {
           "player": {
             "player_id": "5872",
-            "name": "Deebo Samuel",
+            "name": "Deebo Samuel Sr.",
             "position": "WR",
             "team": "SF",
             "status": "Active",
@@ -12569,7 +12569,7 @@
         {
           "player": {
             "player_id": "5872",
-            "name": "Deebo Samuel",
+            "name": "Deebo Samuel Sr.",
             "position": "WR",
             "team": "SF",
             "status": "Active",
@@ -13230,7 +13230,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13310,7 +13310,7 @@
           "team": "Pickens My Chuba",
           "player": {
             "player_id": "8138",
-            "name": "James Cook",
+            "name": "James Cook III",
             "position": "RB",
             "team": "BUF",
             "status": "Active",
@@ -13384,7 +13384,7 @@
             "position": "WR",
             "team": "TB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13618,7 +13618,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "8151",
-            "name": "Kenneth Walker",
+            "name": "Kenneth Walker III",
             "position": "RB",
             "team": "KC",
             "status": "Active",
@@ -13636,7 +13636,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -13664,7 +13664,7 @@
             "position": "RB",
             "team": "TB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13702,7 +13702,7 @@
           "team": "Brown St. Brown Samuel",
           "player": {
             "player_id": "7553",
-            "name": "Kyle Pitts",
+            "name": "Kyle Pitts Sr.",
             "position": "TE",
             "team": "ATL",
             "status": "Active",
@@ -13730,7 +13730,7 @@
           "team": "Justtindavis",
           "player": {
             "player_id": "11631",
-            "name": "Brian Thomas",
+            "name": "Brian Thomas Jr.",
             "position": "WR",
             "team": "JAX",
             "status": "Active",
@@ -13856,7 +13856,7 @@
           "team": "Nix so big u waddle ",
           "player": {
             "player_id": "7543",
-            "name": "Travis Etienne",
+            "name": "Travis Etienne Jr.",
             "position": "RB",
             "team": "NO",
             "status": "Inactive",
@@ -13870,7 +13870,7 @@
           "team": "Pickens My Chuba",
           "player": {
             "player_id": "12506",
-            "name": "Harold Fannin",
+            "name": "Harold Fannin Jr.",
             "position": "TE",
             "team": "CLE",
             "status": "Active",
@@ -13898,7 +13898,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "12519",
-            "name": "Luther Burden",
+            "name": "Luther Burden III",
             "position": "WR",
             "team": "CHI",
             "status": "Active",
@@ -13996,7 +13996,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "11628",
-            "name": "Marvin Harrison",
+            "name": "Marvin Harrison Jr.",
             "position": "WR",
             "team": "HOU",
             "status": "Active",
@@ -14042,7 +14042,7 @@
             "position": "WR",
             "team": "GB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14084,7 +14084,7 @@
             "position": "QB",
             "team": "GB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14164,11 +14164,11 @@
           "team": "Justtindavis",
           "player": {
             "player_id": "13298",
-            "name": "KC Concepcion",
+            "name": "KC Concepcion Jr.",
             "position": "WR",
             "team": "CLE",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14252,7 +14252,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14392,7 +14392,7 @@
             "position": "WR",
             "team": "GB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14458,7 +14458,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "13276",
-            "name": "Omar Cooper",
+            "name": "Omar Cooper Jr.",
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
@@ -14476,7 +14476,7 @@
             "position": "WR",
             "team": "CLE",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14714,7 +14714,7 @@
             "position": "RB",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14752,7 +14752,7 @@
           "team": "Brown St. Brown Samuel",
           "player": {
             "player_id": "6819",
-            "name": "Michael Pittman",
+            "name": "Michael Pittman Jr.",
             "position": "WR",
             "team": "PIT",
             "status": "Inactive",
@@ -14906,7 +14906,7 @@
           "team": "Mayek It Clap",
           "player": {
             "player_id": "4037",
-            "name": "Chris Godwin",
+            "name": "Chris Godwin Jr.",
             "position": "WR",
             "team": "TB",
             "status": "Active",
@@ -15228,7 +15228,7 @@
           "team": "Mayek It Clap",
           "player": {
             "player_id": "11655",
-            "name": "Tyrone Tracy",
+            "name": "Tyrone Tracy Jr.",
             "position": "RB",
             "team": "NYG",
             "status": "Active",
@@ -15298,7 +15298,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "13305",
-            "name": "Mike Washington",
+            "name": "Mike Washington Jr.",
             "position": "RB",
             "team": "LV",
             "status": "Active",
@@ -15554,7 +15554,7 @@
             "position": "RB",
             "team": "TEN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15564,7 +15564,7 @@
           "team": "Justtindavis",
           "player": {
             "player_id": "11559",
-            "name": "Michael Penix",
+            "name": "Michael Penix Jr.",
             "position": "QB",
             "team": "ATL",
             "status": "Active",
@@ -15592,7 +15592,7 @@
           "team": "Brown St. Brown Samuel",
           "player": {
             "player_id": "13353",
-            "name": "Chris Brazzell",
+            "name": "Chris Brazzell II",
             "position": "WR",
             "team": "CAR",
             "status": "Inactive",
@@ -15624,7 +15624,7 @@
             "position": "TE",
             "team": "HOU",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15634,7 +15634,7 @@
           "team": "ealvarezz",
           "player": {
             "player_id": "4199",
-            "name": "Aaron Jones",
+            "name": "Aaron Jones Sr.",
             "position": "RB",
             "team": "MIN",
             "status": "Active",
@@ -15676,7 +15676,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "13317",
-            "name": "Ted Hurst",
+            "name": "Ted Hurst III",
             "position": "WR",
             "team": "TB",
             "status": "Active",
@@ -15722,7 +15722,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15830,7 +15830,7 @@
           "team": "Pickens My Chuba",
           "player": {
             "player_id": "10219",
-            "name": "Chris Rodriguez",
+            "name": "Chris Rodriguez Jr.",
             "position": "RB",
             "team": "JAX",
             "status": "Active",
@@ -15956,7 +15956,7 @@
           "team": "Jeantrification",
           "player": {
             "player_id": "12495",
-            "name": "Ollie Gordon",
+            "name": "Ollie Gordon II",
             "position": "RB",
             "team": "MIA",
             "status": "Active",
@@ -16264,7 +16264,7 @@
           "team": "Pickens My Chuba",
           "player": {
             "player_id": "8154",
-            "name": "Brian Robinson",
+            "name": "Brian Robinson Jr.",
             "position": "RB",
             "team": "ATL",
             "status": "Active",
@@ -16282,7 +16282,7 @@
             "position": "RB",
             "team": "MIA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16338,7 +16338,7 @@
             "position": "RB",
             "team": "TB",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16502,7 +16502,7 @@
           "team": "Brown St. Brown Samuel",
           "player": {
             "player_id": "13338",
-            "name": "Kevin Coleman",
+            "name": "Kevin Coleman Jr.",
             "position": "WR",
             "team": "MIA",
             "status": "Active",
@@ -16600,7 +16600,7 @@
           "team": "KELKINS KARTEL",
           "player": {
             "player_id": "12541",
-            "name": "Dont'e Thornton",
+            "name": "Dont'e Thornton Jr.",
             "position": "WR",
             "team": "LV",
             "status": "Inactive",
@@ -16618,7 +16618,7 @@
             "position": "WR",
             "team": "TEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16660,7 +16660,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16726,7 +16726,7 @@
           "team": "Bower of London",
           "player": {
             "player_id": "9229",
-            "name": "Anthony Richardson",
+            "name": "Anthony Richardson Sr.",
             "position": "QB",
             "team": "IND",
             "status": "Active",
@@ -16991,7 +16991,7 @@
     },
     {
       "player_id": "6011",
-      "name": "Gardner Minshew",
+      "name": "Gardner Minshew II",
       "position": "QB",
       "team": "ARI",
       "status": "Active",
@@ -17495,7 +17495,7 @@
     },
     {
       "player_id": "10857",
-      "name": "Stetson Bennett",
+      "name": "Stetson Bennett IV",
       "position": "QB",
       "team": "LAR",
       "status": "Active",
@@ -20327,15 +20327,15 @@
     },
     {
       "player_id": "12939",
-      "name": "Anthony Tyus",
+      "name": "Anthony Tyus III",
       "position": "RB",
       "team": "CAR",
       "status": "Active",
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
     },
     {
       "player_id": "11579",
@@ -20427,7 +20427,7 @@
       "position": "RB",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "RB",
@@ -20435,7 +20435,7 @@
     },
     {
       "player_id": "11186",
-      "name": "Carlos Washington",
+      "name": "Carlos Washington Jr.",
       "position": "RB",
       "team": "MIA",
       "status": "Active",
@@ -20687,7 +20687,7 @@
     },
     {
       "player_id": "11573",
-      "name": "Frank Gore",
+      "name": "Frank Gore Jr.",
       "position": "RB",
       "team": "BUF",
       "status": "Active",
@@ -20886,8 +20886,8 @@
       "injury_status": "Out",
       "age": 27,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13419",
@@ -21039,7 +21039,7 @@
       "position": "RB",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "RB",
@@ -21095,7 +21095,7 @@
     },
     {
       "player_id": "12544",
-      "name": "LeQuint Allen",
+      "name": "LeQuint Allen Jr.",
       "position": "RB",
       "team": "JAX",
       "status": "Active",
@@ -21227,7 +21227,7 @@
     },
     {
       "player_id": "8116",
-      "name": "Pierre Strong",
+      "name": "Pierre Strong Jr.",
       "position": "RB",
       "team": "GB",
       "status": "Active",
@@ -21311,7 +21311,7 @@
     },
     {
       "player_id": "13418",
-      "name": "Robert Henry",
+      "name": "Robert Henry Jr.",
       "position": "RB",
       "team": "SEA",
       "status": "Active",
@@ -26975,7 +26975,7 @@
     },
     {
       "player_id": "12460",
-      "name": "Antwane Wells",
+      "name": "Antwane Wells Jr.",
       "position": "WR",
       "team": "ATL",
       "status": "Active",
@@ -27051,7 +27051,7 @@
       "position": "WR",
       "team": "GB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
@@ -27191,7 +27191,7 @@
     },
     {
       "player_id": "8125",
-      "name": "Calvin Austin",
+      "name": "Calvin Austin III",
       "position": "WR",
       "team": "NYG",
       "status": "Inactive",
@@ -27207,7 +27207,7 @@
       "position": "WR",
       "team": "TEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "LWR",
@@ -27291,7 +27291,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "LWR",
@@ -27351,7 +27351,7 @@
       "position": "WR",
       "team": "CIN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "LWR",
@@ -27423,7 +27423,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 28,
       "years_exp": 6,
       "depth_chart_position": "SWR",
@@ -27443,7 +27443,7 @@
     },
     {
       "player_id": "6154",
-      "name": "David Sills",
+      "name": "David Sills V",
       "position": "WR",
       "team": "TB",
       "status": "Inactive",
@@ -27479,7 +27479,7 @@
     },
     {
       "player_id": "14020",
-      "name": "Dean Patterson",
+      "name": "Dean Patterson IV",
       "position": "WR",
       "team": "TB",
       "status": "Active",
@@ -27587,7 +27587,7 @@
     },
     {
       "player_id": "12541",
-      "name": "Dont'e Thornton",
+      "name": "Dont'e Thornton Jr.",
       "position": "WR",
       "team": "LV",
       "status": "Inactive",
@@ -27647,7 +27647,7 @@
     },
     {
       "player_id": "12542",
-      "name": "Efton Chism",
+      "name": "Efton Chism III",
       "position": "WR",
       "team": "NE",
       "status": "Active",
@@ -27683,7 +27683,7 @@
     },
     {
       "player_id": "13313",
-      "name": "Emmanuel Henderson",
+      "name": "Emmanuel Henderson Jr.",
       "position": "WR",
       "team": "SEA",
       "status": "Active",
@@ -27695,7 +27695,7 @@
     },
     {
       "player_id": "13316",
-      "name": "Eric Rivers",
+      "name": "Eric Rivers Jr.",
       "position": "WR",
       "team": "TB",
       "status": "Active",
@@ -27779,7 +27779,7 @@
     },
     {
       "player_id": "13670",
-      "name": "Harrison Wallace",
+      "name": "Harrison Wallace III",
       "position": "WR",
       "team": "ARI",
       "status": "Active",
@@ -28187,7 +28187,7 @@
     },
     {
       "player_id": "12523",
-      "name": "Jimmy Horn",
+      "name": "Jimmy Horn Jr.",
       "position": "WR",
       "team": "CLE",
       "status": "Active",
@@ -28211,7 +28211,7 @@
     },
     {
       "player_id": "8147",
-      "name": "John Metchie",
+      "name": "John Metchie III",
       "position": "WR",
       "team": "CAR",
       "status": "Active",
@@ -28691,7 +28691,7 @@
     },
     {
       "player_id": "9494",
-      "name": "Marvin Mims",
+      "name": "Marvin Mims Jr.",
       "position": "WR",
       "team": "DEN",
       "status": "Active",
@@ -28715,7 +28715,7 @@
     },
     {
       "player_id": "5917",
-      "name": "Mecole Hardman",
+      "name": "Mecole Hardman Jr.",
       "position": "WR",
       "team": "IND",
       "status": "Active",
@@ -28787,7 +28787,7 @@
     },
     {
       "player_id": "13199",
-      "name": "Montorie Foster",
+      "name": "Montorie Foster Jr.",
       "position": "WR",
       "team": "SEA",
       "status": "Active",
@@ -28883,7 +28883,7 @@
     },
     {
       "player_id": "2078",
-      "name": "Odell Beckham",
+      "name": "Odell Beckham Jr.",
       "position": "WR",
       "team": "MIN",
       "status": "Active",
@@ -28919,7 +28919,7 @@
     },
     {
       "player_id": "2334",
-      "name": "Phillip Dorsett",
+      "name": "Phillip Dorsett II",
       "position": "WR",
       "team": "LV",
       "status": "Active",
@@ -28955,7 +28955,7 @@
     },
     {
       "player_id": "12884",
-      "name": "Quincy Skinner",
+      "name": "Quincy Skinner Jr.",
       "position": "WR",
       "team": "GB",
       "status": "Active",
@@ -28979,7 +28979,7 @@
     },
     {
       "player_id": "12475",
-      "name": "Ricky White",
+      "name": "Ricky White III",
       "position": "WR",
       "team": "SEA",
       "status": "Active",
@@ -29007,7 +29007,7 @@
       "position": "WR",
       "team": "GB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
@@ -29135,7 +29135,7 @@
     },
     {
       "player_id": "12860",
-      "name": "Theo Wease",
+      "name": "Theo Wease Jr.",
       "position": "WR",
       "team": "LAC",
       "status": "Active",
@@ -29219,7 +29219,7 @@
     },
     {
       "player_id": "5154",
-      "name": "Trent Sherfield",
+      "name": "Trent Sherfield Sr.",
       "position": "WR",
       "team": "BUF",
       "status": "Active",
@@ -29315,7 +29315,7 @@
     },
     {
       "player_id": "8223",
-      "name": "Velus Jones",
+      "name": "Velus Jones Jr.",
       "position": "WR",
       "team": "SEA",
       "status": "Active",
@@ -29327,7 +29327,7 @@
     },
     {
       "player_id": "13343",
-      "name": "Vinny Anthony",
+      "name": "Vinny Anthony II",
       "position": "WR",
       "team": "ATL",
       "status": "Active",
@@ -41007,7 +41007,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
@@ -41087,7 +41087,7 @@
     },
     {
       "player_id": "11592",
-      "name": "Erick All",
+      "name": "Erick All Jr.",
       "position": "TE",
       "team": "CIN",
       "status": "Active",
@@ -41607,7 +41607,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
@@ -42239,7 +42239,7 @@
     },
     {
       "player_id": "12715",
-      "name": "Thomas Fidone",
+      "name": "Thomas Fidone II",
       "position": "TE",
       "team": "NYG",
       "status": "Active",
@@ -42387,7 +42387,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
