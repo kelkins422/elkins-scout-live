@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-20T21:54:35.751121Z",
+  "generated_at_utc": "2026-10-21T00:26:19.718575Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
+    "last_message_id": "1418347919651737600",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,7 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1418347919651737600",
     "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
     "last_author_display_name": "brettstalvey2528",
     "last_author_id": "474981049038794752",
@@ -212,10 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1792523004978,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1805,12 +1805,12 @@
           "injury_status": null
         },
         {
-          "player_id": "12481",
-          "name": "Cam Skattebo",
+          "player_id": "5850",
+          "name": "Josh Jacobs",
           "position": "RB",
-          "team": "NYG",
+          "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "NA"
         },
         {
           "player_id": "8228",
@@ -1845,10 +1845,10 @@
           "injury_status": null
         },
         {
-          "player_id": "4037",
-          "name": "Chris Godwin",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "TB",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -1861,24 +1861,6 @@
           "injury_status": null
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8134",
-          "name": "Khalil Shakir",
-          "position": "WR",
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": null
-        }
-      ],
-      "bench": [
-        {
           "player_id": "10859",
           "name": "Sam LaPorta",
           "position": "TE",
@@ -1887,10 +1869,28 @@
           "injury_status": null
         },
         {
+          "player_id": "6770",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null
+        }
+      ],
+      "bench": [
+        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
           "team": "BUF",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12481",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
@@ -1935,36 +1935,20 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "5850",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": "NA"
-        },
-        {
-          "player_id": "6770",
-          "name": "Joe Burrow",
-          "position": "QB",
-          "team": "CIN",
+          "player_id": "2505",
+          "name": "Darren Waller",
+          "position": "TE",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "4037",
+          "name": "Chris Godwin",
           "position": "WR",
-          "team": "CIN",
+          "team": "TB",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "7567",
@@ -1975,11 +1959,27 @@
           "injury_status": null
         },
         {
+          "player_id": "8134",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "team": "BUF",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "8188",
           "name": "Tyquan Thornton",
           "position": "WR",
           "team": "KC",
           "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
+          "player_id": "9502",
+          "name": "Tank Dell",
+          "position": "WR",
+          "team": "HOU",
+          "status": "Active",
           "injury_status": "IR"
         },
         {
@@ -2019,19 +2019,19 @@
       ],
       "injured_reserve": [
         {
+          "player_id": "6904",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "team": "PHI",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "8142",
           "name": "Alec Pierce",
           "position": "WR",
           "team": "IND",
           "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
-          "player_id": "9502",
-          "name": "Tank Dell",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Active",
           "injury_status": "IR"
         }
       ],
@@ -20296,7 +20296,7 @@
       "position": "RB",
       "team": "PHI",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "RB",
