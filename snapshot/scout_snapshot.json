@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-21T00:26:19.718575Z",
+  "generated_at_utc": "2026-10-21T05:11:23.266675Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,15 +65,10 @@
       "leg": 7,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 19
+      "daily_waivers_last_ran": 20
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
-    "shard": 620,
-    "last_message_id": "1418347919651737600",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,23 +199,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
-    "last_author_display_name": "brettstalvey2528",
-    "last_author_id": "474981049038794752",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "last_message_id": "1418439502367625216",
+    "shard": 620,
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
+    "last_author_display_name": "sleezycreesey69",
+    "last_author_id": "825521088418144256",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792523004978,
+    "last_message_time": 1792544839998,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,6 +242,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "group_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 140,
-        "waiver_position": 7,
+        "waiver_position": 4,
         "wins": 3
       },
       "metadata": {
@@ -1257,7 +1257,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 8,
+        "waiver_position": 5,
         "wins": 2
       },
       "metadata": {
@@ -1887,6 +1887,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -1914,14 +1922,6 @@
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12542",
-          "name": "Efton Chism",
-          "position": "WR",
           "team": "NE",
           "status": "Active",
           "injury_status": null
@@ -2061,6 +2061,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11655",
+          "name": "Tyrone Tracy",
+          "position": "RB",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -2096,14 +2104,6 @@
           "player_id": "12529",
           "name": "TreVeyon Henderson",
           "position": "RB",
-          "team": "NE",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12542",
-          "name": "Efton Chism",
-          "position": "WR",
           "team": "NE",
           "status": "Active",
           "injury_status": null
@@ -2280,7 +2280,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 5,
+        "waiver_position": 9,
         "wins": 3
       },
       "metadata": {
@@ -2792,7 +2792,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 10,
+        "waiver_position": 7,
         "wins": 4
       },
       "metadata": {
@@ -3398,6 +3398,14 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13394",
           "name": "Josh Cameron",
           "position": "WR",
@@ -3428,14 +3436,6 @@
           "team": "LAR",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "7021",
@@ -3580,6 +3580,14 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13281",
           "name": "Jordyn Tyson",
           "position": "WR",
@@ -3668,14 +3676,6 @@
           "injury_status": null
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5967",
           "name": "Tony Pollard",
           "position": "RB",
@@ -3750,8 +3750,8 @@
         "ppts_decimal": 22,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 57,
-        "waiver_position": 4,
+        "waiver_budget_used": 87,
+        "waiver_position": 8,
         "wins": 2
       },
       "metadata": {
@@ -3865,14 +3865,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11577",
-          "name": "Will Shipley",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "11603",
           "name": "AJ Barner",
           "position": "TE",
@@ -3895,6 +3887,14 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": "Out"
+        },
+        {
+          "player_id": "3271",
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "4017",
@@ -3949,6 +3949,14 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9230",
+          "name": "Tanner McKee",
+          "position": "QB",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         }
@@ -4031,14 +4039,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11577",
-          "name": "Will Shipley",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "11584",
           "name": "Bucky Irving",
           "position": "RB",
@@ -4109,6 +4109,14 @@
           "team": "WAS",
           "status": "Active",
           "injury_status": "Out"
+        },
+        {
+          "player_id": "3271",
+          "name": "Tyler Higbee",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "4017",
@@ -4221,6 +4229,14 @@
           "team": "CAR",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "9230",
+          "name": "Tanner McKee",
+          "position": "QB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "settings": {
@@ -4233,8 +4249,8 @@
         "ppts_decimal": 66,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 100,
-        "waiver_position": 3,
+        "waiver_budget_used": 108,
+        "waiver_position": 10,
         "wins": 5
       },
       "metadata": {
@@ -4685,7 +4701,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
-        "waiver_position": 9,
+        "waiver_position": 6,
         "wins": 3
       },
       "metadata": {
@@ -5151,7 +5167,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 3,
         "wins": 1
       },
       "metadata": {
@@ -6948,6 +6964,116 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1418437078953340928",
+      "type": "waiver",
+      "status": "complete",
+      "week": 7,
+      "created_utc": "2026-10-21T00:57:42.211000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "3271",
+            "name": "Tyler Higbee",
+            "position": "TE",
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11577",
+            "name": "Will Shipley",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1418436951073202176",
+      "type": "waiver",
+      "status": "complete",
+      "week": 7,
+      "created_utc": "2026-10-21T00:57:11.722000Z",
+      "teams": [
+        "ealvarezz"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9230",
+            "name": "Tanner McKee",
+            "position": "QB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 8,
+          "team": "ealvarezz"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 8
+    },
+    {
+      "transaction_id": "1418417959491186688",
+      "type": "waiver",
+      "status": "complete",
+      "week": 7,
+      "created_utc": "2026-10-20T23:41:43.775000Z",
+      "teams": [
+        "Mayek It Clap"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11655",
+            "name": "Tyrone Tracy",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12542",
+            "name": "Efton Chism",
+            "position": "WR",
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
       "transaction_id": "1418301646311620608",
       "type": "trade",
       "status": "complete",
@@ -7020,6 +7146,47 @@
       ],
       "waiver_budget": [],
       "waiver_bid": null
+    },
+    {
+      "transaction_id": "1418076509989593088",
+      "type": "waiver",
+      "status": "complete",
+      "week": 6,
+      "created_utc": "2026-10-20T01:04:55.871000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12718",
+            "name": "Konata Mumpfield",
+            "position": "WR",
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5012",
+            "name": "Mark Andrews",
+            "position": "TE",
+            "team": "BAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 30
     },
     {
       "transaction_id": "1418027917610340352",
@@ -16584,9 +16751,9 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2532,
+    "total": 2531,
     "by_position": {
-      "QB": 291,
+      "QB": 290,
       "RB": 552,
       "WR": 1142,
       "TE": 547
@@ -16640,7 +16807,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13295",
@@ -16769,7 +16936,7 @@
       "team": "HOU",
       "status": "Active",
       "injury_status": null,
-      "age": 27,
+      "age": 28,
       "years_exp": 5,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
@@ -17095,7 +17262,7 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": null,
+      "depth_chart_position": "QB",
       "depth_chart_order": null
     },
     {
@@ -17349,18 +17516,6 @@
       "years_exp": 3,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
-    },
-    {
-      "player_id": "9230",
-      "name": "Tanner McKee",
-      "position": "QB",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 1
     },
     {
       "player_id": "13306",
@@ -20299,8 +20454,8 @@
       "injury_status": "Out",
       "age": 23,
       "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11370",
@@ -20791,8 +20946,8 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "4219",
@@ -21407,18 +21562,6 @@
       "depth_chart_order": 2
     },
     {
-      "player_id": "11655",
-      "name": "Tyrone Tracy",
-      "position": "RB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "3309",
       "name": "Wendell Smallwood",
       "position": "RB",
@@ -21429,6 +21572,18 @@
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "11577",
+      "name": "Will Shipley",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 2,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
     },
     {
       "player_id": "8139",
@@ -27008,7 +27163,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_order": 7
     },
     {
       "player_id": "13554",
@@ -27224,7 +27379,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
-      "depth_chart_order": 12
+      "depth_chart_order": null
     },
     {
       "player_id": "6453",
@@ -27503,6 +27658,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12542",
+      "name": "Efton Chism",
+      "position": "WR",
+      "team": "NE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 3
+    },
+    {
       "player_id": "5744",
       "name": "Eldridge Massington",
       "position": "WR",
@@ -27713,7 +27880,7 @@
       "team": "PIT",
       "status": "Active",
       "injury_status": null,
-      "age": 27,
+      "age": 28,
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -27992,7 +28159,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "13392",
@@ -28016,7 +28183,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": null
     },
     {
       "player_id": "6783",
@@ -28353,18 +28520,6 @@
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "12718",
-      "name": "Konata Mumpfield",
-      "position": "WR",
-      "team": "LAR",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 1,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 2
     },
     {
       "player_id": "13830",
@@ -41324,7 +41479,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11113",
@@ -41649,6 +41804,18 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
+    },
+    {
+      "player_id": "5012",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 8,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1
     },
     {
       "player_id": "13013",
@@ -42149,7 +42316,7 @@
       "team": "GB",
       "status": "Inactive",
       "injury_status": "IR",
-      "age": 26,
+      "age": 27,
       "years_exp": 2,
       "depth_chart_position": "TE",
       "depth_chart_order": 7
@@ -42249,18 +42416,6 @@
       "years_exp": 8,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "3271",
-      "name": "Tyler Higbee",
-      "position": "TE",
-      "team": "LAR",
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 10,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 1
     },
     {
       "player_id": "13434",
