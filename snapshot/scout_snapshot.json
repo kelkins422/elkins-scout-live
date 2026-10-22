@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-21T22:40:28.147357Z",
+  "generated_at_utc": "2026-10-22T00:56:07.532219Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -413,7 +413,7 @@
           "position": "RB",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13337",
@@ -587,7 +587,7 @@
           "position": "RB",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13324",
@@ -1335,7 +1335,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12518",
@@ -1695,7 +1695,7 @@
           "position": "WR",
           "team": "DEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7543",
@@ -1842,7 +1842,7 @@
           "position": "TE",
           "team": "KC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6801",
@@ -2138,7 +2138,7 @@
           "position": "TE",
           "team": "KC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "2505",
@@ -2518,7 +2518,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13338",
@@ -2586,7 +2586,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13288",
@@ -3451,7 +3451,7 @@
           "position": "RB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9508",
@@ -3697,7 +3697,7 @@
           "position": "RB",
           "team": "ATL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9226",
@@ -4311,7 +4311,7 @@
           "position": "TE",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9756",
@@ -4441,7 +4441,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9753",
@@ -4511,7 +4511,7 @@
           "position": "TE",
           "team": "LV",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11638",
@@ -4655,7 +4655,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9482",
@@ -8371,7 +8371,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -8640,7 +8640,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -8779,7 +8779,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9475,7 +9475,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -9572,7 +9572,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9641,7 +9641,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10535,7 +10535,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -11014,7 +11014,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -13090,7 +13090,7 @@
             "position": "TE",
             "team": "LV",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -13762,7 +13762,7 @@
             "position": "WR",
             "team": "DEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15106,7 +15106,7 @@
             "position": "QB",
             "team": "ARI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15302,7 +15302,7 @@
             "position": "RB",
             "team": "LV",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15330,7 +15330,7 @@
             "position": "WR",
             "team": "SEA",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -15512,7 +15512,7 @@
             "position": "TE",
             "team": "KC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16268,7 +16268,7 @@
             "position": "RB",
             "team": "ATL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16959,7 +16959,7 @@
       "position": "QB",
       "team": "SEA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "QB",
@@ -17272,7 +17272,7 @@
       "team": "DET",
       "status": "Active",
       "injury_status": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -28662,8 +28662,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "5086",
@@ -28899,7 +28899,7 @@
       "position": "WR",
       "team": "ATL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
@@ -29080,7 +29080,7 @@
       "team": "BUF",
       "status": "Active",
       "injury_status": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
