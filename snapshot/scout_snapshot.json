@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-22T23:13:03.060945Z",
+  "generated_at_utc": "2026-10-23T01:35:32.692817Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,10 +65,15 @@
       "leg": 7,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 21
+      "daily_waivers_last_ran": 22
     },
     "avatar": null,
     "company_id": null,
+    "last_message_id": "1419170288569962496",
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,23 +204,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
-    "last_message_id": "1419044143690215424",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1792688997722,
+    "last_message_time": 1792719073006,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 3
       },
       "metadata": {
@@ -1273,7 +1273,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 2
       },
       "metadata": {
@@ -1396,6 +1396,14 @@
       ],
       "bench": [
         {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11557",
           "name": "Joe Milton",
           "position": "QB",
@@ -1448,14 +1456,6 @@
           "name": "Seth McGowan",
           "position": "RB",
           "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13533",
-          "name": "Barion Brown",
-          "position": "WR",
-          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -1562,6 +1562,14 @@
           "injury_status": null
         },
         {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11557",
           "name": "Joe Milton",
           "position": "QB",
@@ -1662,14 +1670,6 @@
           "name": "Seth McGowan",
           "position": "RB",
           "team": "IND",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13533",
-          "name": "Barion Brown",
-          "position": "WR",
-          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -1796,8 +1796,8 @@
         "ppts_decimal": 36,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 59,
-        "waiver_position": 2,
+        "waiver_budget_used": 75,
+        "waiver_position": 10,
         "wins": 3
       },
       "metadata": {
@@ -2296,7 +2296,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 3
       },
       "metadata": {
@@ -2808,7 +2808,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 4
       },
       "metadata": {
@@ -3767,7 +3767,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 87,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 2
       },
       "metadata": {
@@ -4266,7 +4266,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 5
       },
       "metadata": {
@@ -4457,7 +4457,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9753",
@@ -4671,7 +4671,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9482",
@@ -4717,7 +4717,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 3
       },
       "metadata": {
@@ -5183,7 +5183,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 1
       },
       "metadata": {
@@ -6979,6 +6979,75 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1419157403034763264",
+      "type": "waiver",
+      "status": "complete",
+      "week": 7,
+      "created_utc": "2026-10-23T00:40:00.855000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "10235",
+            "name": "Roschon Johnson",
+            "position": "RB",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13533",
+            "name": "Barion Brown",
+            "position": "WR",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 16
+    },
+    {
+      "transaction_id": "1419045971198763008",
+      "type": "waiver",
+      "status": "failed",
+      "week": 7,
+      "created_utc": "2026-10-22T17:17:13.434000Z",
+      "teams": [
+        "Bower of London"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "10235",
+            "name": "Roschon Johnson",
+            "position": "RB",
+            "team": "CHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 9,
+          "team": "Bower of London"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 16
+    },
     {
       "transaction_id": "1418724465939910656",
       "type": "waiver",
@@ -15415,7 +15484,7 @@
             "position": "WR",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16839,8 +16908,8 @@
     "total": 2528,
     "by_position": {
       "QB": 291,
-      "RB": 552,
-      "WR": 1139,
+      "RB": 551,
+      "WR": 1140,
       "TE": 546
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -21443,18 +21512,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "10235",
-      "name": "Roschon Johnson",
-      "position": "RB",
-      "team": "CHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "6918",
       "name": "Salvon Ahmed",
       "position": "RB",
@@ -21632,7 +21689,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8139",
@@ -21655,8 +21712,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "8122",
@@ -27119,6 +27176,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13533",
+      "name": "Barion Brown",
+      "position": "WR",
+      "team": "NO",
+      "status": "Active",
+      "injury_status": null,
+      "age": 22,
+      "years_exp": 0,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 4
+    },
+    {
       "player_id": "12889",
       "name": "Beaux Collins",
       "position": "WR",
@@ -27269,7 +27338,7 @@
       "team": "JAX",
       "status": "Active",
       "injury_status": "Out",
-      "age": 22,
+      "age": 23,
       "years_exp": 0,
       "depth_chart_position": "LWR",
       "depth_chart_order": 8
@@ -28076,7 +28145,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11034",
@@ -28316,7 +28385,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "10225",
@@ -28880,7 +28949,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 8
     },
     {
       "player_id": "13075",
@@ -41252,7 +41321,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8172",
@@ -42008,7 +42077,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8523",
@@ -42211,8 +42280,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6451",
