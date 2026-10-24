@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-24T15:48:42.302875Z",
+  "generated_at_utc": "2026-10-24T18:39:04.206903Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,6 @@
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,6 +199,10 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
+    "shard": 620,
     "last_message_id": "1419210309297520640",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
@@ -212,10 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1792728614690,
     "last_pinned_message_id": null,
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -294,12 +294,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9493",
-          "name": "Puka Nacua",
+          "player_id": "8137",
+          "name": "George Pickens",
           "position": "WR",
-          "team": "LAR",
+          "team": "DAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5859",
@@ -326,10 +326,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "9493",
+          "name": "Puka Nacua",
           "position": "WR",
-          "team": "PHI",
+          "team": "LAR",
           "status": "Active",
           "injury_status": "Questionable"
         },
@@ -448,12 +448,12 @@
           "injury_status": null
         },
         {
-          "player_id": "8137",
-          "name": "George Pickens",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "team": "DAL",
+          "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9487",
@@ -3035,8 +3035,8 @@
           "name": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "all_players": [
@@ -3085,8 +3085,8 @@
           "name": "Dylan Sampson",
           "position": "RB",
           "team": "CLE",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "12521",
@@ -4369,7 +4369,7 @@
           "position": "TE",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "11638",
@@ -4519,7 +4519,7 @@
           "position": "TE",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "11604",
@@ -4933,8 +4933,8 @@
           "name": "Brashard Smith",
           "position": "RB",
           "team": "KC",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "12540",
@@ -4992,8 +4992,8 @@
           "name": "Brashard Smith",
           "position": "RB",
           "team": "KC",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "12489",
@@ -9361,7 +9361,7 @@
             "player_id": "6931",
             "name": "DeeJay Dallas",
             "position": "RB",
-            "team": "MIN",
+            "team": null,
             "status": "Active",
             "injury_status": null
           },
@@ -10224,7 +10224,7 @@
             "player_id": "6931",
             "name": "DeeJay Dallas",
             "position": "RB",
-            "team": "MIN",
+            "team": null,
             "status": "Active",
             "injury_status": null
           },
@@ -15651,8 +15651,8 @@
             "name": "Dylan Sampson",
             "position": "RB",
             "team": "CLE",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": null
           }
         },
         {
@@ -15806,7 +15806,7 @@
             "position": "TE",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -16407,8 +16407,8 @@
             "name": "Brashard Smith",
             "position": "RB",
             "team": "KC",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -20756,18 +20756,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "6931",
-      "name": "DeeJay Dallas",
-      "position": "RB",
-      "team": "MIN",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "9505",
       "name": "Deuce Vaughn",
       "position": "RB",
@@ -23008,6 +22996,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6931",
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
