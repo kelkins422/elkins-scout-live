@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-24T21:12:22.106167Z",
+  "generated_at_utc": "2026-10-24T23:19:41.305155Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
+    "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,10 +203,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "shard": 620,
-    "sport": "nfl",
     "last_message_id": "1419210309297520640",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
@@ -212,8 +212,8 @@
     "last_message_text_map": null,
     "last_message_time": 1792728614690,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -972,7 +972,7 @@
           "name": "Christian Kirk",
           "position": "WR",
           "team": "SF",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -1194,7 +1194,7 @@
           "name": "Christian Kirk",
           "position": "WR",
           "team": "SF",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -1548,7 +1548,7 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         }
       ],
@@ -1750,7 +1750,7 @@
           "name": "Jordan Mason",
           "position": "RB",
           "team": "MIN",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -1996,7 +1996,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Inactive",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9504",
@@ -2266,7 +2266,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Inactive",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9504",
@@ -3999,7 +3999,7 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "team": "DEN",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "Questionable"
         }
       ],
@@ -4115,7 +4115,7 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "team": "DEN",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "Questionable"
         },
         {
@@ -7064,7 +7064,7 @@
             "name": "Christian Kirk",
             "position": "WR",
             "team": "SF",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": null
           },
           "roster_id": 2,
@@ -9361,7 +9361,7 @@
             "player_id": "6931",
             "name": "DeeJay Dallas",
             "position": "RB",
-            "team": null,
+            "team": "MIN",
             "status": "Active",
             "injury_status": null
           },
@@ -10224,7 +10224,7 @@
             "player_id": "6931",
             "name": "DeeJay Dallas",
             "position": "RB",
-            "team": null,
+            "team": "MIN",
             "status": "Active",
             "injury_status": null
           },
@@ -14853,7 +14853,7 @@
             "name": "Jordan Mason",
             "position": "RB",
             "team": "MIN",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": null
           }
         },
@@ -14937,7 +14937,7 @@
             "name": "Jonah Coleman",
             "position": "RB",
             "team": "DEN",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "Questionable"
           }
         },
@@ -15904,7 +15904,7 @@
             "position": "WR",
             "team": "HOU",
             "status": "Inactive",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -20756,6 +20756,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "6931",
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "9505",
       "name": "Deuce Vaughn",
       "position": "RB",
@@ -21648,7 +21660,7 @@
       "name": "Tyler Badie",
       "position": "RB",
       "team": "DEN",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 26,
       "years_exp": 4,
@@ -22996,18 +23008,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6931",
-      "name": "DeeJay Dallas",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
