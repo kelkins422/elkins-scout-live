@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-25T01:27:24.872722Z",
+  "generated_at_utc": "2026-10-25T06:41:44.278652Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -206,6 +206,7 @@
     "last_message_id": "1419210309297520640",
     "last_author_avatar": "d55d1f7075eda01948318de4af616075",
     "last_author_display_name": "Nolan0921",
+    "draft_id": "1353413007752839168",
     "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
@@ -213,9 +214,13 @@
     "last_message_time": 1792728614690,
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -1476,12 +1476,12 @@
           "injury_status": null
         },
         {
-          "player_id": "7543",
-          "name": "Travis Etienne Jr.",
+          "player_id": "8408",
+          "name": "Jordan Mason",
           "position": "RB",
-          "team": "NO",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "9486",
@@ -1536,20 +1536,20 @@
       ],
       "injured_reserve": [
         {
+          "player_id": "7543",
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "team": "NO",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "8205",
           "name": "Isiah Pacheco",
           "position": "RB",
           "team": "DET",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
         }
       ],
       "all_players": [
@@ -1995,7 +1995,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -2265,7 +2265,7 @@
           "name": "Tank Dell",
           "position": "WR",
           "team": "HOU",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -2413,12 +2413,12 @@
           "injury_status": null
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
+          "player_id": "2197",
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         }
       ],
       "bench": [
@@ -2463,18 +2463,18 @@
           "injury_status": null
         },
         {
-          "player_id": "2197",
-          "name": "Brandin Cooks",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
           "team": "SF",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
+          "player_id": "4881",
+          "name": "Lamar Jackson",
+          "position": "QB",
+          "team": "BAL",
           "status": "Active",
           "injury_status": "Out"
         },
@@ -15903,7 +15903,7 @@
             "name": "Tank Dell",
             "position": "WR",
             "team": "HOU",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": null
           }
         },
