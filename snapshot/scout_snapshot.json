@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-26T16:53:07.129982Z",
+  "generated_at_utc": "2026-10-26T21:28:47.851199Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -216,11 +216,6 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,6 +242,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -486,8 +486,8 @@
           "name": "Eli Stowers",
           "position": "TE",
           "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "injured_reserve": [
@@ -618,8 +618,8 @@
           "name": "Eli Stowers",
           "position": "TE",
           "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "13417",
@@ -2370,7 +2370,7 @@
           "position": "WR",
           "team": "DET",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13346",
@@ -2730,7 +2730,7 @@
           "position": "WR",
           "team": "DET",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7553",
@@ -13274,7 +13274,7 @@
             "position": "WR",
             "team": "DET",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14939,8 +14939,8 @@
             "name": "Eli Stowers",
             "position": "TE",
             "team": "PHI",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": null
           }
         },
         {
@@ -17113,7 +17113,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 2
     },
     {
       "player_id": "12773",
@@ -17144,7 +17144,7 @@
       "name": "Dillon Gabriel",
       "position": "QB",
       "team": "CLE",
-      "status": "Inactive",
+      "status": "Active",
       "injury_status": "IR",
       "age": 25,
       "years_exp": 1,
@@ -20808,8 +20808,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "9505",
@@ -21240,8 +21240,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11649",
@@ -21300,8 +21300,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12969",
@@ -27276,8 +27276,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 4,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7865",
@@ -27480,8 +27480,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12908",
@@ -28197,7 +28197,7 @@
       "position": "WR",
       "team": "ARI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
@@ -28272,8 +28272,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 3,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12925",
@@ -28512,8 +28512,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "7066",
@@ -28524,8 +28524,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 6,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6866",
@@ -40939,7 +40939,7 @@
       "player_id": "12062",
       "name": "Cam Grandy",
       "position": "TE",
-      "team": "MIN",
+      "team": "CIN",
       "status": "Active",
       "injury_status": null,
       "age": 26,
@@ -41360,8 +41360,8 @@
       "name": "Grant Calcaterra",
       "position": "TE",
       "team": "PHI",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": null,
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
