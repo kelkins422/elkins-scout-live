@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-27T00:44:13.753804Z",
+  "generated_at_utc": "2026-10-27T05:42:08.490580Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -33,7 +33,7 @@
       "playoff_type": 1,
       "taxi_slots": 3,
       "sub_start_time_eligibility": 0,
-      "last_scored_leg": 6,
+      "last_scored_leg": 7,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -65,14 +65,10 @@
       "leg": 7,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 25
+      "daily_waivers_last_ran": 26
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,19 +199,26 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1420408046709927936",
-    "draft_id": "1353413007752839168",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1420612091487789056",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793014177542,
+    "last_message_time": 1793062825608,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,16 +245,13 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 7,
-    "leg": 7,
+    "week": 8,
+    "leg": 8,
     "season": "2026",
     "season_type": "regular",
     "league_season": "2026",
@@ -339,7 +339,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "421",
@@ -659,7 +659,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5012",
@@ -743,17 +743,17 @@
         }
       ],
       "settings": {
-        "fpts": 999,
-        "fpts_against": 914,
-        "fpts_against_decimal": 7,
-        "fpts_decimal": 33,
-        "losses": 3,
-        "ppts": 1167,
-        "ppts_decimal": 29,
+        "fpts": 1147,
+        "fpts_against": 1102,
+        "fpts_against_decimal": 19,
+        "fpts_decimal": 18,
+        "losses": 4,
+        "ppts": 1344,
+        "ppts_decimal": 99,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 3
       },
       "metadata": {
@@ -778,8 +778,8 @@
         "p_nick_9487": "Parkhim Washinghim",
         "p_nick_9493": "Rehab boy",
         "p_nick_9500": "Dogshit #2",
-        "record": "LWLWLW",
-        "streak": "1W"
+        "record": "LWLWLWL",
+        "streak": "1L"
       }
     },
     {
@@ -1263,18 +1263,18 @@
         }
       ],
       "settings": {
-        "fpts": 870,
-        "fpts_against": 953,
-        "fpts_against_decimal": 48,
-        "fpts_decimal": 49,
+        "fpts": 1041,
+        "fpts_against": 1103,
+        "fpts_against_decimal": 38,
+        "fpts_decimal": 48,
         "losses": 4,
-        "ppts": 1070,
-        "ppts_decimal": 48,
+        "ppts": 1243,
+        "ppts_decimal": 37,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 8,
-        "wins": 2
+        "waiver_position": 7,
+        "wins": 3
       },
       "metadata": {
         "p_nick_10229": "119 🏎️",
@@ -1302,8 +1302,8 @@
         "p_nick_8161": "runningblack",
         "p_nick_9509": "mustardddddd",
         "p_nick_9511": "mcdaniel’s cuck",
-        "record": "WLWLLL",
-        "streak": "3L"
+        "record": "WLWLLLW",
+        "streak": "1W"
       }
     },
     {
@@ -1787,22 +1787,22 @@
         }
       ],
       "settings": {
-        "fpts": 868,
-        "fpts_against": 962,
-        "fpts_against_decimal": 55,
-        "fpts_decimal": 14,
+        "fpts": 1031,
+        "fpts_against": 1082,
+        "fpts_against_decimal": 67,
+        "fpts_decimal": 82,
         "losses": 3,
-        "ppts": 1072,
-        "ppts_decimal": 36,
+        "ppts": 1242,
+        "ppts_decimal": 59,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 75,
-        "waiver_position": 9,
-        "wins": 3
+        "waiver_position": 8,
+        "wins": 4
       },
       "metadata": {
-        "record": "LLWLWW",
-        "streak": "2W"
+        "record": "LLWLWWW",
+        "streak": "3W"
       }
     },
     {
@@ -2286,18 +2286,18 @@
         }
       ],
       "settings": {
-        "fpts": 956,
-        "fpts_against": 860,
-        "fpts_against_decimal": 14,
-        "fpts_decimal": 45,
+        "fpts": 1144,
+        "fpts_against": 1007,
+        "fpts_against_decimal": 99,
+        "fpts_decimal": 57,
         "losses": 3,
-        "ppts": 1107,
-        "ppts_decimal": 61,
+        "ppts": 1348,
+        "ppts_decimal": 23,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 5,
-        "wins": 3
+        "waiver_position": 4,
+        "wins": 4
       },
       "metadata": {
         "p_nick_10859": "vanilla ice🥶",
@@ -2329,8 +2329,8 @@
         "p_nick_9504": "i miss u💔",
         "p_nick_9753": "🏥♿️",
         "p_nick_9997": "Black Flash⚡️",
-        "record": "WLLWWL",
-        "streak": "1L"
+        "record": "WLLWWLW",
+        "streak": "1W"
       }
     },
     {
@@ -2798,23 +2798,23 @@
         }
       ],
       "settings": {
-        "fpts": 980,
-        "fpts_against": 898,
-        "fpts_against_decimal": 8,
-        "fpts_decimal": 39,
-        "losses": 2,
-        "ppts": 1117,
-        "ppts_decimal": 37,
+        "fpts": 1100,
+        "fpts_against": 1061,
+        "fpts_against_decimal": 76,
+        "fpts_decimal": 51,
+        "losses": 3,
+        "ppts": 1259,
+        "ppts_decimal": 49,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 4
       },
       "metadata": {
         "p_nick_5859": "Fuck this guy",
-        "record": "WWLLWW",
-        "streak": "2W"
+        "record": "WWLLWWL",
+        "streak": "1L"
       }
     },
     {
@@ -3250,18 +3250,18 @@
         }
       ],
       "settings": {
-        "fpts": 962,
-        "fpts_against": 923,
-        "fpts_against_decimal": 44,
-        "fpts_decimal": 23,
+        "fpts": 1109,
+        "fpts_against": 1061,
+        "fpts_against_decimal": 4,
+        "fpts_decimal": 14,
         "losses": 2,
-        "ppts": 1195,
-        "ppts_decimal": 27,
+        "ppts": 1365,
+        "ppts_decimal": 23,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
         "waiver_position": 1,
-        "wins": 4
+        "wins": 5
       },
       "metadata": {
         "p_nick_10222": "5 📖",
@@ -3288,8 +3288,8 @@
         "p_nick_8131": "Marlbro Red",
         "p_nick_8138": "Josh Allens Cuck",
         "p_nick_9506": "Pl44sed",
-        "record": "WWLLWW",
-        "streak": "2W"
+        "record": "WWLLWWW",
+        "streak": "3W"
       }
     },
     {
@@ -3773,22 +3773,22 @@
         }
       ],
       "settings": {
-        "fpts": 837,
-        "fpts_against": 993,
-        "fpts_against_decimal": 5,
-        "fpts_decimal": 19,
+        "fpts": 999,
+        "fpts_against": 1139,
+        "fpts_against_decimal": 14,
+        "fpts_decimal": 4,
         "losses": 4,
-        "ppts": 1109,
-        "ppts_decimal": 22,
+        "ppts": 1300,
+        "ppts_decimal": 38,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 107,
-        "waiver_position": 10,
-        "wins": 2
+        "waiver_position": 9,
+        "wins": 3
       },
       "metadata": {
-        "record": "LWWLLL",
-        "streak": "3L"
+        "record": "LWWLLLW",
+        "streak": "1W"
       }
     },
     {
@@ -4272,22 +4272,22 @@
         }
       ],
       "settings": {
-        "fpts": 961,
-        "fpts_against": 868,
-        "fpts_against_decimal": 53,
-        "fpts_decimal": 52,
-        "losses": 1,
-        "ppts": 1202,
-        "ppts_decimal": 66,
+        "fpts": 1107,
+        "fpts_against": 1030,
+        "fpts_against_decimal": 38,
+        "fpts_decimal": 61,
+        "losses": 2,
+        "ppts": 1370,
+        "ppts_decimal": 20,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 5
       },
       "metadata": {
-        "record": "WWWWWL",
-        "streak": "1L"
+        "record": "WWWWWLL",
+        "streak": "2L"
       }
     },
     {
@@ -4723,22 +4723,22 @@
         }
       ],
       "settings": {
-        "fpts": 819,
-        "fpts_against": 823,
-        "fpts_against_decimal": 16,
-        "fpts_decimal": 47,
-        "losses": 3,
-        "ppts": 949,
-        "ppts_decimal": 73,
+        "fpts": 957,
+        "fpts_against": 970,
+        "fpts_against_decimal": 7,
+        "fpts_decimal": 7,
+        "losses": 4,
+        "ppts": 1095,
+        "ppts_decimal": 33,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
-        "waiver_position": 3,
+        "waiver_position": 2,
         "wins": 3
       },
       "metadata": {
-        "record": "LLWWLW",
-        "streak": "1W"
+        "record": "LLWWLWL",
+        "streak": "1L"
       }
     },
     {
@@ -4919,10 +4919,10 @@
           "injury_status": null
         },
         {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL",
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -5132,18 +5132,18 @@
           "injury_status": null
         },
         {
-          "player_id": "6768",
-          "name": "Tua Tagovailoa",
-          "position": "QB",
-          "team": "ATL",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "6806",
           "name": "J.K. Dobbins",
           "position": "RB",
           "team": "DEN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -5189,22 +5189,22 @@
         }
       ],
       "settings": {
-        "fpts": 796,
-        "fpts_against": 854,
-        "fpts_against_decimal": 89,
-        "fpts_decimal": 18,
-        "losses": 5,
-        "ppts": 979,
-        "ppts_decimal": 59,
+        "fpts": 946,
+        "fpts_against": 1025,
+        "fpts_against_decimal": 88,
+        "fpts_decimal": 8,
+        "losses": 6,
+        "ppts": 1148,
+        "ppts_decimal": 24,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 2,
+        "waiver_position": 10,
         "wins": 1
       },
       "metadata": {
-        "record": "LLLWLL",
-        "streak": "2L"
+        "record": "LLLWLLL",
+        "streak": "3L"
       }
     }
   ],
@@ -6995,6 +6995,47 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1420278701874069504",
+      "type": "waiver",
+      "status": "complete",
+      "week": 7,
+      "created_utc": "2026-10-26T02:55:39.331000Z",
+      "teams": [
+        "Justtindavis"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8122",
+            "name": "Zonovan Knight",
+            "position": "RB",
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 10,
+          "team": "Justtindavis"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6768",
+            "name": "Tua Tagovailoa",
+            "position": "QB",
+            "team": "ATL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 10,
+          "team": "Justtindavis"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1420174664092639232",
       "type": "waiver",
@@ -9557,7 +9598,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -9631,7 +9672,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -13848,7 +13889,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16951,8 +16992,8 @@
   "free_agent_summary": {
     "total": 2527,
     "by_position": {
-      "QB": 291,
-      "RB": 551,
+      "QB": 292,
+      "RB": 550,
       "WR": 1140,
       "TE": 545
     },
@@ -17748,6 +17789,18 @@
       "injury_status": "IR",
       "age": 26,
       "years_exp": 5,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
+    },
+    {
+      "player_id": "6768",
+      "name": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
       "depth_chart_position": "QB",
       "depth_chart_order": 3
     },
@@ -21770,18 +21823,6 @@
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "8122",
-      "name": "Zonovan Knight",
-      "position": "RB",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 4,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "6664",
@@ -27321,7 +27362,7 @@
       "position": "WR",
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "SWR",
