@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-27T16:41:37.022853Z",
+  "generated_at_utc": "2026-10-28T00:26:02.501596Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1907,8 +1907,8 @@
           "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG",
-          "status": "Active",
-          "injury_status": "Questionable"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "12481",
@@ -2081,8 +2081,8 @@
           "name": "Tyrone Tracy Jr.",
           "position": "RB",
           "team": "NYG",
-          "status": "Active",
-          "injury_status": "Questionable"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "12481",
@@ -2341,20 +2341,20 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "8183",
-          "name": "Brock Purdy",
+          "player_id": "4881",
+          "name": "Lamar Jackson",
           "position": "QB",
-          "team": "SF",
+          "team": "BAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
           "position": "RB",
-          "team": "SF",
+          "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3198",
@@ -2397,10 +2397,10 @@
           "injury_status": null
         },
         {
-          "player_id": "6790",
-          "name": "D'Andre Swift",
-          "position": "RB",
-          "team": "CHI",
+          "player_id": "9479",
+          "name": "Darnell Washington",
+          "position": "TE",
+          "team": "PIT",
           "status": "Active",
           "injury_status": null
         },
@@ -2413,10 +2413,10 @@
           "injury_status": null
         },
         {
-          "player_id": "2197",
-          "name": "Brandin Cooks",
-          "position": "WR",
-          "team": "SF",
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
           "status": "Active",
           "injury_status": null
         }
@@ -2463,6 +2463,14 @@
           "injury_status": null
         },
         {
+          "player_id": "2197",
+          "name": "Brandin Cooks",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -2471,20 +2479,12 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "4881",
-          "name": "Lamar Jackson",
-          "position": "QB",
-          "team": "BAL",
+          "player_id": "4034",
+          "name": "Christian McCaffrey",
+          "position": "RB",
+          "team": "SF",
           "status": "Active",
-          "injury_status": "Out"
-        },
-        {
-          "player_id": "5870",
-          "name": "Daniel Jones",
-          "position": "QB",
-          "team": "IND",
-          "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5872",
@@ -2511,18 +2511,18 @@
           "injury_status": null
         },
         {
-          "player_id": "8210",
-          "name": "Chig Okonkwo",
-          "position": "TE",
-          "team": "WAS",
+          "player_id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "9479",
-          "name": "Darnell Washington",
+          "player_id": "8210",
+          "name": "Chig Okonkwo",
           "position": "TE",
-          "team": "PIT",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null
         }
@@ -7287,8 +7287,8 @@
             "name": "Tyrone Tracy Jr.",
             "position": "RB",
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -9378,8 +9378,8 @@
             "name": "Tyrone Tracy Jr.",
             "position": "RB",
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -12389,7 +12389,7 @@
             "name": "Dont'e Thornton Jr.",
             "position": "WR",
             "team": "LV",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           },
           "roster_id": 6,
@@ -15470,8 +15470,8 @@
             "name": "Tyrone Tracy Jr.",
             "position": "RB",
             "team": "NYG",
-            "status": "Active",
-            "injury_status": "Questionable"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -16842,7 +16842,7 @@
             "name": "Dont'e Thornton Jr.",
             "position": "WR",
             "team": "LV",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           }
         },
@@ -17751,7 +17751,7 @@
       "team": "LAR",
       "status": "Active",
       "injury_status": null,
-      "age": 28,
+      "age": 29,
       "years_exp": 3,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
@@ -20598,7 +20598,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "11579",
@@ -20623,6 +20623,18 @@
       "years_exp": 9,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "14080",
+      "name": "Barika Kpeenu",
+      "position": "RB",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11273",
@@ -20682,7 +20694,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13277",
@@ -20988,13 +21000,13 @@
       "player_id": "13603",
       "name": "Gregory Desrosiers",
       "position": "RB",
-      "team": "LAC",
+      "team": "NYG",
       "status": "Active",
       "injury_status": null,
       "age": 25,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "11651",
@@ -21510,7 +21522,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12472",
@@ -21821,8 +21833,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "6664",
@@ -22161,18 +22173,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "14080",
-      "name": "Barika Kpeenu",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6156",
       "name": "Benny Snell",
       "position": "RB",
@@ -22490,7 +22490,7 @@
       "position": "RB",
       "team": null,
       "status": "Active",
-      "injury_status": "IR",
+      "injury_status": "Questionable",
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": null,
@@ -27618,7 +27618,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "12888",
@@ -27829,7 +27829,7 @@
       "name": "Dont'e Thornton Jr.",
       "position": "WR",
       "team": "LV",
-      "status": "Inactive",
+      "status": "Active",
       "injury_status": "IR",
       "age": 23,
       "years_exp": 1,
@@ -27904,6 +27904,18 @@
       "status": "Active",
       "injury_status": null,
       "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12909",
+      "name": "Eli Pancol",
+      "position": "WR",
+      "team": "DEN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -28237,8 +28249,8 @@
       "name": "Jalen Brooks",
       "position": "WR",
       "team": "ARI",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
@@ -28857,6 +28869,18 @@
       "depth_chart_order": 6
     },
     {
+      "player_id": "14058",
+      "name": "Malick Meiga",
+      "position": "WR",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13329",
       "name": "Malik Benson",
       "position": "WR",
@@ -29025,6 +29049,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "13199",
+      "name": "Montorie Foster Jr.",
+      "position": "WR",
+      "team": "SEA",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13075",
       "name": "Myles Price",
       "position": "WR",
@@ -29130,7 +29166,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13905",
@@ -29347,6 +29383,18 @@
       "years_exp": 4,
       "depth_chart_position": "LWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "11802",
+      "name": "Tejhaun Palmer",
+      "position": "WR",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12485",
@@ -29659,6 +29707,18 @@
       "years_exp": 0,
       "depth_chart_position": "SWR",
       "depth_chart_order": 4
+    },
+    {
+      "player_id": "4080",
+      "name": "Zay Jones",
+      "position": "WR",
+      "team": "ARI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 9,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "830",
@@ -33124,18 +33184,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12909",
-      "name": "Eli Pancol",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -36897,18 +36945,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "14058",
-      "name": "Malick Meiga",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "10860",
       "name": "Malik Cunningham",
       "position": "WR",
@@ -37733,18 +37769,6 @@
       "injury_status": "Questionable",
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13199",
-      "name": "Montorie Foster Jr.",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -39621,18 +39645,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11802",
-      "name": "Tejhaun Palmer",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5255",
       "name": "Teo Redding",
       "position": "WR",
@@ -40737,18 +40749,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "4080",
-      "name": "Zay Jones",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 31,
-      "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11189",
       "name": "Zay Malone",
       "position": "WR",
@@ -40965,6 +40965,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "12933",
+      "name": "Caden Prieskorn",
+      "position": "TE",
+      "team": "CIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12735",
       "name": "Caleb Lohner",
       "position": "TE",
@@ -41070,7 +41082,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8214",
@@ -41317,8 +41329,8 @@
       "name": "Erick All Jr.",
       "position": "TE",
       "team": "CIN",
-      "status": "Active",
-      "injury_status": "Questionable",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
@@ -41418,7 +41430,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "12389",
@@ -41750,11 +41762,11 @@
       "position": "TE",
       "team": "CIN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 7
     },
     {
       "player_id": "5973",
@@ -42126,7 +42138,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "8523",
@@ -42162,7 +42174,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5857",
@@ -43228,18 +43240,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12933",
-      "name": "Caden Prieskorn",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
