@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-28T12:57:41.997479Z",
+  "generated_at_utc": "2026-10-28T18:45:55.342281Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,10 +69,10 @@
     },
     "avatar": null,
     "company_id": null,
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -212,13 +212,15 @@
     "last_message_text_map": null,
     "last_message_time": 1793116545470,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,8 +247,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -2861,8 +2861,8 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "8130",
@@ -2918,7 +2918,7 @@
           "player_id": "11199",
           "name": "Emari Demercado",
           "position": "RB",
-          "team": "DAL",
+          "team": null,
           "status": "Active",
           "injury_status": null
         },
@@ -3052,7 +3052,7 @@
           "player_id": "11199",
           "name": "Emari Demercado",
           "position": "RB",
-          "team": "DAL",
+          "team": null,
           "status": "Active",
           "injury_status": null
         },
@@ -3165,8 +3165,8 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "5947",
@@ -3321,7 +3321,7 @@
           "position": "RB",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12519",
@@ -3348,10 +3348,10 @@
           "injury_status": null
         },
         {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
           "position": "WR",
-          "team": "NE",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -3396,14 +3396,6 @@
           "team": "PIT",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "11783",
-          "name": "Ryan Flournoy",
-          "position": "WR",
-          "team": "DAL",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "12498",
@@ -3476,6 +3468,14 @@
           "team": "ATL",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "9501",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "9508",
@@ -3553,7 +3553,7 @@
           "position": "RB",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11630",
@@ -4335,7 +4335,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11604",
@@ -4599,7 +4599,7 @@
           "position": "WR",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13289",
@@ -8404,7 +8404,7 @@
             "position": "RB",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -8418,7 +8418,7 @@
             "position": "RB",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -11088,7 +11088,7 @@
             "player_id": "11199",
             "name": "Emari Demercado",
             "position": "RB",
-            "team": "DAL",
+            "team": null,
             "status": "Active",
             "injury_status": null
           },
@@ -13651,7 +13651,7 @@
             "position": "WR",
             "team": "TEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -14602,8 +14602,8 @@
             "name": "Terry McLaurin",
             "position": "WR",
             "team": "WAS",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -15695,7 +15695,7 @@
             "position": "RB",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16990,12 +16990,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2528,
+    "total": 2527,
     "by_position": {
       "QB": 292,
       "RB": 550,
       "WR": 1140,
-      "TE": 546
+      "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -17093,18 +17093,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6037",
-      "name": "Brett Rypien",
-      "position": "QB",
-      "team": "TB",
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -18185,6 +18173,18 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 8,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6037",
+      "name": "Brett Rypien",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -21129,18 +21129,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "7537",
-      "name": "Jaret Patterson",
-      "position": "RB",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11569",
       "name": "Jarquez Hunter",
       "position": "RB",
@@ -21209,18 +21197,6 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7087",
-      "name": "Jonathan Ward",
-      "position": "RB",
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -24009,6 +23985,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7537",
+      "name": "Jaret Patterson",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "5278",
       "name": "Jarvion Franklin",
       "position": "RB",
@@ -24257,6 +24245,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "7087",
+      "name": "Jonathan Ward",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28341,18 +28341,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11633",
-      "name": "Jamari Thrash",
-      "position": "WR",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11056",
       "name": "Jared Wayne",
       "position": "WR",
@@ -28360,18 +28348,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11311",
-      "name": "Jason Brownlee",
-      "position": "WR",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -28737,18 +28713,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13208",
-      "name": "Kyrese Rowan",
-      "position": "WR",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12699",
       "name": "LaJohntay Wester",
       "position": "WR",
@@ -28771,18 +28735,6 @@
       "years_exp": 10,
       "depth_chart_position": "SWR",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "12001",
-      "name": "Lawrence Keys",
-      "position": "WR",
-      "team": "DET",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13541",
@@ -28917,18 +28869,6 @@
       "depth_chart_order": 9
     },
     {
-      "player_id": "5781",
-      "name": "Malik Turner",
-      "position": "WR",
-      "team": "SF",
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "5086",
       "name": "Marquez Valdes-Scantling",
       "position": "WR",
@@ -29018,7 +28958,7 @@
       "position": "WR",
       "team": "MIN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
@@ -32558,7 +32498,7 @@
       "position": "WR",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": null,
@@ -34305,6 +34245,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11633",
+      "name": "Jamari Thrash",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 2,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6713",
       "name": "Jamarius Way",
       "position": "WR",
@@ -34505,6 +34457,18 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11311",
+      "name": "Jason Brownlee",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36609,6 +36573,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13208",
+      "name": "Kyrese Rowan",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8595",
       "name": "Kyric McGowan",
       "position": "WR",
@@ -36749,6 +36725,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "12001",
+      "name": "Lawrence Keys",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -37025,6 +37013,18 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "5781",
+      "name": "Malik Turner",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 8,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -40953,6 +40953,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12941",
+      "name": "Bryson Nesbit",
+      "position": "TE",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "12984",
       "name": "CJ Dippre",
       "position": "TE",
@@ -41023,6 +41035,18 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
+    },
+    {
+      "player_id": "13580",
+      "name": "Carsen Ryan",
+      "position": "TE",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13407",
@@ -41121,18 +41145,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "13355",
-      "name": "DJ Rogers",
-      "position": "TE",
-      "team": "DAL",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 25,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13577",
       "name": "Dallen Bentley",
       "position": "TE",
@@ -41225,6 +41237,18 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11820",
+      "name": "Devin Culp",
+      "position": "TE",
+      "team": "MIN",
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -41613,18 +41637,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13879",
-      "name": "Jameson Geers",
-      "position": "TE",
-      "team": "ARI",
-      "status": "Inactive",
-      "injury_status": "Questionable",
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "11595",
       "name": "Jared Wiley",
       "position": "TE",
@@ -41812,18 +41824,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7050",
-      "name": "Josiah Deguara",
-      "position": "TE",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
       "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -43365,18 +43365,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13580",
-      "name": "Carsen Ryan",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "6365",
       "name": "Carson Meier",
       "position": "TE",
@@ -43973,18 +43961,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "11820",
-      "name": "Devin Culp",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -45317,6 +45293,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "7050",
+      "name": "Josiah Deguara",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
