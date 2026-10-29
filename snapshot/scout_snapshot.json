@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-29T02:19:51.529977Z",
+  "generated_at_utc": "2026-10-29T08:46:56.042777Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -203,17 +203,17 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1420837408915660800",
+    "last_message_id": "1421381270352527360",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793116545470,
+    "last_message_time": 1793246212142,
+    "draft_id": "1353413007752839168",
     "last_pinned_message_id": null,
     "last_read_id": null,
-    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "bracket_id": null,
@@ -400,20 +400,20 @@
           "injury_status": null
         },
         {
+          "player_id": "13320",
+          "name": "Zachariah Branch",
+          "position": "WR",
+          "team": "ATL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13337",
           "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "13417",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "team": "SF",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "13421",
@@ -500,10 +500,10 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
+          "player_id": "13417",
+          "name": "De'Zhaun Stribling",
           "position": "WR",
-          "team": "HOU",
+          "team": "SF",
           "status": "Inactive",
           "injury_status": "IR"
         }
@@ -558,14 +558,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12536",
-          "name": "Jaylin Noel",
-          "position": "WR",
-          "team": "HOU",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "13276",
           "name": "Omar Cooper Jr.",
           "position": "WR",
@@ -586,6 +578,14 @@
           "name": "Mike Washington Jr.",
           "position": "RB",
           "team": "LV",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13320",
+          "name": "Zachariah Branch",
+          "position": "WR",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -838,12 +838,12 @@
           "injury_status": null
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
           "position": "RB",
-          "team": "ARI",
+          "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8148",
@@ -912,14 +912,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12545",
           "name": "Tyler Shough",
           "position": "QB",
@@ -974,6 +966,14 @@
           "team": "NO",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "8132",
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9511",
@@ -3414,12 +3414,12 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
+          "player_id": "12536",
+          "name": "Jaylin Noel",
           "position": "WR",
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": null
+          "team": "HOU",
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13394",
@@ -3500,14 +3500,6 @@
           "name": "Antonio Williams",
           "position": "WR",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13320",
-          "name": "Zachariah Branch",
-          "position": "WR",
-          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -3612,12 +3604,12 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "12718",
-          "name": "Konata Mumpfield",
+          "player_id": "12536",
+          "name": "Jaylin Noel",
           "position": "WR",
-          "team": "LAR",
-          "status": "Active",
-          "injury_status": null
+          "team": "HOU",
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13281",
@@ -3632,14 +3624,6 @@
           "name": "Antonio Williams",
           "position": "WR",
           "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13320",
-          "name": "Zachariah Branch",
-          "position": "WR",
-          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -6995,6 +6979,100 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1421371154714656768",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 8,
+      "created_utc": "2026-10-29T03:16:40.384000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12718",
+            "name": "Konata Mumpfield",
+            "position": "WR",
+            "team": "LAR",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1421365710906503168",
+      "type": "trade",
+      "status": "complete",
+      "week": 8,
+      "created_utc": "2026-10-29T02:55:02.479000Z",
+      "teams": [
+        "Jeantrification",
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13320",
+            "name": "Zachariah Branch",
+            "position": "WR",
+            "team": "ATL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "12536",
+            "name": "Jaylin Noel",
+            "position": "WR",
+            "team": "HOU",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "12536",
+            "name": "Jaylin Noel",
+            "position": "WR",
+            "team": "HOU",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        },
+        {
+          "player": {
+            "player_id": "13320",
+            "name": "Zachariah Branch",
+            "position": "WR",
+            "team": "ATL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1420278701874069504",
       "type": "waiver",
@@ -16990,11 +17068,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2527,
+    "total": 2528,
     "by_position": {
       "QB": 292,
       "RB": 550,
-      "WR": 1140,
+      "WR": 1141,
       "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -28699,6 +28777,18 @@
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "12718",
+      "name": "Konata Mumpfield",
+      "position": "WR",
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 2
     },
     {
       "player_id": "13830",
