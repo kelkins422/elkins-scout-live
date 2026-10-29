@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-29T08:46:56.042777Z",
+  "generated_at_utc": "2026-10-29T15:56:10.562577Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -3815,20 +3815,20 @@
           "injury_status": null
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
           "position": "WR",
-          "team": "NO",
+          "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
-          "player_id": "5001",
-          "name": "Dalton Schultz",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
           "position": "TE",
-          "team": "HOU",
+          "team": "BUF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10232",
@@ -3865,14 +3865,6 @@
       ],
       "bench": [
         {
-          "player_id": "10236",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "team": "BUF",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
           "player_id": "11565",
           "name": "J.J. McCarthy",
           "position": "QB",
@@ -3887,14 +3879,6 @@
           "team": "SEA",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "2307",
@@ -3937,6 +3921,14 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "5001",
+          "name": "Dalton Schultz",
+          "position": "TE",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "5045",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -3965,6 +3957,14 @@
           "name": "Rachaad White",
           "position": "RB",
           "team": "WAS",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -20772,7 +20772,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13277",
@@ -29100,7 +29100,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "3050",
@@ -41208,7 +41208,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8214",
@@ -41556,7 +41556,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "12389",
@@ -41700,7 +41700,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8698",
@@ -41736,7 +41736,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13422",
@@ -41748,7 +41748,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8219",
@@ -41904,7 +41904,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "3668",
@@ -42108,7 +42108,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13307",
@@ -42276,7 +42276,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5857",
