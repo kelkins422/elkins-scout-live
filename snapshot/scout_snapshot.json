@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-30T00:47:07.497597Z",
+  "generated_at_utc": "2026-10-30T06:53:29.194676Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 8,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 28
+      "daily_waivers_last_ran": 29
     },
     "avatar": null,
     "company_id": null,
@@ -203,14 +203,14 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1421381270352527360",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1421706229650087936",
+    "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
+    "last_author_display_name": "Donovanelkins6",
+    "last_author_id": "1030955970991603712",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793246212142,
+    "last_message_time": 1793323688474,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
@@ -952,18 +952,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "4950",
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "7002",
           "name": "Juwan Johnson",
           "position": "TE",
           "team": "NO",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7561",
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -1190,18 +1190,18 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "4950",
-          "name": "Christian Kirk",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "7002",
           "name": "Juwan Johnson",
           "position": "TE",
           "team": "NO",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "7561",
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -1273,7 +1273,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 7,
+        "waiver_position": 10,
         "wins": 3
       },
       "metadata": {
@@ -1797,7 +1797,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 75,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 4
       },
       "metadata": {
@@ -1874,7 +1874,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "10859",
@@ -2242,7 +2242,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8188",
@@ -3356,8 +3356,8 @@
           "injury_status": null
         },
         {
-          "player_id": "13330",
-          "name": "Kenyon Sadiq",
+          "player_id": "12498",
+          "name": "Mason Taylor",
           "position": "TE",
           "team": "NYJ",
           "status": "Active",
@@ -3398,14 +3398,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -3420,6 +3412,14 @@
           "team": "HOU",
           "status": "Inactive",
           "injury_status": "IR"
+        },
+        {
+          "player_id": "13330",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "13394",
@@ -3767,7 +3767,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 107,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 3
       },
       "metadata": {
@@ -5183,7 +5183,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 1
       },
       "metadata": {
@@ -6980,6 +6980,34 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1421430436508258304",
+      "type": "waiver",
+      "status": "failed",
+      "week": 8,
+      "created_utc": "2026-10-29T07:12:14.265000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7561",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
       "transaction_id": "1421371154714656768",
       "type": "free_agent",
       "status": "complete",
@@ -7006,6 +7034,47 @@
       "draft_picks": [],
       "waiver_budget": [],
       "waiver_bid": null
+    },
+    {
+      "transaction_id": "1421369121248944128",
+      "type": "waiver",
+      "status": "complete",
+      "week": 8,
+      "created_utc": "2026-10-29T03:08:35.569000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "7561",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "4950",
+            "name": "Christian Kirk",
+            "position": "WR",
+            "team": "SF",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
     },
     {
       "transaction_id": "1421365710906503168",
@@ -14709,7 +14778,7 @@
             "position": "WR",
             "team": "GB",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17071,8 +17140,8 @@
     "total": 2528,
     "by_position": {
       "QB": 292,
-      "RB": 550,
-      "WR": 1141,
+      "RB": 549,
+      "WR": 1142,
       "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -21010,18 +21079,6 @@
       "status": "Active",
       "injury_status": null,
       "age": 27,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7561",
-      "name": "Elijah Mitchell",
-      "position": "RB",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
       "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -27649,6 +27706,18 @@
       "years_exp": 10,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "4950",
+      "name": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 8,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 1
     },
     {
       "player_id": "7039",
