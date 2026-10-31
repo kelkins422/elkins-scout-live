@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-30T22:59:07.553411Z",
+  "generated_at_utc": "2026-10-31T02:14:29.244489Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,14 @@
       "leg": 8,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 29
+      "daily_waivers_last_ran": 30
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1422061589825093632",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,16 +203,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1422013982440472576",
-    "last_author_avatar": "4f4090e5e9c3941414db40a871e3e909",
-    "last_author_display_name": "TylerScheib123",
-    "last_author_id": "1136084549559496704",
-    "last_author_is_bot": false,
+    "shard": 620,
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793397062457,
+    "last_message_time": 1793408412942,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -904,6 +904,22 @@
           "injury_status": null
         },
         {
+          "player_id": "12457",
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12482",
+          "name": "Savion Williams",
+          "position": "WR",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12493",
           "name": "Oronde Gadsden",
           "position": "TE",
@@ -936,14 +952,6 @@
           "injury_status": null
         },
         {
-          "player_id": "2306",
-          "name": "Jameis Winston",
-          "position": "QB",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "3321",
           "name": "Tyreek Hill",
           "position": "WR",
@@ -956,14 +964,6 @@
           "name": "Juwan Johnson",
           "position": "TE",
           "team": "NO",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "7561",
-          "name": "Elijah Mitchell",
-          "position": "RB",
-          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -1094,6 +1094,22 @@
           "injury_status": null
         },
         {
+          "player_id": "12457",
+          "name": "Jaydon Blue",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12482",
+          "name": "Savion Williams",
+          "position": "WR",
+          "team": "GB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12493",
           "name": "Oronde Gadsden",
           "position": "TE",
@@ -1166,14 +1182,6 @@
           "injury_status": null
         },
         {
-          "player_id": "2306",
-          "name": "Jameis Winston",
-          "position": "QB",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "2449",
           "name": "Stefon Diggs",
           "position": "WR",
@@ -1194,14 +1202,6 @@
           "name": "Juwan Johnson",
           "position": "TE",
           "team": "NO",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "7561",
-          "name": "Elijah Mitchell",
-          "position": "RB",
-          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -6979,6 +6979,88 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1421848712887427072",
+      "type": "waiver",
+      "status": "complete",
+      "week": 8,
+      "created_utc": "2026-10-30T10:54:19.126000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12482",
+            "name": "Savion Williams",
+            "position": "WR",
+            "team": "GB",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "2306",
+            "name": "Jameis Winston",
+            "position": "QB",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
+      "transaction_id": "1421848611322339328",
+      "type": "waiver",
+      "status": "complete",
+      "week": 8,
+      "created_utc": "2026-10-30T10:53:54.910000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12457",
+            "name": "Jaydon Blue",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7561",
+            "name": "Elijah Mitchell",
+            "position": "RB",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1421430436508258304",
       "type": "waiver",
@@ -17139,9 +17221,9 @@
   "free_agent_summary": {
     "total": 2528,
     "by_position": {
-      "QB": 292,
+      "QB": 293,
       "RB": 549,
-      "WR": 1142,
+      "WR": 1141,
       "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -17494,6 +17576,18 @@
       "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "2306",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "status": "Active",
+      "injury_status": null,
+      "age": 32,
+      "years_exp": 11,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
     },
     {
       "player_id": "6136",
@@ -21084,6 +21178,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7561",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 5,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "9220",
       "name": "Evan Hull",
       "position": "RB",
@@ -21300,18 +21406,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "12457",
-      "name": "Jaydon Blue",
-      "position": "RB",
-      "team": "PHI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "4219",
       "name": "Jeremy McNichols",
       "position": "RB",
@@ -21393,7 +21487,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "5995",
@@ -21549,7 +21643,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "6992",
@@ -21885,7 +21979,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "8207",
@@ -27306,7 +27400,7 @@
       "team": "KC",
       "status": "Active",
       "injury_status": null,
-      "age": 25,
+      "age": 26,
       "years_exp": 1,
       "depth_chart_position": "LWR",
       "depth_chart_order": 5
@@ -27597,7 +27691,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13726",
@@ -27909,7 +28003,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8253",
@@ -28041,7 +28135,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "5744",
@@ -28077,7 +28171,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "13313",
@@ -28617,7 +28711,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13325",
@@ -28725,7 +28819,7 @@
       "age": 30,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8755",
@@ -29049,7 +29143,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "9494",
@@ -29376,18 +29470,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12482",
-      "name": "Savion Williams",
-      "position": "WR",
-      "team": "GB",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3
-    },
-    {
       "player_id": "6290",
       "name": "Scotty Miller",
       "position": "WR",
@@ -29529,7 +29611,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "6465",
@@ -41769,7 +41851,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8698",
@@ -41805,7 +41887,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13422",
