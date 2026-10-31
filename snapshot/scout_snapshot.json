@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-31T08:31:00.343204Z",
+  "generated_at_utc": "2026-10-31T14:47:08.412871Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -318,9 +318,9 @@
           "injury_status": null
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
           "team": "PHI",
           "status": "Active",
           "injury_status": null
@@ -432,18 +432,18 @@
           "injury_status": null
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
           "team": "BAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "5022",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -27403,7 +27403,7 @@
       "age": 26,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "3702",
@@ -41035,7 +41035,7 @@
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "3202",
@@ -41851,7 +41851,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8698",
@@ -41887,7 +41887,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13422",
@@ -42367,7 +42367,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13299",
