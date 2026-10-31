@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-10-31T14:47:08.412871Z",
+  "generated_at_utc": "2026-10-31T19:09:10.079254Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -453,7 +453,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "7525",
@@ -683,7 +683,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "7523",
@@ -835,7 +835,7 @@
           "position": "TE",
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12507",
@@ -1131,7 +1131,7 @@
           "position": "TE",
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12530",
@@ -1932,7 +1932,7 @@
           "position": "RB",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13294",
@@ -2122,7 +2122,7 @@
           "position": "RB",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13294",
@@ -4385,7 +4385,7 @@
           "position": "WR",
           "team": "LV",
           "status": "Inactive",
-          "injury_status": "IR"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12504",
@@ -4543,7 +4543,7 @@
           "position": "WR",
           "team": "LV",
           "status": "Inactive",
-          "injury_status": "IR"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12504",
@@ -4868,7 +4868,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13311",
@@ -5041,7 +5041,7 @@
           "position": "RB",
           "team": "CHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "12540",
@@ -11402,7 +11402,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -11440,7 +11440,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -13964,7 +13964,7 @@
             "position": "TE",
             "team": "CHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14020,7 +14020,7 @@
             "position": "RB",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14104,7 +14104,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14916,7 +14916,7 @@
             "position": "RB",
             "team": "CHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -16680,7 +16680,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Inactive",
-            "injury_status": "IR"
+            "injury_status": "Questionable"
           }
         },
         {
