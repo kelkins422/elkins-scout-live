@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-01T01:24:59.132674Z",
+  "generated_at_utc": "2026-11-01T14:55:34.828526Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1346,12 +1346,12 @@
           "injury_status": null
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "10213",
+          "name": "Tre Tucker",
           "position": "WR",
-          "team": "DEN",
+          "team": "LV",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12518",
@@ -1395,14 +1395,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null
-        },
         {
           "player_id": "10235",
           "name": "Roschon Johnson",
@@ -1474,6 +1466,14 @@
           "team": "LAC",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8408",
@@ -2833,6 +2833,14 @@
           "injury_status": null
         },
         {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "8138",
           "name": "James Cook III",
           "position": "RB",
@@ -2841,10 +2849,26 @@
           "injury_status": null
         },
         {
-          "player_id": "7611",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "7564",
+          "name": "Ja'Marr Chase",
+          "position": "WR",
+          "team": "CIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6794",
+          "name": "Justin Jefferson",
+          "position": "WR",
+          "team": "MIN",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "8130",
+          "name": "Trey McBride",
+          "position": "TE",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -2857,42 +2881,18 @@
           "injury_status": null
         },
         {
-          "player_id": "11618",
-          "name": "Jalen McMillan",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
           "position": "WR",
-          "team": "TB",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "team": "JAX",
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
-          "player_id": "8130",
-          "name": "Trey McBride",
+          "player_id": "4993",
+          "name": "Mike Gesicki",
           "position": "TE",
-          "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "4035",
-          "name": "Alvin Kamara",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8131",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "11199",
-          "name": "Emari Demercado",
-          "position": "RB",
-          "team": "HOU",
+          "team": "CIN",
           "status": "Active",
           "injury_status": null
         },
@@ -2915,6 +2915,22 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "11199",
+          "name": "Emari Demercado",
+          "position": "RB",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11618",
+          "name": "Jalen McMillan",
+          "position": "WR",
+          "team": "TB",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "12469",
           "name": "Dylan Sampson",
           "position": "RB",
@@ -2931,18 +2947,18 @@
           "injury_status": null
         },
         {
-          "player_id": "4217",
-          "name": "George Kittle",
-          "position": "TE",
-          "team": "SF",
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
         {
-          "player_id": "4993",
-          "name": "Mike Gesicki",
+          "player_id": "4217",
+          "name": "George Kittle",
           "position": "TE",
-          "team": "CIN",
+          "team": "SF",
           "status": "Active",
           "injury_status": null
         },
@@ -2963,26 +2979,10 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "5947",
-          "name": "Jakobi Meyers",
-          "position": "WR",
-          "team": "JAX",
-          "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
+          "player_id": "8131",
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
@@ -20994,8 +20994,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 5
     },
     {
       "player_id": "8181",
@@ -21115,7 +21115,7 @@
       "age": 28,
       "years_exp": 6,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "9505",
@@ -21631,7 +21631,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7607",
@@ -27895,7 +27895,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "7090",
@@ -29095,7 +29095,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "11210",
@@ -29875,7 +29875,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11168",
