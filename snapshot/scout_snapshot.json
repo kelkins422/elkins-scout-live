@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-02T09:50:05.418693Z",
+  "generated_at_utc": "2026-11-02T20:04:02.526296Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -17241,10 +17241,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2529,
+    "total": 2530,
     "by_position": {
       "QB": 294,
-      "RB": 549,
+      "RB": 550,
       "WR": 1141,
       "TE": 545
     },
@@ -21152,18 +21152,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "9505",
-      "name": "Deuce Vaughn",
-      "position": "RB",
-      "team": "HOU",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12476",
       "name": "Devin Neal",
       "position": "RB",
@@ -21508,6 +21496,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13923",
+      "name": "Joshua Pitsenberger",
+      "position": "RB",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23440,6 +23440,18 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "9505",
+      "name": "Deuce Vaughn",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -36673,7 +36685,7 @@
       "position": "WR",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": null,
