@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-03T02:20:54.037687Z",
+  "generated_at_utc": "2026-11-03T09:54:04.984331Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -33,7 +33,7 @@
       "playoff_type": 1,
       "taxi_slots": 3,
       "sub_start_time_eligibility": 0,
-      "last_scored_leg": 7,
+      "last_scored_leg": 8,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -62,7 +62,7 @@
       "trade_review_days": 2,
       "bench_lock": 0,
       "offseason_adds": 1,
-      "leg": 8,
+      "leg": 9,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
       "daily_waivers_last_ran": 2
@@ -204,11 +204,11 @@
     "sport": "nfl",
     "last_message_id": "1423156807508955136",
     "shard": 620,
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
-    "draft_id": "1353413007752839168",
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1793669533187,
@@ -216,9 +216,9 @@
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -250,8 +250,8 @@
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 8,
-    "leg": 8,
+    "week": 9,
+    "leg": 9,
     "season": "2026",
     "season_type": "regular",
     "league_season": "2026",
@@ -743,13 +743,13 @@
         }
       ],
       "settings": {
-        "fpts": 1147,
-        "fpts_against": 1102,
-        "fpts_against_decimal": 19,
-        "fpts_decimal": 18,
-        "losses": 4,
-        "ppts": 1344,
-        "ppts_decimal": 99,
+        "fpts": 1324,
+        "fpts_against": 1280,
+        "fpts_against_decimal": 65,
+        "fpts_decimal": 47,
+        "losses": 5,
+        "ppts": 1543,
+        "ppts_decimal": 98,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
@@ -778,8 +778,8 @@
         "p_nick_9487": "Parkhim Washinghim",
         "p_nick_9493": "Rehab boy",
         "p_nick_9500": "Dogshit #2",
-        "record": "LWLWLWL",
-        "streak": "1L"
+        "record": "LWLWLWLL",
+        "streak": "2L"
       }
     },
     {
@@ -1263,13 +1263,13 @@
         }
       ],
       "settings": {
-        "fpts": 1041,
-        "fpts_against": 1103,
-        "fpts_against_decimal": 38,
-        "fpts_decimal": 48,
-        "losses": 4,
-        "ppts": 1243,
-        "ppts_decimal": 37,
+        "fpts": 1172,
+        "fpts_against": 1308,
+        "fpts_against_decimal": 47,
+        "fpts_decimal": 45,
+        "losses": 5,
+        "ppts": 1426,
+        "ppts_decimal": 24,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
@@ -1279,7 +1279,7 @@
       "metadata": {
         "p_nick_12545": "ugly",
         "p_nick_13400": "brett shouldnt have dropped this guy",
-        "record": "WLWLLLW",
+        "record": "WLWLLLWL",
         "p_nick_11632": "cute",
         "p_nick_12482": "ass",
         "p_nick_8121": "where art thou",
@@ -1299,7 +1299,7 @@
         "p_nick_12496": "🐢🐢🐢🐢🐢",
         "p_nick_11610": "🤩 pookie",
         "p_nick_13602": "matty ice",
-        "streak": "1W",
+        "streak": "1L",
         "p_nick_11647": "ass",
         "p_nick_12507": "ass",
         "p_nick_3321": "tyfreak",
@@ -1796,22 +1796,22 @@
         }
       ],
       "settings": {
-        "fpts": 1031,
-        "fpts_against": 1082,
-        "fpts_against_decimal": 67,
-        "fpts_decimal": 72,
+        "fpts": 1210,
+        "fpts_against": 1259,
+        "fpts_against_decimal": 96,
+        "fpts_decimal": 18,
         "losses": 3,
-        "ppts": 1242,
-        "ppts_decimal": 49,
+        "ppts": 1435,
+        "ppts_decimal": 15,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 75,
         "waiver_position": 7,
-        "wins": 4
+        "wins": 5
       },
       "metadata": {
-        "record": "LLWLWWW",
-        "streak": "3W"
+        "record": "LLWLWWWW",
+        "streak": "4W"
       }
     },
     {
@@ -2295,18 +2295,18 @@
         }
       ],
       "settings": {
-        "fpts": 1144,
-        "fpts_against": 1007,
-        "fpts_against_decimal": 99,
-        "fpts_decimal": 57,
+        "fpts": 1349,
+        "fpts_against": 1138,
+        "fpts_against_decimal": 96,
+        "fpts_decimal": 66,
         "losses": 3,
-        "ppts": 1348,
-        "ppts_decimal": 23,
+        "ppts": 1576,
+        "ppts_decimal": 27,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
         "waiver_position": 4,
-        "wins": 4
+        "wins": 5
       },
       "metadata": {
         "p_nick_10859": "vanilla ice🥶",
@@ -2338,8 +2338,8 @@
         "p_nick_9504": "i miss u💔",
         "p_nick_9753": "🏥♿️",
         "p_nick_9997": "Black Flash⚡️",
-        "record": "WLLWWLW",
-        "streak": "1W"
+        "record": "WLLWWLWW",
+        "streak": "2W"
       }
     },
     {
@@ -2807,13 +2807,13 @@
         }
       ],
       "settings": {
-        "fpts": 1100,
-        "fpts_against": 1061,
-        "fpts_against_decimal": 66,
-        "fpts_decimal": 51,
-        "losses": 3,
-        "ppts": 1259,
-        "ppts_decimal": 49,
+        "fpts": 1199,
+        "fpts_against": 1233,
+        "fpts_against_decimal": 90,
+        "fpts_decimal": 81,
+        "losses": 4,
+        "ppts": 1379,
+        "ppts_decimal": 55,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 25,
@@ -2822,8 +2822,8 @@
       },
       "metadata": {
         "p_nick_5859": "Fuck this guy",
-        "record": "WWLLWWL",
-        "streak": "1L"
+        "record": "WWLLWWLL",
+        "streak": "2L"
       }
     },
     {
@@ -3259,18 +3259,18 @@
         }
       ],
       "settings": {
-        "fpts": 1109,
-        "fpts_against": 1061,
-        "fpts_against_decimal": 4,
-        "fpts_decimal": 14,
+        "fpts": 1304,
+        "fpts_against": 1219,
+        "fpts_against_decimal": 3,
+        "fpts_decimal": 77,
         "losses": 2,
-        "ppts": 1365,
-        "ppts_decimal": 23,
+        "ppts": 1569,
+        "ppts_decimal": 36,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
         "waiver_position": 1,
-        "wins": 5
+        "wins": 6
       },
       "metadata": {
         "p_nick_10222": "5 📖",
@@ -3297,8 +3297,8 @@
         "p_nick_8131": "Marlbro Red",
         "p_nick_8138": "Josh Allens Cuck",
         "p_nick_9506": "Pl44sed",
-        "record": "WWLLWWW",
-        "streak": "3W"
+        "record": "WWLLWWWW",
+        "streak": "4W"
       }
     },
     {
@@ -3766,23 +3766,23 @@
         }
       ],
       "settings": {
-        "fpts": 999,
-        "fpts_against": 1139,
-        "fpts_against_decimal": 14,
-        "fpts_decimal": 4,
+        "fpts": 1171,
+        "fpts_against": 1238,
+        "fpts_against_decimal": 44,
+        "fpts_decimal": 28,
         "losses": 4,
-        "ppts": 1300,
-        "ppts_decimal": 38,
+        "ppts": 1498,
+        "ppts_decimal": 53,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 107,
         "waiver_position": 8,
-        "wins": 3
+        "wins": 4
       },
       "metadata": {
         "p_nick_12519": "My sweet Pookie",
-        "record": "LWWLLLW",
-        "streak": "1W"
+        "record": "LWWLLLWW",
+        "streak": "2W"
       }
     },
     {
@@ -4250,13 +4250,13 @@
         }
       ],
       "settings": {
-        "fpts": 1107,
-        "fpts_against": 1030,
-        "fpts_against_decimal": 38,
-        "fpts_decimal": 61,
-        "losses": 2,
-        "ppts": 1370,
-        "ppts_decimal": 20,
+        "fpts": 1265,
+        "fpts_against": 1226,
+        "fpts_against_decimal": 1,
+        "fpts_decimal": 60,
+        "losses": 3,
+        "ppts": 1541,
+        "ppts_decimal": 33,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
@@ -4264,8 +4264,8 @@
         "wins": 5
       },
       "metadata": {
-        "record": "WWWWWLL",
-        "streak": "2L"
+        "record": "WWWWWLLL",
+        "streak": "3L"
       }
     },
     {
@@ -4701,22 +4701,22 @@
         }
       ],
       "settings": {
-        "fpts": 957,
-        "fpts_against": 970,
-        "fpts_against_decimal": 7,
-        "fpts_decimal": 7,
+        "fpts": 1062,
+        "fpts_against": 1053,
+        "fpts_against_decimal": 68,
+        "fpts_decimal": 94,
         "losses": 4,
-        "ppts": 1095,
-        "ppts_decimal": 33,
+        "ppts": 1210,
+        "ppts_decimal": 99,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 24,
         "waiver_position": 2,
-        "wins": 3
+        "wins": 4
       },
       "metadata": {
-        "record": "LLWWLWL",
-        "streak": "1L"
+        "record": "LLWWLWLW",
+        "streak": "1W"
       }
     },
     {
@@ -5168,13 +5168,13 @@
         }
       ],
       "settings": {
-        "fpts": 946,
-        "fpts_against": 1025,
-        "fpts_against_decimal": 88,
-        "fpts_decimal": 8,
-        "losses": 6,
-        "ppts": 1148,
-        "ppts_decimal": 24,
+        "fpts": 1029,
+        "fpts_against": 1131,
+        "fpts_against_decimal": 75,
+        "fpts_decimal": 69,
+        "losses": 7,
+        "ppts": 1299,
+        "ppts_decimal": 10,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -5182,8 +5182,8 @@
         "wins": 1
       },
       "metadata": {
-        "record": "LLLWLLL",
-        "streak": "3L"
+        "record": "LLLWLLLL",
+        "streak": "4L"
       }
     }
   ],
@@ -17361,6 +17361,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12688",
+      "name": "Cam Miller",
+      "position": "QB",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "3161",
       "name": "Carson Wentz",
       "position": "QB",
@@ -18556,18 +18568,6 @@
       "status": "Active",
       "injury_status": null,
       "age": null,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "12688",
-      "name": "Cam Miller",
-      "position": "QB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
