@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-03T22:33:20.127300Z",
+  "generated_at_utc": "2026-11-04T02:44:37.217461Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 9,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 2
+      "daily_waivers_last_ran": 3
     },
     "avatar": null,
     "company_id": null,
@@ -203,14 +203,14 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1423389458111205376",
+    "last_message_id": "1423526421464154112",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793725001412,
+    "last_message_time": 1793757656020,
     "last_pinned_message_id": null,
     "draft_id": "1353413007752839168",
     "last_read_id": null,
@@ -220,6 +220,7 @@
     "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -246,7 +247,6 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -424,20 +424,20 @@
           "injury_status": null
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "421",
           "name": "Matthew Stafford",
           "position": "QB",
           "team": "LAR",
           "status": "Active",
           "injury_status": "Questionable"
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "5022",
@@ -638,6 +638,14 @@
           "injury_status": null
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "4046",
           "name": "Patrick Mahomes",
           "position": "QB",
@@ -658,14 +666,6 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
           "status": "Active",
           "injury_status": null
         },
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
-        "waiver_position": 6,
+        "waiver_position": 10,
         "wins": 3
       },
       "metadata": {
@@ -1273,7 +1273,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 3
       },
       "metadata": {
@@ -1806,7 +1806,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 75,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 5
       },
       "metadata": {
@@ -3776,7 +3776,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 107,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 4
       },
       "metadata": {
@@ -5178,7 +5178,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "metadata": {
@@ -6974,6 +6974,47 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1423313038450106368",
+      "type": "waiver",
+      "status": "complete",
+      "week": 9,
+      "created_utc": "2026-11-03T11:53:01.545000Z",
+      "teams": [
+        "Jeantrification"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "1479",
+            "name": "Keenan Allen",
+            "position": "WR",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "5012",
+            "name": "Mark Andrews",
+            "position": "TE",
+            "team": "BAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 1,
+          "team": "Jeantrification"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
     {
       "transaction_id": "1422658118814294016",
       "type": "free_agent",
@@ -17246,8 +17287,8 @@
     "by_position": {
       "QB": 294,
       "RB": 551,
-      "WR": 1141,
-      "TE": 545
+      "WR": 1140,
+      "TE": 546
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -17502,7 +17543,7 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 1
     },
     {
       "player_id": "12792",
@@ -20885,8 +20926,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 7
     },
     {
       "player_id": "4663",
@@ -20946,7 +20987,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "12171",
@@ -21090,7 +21131,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "4718",
@@ -21102,7 +21143,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13339",
@@ -21133,12 +21174,12 @@
       "name": "Dean Connors",
       "position": "RB",
       "team": "LAR",
-      "status": "Active",
-      "injury_status": "Questionable",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 5
     },
     {
       "player_id": "6931",
@@ -21219,7 +21260,7 @@
       "team": "NYG",
       "status": "Active",
       "injury_status": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -21234,7 +21275,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11573",
@@ -21402,7 +21443,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11569",
@@ -21774,7 +21815,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12472",
@@ -21857,8 +21898,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 7
     },
     {
       "player_id": "13416",
@@ -21882,7 +21923,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "6918",
@@ -22038,7 +22079,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8207",
@@ -27425,8 +27466,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 7,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "1984",
@@ -27702,7 +27743,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": null
     },
     {
       "player_id": "13554",
@@ -27870,7 +27911,7 @@
       "age": 29,
       "years_exp": 8,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "7039",
@@ -27954,7 +27995,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "7090",
@@ -28134,7 +28175,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 10
     },
     {
       "player_id": "12946",
@@ -28194,7 +28235,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "5744",
@@ -28337,8 +28378,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 9
     },
     {
       "player_id": "7559",
@@ -28806,7 +28847,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "12848",
@@ -28953,18 +28994,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "1479",
-      "name": "Keenan Allen",
-      "position": "WR",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "age": 34,
-      "years_exp": 13,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "4454",
       "name": "Kendrick Bourne",
       "position": "WR",
@@ -28973,7 +29002,7 @@
       "injury_status": "IR",
       "age": 31,
       "years_exp": 9,
-      "depth_chart_position": "SWR",
+      "depth_chart_position": null,
       "depth_chart_order": 6
     },
     {
@@ -29166,7 +29195,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11210",
@@ -29391,7 +29420,7 @@
       "team": "KC",
       "status": "Active",
       "injury_status": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
       "depth_chart_position": "SWR",
       "depth_chart_order": 6
@@ -29718,7 +29747,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "6588",
@@ -29790,7 +29819,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7595",
@@ -29850,7 +29879,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13343",
@@ -40686,7 +40715,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 9
     },
     {
       "player_id": "7274",
@@ -42185,8 +42214,8 @@
       "injury_status": "Out",
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13432",
@@ -42307,6 +42336,18 @@
       "years_exp": 3,
       "depth_chart_position": "TE",
       "depth_chart_order": 3
+    },
+    {
+      "player_id": "5012",
+      "name": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "status": "Active",
+      "injury_status": null,
+      "age": 31,
+      "years_exp": 8,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1
     },
     {
       "player_id": "13013",
