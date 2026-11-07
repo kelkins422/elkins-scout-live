@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-07T00:42:09.116157Z",
+  "generated_at_utc": "2026-11-07T06:38:42.864069Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 9,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 5
+      "daily_waivers_last_ran": 6
     },
     "avatar": null,
     "company_id": null,
@@ -201,19 +201,19 @@
     },
     "season": "2026",
     "season_type": "regular",
-    "shard": 620,
     "sport": "nfl",
-    "last_message_id": "1424257923265077248",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
-    "last_author_is_bot": false,
+    "shard": 620,
+    "last_message_id": "1424613383168167936",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1793932059641,
+    "last_message_time": 1794016807885,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "league_id": "1353413006104485888",
     "previous_league_id": null,
     "roster_positions": [
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 3
       },
       "metadata": {
@@ -1273,7 +1273,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 3
       },
       "metadata": {
@@ -1806,7 +1806,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 125,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 5
       },
       "metadata": {
@@ -2305,7 +2305,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 13,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 5
       },
       "metadata": {
@@ -2492,6 +2492,14 @@
           "name": "Daniel Jones",
           "position": "QB",
           "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
           "status": "Active",
           "injury_status": null
         },
@@ -2702,6 +2710,14 @@
           "injury_status": "Out"
         },
         {
+          "player_id": "6130",
+          "name": "Devin Singletary",
+          "position": "RB",
+          "team": "NYG",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "6790",
           "name": "D'Andre Swift",
           "position": "RB",
@@ -2800,8 +2816,8 @@
         "ppts_decimal": 55,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 25,
-        "waiver_position": 3,
+        "waiver_budget_used": 30,
+        "waiver_position": 10,
         "wins": 4
       },
       "metadata": {
@@ -3760,7 +3776,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 107,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 4
       },
       "metadata": {
@@ -4228,7 +4244,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 113,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 5
       },
       "metadata": {
@@ -5146,7 +5162,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 1
       },
       "metadata": {
@@ -6942,6 +6958,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1424539833463758848",
+      "type": "waiver",
+      "status": "complete",
+      "week": 9,
+      "created_utc": "2026-11-06T21:07:52.269000Z",
+      "teams": [
+        "Brown St. Brown Samuel"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "6130",
+            "name": "Devin Singletary",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "Brown St. Brown Samuel"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5
+    },
     {
       "transaction_id": "1423798616471982080",
       "type": "waiver",
@@ -17389,10 +17433,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2534,
+    "total": 2533,
     "by_position": {
       "QB": 294,
-      "RB": 553,
+      "RB": 552,
       "WR": 1140,
       "TE": 547
     },
@@ -17468,8 +17512,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "QB",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13295",
@@ -21033,7 +21077,7 @@
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "4663",
@@ -21129,7 +21173,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 8
     },
     {
       "player_id": "11186",
@@ -21201,7 +21245,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "6659",
@@ -21310,18 +21354,6 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
-    },
-    {
-      "player_id": "6130",
-      "name": "Devin Singletary",
-      "position": "RB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "11574",
@@ -21825,7 +21857,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "12544",
@@ -21981,7 +22013,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "11570",
@@ -22017,7 +22049,7 @@
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13433",
@@ -22221,7 +22253,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "6039",
@@ -28017,7 +28049,7 @@
       "age": 29,
       "years_exp": 8,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "7039",
@@ -28029,7 +28061,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13477",
@@ -28209,7 +28241,7 @@
       "age": 32,
       "years_exp": 10,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "10234",
@@ -28293,7 +28325,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 9
     },
     {
       "player_id": "12946",
@@ -28377,7 +28409,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "13313",
@@ -28461,7 +28493,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "6699",
@@ -28509,7 +28541,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12535",
@@ -28641,7 +28673,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 3
     },
     {
       "player_id": "13904",
@@ -28941,7 +28973,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13325",
@@ -29061,7 +29093,7 @@
       "age": 30,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8755",
@@ -29301,7 +29333,7 @@
       "age": 33,
       "years_exp": 9,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11617",
@@ -29373,7 +29405,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "9494",
@@ -29889,7 +29921,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13356",
@@ -29925,7 +29957,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "7562",
@@ -40845,7 +40877,7 @@
       "age": 25,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "7274",
@@ -42129,7 +42161,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11113",
@@ -42249,7 +42281,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "3668",
@@ -42273,7 +42305,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13400",
@@ -42429,7 +42461,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "10871",
@@ -42849,7 +42881,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "8849",
