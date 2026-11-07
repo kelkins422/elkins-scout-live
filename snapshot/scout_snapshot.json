@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-06T20:54:41.675772Z",
+  "generated_at_utc": "2026-11-07T00:42:09.116157Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -323,7 +323,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8137",
@@ -461,7 +461,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         }
       ],
       "taxi": [
@@ -667,7 +667,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5022",
@@ -699,7 +699,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8137",
@@ -827,7 +827,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12517",
@@ -1083,7 +1083,7 @@
           "position": "WR",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11647",
@@ -1347,12 +1347,12 @@
           "injury_status": null
         },
         {
-          "player_id": "8146",
-          "name": "Garrett Wilson",
+          "player_id": "10213",
+          "name": "Tre Tucker",
           "position": "WR",
-          "team": "NYJ",
+          "team": "LV",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "7526",
@@ -1405,14 +1405,6 @@
       ],
       "bench": [
         {
-          "player_id": "10213",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "team": "LV",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11557",
           "name": "Joe Milton",
           "position": "QB",
@@ -1442,7 +1434,7 @@
           "position": "RB",
           "team": "DET",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12634",
@@ -1485,6 +1477,14 @@
           "injury_status": null
         },
         {
+          "player_id": "8146",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
           "player_id": "8408",
           "name": "Jordan Mason",
           "position": "RB",
@@ -1498,7 +1498,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9754",
@@ -1616,7 +1616,7 @@
           "position": "RB",
           "team": "DET",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12501",
@@ -1776,7 +1776,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9754",
@@ -1925,7 +1925,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "12512",
@@ -2099,7 +2099,7 @@
           "position": "RB",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "12495",
@@ -2363,7 +2363,7 @@
           "position": "RB",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3198",
@@ -2387,7 +2387,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "7553",
@@ -2427,7 +2427,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         }
       ],
       "bench": [
@@ -2659,7 +2659,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "3198",
@@ -2675,7 +2675,7 @@
           "position": "RB",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "4881",
@@ -2699,7 +2699,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "6790",
@@ -3814,7 +3814,7 @@
           "position": "WR",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "10236",
@@ -3822,7 +3822,7 @@
           "position": "TE",
           "team": "BUF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5846",
@@ -3944,7 +3944,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7049",
@@ -4006,7 +4006,7 @@
           "position": "WR",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "10236",
@@ -4014,7 +4014,7 @@
           "position": "TE",
           "team": "BUF",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11560",
@@ -4158,7 +4158,7 @@
           "position": "QB",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6786",
@@ -4427,7 +4427,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         }
       ],
       "taxi": [
@@ -4633,7 +4633,7 @@
           "position": "WR",
           "team": "SEA",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9482",
@@ -4878,7 +4878,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Inactive",
-          "injury_status": "IR"
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -5108,7 +5108,7 @@
           "position": "RB",
           "team": "PHI",
           "status": "Inactive",
-          "injury_status": "IR"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8155",
@@ -7000,7 +7000,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -7318,7 +7318,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -7549,7 +7549,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -8050,7 +8050,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Inactive",
-            "injury_status": "IR"
+            "injury_status": "Questionable"
           },
           "roster_id": 10,
           "team": "Justtindavis"
@@ -8173,7 +8173,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -8187,7 +8187,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -9009,7 +9009,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -9037,7 +9037,7 @@
             "position": "RB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -9099,7 +9099,7 @@
             "position": "RB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -9278,7 +9278,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -9417,7 +9417,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9997,7 +9997,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -10071,7 +10071,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -10113,7 +10113,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -10210,7 +10210,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -10279,7 +10279,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -10628,7 +10628,7 @@
             "position": "RB",
             "team": "DET",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -10888,7 +10888,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -10938,7 +10938,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -11173,7 +11173,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -11584,7 +11584,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -11598,7 +11598,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -11652,7 +11652,7 @@
             "position": "QB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -12452,7 +12452,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -12789,7 +12789,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -13115,7 +13115,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -13170,7 +13170,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -13211,7 +13211,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -13267,7 +13267,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -13924,7 +13924,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -13994,7 +13994,7 @@
             "position": "RB",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14288,7 +14288,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -14386,7 +14386,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14568,7 +14568,7 @@
             "position": "RB",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           }
         },
         {
@@ -14876,7 +14876,7 @@
             "position": "WR",
             "team": "ARI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15142,7 +15142,7 @@
             "position": "TE",
             "team": "BUF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15450,7 +15450,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -15968,7 +15968,7 @@
             "position": "WR",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17242,7 +17242,7 @@
             "position": "WR",
             "team": "LV",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -22229,7 +22229,7 @@
       "position": "RB",
       "team": "BUF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "RB",
@@ -27821,7 +27821,7 @@
       "position": "WR",
       "team": "PHI",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "SWR",
@@ -28013,7 +28013,7 @@
       "position": "WR",
       "team": "SF",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 29,
       "years_exp": 8,
       "depth_chart_position": "SWR",
@@ -28289,7 +28289,7 @@
       "position": "WR",
       "team": "LV",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
@@ -28325,7 +28325,7 @@
       "position": "WR",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
@@ -29549,7 +29549,7 @@
       "position": "WR",
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "SWR",
@@ -29921,7 +29921,7 @@
       "position": "WR",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
@@ -29993,7 +29993,7 @@
       "position": "WR",
       "team": "SEA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "RB",
@@ -41496,6 +41496,18 @@
       "depth_chart_order": 6
     },
     {
+      "player_id": "13122",
+      "name": "Carter Runyon",
+      "position": "TE",
+      "team": "LV",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "8127",
       "name": "Charlie Kolar",
       "position": "TE",
@@ -42137,7 +42149,7 @@
       "position": "TE",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "TE",
@@ -42233,7 +42245,7 @@
       "position": "TE",
       "team": "GB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
@@ -43049,7 +43061,7 @@
       "position": "TE",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "TE",
@@ -43844,18 +43856,6 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13122",
-      "name": "Carter Runyon",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
