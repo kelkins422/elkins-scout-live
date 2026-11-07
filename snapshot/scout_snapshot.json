@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-07T13:34:49.107880Z",
+  "generated_at_utc": "2026-11-07T18:20:01.307320Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -69,6 +69,11 @@
     },
     "avatar": null,
     "company_id": null,
+    "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "last_message_id": "1424613383168167936",
+    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -199,11 +204,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
-    "shard": 620,
-    "last_message_id": "1424613383168167936",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -4892,7 +4892,7 @@
           "player_id": "8129",
           "name": "Dameon Pierce",
           "position": "RB",
-          "team": "PHI",
+          "team": null,
           "status": "Inactive",
           "injury_status": "Questionable"
         }
@@ -5122,7 +5122,7 @@
           "player_id": "8129",
           "name": "Dameon Pierce",
           "position": "RB",
-          "team": "PHI",
+          "team": null,
           "status": "Inactive",
           "injury_status": "Questionable"
         },
@@ -8092,7 +8092,7 @@
             "player_id": "8129",
             "name": "Dameon Pierce",
             "position": "RB",
-            "team": "PHI",
+            "team": null,
             "status": "Inactive",
             "injury_status": "Questionable"
           },
@@ -17504,18 +17504,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "11931",
-      "name": "Austin Reed",
-      "position": "QB",
-      "team": "BAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13295",
       "name": "Behren Morton",
       "position": "QB",
@@ -17825,7 +17813,7 @@
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 1
+      "depth_chart_order": 2
     },
     {
       "player_id": "19",
@@ -17897,7 +17885,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8160",
@@ -18173,7 +18161,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "QB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "4936",
@@ -18281,7 +18269,7 @@
       "age": 28,
       "years_exp": 6,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "827",
@@ -18496,6 +18484,18 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11931",
+      "name": "Austin Reed",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22105,7 +22105,7 @@
       "position": "RB",
       "team": "LAR",
       "status": "Inactive",
-      "injury_status": "IR",
+      "injury_status": null,
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
@@ -29636,18 +29636,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "2334",
-      "name": "Phillip Dorsett II",
-      "position": "WR",
-      "team": "LV",
-      "status": "Active",
-      "injury_status": null,
-      "age": 33,
-      "years_exp": 11,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "12267",
       "name": "Qadir Ismail",
       "position": "WR",
@@ -30018,18 +30006,6 @@
       "years_exp": 6,
       "depth_chart_position": "LWR",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "8223",
-      "name": "Velus Jones Jr.",
-      "position": "WR",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13343",
@@ -38684,6 +38660,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "2334",
+      "name": "Phillip Dorsett II",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 33,
+      "years_exp": 11,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "4805",
       "name": "Pig Howard",
       "position": "WR",
@@ -41008,6 +40996,18 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8223",
+      "name": "Velus Jones Jr.",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
