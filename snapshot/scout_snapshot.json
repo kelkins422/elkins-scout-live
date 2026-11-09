@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-09T02:40:41.716126Z",
+  "generated_at_utc": "2026-11-09T10:23:47.927658Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -72,7 +72,6 @@
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
-    "shard": 620,
     "last_message_id": "1424962362879823872",
     "scoring_settings": {
       "sack": 1.0,
@@ -204,6 +203,8 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "shard": 620,
+    "draft_id": "1353413007752839168",
     "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
     "last_author_display_name": "brettstalvey2528",
     "last_author_id": "474981049038794752",
@@ -212,7 +213,6 @@
     "last_message_text_map": null,
     "last_message_time": 1794100011132,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -3338,7 +3338,7 @@
           "position": "WR",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11646",
@@ -3602,7 +3602,7 @@
           "position": "WR",
           "team": "CHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12533",
@@ -10944,7 +10944,7 @@
             "position": "WR",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -10958,7 +10958,7 @@
             "position": "WR",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -14584,7 +14584,7 @@
             "position": "WR",
             "team": "CHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
