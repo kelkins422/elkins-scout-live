@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-09T20:58:18.407711Z",
+  "generated_at_utc": "2026-11-10T03:24:25.260251Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,7 +65,7 @@
       "leg": 9,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 8
+      "daily_waivers_last_ran": 9
     },
     "avatar": null,
     "company_id": null,
@@ -73,7 +73,6 @@
     "season_type": "regular",
     "season": "2026",
     "shard": 620,
-    "last_message_id": "1424962362879823872",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,15 +203,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1425705186730446848",
     "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
     "last_author_display_name": "brettstalvey2528",
     "last_author_id": "474981049038794752",
+    "draft_id": "1353413007752839168",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794100011132,
+    "last_message_time": 1794277114140,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "league_id": "1353413006104485888",
     "previous_league_id": null,
@@ -298,7 +298,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Questionable"
         },
         {
@@ -478,8 +478,8 @@
           "name": "Demond Claiborne",
           "position": "RB",
           "team": "MIN",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13349",
@@ -610,8 +610,8 @@
           "name": "Demond Claiborne",
           "position": "RB",
           "team": "MIN",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13349",
@@ -738,7 +738,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "status": "Active",
+          "status": "Inactive",
           "injury_status": "Questionable"
         }
       ],
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 3
       },
       "metadata": {
@@ -1007,7 +1007,7 @@
           "position": "WR",
           "team": "BUF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         }
       ],
       "injured_reserve": [
@@ -1171,7 +1171,7 @@
           "position": "WR",
           "team": "BUF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13413",
@@ -1273,7 +1273,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 108,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 3
       },
       "metadata": {
@@ -1466,7 +1466,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6797",
@@ -1696,7 +1696,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6797",
@@ -1806,7 +1806,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 125,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 5
       },
       "metadata": {
@@ -1835,7 +1835,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "12495",
@@ -2187,7 +2187,7 @@
           "position": "RB",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "6770",
@@ -2517,7 +2517,7 @@
           "position": "TE",
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8111",
@@ -2533,7 +2533,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9479",
@@ -2755,7 +2755,7 @@
           "position": "TE",
           "team": "DAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8111",
@@ -2779,7 +2779,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9224",
@@ -2817,7 +2817,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 30,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 4
       },
       "metadata": {
@@ -3391,12 +3391,12 @@
       ],
       "bench": [
         {
-          "player_id": "11630",
-          "name": "Roman Wilson",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "12498",
@@ -3413,6 +3413,14 @@
           "team": "WAS",
           "status": "Inactive",
           "injury_status": "IR"
+        },
+        {
+          "player_id": "13297",
+          "name": "Reggie Virgil",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "13330",
@@ -3469,14 +3477,6 @@
           "team": "PIT",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "8154",
-          "name": "Brian Robinson Jr.",
-          "position": "RB",
-          "team": "ATL",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "9501",
@@ -3557,14 +3557,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11630",
-          "name": "Roman Wilson",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "11646",
           "name": "Jalen Coker",
           "position": "WR",
@@ -3577,6 +3569,14 @@
           "name": "Ryan Flournoy",
           "position": "WR",
           "team": "DAL",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "12491",
+          "name": "Corey Kiner",
+          "position": "RB",
+          "team": "NE",
           "status": "Active",
           "injury_status": null
         },
@@ -3625,6 +3625,14 @@
           "name": "Jordyn Tyson",
           "position": "WR",
           "team": "NO",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "13297",
+          "name": "Reggie Virgil",
+          "position": "WR",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         },
@@ -3717,14 +3725,6 @@
           "injury_status": null
         },
         {
-          "player_id": "8154",
-          "name": "Brian Robinson Jr.",
-          "position": "RB",
-          "team": "ATL",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9226",
           "name": "De'Von Achane",
           "position": "RB",
@@ -3775,8 +3775,8 @@
         "ppts_decimal": 53,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 107,
-        "waiver_position": 4,
+        "waiver_budget_used": 137,
+        "waiver_position": 10,
         "wins": 4
       },
       "metadata": {
@@ -3793,10 +3793,10 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "9228",
-          "name": "Bryce Young",
+          "player_id": "11560",
+          "name": "Caleb Williams",
           "position": "QB",
-          "team": "CAR",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -3825,10 +3825,10 @@
           "injury_status": null
         },
         {
-          "player_id": "10232",
-          "name": "Michael Wilson",
+          "player_id": "8144",
+          "name": "Chris Olave",
           "position": "WR",
-          "team": "ARI",
+          "team": "NO",
           "status": "Active",
           "injury_status": null
         },
@@ -3841,22 +3841,6 @@
           "injury_status": null
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13345",
           "name": "Jonah Coleman",
           "position": "RB",
@@ -3865,10 +3849,26 @@
           "injury_status": null
         },
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "10232",
+          "name": "Michael Wilson",
+          "position": "WR",
+          "team": "ARI",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
+          "player_id": "9228",
+          "name": "Bryce Young",
           "position": "QB",
-          "team": "CHI",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null
         }
@@ -3887,14 +3887,6 @@
           "name": "AJ Barner",
           "position": "TE",
           "team": "SEA",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "12514",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "team": "TB",
           "status": "Active",
           "injury_status": null
         },
@@ -3955,6 +3947,14 @@
           "injury_status": null
         },
         {
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "5854",
           "name": "Drew Lock",
           "position": "QB",
@@ -3979,10 +3979,10 @@
           "injury_status": null
         },
         {
-          "player_id": "8144",
-          "name": "Chris Olave",
-          "position": "WR",
-          "team": "NO",
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
           "status": "Active",
           "injury_status": null
         }
@@ -4022,7 +4022,7 @@
           "position": "WR",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "10236",
@@ -4244,7 +4244,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 113,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 5
       },
       "metadata": {
@@ -5162,7 +5162,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 1
       },
       "metadata": {
@@ -6959,6 +6959,103 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1425637098030919680",
+      "type": "waiver",
+      "status": "complete",
+      "week": 9,
+      "created_utc": "2026-11-09T21:48:00.529000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13297",
+            "name": "Reggie Virgil",
+            "position": "WR",
+            "team": "ARI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5
+    },
+    {
+      "transaction_id": "1425637081882853376",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 9,
+      "created_utc": "2026-11-09T21:47:56.678000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8154",
+            "name": "Brian Robinson Jr.",
+            "position": "RB",
+            "team": "ATL",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1425574051706908672",
+      "type": "waiver",
+      "status": "complete",
+      "week": 9,
+      "created_utc": "2026-11-09T17:37:29.114000Z",
+      "teams": [
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12491",
+            "name": "Corey Kiner",
+            "position": "RB",
+            "team": "NE",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11630",
+            "name": "Roman Wilson",
+            "position": "WR",
+            "team": "PIT",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 25
+    },
+    {
       "transaction_id": "1424539833463758848",
       "type": "waiver",
       "status": "complete",
@@ -7003,7 +7100,7 @@
             "position": "QB",
             "team": "ARI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -9420,7 +9517,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11398,7 +11495,7 @@
             "position": "RB",
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -11472,7 +11569,7 @@
             "position": "RB",
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -13743,7 +13840,7 @@
             "name": "Puka Nacua",
             "position": "WR",
             "team": "LAR",
-            "status": "Active",
+            "status": "Inactive",
             "injury_status": "Questionable"
           }
         },
@@ -14486,7 +14583,7 @@
             "position": "RB",
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -14920,7 +15017,7 @@
             "position": "WR",
             "team": "ARI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -14948,7 +15045,7 @@
             "position": "TE",
             "team": "DAL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -15508,7 +15605,7 @@
             "position": "TE",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16488,7 +16585,7 @@
             "position": "WR",
             "team": "BUF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -17103,8 +17200,8 @@
             "name": "Demond Claiborne",
             "position": "RB",
             "team": "MIN",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -17342,7 +17439,7 @@
             "position": "WR",
             "team": "NYG",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17855,13 +17952,13 @@
       "player_id": "260",
       "name": "Josh Johnson",
       "position": "QB",
-      "team": "CIN",
+      "team": "ARI",
       "status": "Active",
       "injury_status": null,
       "age": 40,
       "years_exp": 18,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
     },
     {
       "player_id": "4179",
@@ -21140,6 +21237,18 @@
       "depth_chart_order": 5
     },
     {
+      "player_id": "8154",
+      "name": "Brian Robinson Jr.",
+      "position": "RB",
+      "team": "ATL",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 4
+    },
+    {
       "player_id": "12171",
       "name": "British Brooks",
       "position": "RB",
@@ -21234,18 +21343,6 @@
       "years_exp": 4,
       "depth_chart_position": "RB",
       "depth_chart_order": 3
-    },
-    {
-      "player_id": "12491",
-      "name": "Corey Kiner",
-      "position": "RB",
-      "team": "NE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
     },
     {
       "player_id": "6659",
@@ -21593,7 +21690,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7537",
@@ -22285,8 +22382,8 @@
       "position": "RB",
       "team": "DAL",
       "status": "Active",
-      "injury_status": "Questionable",
-      "age": 25,
+      "injury_status": "Out",
+      "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
@@ -28009,7 +28106,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "LWR",
@@ -28153,7 +28250,7 @@
       "position": "WR",
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "SWR",
@@ -28493,7 +28590,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6699",
@@ -28517,7 +28614,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 7
     },
     {
       "player_id": "7559",
@@ -28745,7 +28842,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 6
     },
     {
       "player_id": "11506",
@@ -29040,12 +29137,12 @@
       "name": "Joshua Palmer",
       "position": "WR",
       "team": "BUF",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "5374",
@@ -29177,7 +29274,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "13412",
@@ -29672,18 +29769,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "13297",
-      "name": "Reggie Virgil",
-      "position": "WR",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 0,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "12475",
       "name": "Ricky White III",
       "position": "WR",
@@ -29694,6 +29779,18 @@
       "years_exp": 1,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "11630",
+      "name": "Roman Wilson",
+      "position": "WR",
+      "team": "PIT",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 25,
+      "years_exp": 2,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 10
     },
     {
       "player_id": "11421",
@@ -29932,8 +30029,8 @@
       "injury_status": null,
       "age": 30,
       "years_exp": 8,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "8135",
@@ -29981,7 +30078,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13600",
@@ -41617,7 +41714,7 @@
       "position": "TE",
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
@@ -42076,8 +42173,8 @@
       "injury_status": "Out",
       "age": 23,
       "years_exp": 1,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12817",
@@ -42892,8 +42989,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8849",
@@ -43130,7 +43227,7 @@
       "team": "PHI",
       "status": "Active",
       "injury_status": null,
-      "age": 35,
+      "age": 36,
       "years_exp": 13,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -44989,7 +45086,7 @@
       "position": "TE",
       "team": null,
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 28,
       "years_exp": 6,
       "depth_chart_position": null,
