@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-12T17:42:58.097848Z",
+  "generated_at_utc": "2026-11-12T22:53:00.724628Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1989,7 +1989,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9504",
@@ -2259,7 +2259,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9504",
@@ -2969,7 +2969,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5849",
@@ -2993,7 +2993,7 @@
           "position": "RB",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9229",
@@ -3143,7 +3143,7 @@
           "position": "RB",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "4217",
@@ -3231,7 +3231,7 @@
           "position": "RB",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8130",
@@ -3338,7 +3338,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11576",
@@ -3402,7 +3402,7 @@
           "position": "QB",
           "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "bench": [
@@ -3714,7 +3714,7 @@
           "position": "QB",
           "team": "DET",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "3294",
@@ -3730,7 +3730,7 @@
           "position": "RB",
           "team": "TEN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7021",
@@ -12786,7 +12786,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -12882,7 +12882,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -14730,7 +14730,7 @@
             "position": "QB",
             "team": "DET",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15794,7 +15794,7 @@
             "position": "RB",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16130,7 +16130,7 @@
             "position": "RB",
             "team": "TEN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16858,7 +16858,7 @@
             "position": "RB",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16886,7 +16886,7 @@
             "position": "WR",
             "team": "HOU",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -18567,7 +18567,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "10983",
@@ -22055,7 +22055,7 @@
       "position": "RB",
       "team": "KC",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
@@ -22299,7 +22299,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 5
     },
     {
       "player_id": "13516",
@@ -22695,7 +22695,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "3309",
@@ -28223,7 +28223,7 @@
       "position": "WR",
       "team": "GB",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RWR",
@@ -29255,7 +29255,7 @@
       "position": "WR",
       "team": "MIA",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
@@ -29978,6 +29978,18 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11320",
+      "name": "Nikko Remigio",
+      "position": "WR",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -38838,18 +38850,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11320",
-      "name": "Nikko Remigio",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "4234",
       "name": "Noah Brown",
       "position": "WR",
@@ -42471,7 +42471,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8698",
@@ -42507,7 +42507,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13422",
@@ -42867,7 +42867,7 @@
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "5012",
@@ -43079,7 +43079,7 @@
       "position": "TE",
       "team": "NO",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "TE",
