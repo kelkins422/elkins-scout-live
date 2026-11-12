@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-12T09:28:52.319222Z",
+  "generated_at_utc": "2026-11-12T17:42:58.097848Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -326,12 +326,12 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "13421",
-          "name": "Eli Raridon",
-          "position": "TE",
+          "player_id": "5859",
+          "name": "A.J. Brown",
+          "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12474",
@@ -408,6 +408,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13421",
+          "name": "Eli Raridon",
+          "position": "TE",
+          "team": "NE",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "1479",
           "name": "Keenan Allen",
           "position": "WR",
@@ -438,14 +446,6 @@
           "team": "PHI",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "7525",
@@ -21411,7 +21411,7 @@
       "age": 28,
       "years_exp": 6,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7093",
@@ -21471,7 +21471,7 @@
       "age": 33,
       "years_exp": 11,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "6323",
@@ -21495,7 +21495,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11579",
@@ -22275,7 +22275,7 @@
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "9510",
@@ -28659,7 +28659,7 @@
       "age": 32,
       "years_exp": 10,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "10234",
@@ -28886,18 +28886,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6045",
-      "name": "Gary Jennings",
-      "position": "WR",
-      "team": "LAC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -29943,7 +29931,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "3050",
@@ -30219,7 +30207,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8250",
@@ -30507,7 +30495,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "11626",
@@ -34298,6 +34286,18 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6045",
+      "name": "Gary Jennings",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 7,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -42195,7 +42195,7 @@
       "age": 31,
       "years_exp": 8,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11304",
