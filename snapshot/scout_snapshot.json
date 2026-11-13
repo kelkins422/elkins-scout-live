@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-13T03:15:50.532834Z",
+  "generated_at_utc": "2026-11-13T11:25:00.715193Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,9 +70,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,21 +200,22 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "shard": 620,
-    "last_message_id": "1426787806746783744",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1426812450279264256",
+    "last_author_avatar": "484bdce177721551758a27e423ab4652",
+    "last_author_display_name": "ealvarezz",
+    "last_author_id": "871280621559926784",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794535230866,
+    "last_message_time": 1794541106341,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,6 +242,8 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
@@ -2406,10 +2406,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "5870",
-          "name": "Daniel Jones",
+          "player_id": "13272",
+          "name": "Carson Beck",
           "position": "QB",
-          "team": "IND",
+          "team": "ARI",
           "status": "Active",
           "injury_status": null
         }
@@ -2480,6 +2480,14 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "5870",
+          "name": "Daniel Jones",
+          "position": "QB",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "6130",
           "name": "Devin Singletary",
           "position": "RB",
@@ -2512,14 +2520,6 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "8111",
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "9479",
           "name": "Darnell Washington",
           "position": "TE",
@@ -2529,14 +2529,6 @@
         }
       ],
       "taxi": [
-        {
-          "player_id": "13272",
-          "name": "Carson Beck",
-          "position": "QB",
-          "team": "ARI",
-          "status": "Active",
-          "injury_status": null
-        },
         {
           "player_id": "13401",
           "name": "Michael Trigg",
@@ -2740,14 +2732,6 @@
           "team": "DAL",
           "status": "Active",
           "injury_status": "Out"
-        },
-        {
-          "player_id": "8111",
-          "name": "Cade Otton",
-          "position": "TE",
-          "team": "TB",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "8183",
@@ -7022,6 +7006,34 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1426808409121906688",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-13T03:22:22.854000Z",
+      "teams": [
+        "Brown St. Brown Samuel"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8111",
+            "name": "Cade Otton",
+            "position": "TE",
+            "team": "TB",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 5,
+          "team": "Brown St. Brown Samuel"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1426762433577377792",
       "type": "waiver",
@@ -18025,12 +18037,12 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2529,
+    "total": 2530,
     "by_position": {
       "QB": 293,
       "RB": 552,
       "WR": 1138,
-      "TE": 546
+      "TE": 547
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
   },
@@ -21885,7 +21897,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "6931",
@@ -28413,7 +28425,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "8414",
@@ -28425,7 +28437,7 @@
       "age": 29,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13420",
@@ -28965,7 +28977,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13313",
@@ -29505,7 +29517,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": null,
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "10225",
@@ -29553,7 +29565,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "KR",
-      "depth_chart_order": 7
+      "depth_chart_order": 8
     },
     {
       "player_id": "13743",
@@ -29948,8 +29960,8 @@
       "injury_status": null,
       "age": 29,
       "years_exp": 7,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "9494",
@@ -42000,6 +42012,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "8111",
+      "name": "Cade Otton",
+      "position": "TE",
+      "team": "TB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
+      "depth_chart_position": "TE",
+      "depth_chart_order": 1
+    },
+    {
       "player_id": "11599",
       "name": "Cade Stover",
       "position": "TE",
@@ -42129,7 +42153,7 @@
       "age": 34,
       "years_exp": 11,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "6826",
@@ -43485,7 +43509,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13249",
