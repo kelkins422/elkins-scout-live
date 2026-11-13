@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-12T22:53:00.724628Z",
+  "generated_at_utc": "2026-11-13T03:15:50.532834Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,14 +65,14 @@
       "leg": 10,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 11
+      "daily_waivers_last_ran": 12
     },
     "avatar": null,
     "company_id": null,
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
+    "league_id": "1353413006104485888",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -203,19 +203,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1426425419728457728",
-    "draft_id": "1353413007752839168",
+    "shard": 620,
+    "last_message_id": "1426787806746783744",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
     "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794448831067,
+    "last_message_time": 1794535230866,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
-    "league_id": "1353413006104485888",
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,8 +244,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
     "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
@@ -334,10 +334,10 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
+          "player_id": "13276",
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": "Questionable"
         },
@@ -360,20 +360,20 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Questionable"
+        },
+        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
           "team": "LAR",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "13276",
-          "name": "Omar Cooper Jr.",
-          "position": "WR",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "13285",
@@ -460,8 +460,8 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         }
       ],
       "taxi": [
@@ -738,8 +738,8 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         }
       ],
       "settings": {
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 149,
-        "waiver_position": 4,
+        "waiver_position": 3,
         "wins": 3
       },
       "metadata": {
@@ -872,6 +872,14 @@
       ],
       "bench": [
         {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "position": "WR",
@@ -968,20 +976,12 @@
           "injury_status": ""
         },
         {
-          "player_id": "8161",
-          "name": "Malik Willis",
-          "position": "QB",
-          "team": "MIA",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9511",
           "name": "Keaton Mitchell",
           "position": "RB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -1012,18 +1012,18 @@
       ],
       "injured_reserve": [
         {
-          "player_id": "11589",
-          "name": "Trey Benson",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "8121",
           "name": "Romeo Doubs",
           "position": "WR",
           "team": "NE",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
+          "player_id": "8161",
+          "name": "Malik Willis",
+          "position": "QB",
+          "team": "MIA",
           "status": "Inactive",
           "injury_status": "IR"
         }
@@ -1046,12 +1046,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11589",
-          "name": "Trey Benson",
+          "player_id": "11579",
+          "name": "Audric Estime",
           "position": "RB",
-          "team": "ARI",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "team": "NO",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "11610",
@@ -1259,7 +1259,7 @@
           "position": "RB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "settings": {
@@ -1272,8 +1272,8 @@
         "ppts_decimal": 70,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 108,
-        "waiver_position": 3,
+        "waiver_budget_used": 109,
+        "waiver_position": 9,
         "wins": 4
       },
       "metadata": {
@@ -1437,6 +1437,14 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "11762",
+          "name": "Anthony Gould",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12634",
           "name": "Jordan Watkins",
           "position": "WR",
@@ -1466,7 +1474,7 @@
           "position": "QB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7543",
@@ -1475,14 +1483,6 @@
           "team": "NO",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "8146",
@@ -1611,6 +1611,14 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "11762",
+          "name": "Anthony Gould",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12501",
           "name": "Matthew Golden",
           "position": "WR",
@@ -1688,7 +1696,7 @@
           "position": "QB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6813",
@@ -1713,14 +1721,6 @@
           "team": "NO",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "7591",
-          "name": "Justin Fields",
-          "position": "QB",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "7594",
@@ -1789,7 +1789,7 @@
         "ppts_decimal": 52,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 127,
+        "waiver_budget_used": 132,
         "waiver_position": 8,
         "wins": 6
       },
@@ -2403,7 +2403,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5870",
@@ -2763,7 +2763,7 @@
           "position": "TE",
           "team": "WAS",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9224",
@@ -2801,7 +2801,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 30,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 4
       },
       "metadata": {
@@ -2900,14 +2900,6 @@
       ],
       "bench": [
         {
-          "player_id": "11199",
-          "name": "Emari Demercado",
-          "position": "RB",
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "11583",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -3010,6 +3002,14 @@
           "team": "TB",
           "status": "Active",
           "injury_status": null
+        },
+        {
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "DAL",
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "taxi": [
@@ -3056,14 +3056,6 @@
           "team": "GB",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "11199",
-          "name": "Emari Demercado",
-          "position": "RB",
-          "team": "HOU",
-          "status": "Active",
-          "injury_status": null
         },
         {
           "player_id": "11583",
@@ -3270,6 +3262,14 @@
           "name": "Sean Tucker",
           "position": "RB",
           "team": "TB",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "9757",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         }
@@ -3792,7 +3792,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 137,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 4
       },
       "metadata": {
@@ -3952,7 +3952,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4017",
@@ -4150,7 +4150,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4017",
@@ -4276,7 +4276,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 118,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 6
       },
       "metadata": {
@@ -4411,7 +4411,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13293",
@@ -4467,7 +4467,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8676",
@@ -4569,7 +4569,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13274",
@@ -4665,7 +4665,7 @@
           "position": "WR",
           "team": "BAL",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8112",
@@ -5226,7 +5226,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 7,
         "wins": 1
       },
       "metadata": {
@@ -7023,6 +7023,144 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1426762433577377792",
+      "type": "waiver",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-13T00:19:41.430000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11579",
+            "name": "Audric Estime",
+            "position": "RB",
+            "team": "NO",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 1
+    },
+    {
+      "transaction_id": "1426762247643873281",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-13T00:18:57.101000Z",
+      "teams": [
+        "tyfreak hill"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11589",
+            "name": "Trey Benson",
+            "position": "RB",
+            "team": "ARI",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 2,
+          "team": "tyfreak hill"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1426711754062188544",
+      "type": "waiver",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-12T20:58:18.494000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11762",
+            "name": "Anthony Gould",
+            "position": "WR",
+            "team": "IND",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "7591",
+            "name": "Justin Fields",
+            "position": "QB",
+            "team": "KC",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 5
+    },
+    {
+      "transaction_id": "1426435602747772928",
+      "type": "waiver",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-12T02:40:58.889000Z",
+      "teams": [
+        "KELKINS KARTEL"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9757",
+            "name": "Kendre Miller",
+            "position": "RB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11199",
+            "name": "Emari Demercado",
+            "position": "RB",
+            "team": "HOU",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 6,
+          "team": "KELKINS KARTEL"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 0
+    },
+    {
       "transaction_id": "1426267220555608064",
       "type": "waiver",
       "status": "complete",
@@ -8116,7 +8254,7 @@
             "position": "TE",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -10519,7 +10657,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -10545,7 +10683,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -11167,7 +11305,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -11478,7 +11616,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -12164,7 +12302,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 2,
           "team": "tyfreak hill"
@@ -14197,8 +14335,8 @@
             "name": "Puka Nacua",
             "position": "WR",
             "team": "LAR",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -14338,7 +14476,7 @@
             "position": "QB",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -15962,7 +16100,7 @@
             "position": "TE",
             "team": "WAS",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16746,7 +16884,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17222,7 +17360,7 @@
             "position": "RB",
             "team": "LAC",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17712,7 +17850,7 @@
             "position": "WR",
             "team": "BAL",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17889,9 +18027,9 @@
   "free_agent_summary": {
     "total": 2529,
     "by_position": {
-      "QB": 292,
+      "QB": 293,
       "RB": 552,
-      "WR": 1139,
+      "WR": 1138,
       "TE": 546
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -17951,7 +18089,7 @@
       "position": "QB",
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
@@ -18326,6 +18464,18 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 9,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 2
+    },
+    {
+      "player_id": "7591",
+      "name": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 5,
       "depth_chart_position": "QB",
       "depth_chart_order": 2
     },
@@ -21471,7 +21621,7 @@
       "age": 33,
       "years_exp": 11,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "6323",
@@ -21496,18 +21646,6 @@
       "years_exp": 1,
       "depth_chart_position": "RB",
       "depth_chart_order": 4
-    },
-    {
-      "player_id": "11579",
-      "name": "Audric Estime",
-      "position": "RB",
-      "team": "NO",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 1
     },
     {
       "player_id": "11273",
@@ -21567,7 +21705,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "8423",
@@ -21626,8 +21764,8 @@
       "injury_status": "IR",
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11644",
@@ -21710,8 +21848,8 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 9,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13339",
@@ -21747,7 +21885,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6931",
@@ -21808,6 +21946,18 @@
       "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
+    },
+    {
+      "player_id": "11199",
+      "name": "Emari Demercado",
+      "position": "RB",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "10223",
@@ -22047,7 +22197,7 @@
       "age": 27,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13419",
@@ -22194,18 +22344,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "9757",
-      "name": "Kendre Miller",
-      "position": "RB",
-      "team": "DAL",
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7720",
       "name": "Kene Nwangwu",
       "position": "RB",
@@ -22263,7 +22401,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "12544",
@@ -22275,7 +22413,7 @@
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "9510",
@@ -22371,7 +22509,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "11384",
@@ -22636,6 +22774,18 @@
       "years_exp": 1,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "11589",
+      "name": "Trey Benson",
+      "position": "RB",
+      "team": "ARI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 24,
+      "years_exp": 2,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
     },
     {
       "player_id": "7593",
@@ -28110,18 +28260,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "11762",
-      "name": "Anthony Gould",
-      "position": "WR",
-      "team": "IND",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 4
-    },
-    {
       "player_id": "13582",
       "name": "Anthony Smith",
       "position": "WR",
@@ -28274,8 +28412,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 8
     },
     {
       "player_id": "8414",
@@ -29415,7 +29553,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "KR",
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "13743",
@@ -30376,6 +30514,18 @@
       "years_exp": 5,
       "depth_chart_position": "RWR",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "9490",
+      "name": "Tyler Scott",
+      "position": "WR",
+      "team": "LAR",
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11377",
@@ -41286,18 +41436,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "9490",
-      "name": "Tyler Scott",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": 9
-    },
-    {
       "player_id": "7274",
       "name": "Tyler Simmons",
       "position": "WR",
@@ -43343,7 +43481,7 @@
       "position": "TE",
       "team": "NYG",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "TE",
