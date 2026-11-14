@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-14T12:31:38.460413Z",
+  "generated_at_utc": "2026-11-14T18:30:24.717589Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -205,7 +205,6 @@
       "st_ff": 0.0
     },
     "last_message_id": "1427085299258785792",
-    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -214,6 +213,7 @@
     "last_message_text_map": null,
     "last_message_time": 1794606158607,
     "last_pinned_message_id": null,
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "previous_league_id": null,
     "bracket_id": null,
@@ -278,12 +278,12 @@
           "injury_status": null
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
           "position": "RB",
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12527",
@@ -400,14 +400,6 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
-          "position": "RB",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "position": "TE",
@@ -452,6 +444,14 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "team": "PHI",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "team": "KC",
           "status": "Active",
           "injury_status": "Out"
         },
@@ -715,7 +715,7 @@
           "position": "RB",
           "team": "KC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9484",
@@ -2815,7 +2815,7 @@
           "position": "RB",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8138",
@@ -3159,7 +3159,7 @@
           "position": "RB",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "5927",
@@ -3984,7 +3984,7 @@
           "position": "TE",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -4214,7 +4214,7 @@
           "position": "TE",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8136",
@@ -14908,7 +14908,7 @@
             "position": "RB",
             "team": "KC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -15664,7 +15664,7 @@
             "position": "RB",
             "team": "HOU",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17204,7 +17204,7 @@
             "position": "TE",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -21852,18 +21852,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "4718",
-      "name": "Dare Ogunbowale",
-      "position": "RB",
-      "team": "HOU",
-      "status": "Active",
-      "injury_status": null,
-      "age": 32,
-      "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13339",
       "name": "Davon Booth",
       "position": "RB",
@@ -23900,6 +23888,18 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "4718",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 32,
+      "years_exp": 9,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -42633,7 +42633,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8698",
@@ -42669,7 +42669,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "13422",
@@ -43145,7 +43145,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "IR",
       "age": 33,
       "years_exp": 9,
       "depth_chart_position": "TE",
@@ -43661,7 +43661,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
