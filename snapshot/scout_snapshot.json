@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-14T18:30:24.717589Z",
+  "generated_at_utc": "2026-11-14T22:45:24.595478Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -205,6 +205,7 @@
       "st_ff": 0.0
     },
     "last_message_id": "1427085299258785792",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,7 +214,6 @@
     "last_message_text_map": null,
     "last_message_time": 1794606158607,
     "last_pinned_message_id": null,
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "previous_league_id": null,
     "bracket_id": null,
@@ -981,7 +981,7 @@
           "position": "RB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "taxi": [
@@ -1259,7 +1259,7 @@
           "position": "RB",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         }
       ],
       "settings": {
@@ -1481,8 +1481,8 @@
           "name": "Travis Etienne Jr.",
           "position": "RB",
           "team": "NO",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8146",
@@ -1719,8 +1719,8 @@
           "name": "Travis Etienne Jr.",
           "position": "RB",
           "team": "NO",
-          "status": "Inactive",
-          "injury_status": "IR"
+          "status": "Active",
+          "injury_status": "Questionable"
         },
         {
           "player_id": "7594",
@@ -1924,8 +1924,8 @@
           "name": "TreVeyon Henderson",
           "position": "RB",
           "team": "NE",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13294",
@@ -2114,8 +2114,8 @@
           "name": "TreVeyon Henderson",
           "position": "RB",
           "team": "NE",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "13294",
@@ -3325,10 +3325,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "12491",
+          "name": "Corey Kiner",
           "position": "RB",
-          "team": "NYJ",
+          "team": "NE",
           "status": "Active",
           "injury_status": null
         },
@@ -3365,10 +3365,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
-          "position": "RB",
-          "team": "NE",
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "KC",
           "status": "Active",
           "injury_status": null
         },
@@ -3395,6 +3395,14 @@
           "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
           "status": "Active",
           "injury_status": null
         },
@@ -3479,14 +3487,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "9500",
-          "name": "Josh Downs",
-          "position": "WR",
-          "team": "KC",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "9508",
           "name": "Tyjae Spears",
           "position": "RB",
@@ -3518,7 +3518,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         }
       ],
       "injured_reserve": [
@@ -3658,7 +3658,7 @@
           "position": "WR",
           "team": "LAC",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Doubtful"
         },
         {
           "player_id": "13394",
@@ -10300,8 +10300,8 @@
             "name": "Xavier Legette",
             "position": "WR",
             "team": "CAR",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -12949,8 +12949,8 @@
             "name": "Chris Brooks",
             "position": "RB",
             "team": "GB",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -13058,8 +13058,8 @@
             "name": "Chris Brooks",
             "position": "RB",
             "team": "GB",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -14184,7 +14184,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -14213,7 +14213,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -14837,8 +14837,8 @@
             "name": "TreVeyon Henderson",
             "position": "RB",
             "team": "NE",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -15145,8 +15145,8 @@
             "name": "Travis Etienne Jr.",
             "position": "RB",
             "team": "NO",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17372,7 +17372,7 @@
             "position": "RB",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -17441,8 +17441,8 @@
             "name": "Xavier Legette",
             "position": "WR",
             "team": "CAR",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17834,7 +17834,7 @@
             "position": "WR",
             "team": "LAC",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Doubtful"
           }
         },
         {
@@ -18152,8 +18152,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "12688",
@@ -21669,7 +21669,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7048",
@@ -21760,8 +21760,8 @@
       "name": "Chris Brooks",
       "position": "RB",
       "team": "GB",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RB",
@@ -21848,6 +21848,18 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "4718",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "HOU",
+      "status": "Active",
+      "injury_status": null,
+      "age": 32,
+      "years_exp": 9,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -21957,7 +21969,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "10223",
@@ -22076,8 +22088,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 2
     },
     {
       "player_id": "5004",
@@ -22209,7 +22221,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "4219",
@@ -22437,7 +22449,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "13516",
@@ -22496,8 +22508,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "13437",
@@ -22588,8 +22600,8 @@
       "name": "Reggie Gilliam",
       "position": "RB",
       "team": "NE",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 6,
       "depth_chart_position": "RB",
@@ -22840,12 +22852,12 @@
       "name": "Tyler Goodson",
       "position": "RB",
       "team": "DAL",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "3309",
@@ -23888,18 +23900,6 @@
       "injury_status": null,
       "age": 22,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "4718",
-      "name": "Dare Ogunbowale",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 32,
-      "years_exp": 9,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28425,7 +28425,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 5
     },
     {
       "player_id": "8414",
@@ -28473,7 +28473,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "11748",
@@ -28641,7 +28641,7 @@
       "age": 27,
       "years_exp": 6,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 7
     },
     {
       "player_id": "13477",
@@ -28725,7 +28725,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "7090",
@@ -29085,7 +29085,7 @@
       "age": 27,
       "years_exp": 5,
       "depth_chart_position": null,
-      "depth_chart_order": 6
+      "depth_chart_order": 7
     },
     {
       "player_id": "8861",
@@ -29240,8 +29240,8 @@
       "injury_status": null,
       "age": null,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 12
     },
     {
       "player_id": "13760",
@@ -29336,8 +29336,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 6
     },
     {
       "player_id": "12505",
@@ -29565,7 +29565,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "KR",
-      "depth_chart_order": 9
+      "depth_chart_order": 10
     },
     {
       "player_id": "13743",
@@ -29913,7 +29913,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "11210",
@@ -30212,8 +30212,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 8
     },
     {
       "player_id": "12884",
@@ -30249,7 +30249,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 7
     },
     {
       "player_id": "11421",
@@ -30316,8 +30316,8 @@
       "name": "Skyy Moore",
       "position": "WR",
       "team": "GB",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "SWR",
@@ -30664,12 +30664,12 @@
       "name": "Xavier Legette",
       "position": "WR",
       "team": "CAR",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 4
     },
     {
       "player_id": "12520",
@@ -42092,8 +42092,8 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "13407",
@@ -42333,7 +42333,7 @@
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "6001",
@@ -42508,8 +42508,8 @@
       "name": "Hunter Long",
       "position": "TE",
       "team": "ARI",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
@@ -42656,8 +42656,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 3
     },
     {
       "player_id": "11595",
@@ -42820,8 +42820,8 @@
       "name": "Josh Whyle",
       "position": "TE",
       "team": "GB",
-      "status": "Active",
-      "injury_status": "Out",
+      "status": "Inactive",
+      "injury_status": "IR",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
@@ -43144,12 +43144,12 @@
       "name": "Mo Alie-Cox",
       "position": "TE",
       "team": "IND",
-      "status": "Active",
+      "status": "Inactive",
       "injury_status": "IR",
       "age": 33,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12480",
@@ -43317,7 +43317,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11508",
@@ -43665,7 +43665,7 @@
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 5
     },
     {
       "player_id": "4490",
@@ -43700,8 +43700,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 3
     },
     {
       "player_id": "4384",
