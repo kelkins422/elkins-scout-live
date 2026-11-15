@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-14T22:45:24.595478Z",
+  "generated_at_utc": "2026-11-15T02:27:24.637103Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,15 +65,15 @@
       "leg": 10,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 13
+      "daily_waivers_last_ran": 14
     },
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
+    "last_message_id": "1427085299258785792",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
-    "shard": 620,
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,7 +204,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1427085299258785792",
+    "shard": 620,
     "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
@@ -18037,11 +18037,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2530,
+    "total": 2531,
     "by_position": {
       "QB": 293,
       "RB": 552,
-      "WR": 1138,
+      "WR": 1139,
       "TE": 547
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -18752,8 +18752,8 @@
       "injury_status": null,
       "age": 28,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "QB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "8206",
@@ -22317,7 +22317,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5995",
@@ -22472,8 +22472,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6992",
@@ -22617,7 +22617,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "12656",
@@ -22797,7 +22797,7 @@
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "7593",
@@ -28353,7 +28353,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 5
     },
     {
       "player_id": "7757",
@@ -28664,8 +28664,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6453",
@@ -29301,7 +29301,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 8
     },
     {
       "player_id": "11506",
@@ -29456,8 +29456,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 7
     },
     {
       "player_id": "13173",
@@ -29574,7 +29574,7 @@
       "team": "NYJ",
       "status": "Active",
       "injury_status": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -29733,7 +29733,7 @@
       "age": 31,
       "years_exp": 9,
       "depth_chart_position": null,
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "13412",
@@ -29974,6 +29974,18 @@
       "years_exp": 2,
       "depth_chart_position": "RWR",
       "depth_chart_order": 9
+    },
+    {
+      "player_id": "13200",
+      "name": "Max Hurleman",
+      "position": "WR",
+      "team": "PIT",
+      "status": "Active",
+      "injury_status": "Out",
+      "age": 25,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": 12
     },
     {
       "player_id": "5917",
@@ -30249,7 +30261,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 7
+      "depth_chart_order": 10
     },
     {
       "player_id": "11421",
@@ -30680,8 +30692,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 6
     },
     {
       "player_id": "11168",
@@ -30716,8 +30728,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "LWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "830",
@@ -42116,8 +42128,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 4
     },
     {
       "player_id": "8127",
@@ -42296,8 +42308,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "TE",
+      "depth_chart_order": 5
     },
     {
       "player_id": "5288",
