@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-16T08:25:14.075560Z",
+  "generated_at_utc": "2026-11-16T18:48:23.241218Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,10 +70,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
-    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,16 +200,20 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1427919297430163456",
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
+    "season": "2026",
+    "season_type": "regular",
+    "shard": 620,
+    "sport": "nfl",
+    "last_message_id": "1428105147682140160",
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
     "last_author_is_bot": false,
     "last_message_attachment": null,
-    "draft_id": "1353413007752839168",
     "last_message_text_map": null,
-    "last_message_time": 1794804999267,
-    "last_pinned_message_id": null,
+    "last_message_time": 1794849309420,
+    "last_pinned_message_id": "1428102423192297472",
     "last_read_id": null,
     "previous_league_id": null,
     "roster_positions": [
@@ -242,9 +242,9 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1896,14 +1896,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy Jr.",
-          "position": "RB",
-          "team": "NYG",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -1928,18 +1920,26 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
+          "player_id": "2133",
+          "name": "Davante Adams",
           "position": "WR",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
+          "team": "LAR",
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "3294",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -2070,14 +2070,6 @@
           "injury_status": null
         },
         {
-          "player_id": "11655",
-          "name": "Tyrone Tracy Jr.",
-          "position": "RB",
-          "team": "NYG",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -2118,14 +2110,6 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13294",
-          "name": "Makai Lemon",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "13296",
           "name": "Caleb Douglas",
           "position": "WR",
@@ -2150,10 +2134,26 @@
           "injury_status": "Questionable"
         },
         {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Inactive",
+          "injury_status": "IR"
+        },
+        {
           "player_id": "2505",
           "name": "Darren Waller",
           "position": "TE",
           "team": "CAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "3294",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -3309,14 +3309,6 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "3294",
-          "name": "Dak Prescott",
-          "position": "QB",
-          "team": "DAL",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5967",
           "name": "Tony Pollard",
           "position": "RB",
@@ -3431,6 +3423,14 @@
           "injury_status": "IR"
         },
         {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13297",
           "name": "Reggie Virgil",
           "position": "WR",
@@ -3469,14 +3469,6 @@
           "team": "NYJ",
           "status": "Active",
           "injury_status": "Out"
-        },
-        {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "9500",
@@ -3629,6 +3621,14 @@
           "injury_status": null
         },
         {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13297",
           "name": "Reggie Virgil",
           "position": "WR",
@@ -3685,26 +3685,10 @@
           "injury_status": "Out"
         },
         {
-          "player_id": "2133",
-          "name": "Davante Adams",
-          "position": "WR",
-          "team": "LAR",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
           "team": "DET",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "3294",
-          "name": "Dak Prescott",
-          "position": "QB",
-          "team": "DAL",
           "status": "Active",
           "injury_status": null
         },
@@ -6055,10 +6039,10 @@
       "round": 1,
       "original_roster_id": 4,
       "original_team": "Mayek It Clap",
-      "current_roster_id": 4,
-      "current_team": "Mayek It Clap",
+      "current_roster_id": 7,
+      "current_team": "Pickens My Chuba",
       "previous_roster_id": 4,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2028",
@@ -6285,10 +6269,10 @@
       "round": 3,
       "original_roster_id": 7,
       "original_team": "Pickens My Chuba",
-      "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_roster_id": 4,
+      "current_team": "Mayek It Clap",
       "previous_roster_id": 7,
-      "is_traded": false
+      "is_traded": true
     },
     {
       "season": "2028",
@@ -6902,6 +6886,13 @@
     {
       "round": 1,
       "season": "2028",
+      "roster_id": 4,
+      "owner_id": 7,
+      "previous_owner_id": 4
+    },
+    {
+      "round": 1,
+      "season": "2028",
       "roster_id": 5,
       "owner_id": 9,
       "previous_owner_id": 5
@@ -6947,6 +6938,13 @@
       "roster_id": 3,
       "owner_id": 7,
       "previous_owner_id": 3
+    },
+    {
+      "round": 3,
+      "season": "2028",
+      "roster_id": 7,
+      "owner_id": 4,
+      "previous_owner_id": 7
     },
     {
       "round": 1,
@@ -7006,6 +7004,139 @@
     }
   ],
   "recent_transactions": [
+    {
+      "transaction_id": "1428103286384254976",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-16T17:07:45.651000Z",
+      "teams": [
+        "Mayek It Clap"
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11655",
+            "name": "Tyrone Tracy Jr.",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1428065242180521984",
+      "type": "trade",
+      "status": "complete",
+      "week": 10,
+      "created_utc": "2026-11-16T14:36:35.206000Z",
+      "teams": [
+        "Mayek It Clap",
+        "Pickens My Chuba"
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "2133",
+            "name": "Davante Adams",
+            "position": "WR",
+            "team": "LAR",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "3294",
+            "name": "Dak Prescott",
+            "position": "QB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "13294",
+            "name": "Makai Lemon",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13294",
+            "name": "Makai Lemon",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 4,
+          "team": "Mayek It Clap"
+        },
+        {
+          "player": {
+            "player_id": "2133",
+            "name": "Davante Adams",
+            "position": "WR",
+            "team": "LAR",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        },
+        {
+          "player": {
+            "player_id": "3294",
+            "name": "Dak Prescott",
+            "position": "QB",
+            "team": "DAL",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 7,
+          "team": "Pickens My Chuba"
+        }
+      ],
+      "draft_picks": [
+        {
+          "season": "2028",
+          "round": 1,
+          "roster_id": 4,
+          "owner_id": 7,
+          "previous_owner_id": 4
+        },
+        {
+          "season": "2028",
+          "round": 3,
+          "roster_id": 7,
+          "owner_id": 4,
+          "previous_owner_id": 7
+        }
+      ],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
     {
       "transaction_id": "1426808409121906688",
       "type": "free_agent",
@@ -18037,10 +18168,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2531,
+    "total": 2532,
     "by_position": {
       "QB": 293,
-      "RB": 552,
+      "RB": 553,
       "WR": 1139,
       "TE": 547
     },
@@ -22846,6 +22977,18 @@
       "years_exp": 4,
       "depth_chart_position": "RB",
       "depth_chart_order": 5
+    },
+    {
+      "player_id": "11655",
+      "name": "Tyrone Tracy Jr.",
+      "position": "RB",
+      "team": "NYG",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 26,
+      "years_exp": 2,
+      "depth_chart_position": "RB",
+      "depth_chart_order": 6
     },
     {
       "player_id": "3309",
