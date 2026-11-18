@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-18T10:17:34.383787Z",
+  "generated_at_utc": "2026-11-18T18:58:18.383179Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,16 +204,16 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1428599845819518976",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "draft_id": "1353413007752839168",
-    "last_author_is_bot": true,
+    "last_message_id": "1428850295093342208",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1794967254646,
+    "last_message_time": 1795026966407,
     "last_pinned_message_id": "1428102423192297472",
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "previous_league_id": null,
     "roster_positions": [
@@ -2858,12 +2858,12 @@
           "injury_status": null
         },
         {
-          "player_id": "6804",
-          "name": "Jordan Love",
-          "position": "QB",
-          "team": "GB",
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "bench": [
@@ -2890,14 +2890,6 @@
           "team": "TB",
           "status": "Inactive",
           "injury_status": "IR"
-        },
-        {
-          "player_id": "11635",
-          "name": "Ladd McConkey",
-          "position": "WR",
-          "team": "LAC",
-          "status": "Active",
-          "injury_status": "Questionable"
         },
         {
           "player_id": "12469",
@@ -2944,6 +2936,14 @@
           "name": "Jakobi Meyers",
           "position": "WR",
           "team": "JAX",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
           "status": "Active",
           "injury_status": null
         },
@@ -3309,12 +3309,12 @@
           "injury_status": null
         },
         {
-          "player_id": "11576",
-          "name": "Braelon Allen",
+          "player_id": "12533",
+          "name": "Jacory Croskey-Merritt",
           "position": "RB",
-          "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
+          "team": "WAS",
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "12519",
@@ -3391,6 +3391,14 @@
           "injury_status": null
         },
         {
+          "player_id": "11576",
+          "name": "Braelon Allen",
+          "position": "RB",
+          "team": "NYJ",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12491",
           "name": "Corey Kiner",
           "position": "RB",
@@ -3405,14 +3413,6 @@
           "team": "CLE",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "12533",
-          "name": "Jacory Croskey-Merritt",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "13294",
@@ -9680,7 +9680,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -10750,7 +10750,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -18329,18 +18329,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "11065",
-      "name": "Adrian Martinez",
-      "position": "QB",
-      "team": "SEA",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "10866",
       "name": "Aidan O'Connell",
       "position": "QB",
@@ -18566,7 +18554,7 @@
       "age": 31,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "6011",
@@ -18674,7 +18662,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "7262",
@@ -19237,6 +19225,18 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11065",
+      "name": "Adrian Martinez",
+      "position": "QB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -22241,18 +22241,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "10223",
-      "name": "Eric Gray",
-      "position": "RB",
-      "team": "NYG",
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "9220",
       "name": "Evan Hull",
       "position": "RB",
@@ -24913,6 +24901,18 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 4,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "10223",
+      "name": "Eric Gray",
+      "position": "RB",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -28793,18 +28793,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "11748",
-      "name": "Bub Means",
-      "position": "WR",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "age": 25,
-      "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13554",
       "name": "CJ Williams",
       "position": "WR",
@@ -29470,7 +29458,7 @@
       "position": "WR",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
@@ -29537,18 +29525,6 @@
       "depth_chart_order": 10
     },
     {
-      "player_id": "13904",
-      "name": "Jacob De Jesus",
-      "position": "WR",
-      "team": "KC",
-      "status": "Active",
-      "injury_status": null,
-      "age": null,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13760",
       "name": "Jaden Bradley",
       "position": "WR",
@@ -29606,7 +29582,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
-      "depth_chart_order": 10
+      "depth_chart_order": 11
     },
     {
       "player_id": "11506",
@@ -29701,18 +29677,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 2,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "6957",
-      "name": "James Proche II",
-      "position": "WR",
-      "team": "ARI",
-      "status": "Active",
-      "injury_status": null,
-      "age": 30,
-      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -30557,6 +30521,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "12907",
+      "name": "Quentin Skinner",
+      "position": "WR",
+      "team": "PHI",
+      "status": "Active",
+      "injury_status": null,
+      "age": 24,
+      "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6927",
       "name": "Quez Watkins",
       "position": "WR",
@@ -30910,7 +30886,7 @@
       "position": "WR",
       "team": "BUF",
       "status": "Active",
-      "injury_status": "PUP",
+      "injury_status": null,
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "RWR",
@@ -31046,7 +31022,7 @@
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 9
     },
     {
       "player_id": "11168",
@@ -32197,6 +32173,18 @@
       "injury_status": null,
       "age": 23,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "11748",
+      "name": "Bub Means",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 25,
+      "years_exp": 2,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -35357,6 +35345,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "13904",
+      "name": "Jacob De Jesus",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": null,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "7703",
       "name": "Jacob Harris",
       "position": "WR",
@@ -35719,6 +35719,18 @@
     {
       "player_id": "3078",
       "name": "Jamel Johnson",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 30,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6957",
+      "name": "James Proche II",
       "position": "WR",
       "team": null,
       "status": "Active",
@@ -39677,18 +39689,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "12907",
-      "name": "Quentin Skinner",
-      "position": "WR",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 24,
-      "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "3770",
       "name": "Quenton Bundrage",
       "position": "WR",
@@ -42401,18 +42401,6 @@
       "depth_chart_order": 3
     },
     {
-      "player_id": "13580",
-      "name": "Carsen Ryan",
-      "position": "TE",
-      "team": "CLE",
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13407",
       "name": "Carson Towt",
       "position": "TE",
@@ -44014,7 +44002,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
@@ -44785,6 +44773,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "13580",
+      "name": "Carsen Ryan",
+      "position": "TE",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
