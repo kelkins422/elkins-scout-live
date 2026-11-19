@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-19T08:49:46.825124Z",
+  "generated_at_utc": "2026-11-19T18:03:16.821647Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,11 +70,10 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "sport": "nfl",
-    "season_type": "regular",
-    "season": "2026",
     "shard": 620,
-    "last_message_id": "1428962274877390848",
+    "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -205,6 +204,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1428962274877390848",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,10 +212,15 @@
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1795053664467,
-    "draft_id": "1353413007752839168",
     "last_pinned_message_id": "1428102423192297472",
+    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -29518,18 +29518,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "6920",
-      "name": "Isaiah Hodgins",
-      "position": "WR",
-      "team": "PIT",
-      "status": "Active",
-      "injury_status": null,
-      "age": 28,
-      "years_exp": 6,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "13074",
       "name": "Isaiah Neyor",
       "position": "WR",
@@ -29947,7 +29935,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "KR",
-      "depth_chart_order": 9
+      "depth_chart_order": 10
     },
     {
       "player_id": "13743",
@@ -30367,7 +30355,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 12
+      "depth_chart_order": 11
     },
     {
       "player_id": "5917",
@@ -30655,7 +30643,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 9
     },
     {
       "player_id": "10221",
@@ -35130,6 +35118,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "6920",
+      "name": "Isaiah Hodgins",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 28,
+      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -42442,6 +42442,18 @@
       "depth_chart_order": 3
     },
     {
+      "player_id": "13580",
+      "name": "Carsen Ryan",
+      "position": "TE",
+      "team": "CLE",
+      "status": "Active",
+      "injury_status": null,
+      "age": 23,
+      "years_exp": 0,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "13407",
       "name": "Carson Towt",
       "position": "TE",
@@ -42775,7 +42787,7 @@
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "5985",
@@ -42919,7 +42931,7 @@
       "age": 23,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "1706",
@@ -44814,18 +44826,6 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "13580",
-      "name": "Carsen Ryan",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 23,
-      "years_exp": 0,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
