@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-19T18:03:16.821647Z",
+  "generated_at_utc": "2026-11-20T00:37:40.156633Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,10 +70,11 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 620,
+    "last_message_id": "1428962274877390848",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,7 +205,6 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1428962274877390848",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -212,15 +212,10 @@
     "last_message_attachment": null,
     "last_message_text_map": null,
     "last_message_time": 1795053664467,
-    "last_pinned_message_id": "1428102423192297472",
     "draft_id": "1353413007752839168",
+    "last_pinned_message_id": "1428102423192297472",
     "last_read_id": null,
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -247,6 +242,11 @@
       "BN",
       "BN"
     ],
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -445,7 +445,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8151",
@@ -460,7 +460,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR"
         }
       ],
@@ -699,7 +699,7 @@
           "position": "WR",
           "team": "PHI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8137",
@@ -738,7 +738,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "team": "LAR",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": "IR"
         }
       ],
@@ -1450,7 +1450,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12501",
@@ -1616,7 +1616,7 @@
           "position": "WR",
           "team": "IND",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12501",
@@ -2445,7 +2445,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13288",
@@ -2579,7 +2579,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13288",
@@ -4711,18 +4711,18 @@
       "co_owners": [],
       "starters": [
         {
-          "player_id": "11559",
-          "name": "Michael Penix Jr.",
+          "player_id": "4892",
+          "name": "Baker Mayfield",
           "position": "QB",
-          "team": "ATL",
+          "team": "TB",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
-          "player_id": "4663",
-          "name": "Austin Ekeler",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
           "position": "RB",
-          "team": "WAS",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -4735,10 +4735,10 @@
           "injury_status": null
         },
         {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "SEA",
+          "team": "CHI",
           "status": "Active",
           "injury_status": null
         },
@@ -4775,10 +4775,10 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "13298",
-          "name": "KC Concepcion Jr.",
+          "player_id": "12499",
+          "name": "Elic Ayomanor",
           "position": "WR",
-          "team": "CLE",
+          "team": "TEN",
           "status": "Active",
           "injury_status": null
         },
@@ -4801,10 +4801,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11620",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "team": "CHI",
+          "player_id": "11559",
+          "name": "Michael Penix Jr.",
+          "position": "QB",
+          "team": "ATL",
           "status": "Active",
           "injury_status": null
         },
@@ -4817,14 +4817,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12499",
-          "name": "Elic Ayomanor",
-          "position": "WR",
-          "team": "TEN",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12502",
           "name": "Gunnar Helm",
           "position": "TE",
@@ -4833,10 +4825,10 @@
           "injury_status": null
         },
         {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
+          "player_id": "13298",
+          "name": "KC Concepcion Jr.",
+          "position": "WR",
+          "team": "CLE",
           "status": "Active",
           "injury_status": null
         },
@@ -4865,12 +4857,12 @@
           "injury_status": null
         },
         {
-          "player_id": "4892",
-          "name": "Baker Mayfield",
-          "position": "QB",
-          "team": "TB",
+          "player_id": "4663",
+          "name": "Austin Ekeler",
+          "position": "RB",
+          "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6806",
@@ -4903,6 +4895,14 @@
           "team": null,
           "status": "Inactive",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "9488",
+          "name": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "team": "SEA",
+          "status": "Active",
+          "injury_status": null
         }
       ],
       "taxi": [
@@ -7417,7 +7417,7 @@
             "position": "WR",
             "team": "IND",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -11846,7 +11846,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -11896,7 +11896,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -12284,7 +12284,7 @@
             "position": "RB",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -14657,7 +14657,7 @@
             "name": "Puka Nacua",
             "position": "WR",
             "team": "LAR",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": "IR"
           }
         },
@@ -15344,7 +15344,7 @@
             "position": "WR",
             "team": "PHI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16702,7 +16702,7 @@
             "position": "QB",
             "team": "ARI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -17374,7 +17374,7 @@
             "position": "RB",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -19011,7 +19011,7 @@
       "position": "QB",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "QB",
@@ -22015,7 +22015,7 @@
       "age": 27,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "8423",
@@ -22507,7 +22507,7 @@
       "age": 27,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13419",
@@ -22563,7 +22563,7 @@
       "position": "RB",
       "team": "SF",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 22,
       "years_exp": 1,
       "depth_chart_position": "RB",
@@ -22843,7 +22843,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 7
+      "depth_chart_order": 6
     },
     {
       "player_id": "11384",
@@ -30289,10 +30289,10 @@
       "player_id": "11210",
       "name": "Malik Heath",
       "position": "WR",
-      "team": "ATL",
+      "team": "WAS",
       "status": "Active",
       "injury_status": null,
-      "age": 25,
+      "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
@@ -42331,7 +42331,7 @@
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7891",
@@ -42487,7 +42487,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 2
+      "depth_chart_order": 3
     },
     {
       "player_id": "7075",
@@ -42543,7 +42543,7 @@
       "position": "TE",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
@@ -43246,6 +43246,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "7050",
+      "name": "Josiah Deguara",
+      "position": "TE",
+      "team": "LAC",
+      "status": "Active",
+      "injury_status": null,
+      "age": 29,
+      "years_exp": 6,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "11371",
       "name": "Julian Hill",
       "position": "TE",
@@ -43431,7 +43443,7 @@
       "position": "TE",
       "team": "DAL",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 3,
       "depth_chart_position": "TE",
@@ -43459,7 +43471,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13032",
@@ -43543,7 +43555,7 @@
       "age": 33,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "12480",
@@ -43636,7 +43648,7 @@
       "team": "NO",
       "status": "Active",
       "injury_status": null,
-      "age": 28,
+      "age": 29,
       "years_exp": 7,
       "depth_chart_position": "TE",
       "depth_chart_order": 2
@@ -43711,7 +43723,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "11508",
@@ -46746,18 +46758,6 @@
       "injury_status": null,
       "age": null,
       "years_exp": 1,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "7050",
-      "name": "Josiah Deguara",
-      "position": "TE",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 29,
-      "years_exp": 6,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
