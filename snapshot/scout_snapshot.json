@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-20T07:47:10.111345Z",
+  "generated_at_utc": "2026-11-20T16:48:42.786327Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -205,6 +205,7 @@
       "st_ff": 0.0
     },
     "last_message_id": "1428962274877390848",
+    "draft_id": "1353413007752839168",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -213,12 +214,11 @@
     "last_message_text_map": null,
     "last_message_time": 1795053664467,
     "last_pinned_message_id": "1428102423192297472",
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "previous_league_id": null,
-    "group_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "roster_positions": [
@@ -278,12 +278,12 @@
           "injury_status": null
         },
         {
-          "player_id": "13337",
-          "name": "Emmett Johnson",
+          "player_id": "8151",
+          "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12527",
@@ -310,10 +310,10 @@
           "injury_status": null
         },
         {
-          "player_id": "9484",
-          "name": "Tucker Kraft",
+          "player_id": "5022",
+          "name": "Dallas Goedert",
           "position": "TE",
-          "team": "GB",
+          "team": "PHI",
           "status": "Active",
           "injury_status": null
         },
@@ -326,20 +326,20 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "5859",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "team": "NE",
+          "player_id": "4866",
+          "name": "Saquon Barkley",
+          "position": "RB",
+          "team": "PHI",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
-          "player_id": "12474",
-          "name": "Woody Marks",
-          "position": "RB",
-          "team": "HOU",
+          "player_id": "7525",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "team": "PHI",
           "status": "Active",
-          "injury_status": "Out"
+          "injury_status": null
         },
         {
           "player_id": "7523",
@@ -360,6 +360,14 @@
           "injury_status": "Out"
         },
         {
+          "player_id": "12474",
+          "name": "Woody Marks",
+          "position": "RB",
+          "team": "HOU",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
           "player_id": "12487",
           "name": "Terrance Ferguson",
           "position": "TE",
@@ -373,7 +381,7 @@
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13285",
@@ -400,6 +408,14 @@
           "injury_status": "Out"
         },
         {
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "13421",
           "name": "Eli Raridon",
           "position": "TE",
@@ -416,14 +432,6 @@
           "injury_status": null
         },
         {
-          "player_id": "4866",
-          "name": "Saquon Barkley",
-          "position": "RB",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "5012",
           "name": "Mark Andrews",
           "position": "TE",
@@ -432,28 +440,20 @@
           "injury_status": null
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "7525",
-          "name": "DeVonta Smith",
+          "player_id": "5859",
+          "name": "A.J. Brown",
           "position": "WR",
-          "team": "PHI",
+          "team": "NE",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
-          "player_id": "8151",
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "team": "KC",
+          "player_id": "9484",
+          "name": "Tucker Kraft",
+          "position": "TE",
+          "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9493",
@@ -563,7 +563,7 @@
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13285",
@@ -9721,7 +9721,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -10791,7 +10791,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -16058,7 +16058,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -29203,7 +29203,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "8253",
@@ -29535,7 +29535,7 @@
       "position": "WR",
       "team": "NYJ",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
@@ -30091,7 +30091,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "4454",
@@ -42903,7 +42903,7 @@
       "position": "TE",
       "team": "LV",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 30,
       "years_exp": 8,
       "depth_chart_position": "TE",
