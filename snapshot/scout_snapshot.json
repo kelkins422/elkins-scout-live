@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-21T19:39:51.866691Z",
+  "generated_at_utc": "2026-11-21T23:56:22.226929Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -1505,8 +1505,8 @@
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "9754",
@@ -1767,8 +1767,8 @@
           "name": "Dontayvion Wicks",
           "position": "WR",
           "team": "PHI",
-          "status": "Active",
-          "injury_status": "Out"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "9754",
@@ -3968,7 +3968,7 @@
           "position": "RB",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         }
       ],
       "taxi": [
@@ -4222,7 +4222,7 @@
           "position": "RB",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "9228",
@@ -7905,8 +7905,8 @@
             "name": "Roman Wilson",
             "position": "WR",
             "team": "PIT",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -8633,8 +8633,8 @@
             "name": "Will Shipley",
             "position": "RB",
             "team": "PHI",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9547,8 +9547,8 @@
             "name": "Will Shipley",
             "position": "RB",
             "team": "PHI",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -9709,8 +9709,8 @@
             "name": "Will Shipley",
             "position": "RB",
             "team": "PHI",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -10348,8 +10348,8 @@
             "name": "Roman Wilson",
             "position": "WR",
             "team": "PIT",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -10445,8 +10445,8 @@
             "name": "Roman Wilson",
             "position": "WR",
             "team": "PIT",
-            "status": "Inactive",
-            "injury_status": "IR"
+            "status": "Active",
+            "injury_status": "Questionable"
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -13453,8 +13453,8 @@
             "name": "Dontayvion Wicks",
             "position": "WR",
             "team": "PHI",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -14116,8 +14116,8 @@
             "name": "Dontayvion Wicks",
             "position": "WR",
             "team": "PHI",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -14268,8 +14268,8 @@
             "name": "Dontayvion Wicks",
             "position": "WR",
             "team": "PHI",
-            "status": "Active",
-            "injury_status": "Out"
+            "status": "Inactive",
+            "injury_status": "IR"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -15318,7 +15318,7 @@
             "position": "RB",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -19095,7 +19095,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "10983",
@@ -22526,8 +22526,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "11588",
@@ -22659,7 +22659,7 @@
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "5995",
@@ -22826,8 +22826,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "RB",
+      "depth_chart_order": 3
     },
     {
       "player_id": "6992",
@@ -22898,6 +22898,18 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "8116",
+      "name": "Pierre Strong Jr.",
+      "position": "RB",
+      "team": "GB",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 4,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -23242,8 +23254,8 @@
       "name": "Will Shipley",
       "position": "RB",
       "team": "PHI",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "RB",
@@ -27186,18 +27198,6 @@
       "depth_chart_order": null
     },
     {
-      "player_id": "8116",
-      "name": "Pierre Strong Jr.",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "7560",
       "name": "Pooka Williams",
       "position": "RB",
@@ -28695,7 +28695,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "6427",
@@ -28755,7 +28755,7 @@
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "8204",
@@ -29223,7 +29223,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "8253",
@@ -30051,7 +30051,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "3634",
@@ -30099,7 +30099,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 6
     },
     {
       "player_id": "4454",
@@ -30351,7 +30351,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 6
     },
     {
       "player_id": "13200",
@@ -30363,7 +30363,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 10
+      "depth_chart_order": 8
     },
     {
       "player_id": "5917",
@@ -30646,12 +30646,12 @@
       "name": "Roman Wilson",
       "position": "WR",
       "team": "PIT",
-      "status": "Inactive",
-      "injury_status": "IR",
+      "status": "Active",
+      "injury_status": "Questionable",
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 3
     },
     {
       "player_id": "10221",
@@ -30770,8 +30770,8 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_position": null,
-      "depth_chart_order": null
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 5
     },
     {
       "player_id": "12496",
@@ -30923,7 +30923,7 @@
       "position": "WR",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
@@ -43599,7 +43599,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11433",
