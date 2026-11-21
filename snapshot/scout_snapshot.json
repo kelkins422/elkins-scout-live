@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-21T03:53:32.958010Z",
+  "generated_at_utc": "2026-11-21T19:39:51.866691Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,7 +70,6 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "last_message_id": "1429704057831837696",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -205,6 +204,7 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
+    "last_message_id": "1429704057831837696",
     "last_author_avatar": "91f21f9362f1a93f4abda2e9a95c43ce",
     "last_author_display_name": "Donovanelkins6",
     "last_author_id": "1030955970991603712",
@@ -213,8 +213,8 @@
     "last_message_text_map": null,
     "last_message_time": 1795230519305,
     "last_pinned_message_id": "1428102423192297472",
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "previous_league_id": null,
     "roster_positions": [
       "QB",
@@ -2409,7 +2409,7 @@
           "player_id": "5870",
           "name": "Daniel Jones",
           "position": "QB",
-          "team": "IND",
+          "team": null,
           "status": "Active",
           "injury_status": null
         }
@@ -2445,7 +2445,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13288",
@@ -2579,7 +2579,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13288",
@@ -2665,7 +2665,7 @@
           "player_id": "5870",
           "name": "Daniel Jones",
           "position": "QB",
-          "team": "IND",
+          "team": null,
           "status": "Active",
           "injury_status": null
         },
@@ -3483,8 +3483,8 @@
           "name": "Tyjae Spears",
           "position": "RB",
           "team": "TEN",
-          "status": "Active",
-          "injury_status": "Questionable"
+          "status": "Inactive",
+          "injury_status": "IR"
         }
       ],
       "taxi": [
@@ -3737,8 +3737,8 @@
           "name": "Tyjae Spears",
           "position": "RB",
           "team": "TEN",
-          "status": "Active",
-          "injury_status": "Questionable"
+          "status": "Inactive",
+          "injury_status": "IR"
         },
         {
           "player_id": "96",
@@ -16674,7 +16674,7 @@
             "player_id": "5870",
             "name": "Daniel Jones",
             "position": "QB",
-            "team": "IND",
+            "team": null,
             "status": "Active",
             "injury_status": null
           }
@@ -16746,7 +16746,7 @@
             "position": "QB",
             "team": "ARI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17193,8 +17193,8 @@
             "name": "Tyjae Spears",
             "position": "RB",
             "team": "TEN",
-            "status": "Active",
-            "injury_status": "Questionable"
+            "status": "Inactive",
+            "injury_status": "IR"
           }
         },
         {
@@ -29478,18 +29478,6 @@
       "depth_chart_order": 4
     },
     {
-      "player_id": "7559",
-      "name": "Ihmir Smith-Marsette",
-      "position": "WR",
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": "Questionable",
-      "age": 27,
-      "years_exp": 5,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
       "player_id": "8861",
       "name": "Irvin Charles",
       "position": "WR",
@@ -35126,6 +35114,18 @@
       "injury_status": null,
       "age": 32,
       "years_exp": 10,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
+      "player_id": "7559",
+      "name": "Ihmir Smith-Marsette",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": "Questionable",
+      "age": 27,
+      "years_exp": 5,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
