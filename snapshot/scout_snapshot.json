@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-23T09:40:54.732575Z",
+  "generated_at_utc": "2026-11-23T21:41:47.525509Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -70,11 +70,10 @@
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "last_message_id": "1430439091220000768",
-    "shard": 620,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1430699597906329600",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -205,19 +204,21 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
-    "last_author_display_name": "Nolan0921",
-    "last_author_id": "1218752951078637568",
-    "last_author_is_bot": false,
+    "shard": 620,
+    "draft_id": "1353413007752839168",
+    "last_author_avatar": null,
+    "last_author_display_name": "sys",
+    "last_author_id": "166666666666666666",
+    "last_author_is_bot": true,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795405764921,
+    "last_message_time": 1795467874555,
     "last_pinned_message_id": "1428102423192297472",
-    "draft_id": "1353413007752839168",
     "last_read_id": null,
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
+    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -244,7 +245,6 @@
       "BN",
       "BN"
     ],
-    "group_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -323,7 +323,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "4866",
@@ -547,7 +547,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "12527",
@@ -1501,14 +1501,6 @@
           "injury_status": null
         },
         {
-          "player_id": "9486",
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
-        },
-        {
           "player_id": "9754",
           "name": "Quentin Johnston",
           "position": "WR",
@@ -1761,14 +1753,6 @@
           "team": "DET",
           "status": "Active",
           "injury_status": null
-        },
-        {
-          "player_id": "9486",
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Inactive",
-          "injury_status": "IR"
         },
         {
           "player_id": "9754",
@@ -3412,7 +3396,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Inactive",
-          "injury_status": "IR"
+          "injury_status": null
         },
         {
           "player_id": "13294",
@@ -3602,7 +3586,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Inactive",
-          "injury_status": "IR"
+          "injury_status": null
         },
         {
           "player_id": "12536",
@@ -7021,6 +7005,34 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1430699597780508672",
+      "type": "free_agent",
+      "status": "complete",
+      "week": 11,
+      "created_utc": "2026-11-23T21:04:34.525000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "position": "WR",
+            "team": "PHI",
+            "status": "Inactive",
+            "injury_status": "IR"
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": null
+    },
+    {
       "transaction_id": "1430317524418838528",
       "type": "waiver",
       "status": "complete",
@@ -9961,7 +9973,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Inactive",
-            "injury_status": "IR"
+            "injury_status": null
           },
           "roster_id": 7,
           "team": "Pickens My Chuba"
@@ -9975,7 +9987,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Inactive",
-            "injury_status": "IR"
+            "injury_status": null
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -16002,7 +16014,7 @@
             "position": "RB",
             "team": "JAX",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16142,7 +16154,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Inactive",
-            "injury_status": "IR"
+            "injury_status": null
           }
         },
         {
@@ -18473,11 +18485,11 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2531,
+    "total": 2532,
     "by_position": {
       "QB": 292,
       "RB": 556,
-      "WR": 1138,
+      "WR": 1139,
       "TE": 545
     },
     "note": "Unrostered QB/RB/WR/TE players from Sleeper's current NFL player database."
@@ -22200,8 +22212,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 2,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8181",
@@ -22394,6 +22406,18 @@
       "years_exp": 3,
       "depth_chart_position": "RB",
       "depth_chart_order": 2
+    },
+    {
+      "player_id": "10223",
+      "name": "Eric Gray",
+      "position": "RB",
+      "team": "IND",
+      "status": "Active",
+      "injury_status": null,
+      "age": 27,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "9220",
@@ -22608,8 +22632,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11588",
@@ -22908,8 +22932,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 5,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "6992",
@@ -22944,8 +22968,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13437",
@@ -22980,8 +23004,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8116",
@@ -23124,8 +23148,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "4147",
@@ -25068,18 +25092,6 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 4,
-      "depth_chart_position": null,
-      "depth_chart_order": null
-    },
-    {
-      "player_id": "10223",
-      "name": "Eric Gray",
-      "position": "RB",
-      "team": null,
-      "status": "Active",
-      "injury_status": null,
-      "age": 27,
-      "years_exp": 3,
       "depth_chart_position": null,
       "depth_chart_order": null
     },
@@ -29392,6 +29404,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "9486",
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "PHI",
+      "status": "Inactive",
+      "injury_status": "IR",
+      "age": 25,
+      "years_exp": 3,
+      "depth_chart_position": "RWR",
+      "depth_chart_order": 6
+    },
+    {
       "player_id": "5282",
       "name": "Duplicate Player",
       "position": "WR",
@@ -29677,7 +29701,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_order": 8
     },
     {
       "player_id": "13760",
@@ -30432,8 +30456,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 9
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "5917",
@@ -30852,8 +30876,8 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 5
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "12496",
@@ -31212,8 +31236,8 @@
       "injury_status": null,
       "age": 31,
       "years_exp": 9,
-      "depth_chart_position": "LWR",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "830",
@@ -42576,8 +42600,8 @@
       "injury_status": null,
       "age": 25,
       "years_exp": 1,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8127",
@@ -43293,7 +43317,7 @@
       "position": "TE",
       "team": "CIN",
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "Questionable",
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "TE",
@@ -43728,8 +43752,8 @@
       "injury_status": null,
       "age": 33,
       "years_exp": 10,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8107",
