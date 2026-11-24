@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-23T21:41:47.525509Z",
+  "generated_at_utc": "2026-11-24T05:35:06.629401Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -65,15 +65,15 @@
       "leg": 11,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
-      "daily_waivers_last_ran": 22
+      "daily_waivers_last_ran": 23
     },
     "avatar": null,
     "company_id": null,
     "league_id": "1353413006104485888",
-    "last_message_id": "1430699597906329600",
-    "sport": "nfl",
-    "season_type": "regular",
+    "shard": 620,
     "season": "2026",
+    "season_type": "regular",
+    "sport": "nfl",
     "scoring_settings": {
       "sack": 1.0,
       "qb_hit": 0.0,
@@ -204,21 +204,23 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "shard": 620,
-    "draft_id": "1353413007752839168",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1430793132936531968",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795467874555,
+    "last_message_time": 1795490175045,
     "last_pinned_message_id": "1428102423192297472",
     "last_read_id": null,
+    "draft_id": "1353413007752839168",
     "previous_league_id": null,
     "bracket_id": null,
     "bracket_overrides_id": null,
     "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,15 +247,13 @@
       "BN",
       "BN"
     ],
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
-    "week": 11,
-    "leg": 11,
-    "season": "2026",
+    "week": 12,
     "season_type": "regular",
+    "season": "2026",
+    "leg": 12,
     "league_season": "2026",
     "previous_season": "2025",
     "season_start_date": "2026-09-09",
@@ -437,7 +437,7 @@
           "position": "TE",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5859",
@@ -675,7 +675,7 @@
           "position": "TE",
           "team": "PHI",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "5859",
@@ -753,7 +753,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 150,
-        "waiver_position": 6,
+        "waiver_position": 5,
         "wins": 4
       },
       "metadata": {
@@ -1273,7 +1273,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 110,
-        "waiver_position": 5,
+        "waiver_position": 4,
         "wins": 5
       },
       "metadata": {
@@ -1461,6 +1461,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12531",
+          "name": "Trevor Etienne",
+          "position": "RB",
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12634",
           "name": "Jordan Watkins",
           "position": "WR",
@@ -1627,6 +1635,14 @@
           "injury_status": null
         },
         {
+          "player_id": "12531",
+          "name": "Trevor Etienne",
+          "position": "RB",
+          "team": "CAR",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
           "player_id": "12634",
           "name": "Jordan Watkins",
           "position": "WR",
@@ -1773,8 +1789,8 @@
         "ppts_decimal": 36,
         "ties": 0,
         "total_moves": 0,
-        "waiver_budget_used": 132,
-        "waiver_position": 4,
+        "waiver_budget_used": 134,
+        "waiver_position": 10,
         "wins": 7
       },
       "metadata": {
@@ -1859,7 +1875,7 @@
           "position": "TE",
           "team": "DET",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6770",
@@ -2035,7 +2051,7 @@
           "position": "TE",
           "team": "DET",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "11564",
@@ -3237,7 +3253,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 40,
-        "waiver_position": 7,
+        "waiver_position": 6,
         "wins": 8
       },
       "metadata": {
@@ -3395,7 +3411,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -3585,7 +3601,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "team": "WAS",
-          "status": "Inactive",
+          "status": "Active",
           "injury_status": null
         },
         {
@@ -3744,7 +3760,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 137,
-        "waiver_position": 10,
+        "waiver_position": 9,
         "wins": 4
       },
       "metadata": {
@@ -3944,7 +3960,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8150",
@@ -4190,7 +4206,7 @@
           "position": "RB",
           "team": "WAS",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8144",
@@ -4695,7 +4711,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 26,
-        "waiver_position": 8,
+        "waiver_position": 7,
         "wins": 4
       },
       "metadata": {
@@ -5194,7 +5210,7 @@
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
-        "waiver_position": 9,
+        "waiver_position": 8,
         "wins": 1
       },
       "metadata": {
@@ -7005,6 +7021,34 @@
   ],
   "recent_transactions": [
     {
+      "transaction_id": "1430699695390347264",
+      "type": "waiver",
+      "status": "complete",
+      "week": 11,
+      "created_utc": "2026-11-23T21:04:57.798000Z",
+      "teams": [
+        "Nix so big u waddle "
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "12531",
+            "name": "Trevor Etienne",
+            "position": "RB",
+            "team": "CAR",
+            "status": "Active",
+            "injury_status": null
+          },
+          "roster_id": 3,
+          "team": "Nix so big u waddle "
+        }
+      ],
+      "drops": [],
+      "draft_picks": [],
+      "waiver_budget": [],
+      "waiver_bid": 2
+    },
+    {
       "transaction_id": "1430699597780508672",
       "type": "free_agent",
       "status": "complete",
@@ -8110,7 +8154,7 @@
             "position": "QB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -8728,7 +8772,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -8755,7 +8799,7 @@
             "position": "QB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9642,7 +9686,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -9804,7 +9848,7 @@
             "position": "RB",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -9972,7 +10016,7 @@
             "name": "Jacory Croskey-Merritt",
             "position": "RB",
             "team": "WAS",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": null
           },
           "roster_id": 7,
@@ -9986,7 +10030,7 @@
             "name": "Jacory Croskey-Merritt",
             "position": "RB",
             "team": "WAS",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": null
           },
           "roster_id": 3,
@@ -12803,7 +12847,7 @@
             "position": "RB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -13108,7 +13152,7 @@
             "position": "RB",
             "team": "SEA",
             "status": "Active",
-            "injury_status": "Out"
+            "injury_status": "IR"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -15524,7 +15568,7 @@
             "position": "TE",
             "team": "DET",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16153,7 +16197,7 @@
             "name": "Jacory Croskey-Merritt",
             "position": "RB",
             "team": "WAS",
-            "status": "Inactive",
+            "status": "Active",
             "injury_status": null
           }
         },
@@ -17078,7 +17122,7 @@
             "position": "RB",
             "team": "WAS",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -17974,7 +18018,7 @@
             "position": "TE",
             "team": "PHI",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -18485,10 +18529,10 @@
     }
   ],
   "free_agent_summary": {
-    "total": 2532,
+    "total": 2531,
     "by_position": {
       "QB": 292,
-      "RB": 556,
+      "RB": 555,
       "WR": 1139,
       "TE": 545
     },
@@ -18537,7 +18581,7 @@
       "position": "QB",
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "QB",
@@ -19269,7 +19313,7 @@
       "position": "QB",
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "QB",
@@ -22449,7 +22493,7 @@
       "position": "RB",
       "team": "SEA",
       "status": "Active",
-      "injury_status": "Out",
+      "injury_status": "IR",
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "RB",
@@ -23097,11 +23141,11 @@
       "position": "RB",
       "team": "WAS",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 7
     },
     {
       "player_id": "13416",
@@ -23248,18 +23292,6 @@
       "depth_chart_order": 5
     },
     {
-      "player_id": "12531",
-      "name": "Trevor Etienne",
-      "position": "RB",
-      "team": "CAR",
-      "status": "Active",
-      "injury_status": null,
-      "age": 22,
-      "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
-    },
-    {
       "player_id": "11589",
       "name": "Trey Benson",
       "position": "RB",
@@ -23361,7 +23393,7 @@
       "position": "RB",
       "team": "PHI",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 2,
       "depth_chart_position": "RB",
@@ -42549,11 +42581,11 @@
       "position": "TE",
       "team": "CIN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "10210",
@@ -42901,7 +42933,7 @@
       "age": 26,
       "years_exp": 2,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "7531",
@@ -43320,8 +43352,8 @@
       "injury_status": "Questionable",
       "age": 22,
       "years_exp": 0,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 8
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "5973",
@@ -43993,7 +44025,7 @@
       "age": 32,
       "years_exp": 8,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "13408",
