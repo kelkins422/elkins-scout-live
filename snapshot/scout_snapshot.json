@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-26T02:41:48.988624Z",
+  "generated_at_utc": "2026-11-26T11:31:15.649844Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,21 +204,18 @@
       "pts_allow_7_13": 4.0,
       "st_ff": 0.0
     },
-    "last_message_id": "1431498804183453696",
-    "last_author_avatar": null,
-    "last_author_display_name": "sys",
-    "last_author_id": "166666666666666666",
-    "last_author_is_bot": true,
+    "last_message_id": "1431534627784265728",
+    "last_author_avatar": "0386d3a727fa280267a0c477696b9f29",
+    "last_author_display_name": "brettstalvey2528",
+    "last_author_id": "474981049038794752",
+    "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795658420180,
+    "last_message_time": 1795666961192,
     "last_pinned_message_id": "1428102423192297472",
     "last_read_id": null,
     "draft_id": "1353413007752839168",
     "previous_league_id": null,
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -245,6 +242,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1474,7 +1474,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13424",
@@ -1648,7 +1648,7 @@
           "position": "WR",
           "team": "SF",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "13303",
@@ -1843,7 +1843,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "1466",
@@ -2235,7 +2235,7 @@
           "position": "WR",
           "team": "GB",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8188",
@@ -3896,7 +3896,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "4017",
@@ -4118,7 +4118,7 @@
           "position": "TE",
           "team": "LAR",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "4017",
@@ -8995,7 +8995,7 @@
             "position": "TE",
             "team": "LAR",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 8,
           "team": "ealvarezz"
@@ -10627,7 +10627,7 @@
             "position": "WR",
             "team": "SF",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 3,
           "team": "Nix so big u waddle "
@@ -16407,7 +16407,7 @@
             "position": "WR",
             "team": "GB",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -19194,7 +19194,7 @@
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "260",
@@ -19242,7 +19242,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "QB",
-      "depth_chart_order": null
+      "depth_chart_order": 4
     },
     {
       "player_id": "8160",
@@ -22482,7 +22482,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_order": 4
     },
     {
       "player_id": "11644",
