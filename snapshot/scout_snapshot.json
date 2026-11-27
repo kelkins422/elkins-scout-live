@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at_utc": "2026-11-27T12:58:35.162156Z",
+  "generated_at_utc": "2026-11-27T21:54:07.827150Z",
   "source": "Sleeper public read-only API",
   "user": {
     "username": "kelkins81",
@@ -204,18 +204,23 @@
     "season_type": "regular",
     "shard": 620,
     "sport": "nfl",
-    "last_message_id": "1431885265739202560",
-    "last_author_avatar": "e7c7ad51367a2c3817e0fabb1564f219",
-    "last_author_display_name": "sleezycreesey69",
-    "last_author_id": "825521088418144256",
+    "last_message_id": "1432115810834350080",
+    "last_author_avatar": "d55d1f7075eda01948318de4af616075",
+    "last_author_display_name": "Nolan0921",
+    "last_author_id": "1218752951078637568",
     "last_author_is_bot": false,
     "last_message_attachment": null,
     "last_message_text_map": null,
-    "last_message_time": 1795750559795,
+    "last_message_time": 1795805526030,
     "last_pinned_message_id": "1431736394375503872",
-    "last_read_id": null,
     "draft_id": "1353413007752839168",
+    "last_read_id": null,
     "previous_league_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "group_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -242,11 +247,6 @@
       "BN",
       "BN"
     ],
-    "bracket_id": null,
-    "group_id": null,
-    "bracket_overrides_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "nfl_state": {
@@ -294,12 +294,12 @@
           "injury_status": null
         },
         {
-          "player_id": "9487",
-          "name": "Parker Washington",
+          "player_id": "13285",
+          "name": "Malachi Fields",
           "position": "WR",
-          "team": "JAX",
+          "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8137",
@@ -334,12 +334,12 @@
           "injury_status": "Questionable"
         },
         {
-          "player_id": "12490",
-          "name": "Bhayshul Tuten",
+          "player_id": "12527",
+          "name": "Ashton Jeanty",
           "position": "RB",
-          "team": "JAX",
+          "team": "LV",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7523",
@@ -365,7 +365,7 @@
           "position": "RB",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12487",
@@ -376,12 +376,12 @@
           "injury_status": "IR"
         },
         {
-          "player_id": "12527",
-          "name": "Ashton Jeanty",
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
           "position": "RB",
-          "team": "LV",
+          "team": "JAX",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13276",
@@ -389,15 +389,7 @@
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable"
-        },
-        {
-          "player_id": "13285",
-          "name": "Malachi Fields",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13305",
@@ -413,7 +405,7 @@
           "position": "WR",
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13421",
@@ -453,13 +445,21 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "8151",
           "name": "Kenneth Walker III",
           "position": "RB",
           "team": "KC",
+          "status": "Active",
+          "injury_status": "Out"
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active",
           "injury_status": "Out"
         }
@@ -523,7 +523,7 @@
           "position": "RB",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "12484",
@@ -547,7 +547,7 @@
           "position": "RB",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "12527",
@@ -563,7 +563,7 @@
           "position": "WR",
           "team": "NYJ",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13285",
@@ -587,7 +587,7 @@
           "position": "WR",
           "team": "ATL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13324",
@@ -683,7 +683,7 @@
           "position": "WR",
           "team": "NE",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "7523",
@@ -739,7 +739,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         }
       ],
       "settings": {
@@ -949,7 +949,7 @@
           "position": "TE",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8132",
@@ -1195,7 +1195,7 @@
           "position": "TE",
           "team": "NO",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "8121",
@@ -1347,10 +1347,10 @@
           "injury_status": null
         },
         {
-          "player_id": "7526",
-          "name": "Jaylen Waddle",
+          "player_id": "12501",
+          "name": "Matthew Golden",
           "position": "WR",
-          "team": "DEN",
+          "team": "GB",
           "status": "Active",
           "injury_status": null
         },
@@ -1453,14 +1453,6 @@
           "injury_status": null
         },
         {
-          "player_id": "12501",
-          "name": "Matthew Golden",
-          "position": "WR",
-          "team": "GB",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
           "player_id": "12531",
           "name": "Trevor Etienne",
           "position": "RB",
@@ -1499,6 +1491,14 @@
           "team": "LAC",
           "status": "Active",
           "injury_status": "Questionable"
+        },
+        {
+          "player_id": "7526",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "team": "DEN",
+          "status": "Active",
+          "injury_status": null
         },
         {
           "player_id": "8408",
@@ -1835,7 +1835,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "8167",
@@ -1997,7 +1997,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         }
       ],
       "taxi": [
@@ -2187,7 +2187,7 @@
           "position": "WR",
           "team": "CIN",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Questionable"
         },
         {
           "player_id": "6904",
@@ -2267,7 +2267,7 @@
           "position": "WR",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "9997",
@@ -2355,7 +2355,7 @@
           "position": "RB",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "7547",
@@ -2445,7 +2445,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13288",
@@ -2579,7 +2579,7 @@
           "position": "QB",
           "team": "ARI",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": "Out"
         },
         {
           "player_id": "13288",
@@ -2635,7 +2635,7 @@
           "position": "RB",
           "team": "BAL",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "4034",
@@ -2847,7 +2847,7 @@
           "position": "TE",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "11635",
@@ -2945,7 +2945,7 @@
           "position": "QB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5892",
@@ -2961,7 +2961,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "9229",
@@ -3143,7 +3143,7 @@
           "position": "QB",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5892",
@@ -3167,7 +3167,7 @@
           "position": "WR",
           "team": "JAX",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "6794",
@@ -3215,7 +3215,7 @@
           "position": "TE",
           "team": "NYG",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "8138",
@@ -3289,7 +3289,7 @@
       "roster_id": 7,
       "owner_user_id": "1376255902989963264",
       "manager": "coleellingworth2",
-      "team_name": "Pickens My Chuba",
+      "team_name": "Josh Cameron lover",
       "co_owners": [],
       "starters": [
         {
@@ -3349,10 +3349,10 @@
           "injury_status": null
         },
         {
-          "player_id": "11646",
-          "name": "Jalen Coker",
+          "player_id": "13394",
+          "name": "Josh Cameron",
           "position": "WR",
-          "team": "CAR",
+          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -3379,6 +3379,14 @@
           "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "team": "JAX",
+          "status": "Active",
+          "injury_status": null
+        },
+        {
+          "player_id": "11646",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "team": "CAR",
           "status": "Active",
           "injury_status": null
         },
@@ -3419,14 +3427,6 @@
           "name": "Kenyon Sadiq",
           "position": "TE",
           "team": "NYJ",
-          "status": "Active",
-          "injury_status": null
-        },
-        {
-          "player_id": "13394",
-          "name": "Josh Cameron",
-          "position": "WR",
-          "team": "JAX",
           "status": "Active",
           "injury_status": null
         },
@@ -3920,7 +3920,7 @@
           "position": "TE",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5045",
@@ -4150,7 +4150,7 @@
           "position": "TE",
           "team": "HOU",
           "status": "Active",
-          "injury_status": "Questionable"
+          "injury_status": null
         },
         {
           "player_id": "5045",
@@ -4403,7 +4403,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "4033",
@@ -4451,7 +4451,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         }
       ],
       "taxi": [
@@ -4469,7 +4469,7 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         }
       ],
       "injured_reserve": [
@@ -4585,7 +4585,7 @@
           "position": "QB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "13293",
@@ -4609,7 +4609,7 @@
           "position": "RB",
           "team": "PIT",
           "status": "Active",
-          "injury_status": null
+          "injury_status": "Out"
         },
         {
           "player_id": "4033",
@@ -4689,7 +4689,7 @@
           "position": "WR",
           "team": "MIN",
           "status": "Active",
-          "injury_status": "Doubtful"
+          "injury_status": "Out"
         },
         {
           "player_id": "9758",
@@ -5284,9 +5284,9 @@
       "season": "2026",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5384,9 +5384,9 @@
       "season": "2026",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5484,9 +5484,9 @@
       "season": "2026",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5584,9 +5584,9 @@
       "season": "2026",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5684,9 +5684,9 @@
       "season": "2027",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5784,9 +5784,9 @@
       "season": "2027",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5826,7 +5826,7 @@
       "original_roster_id": 1,
       "original_team": "Jeantrification",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 1,
       "is_traded": true
     },
@@ -5856,7 +5856,7 @@
       "original_roster_id": 4,
       "original_team": "Mayek It Clap",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 1,
       "is_traded": true
     },
@@ -5884,9 +5884,9 @@
       "season": "2027",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -5926,7 +5926,7 @@
       "original_roster_id": 1,
       "original_team": "Jeantrification",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 2,
       "is_traded": true
     },
@@ -5984,9 +5984,9 @@
       "season": "2027",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6026,7 +6026,7 @@
       "original_roster_id": 1,
       "original_team": "Jeantrification",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 1,
       "is_traded": true
     },
@@ -6056,7 +6056,7 @@
       "original_roster_id": 4,
       "original_team": "Mayek It Clap",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 4,
       "is_traded": true
     },
@@ -6076,7 +6076,7 @@
       "original_roster_id": 6,
       "original_team": "KELKINS KARTEL",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 6,
       "is_traded": true
     },
@@ -6084,9 +6084,9 @@
       "season": "2028",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6184,9 +6184,9 @@
       "season": "2028",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6226,7 +6226,7 @@
       "original_roster_id": 1,
       "original_team": "Jeantrification",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 1,
       "is_traded": true
     },
@@ -6246,7 +6246,7 @@
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 3,
       "is_traded": true
     },
@@ -6284,7 +6284,7 @@
       "season": "2028",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 4,
       "current_team": "Mayek It Clap",
       "previous_roster_id": 7,
@@ -6384,9 +6384,9 @@
       "season": "2028",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6436,7 +6436,7 @@
       "original_roster_id": 2,
       "original_team": "tony pollard he’s the man",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 2,
       "is_traded": true
     },
@@ -6446,7 +6446,7 @@
       "original_roster_id": 3,
       "original_team": "Nix so big u waddle ",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 3,
       "is_traded": true
     },
@@ -6484,9 +6484,9 @@
       "season": "2029",
       "round": 1,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6584,9 +6584,9 @@
       "season": "2029",
       "round": 2,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6684,9 +6684,9 @@
       "season": "2029",
       "round": 3,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -6784,9 +6784,9 @@
       "season": "2029",
       "round": 4,
       "original_roster_id": 7,
-      "original_team": "Pickens My Chuba",
+      "original_team": "Josh Cameron lover",
       "current_roster_id": 7,
-      "current_team": "Pickens My Chuba",
+      "current_team": "Josh Cameron lover",
       "previous_roster_id": 7,
       "is_traded": false
     },
@@ -7042,7 +7042,7 @@
       "created_utc": "2026-11-26T17:20:18.422000Z",
       "teams": [
         "tony pollard he’s the man",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -7067,7 +7067,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -7093,7 +7093,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -7558,7 +7558,7 @@
       "week": 11,
       "created_utc": "2026-11-22T19:46:21.137000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -7571,7 +7571,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -7585,7 +7585,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -7737,7 +7737,7 @@
       "week": 11,
       "created_utc": "2026-11-17T15:57:26.069000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -7750,7 +7750,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -7876,7 +7876,7 @@
       "created_utc": "2026-11-16T14:36:35.206000Z",
       "teams": [
         "Mayek It Clap",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -7913,7 +7913,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -7939,7 +7939,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         },
         {
           "player": {
@@ -7951,7 +7951,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -8439,7 +8439,7 @@
       "week": 9,
       "created_utc": "2026-11-09T21:48:00.529000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -8452,7 +8452,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -8467,7 +8467,7 @@
       "week": 9,
       "created_utc": "2026-11-09T21:47:56.678000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [],
       "drops": [
@@ -8481,7 +8481,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -8495,7 +8495,7 @@
       "week": 9,
       "created_utc": "2026-11-09T17:37:29.114000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -8508,7 +8508,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -8522,7 +8522,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -8881,7 +8881,7 @@
       "week": 8,
       "created_utc": "2026-10-29T03:16:40.384000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [],
       "drops": [
@@ -8895,7 +8895,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -8951,7 +8951,7 @@
       "created_utc": "2026-10-29T02:55:02.479000Z",
       "teams": [
         "Jeantrification",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -8961,7 +8961,7 @@
             "position": "WR",
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -8976,7 +8976,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -8999,10 +8999,10 @@
             "position": "WR",
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -9057,7 +9057,7 @@
       "week": 7,
       "created_utc": "2026-10-25T20:02:14.790000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -9070,7 +9070,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -9334,7 +9334,7 @@
       "created_utc": "2026-10-20T15:59:32.552000Z",
       "teams": [
         "Jeantrification",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -9359,7 +9359,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -9385,7 +9385,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -9407,7 +9407,7 @@
       "week": 6,
       "created_utc": "2026-10-20T01:04:55.871000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -9420,7 +9420,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -9434,7 +9434,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -9697,7 +9697,7 @@
       "created_utc": "2026-10-13T15:15:48.124000Z",
       "teams": [
         "Nix so big u waddle ",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -9722,7 +9722,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -9748,7 +9748,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -9875,7 +9875,7 @@
       "week": 5,
       "created_utc": "2026-10-11T19:50:48.423000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -9888,7 +9888,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -9902,7 +9902,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -10354,7 +10354,7 @@
       "week": 4,
       "created_utc": "2026-10-04T19:22:46.206000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -10367,7 +10367,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -10381,7 +10381,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -10396,7 +10396,7 @@
       "created_utc": "2026-10-02T17:20:13.509000Z",
       "teams": [
         "tony pollard he’s the man",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -10421,7 +10421,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -10447,7 +10447,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -10470,7 +10470,7 @@
       "created_utc": "2026-10-02T00:50:58.125000Z",
       "teams": [
         "Nix so big u waddle ",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -10495,7 +10495,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -10521,7 +10521,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -11049,7 +11049,7 @@
       "week": 3,
       "created_utc": "2026-09-29T01:50:27.622000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -11062,7 +11062,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -11076,7 +11076,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -11090,7 +11090,7 @@
       "week": 3,
       "created_utc": "2026-09-29T01:01:27.535000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [],
       "drops": [
@@ -11104,7 +11104,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -11147,7 +11147,7 @@
       "created_utc": "2026-09-29T00:59:17.706000Z",
       "teams": [
         "Jeantrification",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -11172,7 +11172,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         },
         {
           "player": {
@@ -11184,7 +11184,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -11222,7 +11222,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -11341,7 +11341,7 @@
       "week": 3,
       "created_utc": "2026-09-28T09:43:49.080000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -11354,7 +11354,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -11420,7 +11420,7 @@
             "position": "RB",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           },
           "roster_id": 9,
           "team": "Bower of London"
@@ -11438,7 +11438,7 @@
       "week": 3,
       "created_utc": "2026-09-23T17:31:33.997000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -11451,7 +11451,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -11465,7 +11465,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -11963,7 +11963,7 @@
             "position": "WR",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -12037,7 +12037,7 @@
             "position": "WR",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           },
           "roster_id": 2,
           "team": "tony pollard he’s the man"
@@ -12054,7 +12054,7 @@
       "week": 2,
       "created_utc": "2026-09-21T18:49:49.908000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12067,7 +12067,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -12081,7 +12081,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -12315,7 +12315,7 @@
       "week": 2,
       "created_utc": "2026-09-17T01:07:25.158000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12328,7 +12328,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -12372,7 +12372,7 @@
       "created_utc": "2026-09-16T19:33:06.475000Z",
       "teams": [
         "Nix so big u waddle ",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12397,7 +12397,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -12423,7 +12423,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -12452,7 +12452,7 @@
       "week": 2,
       "created_utc": "2026-09-16T16:39:16.360000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12465,7 +12465,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -12481,7 +12481,7 @@
       "created_utc": "2026-09-16T16:36:06.884000Z",
       "teams": [
         "Jeantrification",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12518,7 +12518,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -12544,7 +12544,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         },
         {
           "player": {
@@ -12556,7 +12556,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -12682,7 +12682,7 @@
       "week": 1,
       "created_utc": "2026-09-15T01:11:21.504000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12695,7 +12695,7 @@
             "injury_status": "IR"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -12709,7 +12709,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -12833,7 +12833,7 @@
       "week": 1,
       "created_utc": "2026-09-14T01:01:10.370000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -12846,7 +12846,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -12981,7 +12981,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -13005,7 +13005,7 @@
             "position": "TE",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -13031,7 +13031,7 @@
             "position": "TE",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           },
           "roster_id": 4,
           "team": "Mayek It Clap"
@@ -13055,7 +13055,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           },
           "roster_id": 6,
           "team": "KELKINS KARTEL"
@@ -13187,7 +13187,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 1,
           "team": "Jeantrification"
@@ -13225,7 +13225,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           },
           "roster_id": 5,
           "team": "Brown St. Brown Samuel"
@@ -14114,7 +14114,7 @@
       "created_utc": "2026-08-25T01:12:43.288000Z",
       "teams": [
         "KELKINS KARTEL",
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -14151,7 +14151,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         },
         {
           "player": {
@@ -14163,7 +14163,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [
@@ -14201,7 +14201,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         },
         {
           "player": {
@@ -14213,7 +14213,7 @@
             "injury_status": null
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [
@@ -15141,7 +15141,7 @@
       "week": 1,
       "created_utc": "2026-07-14T01:54:14.907000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [
         {
@@ -15154,7 +15154,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "drops": [],
@@ -15169,7 +15169,7 @@
       "week": 1,
       "created_utc": "2026-07-14T01:52:13.287000Z",
       "teams": [
-        "Pickens My Chuba"
+        "Josh Cameron lover"
       ],
       "adds": [],
       "drops": [
@@ -15183,7 +15183,7 @@
             "injury_status": "Questionable"
           },
           "roster_id": 7,
-          "team": "Pickens My Chuba"
+          "team": "Josh Cameron lover"
         }
       ],
       "draft_picks": [],
@@ -15280,7 +15280,7 @@
           "pick_no": 5,
           "round": 1,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "7564",
             "name": "Ja'Marr Chase",
@@ -15434,7 +15434,7 @@
           "pick_no": 16,
           "round": 2,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "6813",
             "name": "Jonathan Taylor",
@@ -15560,7 +15560,7 @@
           "pick_no": 25,
           "round": 3,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "8138",
             "name": "James Cook III",
@@ -15714,7 +15714,7 @@
           "pick_no": 36,
           "round": 4,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "3294",
             "name": "Dak Prescott",
@@ -15840,7 +15840,7 @@
           "pick_no": 45,
           "round": 5,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "3163",
             "name": "Jared Goff",
@@ -15889,7 +15889,7 @@
             "position": "WR",
             "team": "NE",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -15994,7 +15994,7 @@
           "pick_no": 56,
           "round": 6,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "7525",
             "name": "DeVonta Smith",
@@ -16071,7 +16071,7 @@
             "position": "WR",
             "team": "CIN",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Questionable"
           }
         },
         {
@@ -16120,7 +16120,7 @@
           "pick_no": 65,
           "round": 7,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "12506",
             "name": "Harold Fannin Jr.",
@@ -16239,7 +16239,7 @@
             "position": "RB",
             "team": "BAL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16274,7 +16274,7 @@
           "pick_no": 76,
           "round": 8,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "13281",
             "name": "Jordyn Tyson",
@@ -16351,7 +16351,7 @@
             "position": "QB",
             "team": "MIN",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16400,7 +16400,7 @@
           "pick_no": 85,
           "round": 9,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "7594",
             "name": "Chuba Hubbard",
@@ -16505,7 +16505,7 @@
             "position": "WR",
             "team": "MIN",
             "status": "Active",
-            "injury_status": "Doubtful"
+            "injury_status": "Out"
           }
         },
         {
@@ -16533,7 +16533,7 @@
             "position": "RB",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -16554,7 +16554,7 @@
           "pick_no": 96,
           "round": 10,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "421",
             "name": "Matthew Stafford",
@@ -16659,7 +16659,7 @@
             "position": "WR",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -16680,7 +16680,7 @@
           "pick_no": 105,
           "round": 11,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "13330",
             "name": "Kenyon Sadiq",
@@ -16715,7 +16715,7 @@
             "position": "WR",
             "team": "NYJ",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -16834,7 +16834,7 @@
           "pick_no": 116,
           "round": 12,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "2133",
             "name": "Davante Adams",
@@ -16925,7 +16925,7 @@
             "position": "TE",
             "team": "NYG",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -16960,7 +16960,7 @@
           "pick_no": 125,
           "round": 13,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "7021",
             "name": "Rico Dowdle",
@@ -17114,7 +17114,7 @@
           "pick_no": 136,
           "round": 14,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "11646",
             "name": "Jalen Coker",
@@ -17177,7 +17177,7 @@
             "position": "WR",
             "team": "JAX",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -17240,7 +17240,7 @@
           "pick_no": 145,
           "round": 15,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "5967",
             "name": "Tony Pollard",
@@ -17275,7 +17275,7 @@
             "position": "RB",
             "team": "HOU",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -17359,7 +17359,7 @@
             "position": "QB",
             "team": "ARI",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17394,7 +17394,7 @@
           "pick_no": 156,
           "round": 16,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "13301",
             "name": "Antonio Williams",
@@ -17499,7 +17499,7 @@
             "position": "TE",
             "team": "NO",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17520,7 +17520,7 @@
           "pick_no": 165,
           "round": 17,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "5012",
             "name": "Mark Andrews",
@@ -17674,14 +17674,14 @@
           "pick_no": 176,
           "round": 18,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "13320",
             "name": "Zachariah Branch",
             "position": "WR",
             "team": "ATL",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17723,7 +17723,7 @@
             "position": "WR",
             "team": "HOU",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": "Out"
           }
         },
         {
@@ -17800,7 +17800,7 @@
           "pick_no": 185,
           "round": 19,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "9508",
             "name": "Tyjae Spears",
@@ -17877,7 +17877,7 @@
             "position": "TE",
             "team": "HOU",
             "status": "Active",
-            "injury_status": "Questionable"
+            "injury_status": null
           }
         },
         {
@@ -17954,7 +17954,7 @@
           "pick_no": 196,
           "round": 20,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "13417",
             "name": "De'Zhaun Stribling",
@@ -18080,7 +18080,7 @@
           "pick_no": 205,
           "round": 21,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "10219",
             "name": "Chris Rodriguez Jr.",
@@ -18234,7 +18234,7 @@
           "pick_no": 216,
           "round": 22,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "11783",
             "name": "Ryan Flournoy",
@@ -18360,7 +18360,7 @@
           "pick_no": 225,
           "round": 23,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "8180",
             "name": "Jalen Nailor",
@@ -18514,7 +18514,7 @@
           "pick_no": 236,
           "round": 24,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "8154",
             "name": "Brian Robinson Jr.",
@@ -18640,7 +18640,7 @@
           "pick_no": 245,
           "round": 25,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "3214",
             "name": "Hunter Henry",
@@ -18745,7 +18745,7 @@
             "position": "QB",
             "team": "PIT",
             "status": "Active",
-            "injury_status": null
+            "injury_status": "Out"
           }
         },
         {
@@ -18794,7 +18794,7 @@
           "pick_no": 256,
           "round": 26,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "13380",
             "name": "Brenen Thompson",
@@ -18920,7 +18920,7 @@
           "pick_no": 265,
           "round": 27,
           "roster_id": 7,
-          "team": "Pickens My Chuba",
+          "team": "Josh Cameron lover",
           "player": {
             "player_id": "96",
             "name": "Aaron Rodgers",
@@ -19264,7 +19264,7 @@
       "age": 30,
       "years_exp": 7,
       "depth_chart_position": "QB",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "12792",
@@ -19444,7 +19444,7 @@
       "age": 40,
       "years_exp": 18,
       "depth_chart_position": "QB",
-      "depth_chart_order": 2
+      "depth_chart_order": 1
     },
     {
       "player_id": "4179",
@@ -19480,7 +19480,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "QB",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "8160",
@@ -19656,7 +19656,7 @@
       "position": "QB",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 28,
       "years_exp": 5,
       "depth_chart_position": "QB",
@@ -22636,7 +22636,7 @@
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": "RB",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "7048",
@@ -22732,7 +22732,7 @@
       "age": 27,
       "years_exp": 2,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "8181",
@@ -23127,8 +23127,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "11588",
@@ -23463,8 +23463,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13437",
@@ -23643,8 +23643,8 @@
       "injury_status": null,
       "age": 27,
       "years_exp": 6,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 3
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8220",
@@ -23728,7 +23728,7 @@
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "RB",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "11589",
@@ -23784,7 +23784,7 @@
       "position": "RB",
       "team": "DEN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RB",
@@ -29284,7 +29284,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": null,
-      "depth_chart_order": 8
+      "depth_chart_order": 7
     },
     {
       "player_id": "6427",
@@ -29320,7 +29320,7 @@
       "age": 22,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "12889",
@@ -29332,7 +29332,7 @@
       "age": 23,
       "years_exp": 1,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 4
     },
     {
       "player_id": "7757",
@@ -29344,7 +29344,7 @@
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 6
     },
     {
       "player_id": "8204",
@@ -29427,8 +29427,8 @@
       "injury_status": null,
       "age": 24,
       "years_exp": 1,
-      "depth_chart_position": "RWR",
-      "depth_chart_order": 10
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "8414",
@@ -29452,7 +29452,7 @@
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "11959",
@@ -29500,7 +29500,7 @@
       "age": 23,
       "years_exp": 0,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 8
+      "depth_chart_order": 4
     },
     {
       "player_id": "5223",
@@ -29608,7 +29608,7 @@
       "age": 29,
       "years_exp": 5,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 3
     },
     {
       "player_id": "3269",
@@ -30172,7 +30172,7 @@
       "age": 25,
       "years_exp": 2,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 4
+      "depth_chart_order": 3
     },
     {
       "player_id": "13770",
@@ -30264,11 +30264,11 @@
       "position": "WR",
       "team": "ATL",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
-      "depth_chart_order": 2
+      "depth_chart_order": 5
     },
     {
       "player_id": "13079",
@@ -30408,7 +30408,7 @@
       "position": "WR",
       "team": "MIA",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 3,
       "depth_chart_position": null,
@@ -30696,11 +30696,11 @@
       "position": "WR",
       "team": "PIT",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 24,
       "years_exp": 0,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 6
+      "depth_chart_order": 8
     },
     {
       "player_id": "3634",
@@ -30852,7 +30852,7 @@
       "position": "WR",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 28,
       "years_exp": 7,
       "depth_chart_position": "LWR",
@@ -30929,18 +30929,6 @@
       "years_exp": 0,
       "depth_chart_position": "SWR",
       "depth_chart_order": 8
-    },
-    {
-      "player_id": "11210",
-      "name": "Malik Heath",
-      "position": "WR",
-      "team": "WAS",
-      "status": "Active",
-      "injury_status": null,
-      "age": 26,
-      "years_exp": 3,
-      "depth_chart_position": null,
-      "depth_chart_order": null
     },
     {
       "player_id": "13825",
@@ -31092,7 +31080,7 @@
       "position": "WR",
       "team": "MIN",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
@@ -31192,7 +31180,7 @@
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "SWR",
-      "depth_chart_order": 3
+      "depth_chart_order": 2
     },
     {
       "player_id": "13905",
@@ -31464,7 +31452,7 @@
       "position": "WR",
       "team": "TB",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 24,
       "years_exp": 1,
       "depth_chart_position": "SWR",
@@ -31516,7 +31504,7 @@
       "age": 33,
       "years_exp": 9,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "6588",
@@ -31572,7 +31560,7 @@
       "position": "WR",
       "team": "WAS",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": null,
       "age": 26,
       "years_exp": 4,
       "depth_chart_position": "RWR",
@@ -39079,6 +39067,18 @@
       "depth_chart_order": null
     },
     {
+      "player_id": "11210",
+      "name": "Malik Heath",
+      "position": "WR",
+      "team": null,
+      "status": "Active",
+      "injury_status": null,
+      "age": 26,
+      "years_exp": 3,
+      "depth_chart_position": null,
+      "depth_chart_order": null
+    },
+    {
       "player_id": "6552",
       "name": "Malik Henry",
       "position": "WR",
@@ -42972,7 +42972,7 @@
       "position": "TE",
       "team": "HOU",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 26,
       "years_exp": 5,
       "depth_chart_position": "TE",
@@ -43048,7 +43048,7 @@
       "age": 25,
       "years_exp": 1,
       "depth_chart_position": "TE",
-      "depth_chart_order": 6
+      "depth_chart_order": 5
     },
     {
       "player_id": "12062",
@@ -43188,11 +43188,11 @@
       "position": "TE",
       "team": "DEN",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Out",
       "age": 25,
       "years_exp": 0,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 6
     },
     {
       "player_id": "13321",
@@ -43320,7 +43320,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 28,
       "years_exp": 4,
       "depth_chart_position": "TE",
@@ -43468,7 +43468,7 @@
       "age": 27,
       "years_exp": 4,
       "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_order": 5
     },
     {
       "player_id": "6850",
@@ -43755,8 +43755,8 @@
       "injury_status": null,
       "age": 26,
       "years_exp": 4,
-      "depth_chart_position": "TE",
-      "depth_chart_order": 4
+      "depth_chart_position": null,
+      "depth_chart_order": null
     },
     {
       "player_id": "13342",
@@ -43780,7 +43780,7 @@
       "age": 32,
       "years_exp": 9,
       "depth_chart_position": "TE",
-      "depth_chart_order": 5
+      "depth_chart_order": 4
     },
     {
       "player_id": "4144",
@@ -44244,7 +44244,7 @@
       "position": "TE",
       "team": "NO",
       "status": "Active",
-      "injury_status": null,
+      "injury_status": "Questionable",
       "age": 29,
       "years_exp": 7,
       "depth_chart_position": "TE",
@@ -44688,7 +44688,7 @@
       "position": "TE",
       "team": "IND",
       "status": "Active",
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "age": 27,
       "years_exp": 3,
       "depth_chart_position": "TE",
